@@ -12,13 +12,13 @@
 
 body {
   padding:50px;
-  font:14px/1.4 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  color:#666;
+  font:15px/1.4 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color:#777;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#666;
+  color:#777;
   margin:0 0 20px;
 }
 
@@ -35,16 +35,15 @@ h1 {
 }
 
 h2 {
-  color:#666;
+  color:#777;
 }
 
 h3, h4, h5, h6 {
-  color:#666;
+  color:#777;
 }
 
 a {
   color:#3b6de0;
-  font-weight:400;
   text-decoration:none;
 }
 
