@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400');
 
+::-moz-selection {
+  background:blue;
+  color:white;
+}
+
+::selection {
+  background:blue;
+  color:whiteว
+}
+
 body {
   padding:50px;
-  font:14px/1.4 'Montserrat', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:14px/1.4 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color:#777;
   font-weight:400;
 }
