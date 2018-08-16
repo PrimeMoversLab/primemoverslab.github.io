@@ -15,7 +15,7 @@
 				-o-background-size: cover;
 				background-size: cover;
 			}
-			#content {width: 600px; margin: 100px auto 250px;}
+			#content {width: 600px; margin: 100px auto 200px;}
 			#tagline {margin-top: 15px;}
 			#description {font-size: 24px; margin-top: 50px; margin-bottom: 40px;}
 			#description a {
@@ -25,10 +25,27 @@
 				transition: opacity 0.35s;
 			}
 			#description a:hover {opacity: 0.6;}
-			h2 {font-style: italic; font-weight: normal; font-size: 26px; color: #2e6be8; margin-top: 100px;}
-			h3 {font-weight: normal; font-size: 26px; color: #2e6be8; margin-top: 100px;}
+			h2 {font-weight: normal; font-size: 26px; color: #2e6be8; margin-top: 100px;}
+			h3 {font-weight: bold; font-size: 15px; color: #2e6be8; margin-bottom: 3px;}
+			h4 {font-weight: normal; font-size: 15px; margin-bottom: 25px;}
 			img {width: 150px;}
 			#quote {text-indent: -7px;}
+			.container-bio {
+				display: table;
+				margin-top: 35px;
+			}
+			.profilepic {
+				display: table-cell;
+				margin-right: 35px;
+				width: 145px;
+				-webkit-filter: grayscale(100%);
+				filter: grayscale(100%);
+			}
+			.bio {
+				vertical-align: middle;
+				display: table-cell;
+				width: 420px; /* 600 - width - margin-right */
+			}
 			@media only screen and (max-width: 720px) {
 				#content {width: 340px;}
 			}
@@ -47,6 +64,25 @@
 				<p id="quote">“Throughout the centuries there were men who took first steps down new roads armed with nothing but their own vision. Their goals differed, but they all had this in common: that the step was first, the road new, the vision unborrowed. The great creators—the thinkers, the artists, the scientists, the inventors—stood alone against the men of their time. Every great new thought was opposed. Every great new invention was denounced. The first motor was considered foolish. The airplane was considered impossible. The power loom was considered vicious. Anesthesia was considered sinful. But the men of unborrowed vision went ahead. They fought, they suffered and they paid. But they won.”</p>
 				<p>—The Fountainhead, by Ayn Rand</p>
 				<p id="description">If you are a <i>Prime Mover</i> with a growth mentality and breakthrough inventions in physics, we want to learn about and help you to realize your ambitious plans to revolutionize the most important industries in the world. <a href="mailto:dakin@primemoverslab.com">Contact us</a></p>
+				<h2>Team</h2>
+				<div class="container-bio">
+					<span><img class="profilepic" src="dakin-sloss.png" /></span>
+					<span class="bio">
+						<h3>Dakin Sloss</h3>
+						<h4>Founder &amp; General Partner</h4>
+						<p>Dakin Sloss is Founder and General Partner of Prime Movers Lab. He also serves as Chairman of Tachyus, where as the founding CEO he built the leading prescriptive analytics company in the oil and gas industry. Tachyus’ breakthrough technology synthesizes machine learning and physics to dramatically increase production and reduce costs.</p>
+						<p>Dakin also co-founded OpenGov, where as CEO he recruited the core team, secured millions in angel funding and venture capital, arranged the initial pilot partnerships, and launched the world’s most advanced smart government platform. Before OpenGov, he built California Common Sense, the premiere California open data and government watchdog non-profit. Dakin earned a BS in Mathematics from Stanford University in 2011. In 2016, Dakin was recognized as the featured Forbes 30 Under 30 energy entrepreneur. In 2017, he was named as a San Francisco Business Times 40 Under 40 honoree.</p>
+					</span>
+				</div>
+				<div class="container-bio">
+					<span><img class="profilepic" src="decker-cunov.png" /></span>
+					<span class="bio">
+						<h3>Decker Cunov</h3>
+						<h4>Partner & Executive Coach</h4>
+						<p>Decker Cunov is a Partner and Executive Coach for Prime Movers Lab. He coaches <i>Prime Movers</i> to develop outstanding leadership, communication and management skills. Additionally, he supports founding teams to foster an extraordinary culture that enables deep technology startups to invent and commercialize the seemingly impossible.</p>
+						<p>Decker previously supported the Founders Fund team and their most promising portfolio companies. Decker also co-founded and lead the Integral Center to support individuals in their journey of transformational personal development. Prior to that, Decker taught the Authentic Man Program focused on teaching the foundations of healthy relationships.</p>
+					</span>
+				</div>
 			</div>
 		</div>
 	</body>
