@@ -9,12 +9,11 @@
 		<link rel="icon" type="image/x-icon" href="favicon.ico">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 		<style>
-			body, html {height: 100%;}
-			.bg {
-				background-image: url("15p.png");
-				height: 100%;
-				background-position: center;
-				background-repeat: no-repeat;
+			html { 
+				background: url("atlas.png") no-repeat center center fixed; 
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
 				background-size: cover;
 			}
 			#tagline {margin-top: 15px;}
@@ -30,14 +29,12 @@
 		<![endif]-->
 	</head>
 	<body>
-	<div class="bg"></div>
-	<div class="wrapper">
-		<header>
-			<a href="http://www.primemoverslab.com"><img src="primemoverslab.svg" /></a>
-			<p id="tagline">Funding Physics-Powered Startups</p>
-			<p id="description">Investing in revolutionary physics-powered startups founded by <i>Prime Movers</i> reshaping the foundations of energy, transportation, and infrastructure.</p>
-		</header>
-	</div>
-	<script src="javascripts/scale.fix.js"></script>
+		<div class="wrapper">
+			<header>
+				<a href="http://www.primemoverslab.com"><img src="primemoverslab.svg" /></a>
+				<p id="tagline">Funding Physics-Powered Startups</p>
+				<p id="description">Investing in revolutionary physics-powered startups founded by <i>Prime Movers</i> reshaping the foundations of energy, transportation, and infrastructure.</p>
+			</header>
+		</div>
 	</body>
 </html>
