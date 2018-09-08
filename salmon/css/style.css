@@ -3536,3 +3536,7 @@ footer .logo-footer{
 .showcase-item-hover{
 	background-color: #2e6be8;
 }
+
+.team-caption.white .social-list li a:hover{
+    color: #2e6be8;
+}
