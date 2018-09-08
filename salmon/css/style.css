@@ -1058,7 +1058,9 @@ label.error{
 
 .nav-mobile-list li{
 	position: relative;
+	/*
 	border-top:1px solid rgba(0,0,0,0.07);
+	*/
 }
 
 .nav-mobile-list li a{
