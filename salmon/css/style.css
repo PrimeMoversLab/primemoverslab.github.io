@@ -2403,10 +2403,12 @@ img.mfp-img{
 	font-weight: 700;
 }
 
+/*
 .author:hover{
 	color:#2e6be8;
 	text-decoration: none;
 }
+*/
 
 .secondary{
 	margin-top:7em;
@@ -2443,10 +2445,12 @@ img.mfp-img{
 	font-weight: bold;
 }
 
+/*
 .post-rubric:hover{
 	text-decoration: none;
 	color:#2e6be8;
 }
+*/
 
 .post-date{
 	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -2461,7 +2465,7 @@ img.mfp-img{
 	margin-bottom: 1.5em;
 }
 
-.post-footer {
+.post-footer{
 	border-top:1px solid #e9e9e9;
 	padding-top: 2em;
 	margin-top:2em;
