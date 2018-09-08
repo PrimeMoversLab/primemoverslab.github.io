@@ -1883,7 +1883,7 @@ label.error{
 	right:0;
 	opacity: 0;
 	color: #fff;
-	background-color: rgba(101,52,255,0.9);
+	background-color: #2e6be8;
 	-webkit-transition: all 0.3s ease-in;
 	-o-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
@@ -3540,10 +3540,6 @@ footer .logo-footer{
 
 .blog-row{
 	margin-top: 50px;
-}
-
-.showcase-item-hover{
-	background-color: #2e6be8;
 }
 
 .team-caption.white .social-list li a:hover{
