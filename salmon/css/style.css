@@ -3524,6 +3524,10 @@ footer .logo-footer{
 	color: #717071;
 }
 
+a, a:hover{
+	text-decotation: none;
+}
+
 .careers-border-bottom a:hover{
 	text-decotation: none;
 	color: #2e6be8;
