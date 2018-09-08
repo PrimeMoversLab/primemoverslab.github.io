@@ -3511,9 +3511,15 @@ footer .logo-footer{
 	padding-bottom: 0;
 }
 
-.careers-border-bottom a{
+.careers-border-bottom p{
 	margin-top: 15px;
 	margin-bottom: 15px;
+}
+
+.careers-border-bottom a{
+	margin: 0;
+	padding: 0;
+	line-height: 0;
 }
 
 .careers-title{
