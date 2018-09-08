@@ -1058,9 +1058,7 @@ label.error{
 
 .nav-mobile-list li{
 	position: relative;
-	/*
 	border-top:1px solid rgba(0,0,0,0.07);
-	*/
 }
 
 .nav-mobile-list li a{
@@ -1883,7 +1881,7 @@ label.error{
 	right:0;
 	opacity: 0;
 	color: #fff;
-	background-color: #2e6be8;
+	background-color: rgba(101,52,255,0.9);
 	-webkit-transition: all 0.3s ease-in;
 	-o-transition: all 0.3s ease-in;
 	transition: all 0.3s ease-in;
@@ -3474,7 +3472,6 @@ footer .logo-footer{
 .navbar.affix .navbar-toggle{
 	margin-top:0.8em;
 }
-
 /*
 .main{
 	max-height: 700px;
@@ -3516,23 +3513,6 @@ footer .logo-footer{
 	margin-bottom: 15px;
 }
 
-.careers-border-bottom a{
-	margin: 0;
-	padding: 0;
-	line-height: 0;
-	text-decotation: none;
-	color: #717071;
-}
-
-a, a:hover{
-	text-decotation: none;
-}
-
-.careers-border-bottom a:hover{
-	text-decotation: none;
-	color: #2e6be8;
-}
-
 .careers-title{
 	color: #2e6be8;
 }
@@ -3545,7 +3525,7 @@ a, a:hover{
 	margin-top: 70px;
 }
 
-.resources{
+.resources {
 	margin-top: 50px;
 }
 
@@ -3553,10 +3533,11 @@ a, a:hover{
 	margin-top: 50px;
 }
 
-.team-caption.white .social-list li a:hover{
-    color: #2e6be8;
+.post .post-title{
+    font-size: 2.5em;
 }
 
-.navbar-toggle.resources-nav .icon-bar {
-    background-color: #2e6be8;
+.blog-list .post-thumbnail{
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
