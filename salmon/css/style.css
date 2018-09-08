@@ -3472,6 +3472,7 @@ footer .logo-footer{
 .navbar.affix .navbar-toggle{
 	margin-top:0.8em;
 }
+
 /*
 .main{
 	max-height: 700px;
@@ -3508,7 +3509,7 @@ footer .logo-footer{
 	padding-bottom: 0;
 }
 
-.careers-border-bottom p{
+.careers-border-bottom a{
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
@@ -3525,7 +3526,7 @@ footer .logo-footer{
 	margin-top: 70px;
 }
 
-.resources {
+.resources{
 	margin-top: 50px;
 }
 
@@ -3539,4 +3540,8 @@ footer .logo-footer{
 
 .team-caption.white .social-list li a:hover{
     color: #2e6be8;
+}
+
+.navbar-toggle.resources-nav .icon-bar {
+    background-color: #2e6be8;
 }
