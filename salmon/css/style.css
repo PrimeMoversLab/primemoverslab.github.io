@@ -3521,10 +3521,12 @@ footer .logo-footer{
 	padding: 0;
 	line-height: 0;
 	text-decotation: none;
+	color: #717071;
 }
 
 .careers-border-bottom a:hover{
 	text-decotation: none;
+	color: #2e6be8;
 }
 
 .careers-title{
