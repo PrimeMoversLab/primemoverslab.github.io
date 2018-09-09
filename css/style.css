@@ -3372,6 +3372,11 @@ footer .logo-footer{
 	color: #3d3d3d;
 }
 
+.bg-about.bg-left-fluid:before{
+	background-color: #2e6be8;
+	opacity: 0.85;
+}
+
 .blog-info .blog-text{
 	font-size: 0.875em;
 	line-height: 1.4;
