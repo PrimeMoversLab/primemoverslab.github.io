@@ -3546,11 +3546,11 @@ footer .logo-footer{
 	margin-bottom: 50px;
 }
 
+.resources-nav .icon-bar{
+    background-color: #2e6be8;;
+}
+
 .resources .blog,
 .home-resources .blog{
 	background-color: #fafafa;
-}
-
-.resources-navbar .icon-bar {
-    background-color: #2e6be8;;
 }
