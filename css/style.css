@@ -1,14 +1,14 @@
 /* ------------------------------------------------------------------------------
 
-	Template Name: Virgo. 
-	Description: Virgo. - Multipurpose HTML Template
+	Template: Virgo
+	Description: Multipurpose HTML Template
 	Author: Murren
 	Author URI: http://themeforest.net/user/murren20
 	Version: 1.0
 	
 	1.	Global
 
-			1.1 General
+			1.1General
 			1.2 Typography
 			1.3 Fields
 			1.4 Buttons
@@ -19,7 +19,7 @@
 	2.	Header 
 
 			2.1 Navbar
-			2.2 Nav Desctop
+			2.2 Nav Desktop
 			2.3 Nav Mobile
 			2.4 Navbar Affix
 			2.5 Navbar Dark
@@ -51,14 +51,14 @@
 			9.5 Widget Tags
 
 	10.	Team
-	11. Clients
-	12. Banner
-	13. Contacts
-	14. Coming Soon
-	15. 404 page
-	16. Footer
-	17. Modals
-	18. Responsive styles
+	11.	Clients
+	12.	Banner
+	13.	Contacts
+	14.	Coming Soon
+	15.	404 page
+	16.	Footer
+	17.	Modals
+	18.	Responsive
 
 			18.1 Min width: 768px
 			18.2 Min width 992px
@@ -98,7 +98,7 @@ body{
 	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1em;
 	color: #4b4b4b;
-	overflow-x:hidden;
+	overflow-x: hidden;
  
 }
 
@@ -106,7 +106,7 @@ body{
 	width: 10px;
 }
 
-::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb{
 	cursor: pointer;
 	background: #2e6be8;
 }
@@ -154,7 +154,7 @@ h2,
 	font-weight: 700;
 	font-size: 2.5em;
 	color: #3b3b3b;
-	margin:0.5em 0;
+	margin: 0.5em 0;
 }
 
 h3,
@@ -175,7 +175,7 @@ h4,
 	color: #3b3b3b;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	margin:1.3em 0;
+	margin: 1.3em 0;
 }
 
 h5,
@@ -186,7 +186,7 @@ h5,
 	font-weight: 700;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	margin:1.4em 0;
+	margin: 1.4em 0;
 }
 
 h6,
@@ -198,7 +198,7 @@ h6,
 	color: #3b3b3b;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
-	margin:1.4em 0;
+	margin: 1.4em 0;
 }
 
 h1 a,
@@ -209,7 +209,7 @@ h3 a,
 .h3 a,
 h4 a,
 .h4 a{
-	color:inherit;
+	color: inherit;
 }
 
 h1 a:hover,
@@ -234,7 +234,7 @@ ul{
 }
 
 a {
-	color:#2e6be8;
+	color: #2e6be8;
 	-webkit-transition: color .3s ease-out;
 	-o-transition: color .3s ease-out;
 	transition: color .3s ease-out;
@@ -242,7 +242,7 @@ a {
 
 a:hover,
 a:focus {
-	color:#2e6be8;
+	color: #2e6be8;
 	outline: none;
 }
 
@@ -284,7 +284,7 @@ textarea{
 }
 
 textarea{
-	resize:none;
+	resize: none;
 	-webkit-transition: all .3s;
 	-o-transition: all .3s;
 	transition: all .3s;
@@ -304,7 +304,7 @@ textarea:focus{
 }
 
 textarea:focus{
-	height:7em;
+	height: ;
 }
 
 input::-moz-placeholder {
@@ -353,22 +353,22 @@ textarea.input-round{
 }
 
 .input-group-btn{
-	font-size:inherit;
+	font-size: inherit;
 }
 
 
 .input-group .btn{
 	position: relative;
-	width:3.75em;
+	width: 3.75em;
 	border-radius: 0 30px 30px 0;
 	height: 100%;
 	padding: 0;
-	-webkit-box-shadow:none;
-	box-shadow:none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
 }
 
 .input-group .btn .arrow-right{
-	top:50%;
+	top: 50%;
 	left: 0;
 	margin: 0 0 0 1.1em;
 	-webkit-transform: translateY(-50%)
@@ -380,7 +380,7 @@ textarea.input-round{
 	width: 1.28125em;
 	height: 0.75em;
 	opacity: 1;
-	margin:0;
+	margin: 0;
 }
 
 .form-group{
@@ -468,7 +468,7 @@ label.error{
 }
 
 .btn-gray{
-	background-color:#4b4b4b;
+	background-color: #4b4b4b;
 }
 
 .btn-white{
@@ -656,7 +656,7 @@ label.error{
 }
 
 .section-title-2{
-	margin:0 0 1.3em 0;
+	margin: 0 0 1.3em 0;
 }
 
 .section-title-3{
@@ -827,7 +827,7 @@ label.error{
 }
 
 .navbar .social-list{
-	text-align:center;
+	text-align: center;
 }
 
 .social-list{
@@ -1382,12 +1382,12 @@ label.error{
 }
 
 .main-about{
-	background:url(../img/bg/bg-about-1.jpg) 50% 0 no-repeat;
+	background: url(../img/bg/bg-about-1.jpg) 50% 0 no-repeat;
 	background-size: cover;
 }
 
 .main-about-2{
-	background:url(../img/bg/bg-about-2.jpg) 50% 0 no-repeat;
+	background: url(../img/bg/bg-about-2.jpg) 50% 0 no-repeat;
 	background-size: cover;
 }
 
@@ -1725,7 +1725,7 @@ label.error{
 	width: 6em;
 	height: 6em;
 	line-height: 6em;
-	border:3px solid #2e6be8;
+	border: 3px solid #2e6be8;
 	background-color: #2e6be8;
 	border-radius: 50%;
 	margin-top: 5em;
@@ -1773,17 +1773,8 @@ label.error{
 	color: #3d3d3d;
 }
 
-.stat-number-pml{
-	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-weight: bold;
-	font-size: 5rem;
-	line-height: 1;
-	margin-bottom: 0.2em;
-	color: #3d3d3d;
-}
-
 .stat-descr{
-	text-align:center;
+	text-align: center;
 	font-size: 1.625em;
 	margin-top: 3em;
 	margin-bottom: 2.5em;
@@ -2025,7 +2016,7 @@ img.mfp-img{
 }
 
 .mfp-title{
-	padding-right:5em;
+	padding-right: 5em;
 }
 
 .mfp-bg{
@@ -2450,20 +2441,20 @@ img.mfp-img{
 .post-date{
 	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 0.875em;
-	float:right;
+	float: right;
 }
 
 .post .post-title{
-	color:#3d3d3d;
-	font-size:1.375em;
-	font-weight:700;
+	color: #3d3d3d;
+	font-size: 1.375em;
+	font-weight: 700;
 	margin-bottom: 1.5em;
 }
 
 .post-footer{
-	border-top:1px solid #e9e9e9;
+	border-top: 1px solid #e9e9e9;
 	padding-top: 2em;
-	margin-top:2em;
+	margin-top: 2em;
 }
 
 
@@ -2477,11 +2468,11 @@ img.mfp-img{
 
 .widget-title{
 	font-size: 1em;
-	color:#c1c1c1;
+	color: #c1c1c1;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	margin-bottom: 3em;
-	margin-top:0;
+	margin-top: 0;
 }
 
 
@@ -2512,7 +2503,7 @@ img.mfp-img{
 }
 
 .widget_categories li a:hover{
-	color:#2e6be8;
+	color: #2e6be8;
 	text-decoration: none;
 }
 
@@ -2532,9 +2523,9 @@ img.mfp-img{
 	display: inline-block;
 	margin-top: 0.7em;
 	padding: 0.2em 1.3em 0.3em ;
-	color:#474747;
-	background:#e9e9e9;
-	border-radius:20px;
+	color: #474747;
+	background: #e9e9e9;
+	border-radius: 20px;
 }
 
 .blog-tags a{
@@ -3187,7 +3178,6 @@ img.mfp-img{
 /* ------------------------------------------------------------------------------- */
 
 
-
 /* 18.1 Min width 768px */
 
 
@@ -3327,7 +3317,7 @@ img.mfp-img{
 
 
 
-	/* Statistics */
+	/* Stats */
 
 
 
@@ -3431,7 +3421,11 @@ img.mfp-img{
 	}
 }
 
-/* PML Custom */
+
+/* ------------------------------------------------------------------------------- */
+/*	XX. Prime Movers Lab
+/* ------------------------------------------------------------------------------- */
+
 
 header .logo{
 	width: 100px;
@@ -3468,11 +3462,15 @@ footer .logo-footer{
 .navbar.affix .navbar-toggle{
 	margin-top: 0.8em;
 }
-/*
-.main{
-	max-height: 700px;
+
+.stat-number-pml{
+	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 5rem;
+	line-height: 1;
+	margin-bottom: 0.2em;
+	color: #3d3d3d;
 }
-*/
 
 .blog-info .blog-text{
 	font-size: 0.875em;
