@@ -3392,7 +3392,8 @@ footer .logo-footer{
 }
 
 .bg-about.bg-left-fluid:before{
-	background-color: #2e6be8;
+	/* background-color: #2e6be8; */
+	background-color: rgba(46,107,232,0.85);
 	opacity: 0.85;
 }
 
