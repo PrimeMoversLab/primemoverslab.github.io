@@ -3372,7 +3372,7 @@ footer .logo-footer{
 	color: #3d3d3d;
 }
 
-.bg-about.bg-left-fluid:before{
+.showcase-item-hover {
 	background-color: #2e6be8;
 	opacity: 0.85;
 }
@@ -3389,6 +3389,11 @@ footer .logo-footer{
 .ion-ios-arrow-down{
 	position: absolute;
 	bottom: 25px;
+}
+
+.bg-about.bg-left-fluid:before{
+	background-color: #2e6be8;
+	opacity: 0.85;
 }
 
 #about-quote{
