@@ -3374,7 +3374,6 @@ footer .logo-footer{
 
 .showcase-item-hover {
 	background-color: #2e6be8;
-	opacity: 0.85;
 }
 
 .blog-info .blog-text{
@@ -3394,7 +3393,6 @@ footer .logo-footer{
 .bg-about.bg-left-fluid:before{
 	/* background-color: #2e6be8; */
 	background-color: rgba(46,107,232,0.85);
-	opacity: 0.85;
 }
 
 #about-quote{
