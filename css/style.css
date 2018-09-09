@@ -92,6 +92,7 @@ body{
 	overflow-x: hidden;
 }
 
+/*
 ::-webkit-scrollbar{
 	width: 10px;
 }
@@ -100,6 +101,7 @@ body{
 	cursor: pointer;
 	background: #2e6be8;
 }
+*/
 
 ::selection{
 	background-color: #2e6be8;
