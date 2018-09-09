@@ -3529,7 +3529,7 @@ footer .logo-footer{
 	margin-top: 70px;
 }
 
-.resources {
+.resources{
 	margin-top: 50px;
 }
 
@@ -3549,4 +3549,8 @@ footer .logo-footer{
 .resources .blog,
 .home-resources .blog{
 	background-color: #fafafa;
+}
+
+.resources-navbar .icon-bar {
+    background-color: #2e6be8;;
 }
