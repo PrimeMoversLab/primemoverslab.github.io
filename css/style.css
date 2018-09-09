@@ -709,6 +709,10 @@ label.error{
 	background-color: #c5a47e;
 }
 
+.bg-white{
+	background-color: white;
+}
+
 .bg-light{
 	background-color: #f7f7f7;
 }
@@ -3328,6 +3332,14 @@ img.mfp-img{
 /*	XX. Prime Movers Lab
 /* ------------------------------------------------------------------------------- */
 
+
+body{
+	background-color: #2e6be8;
+}
+
+header{
+	background-color: white;
+}
 
 header .logo{
 	width: 100px;
