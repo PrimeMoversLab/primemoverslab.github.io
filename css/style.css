@@ -3410,6 +3410,10 @@ footer .logo-footer{
 	background-color: rgba(46,107,232,0.85);
 }
 
+.main h2{
+	color: white;
+}
+
 #about-quote{
 	text-indent: -0.5em;
 }
