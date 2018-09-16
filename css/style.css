@@ -3495,15 +3495,11 @@ footer .logo-footer{
 	animation-duration: 0.5s;
 }
 
-.modal {
-	text-align: left;
-}
-
 .modal{
 	text-align: left;
 }
 
-.modal-dialog {
+.modal-dialog{
 	position: fixed;
 	width: 95%;
 	height: 93%;
