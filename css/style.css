@@ -3523,9 +3523,21 @@ footer .logo-footer{
 	margin-bottom: 25px;
 }
 
+.modal-body{
+	position: absolute;
+	width: 100%;
+	top: 130px;
+	overflow: auto;
+}
+
+.modal-bio .team-name{
+	font-size: 1.5em;
+}
+
 .modal-bio .team-spec{
+	font-size: 1.25em;
 	margin-top: 0.4em;
-	margin-bottom: 2em;
+	margin-bottom: 1.5em;
 }
 
 .modal-content p {
@@ -3553,13 +3565,6 @@ footer .logo-footer{
 
 .modal-header a{
 	color: #aaa;
-}
-
-.modal-body{
-	position: absolute;
-	width: 100%;
-	top: 130px;
-	overflow: auto;
 }
 
 @media (max-width: 768px){
