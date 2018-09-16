@@ -2568,7 +2568,7 @@ img.mfp-img{
 
 .team-spec{
 	display: block;
-	margin-top: 2.2em;
+	margin-top: 1em;
 }
 
 .team-social{
@@ -3432,6 +3432,11 @@ footer .logo-footer{
 	margin-bottom: 0;
 	padding-top: 0;
 	padding-bottom: 0;
+}
+
+.col-team .team-meta:hover{
+	cursor: pointer;
+	color: #2e6be8;
 }
 
 .careers-border-bottom p{
