@@ -3517,8 +3517,13 @@ footer .logo-footer{
 	margin-right: 50px;
 }
 
-.modal-bio{
-	padding-left: 50px;
+.modal-bio .team-spec{
+	margin-top: 0.4em;
+	margin-bottom: 2em;
+}
+
+.modal-content p {
+    margin-bottom: 1em;
 }
 
 .modal-content{
@@ -3550,13 +3555,4 @@ footer .logo-footer{
 	top: 100px;
 	bottom: 50px;
 	overflow: auto;
-}
-
-.modal-bio .team-spec{
-	margin-top: 0.4em;
-	margin-bottom: 2em;
-}
-
-.modal-content p {
-    margin-bottom: 1em;
 }
