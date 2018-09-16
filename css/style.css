@@ -3558,13 +3558,13 @@ footer .logo-footer{
 .modal-body{
 	position: absolute;
 	width: 100%;
-	top: 100px;
-	bottom: 50px;
+	top: 130px;
 	overflow: auto;
 }
 
 @media (max-width: 768px){
 	.modal img{width: 100%; margin-right: 0; margin-bottom: 50px;}
+	.modal-body{top: 90px;}
 }
 
 .modal.fade .modal-dialog {
