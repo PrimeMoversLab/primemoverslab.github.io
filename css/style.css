@@ -3538,5 +3538,6 @@ footer .logo-footer{
 }
 
 .modal img{
-	width: 40%;
+	width: 50%;
+	float: left;
 }
