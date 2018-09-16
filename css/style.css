@@ -3504,7 +3504,7 @@ footer .logo-footer{
 	text-align: left;
 }
 
-.modal.fade .modal-dialog{
+.modal.fade:not(.in) .modal-dialog {
     -webkit-transform: translate3d(25%, 0, 0);
     transform: translate3d(25%, 0, 0);
 }
