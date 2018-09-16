@@ -3512,10 +3512,10 @@ footer .logo-footer{
 .modal img{
 	width: 40%;
 	float: left;
+	margin-right: 50px;
 }
 
 .modal-bio{
-	float: left;
 	padding-left: 50px;
 }
 
