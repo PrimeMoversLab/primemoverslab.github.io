@@ -3507,6 +3507,8 @@ footer .logo-footer{
 	right: 0;
 	bottom: 0;
 	left: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .modal img{
