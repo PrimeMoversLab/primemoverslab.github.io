@@ -3518,6 +3518,11 @@ footer .logo-footer{
 	float: left;
 }
 
+.modal-bio{
+	float: left;
+	padding-left: 50px;
+}
+
 .modal-content{
 	position: absolute;
 	top: 0;
@@ -3530,8 +3535,15 @@ footer .logo-footer{
 
 .modal-header{
 	position: absolute;
-	top: 0;
-	right: 0;
+	top: 35px;
+	right: 35px;
+	margin: 0;
+	padding: 0;
+	font-size: 1.25rem;
+}
+
+.modal-header a{
+	color: #aaa;
 }
 
 .modal-body{
@@ -3541,4 +3553,3 @@ footer .logo-footer{
 	bottom: 50px;
 	overflow: auto;
 }
-
