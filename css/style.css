@@ -3501,8 +3501,8 @@ footer .logo-footer{
 
 .modal-dialog{
 	position: fixed;
-	width: 95%;
-	height: 93%;
+	width: 100%;
+	height: 100%;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -3548,4 +3548,13 @@ footer .logo-footer{
 	top: 100px;
 	bottom: 50px;
 	overflow: auto;
+}
+
+.modal-bio .team-spec{
+	margin-top: 0.4em;
+	margin-bottom: 2em;
+}
+
+.modal-content p {
+    margin-bottom: 1em;
 }
