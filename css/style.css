@@ -3488,7 +3488,16 @@ footer .logo-footer{
 	color: #2e6be8;
 }
 
-/* test */
+/* Team Modal */
+
+.team .animated{
+	-webkit-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+}
+
+.modal {
+	text-align: left;
+}
 
 .modal{
 	text-align: left;
