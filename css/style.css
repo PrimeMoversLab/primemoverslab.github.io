@@ -3531,7 +3531,7 @@ footer .logo-footer{
 
 .modal-body{
 	position: absolute;
-	width: 40%;
+	width: 100%;
 	top: 100px;
 	bottom: 50px;
 	overflow: auto;
