@@ -3515,6 +3515,7 @@ footer .logo-footer{
 	width: 40%;
 	float: left;
 	margin-right: 50px;
+	margin-bottom: 25px;
 }
 
 .modal-bio .team-spec{
@@ -3555,4 +3556,8 @@ footer .logo-footer{
 	top: 100px;
 	bottom: 50px;
 	overflow: auto;
+}
+
+@media (min-width: 768px){
+	.modal img{width: 100%; margin-right: 0; margin-bottom: 50px;}
 }
