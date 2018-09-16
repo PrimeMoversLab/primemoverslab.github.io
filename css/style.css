@@ -3566,3 +3566,9 @@ footer .logo-footer{
 @media (max-width: 768px){
 	.modal img{width: 100%; margin-right: 0; margin-bottom: 50px;}
 }
+
+/* MD Bootstrap */
+
+.fade {
+    transition: opacity .15s linear;
+}
