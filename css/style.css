@@ -3504,11 +3504,6 @@ footer .logo-footer{
 	text-align: left;
 }
 
-.modal.fade:not(.in) .modal-dialog {
-    -webkit-transform: translate3d(25%, 0, 0);
-    transform: translate3d(25%, 0, 0);
-}
-
 .modal-dialog{
 	position: fixed;
 	width: 100%;
@@ -3570,4 +3565,14 @@ footer .logo-footer{
 
 @media (max-width: 768px){
 	.modal img{width: 100%; margin-right: 0; margin-bottom: 50px;}
+}
+
+.modal.fade .modal-dialog {
+    -webkit-transform: translate3d(0, -25%, 0);
+    transform: translate3d(0, -25%, 0);
+}
+
+.modal.fade:not(.in) .modal-dialog {
+    -webkit-transform: translate3d(25%, 0, 0);
+    transform: translate3d(25%, 0, 0);
 }
