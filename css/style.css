@@ -3506,11 +3506,16 @@ footer .logo-footer{
 .modal-dialog {
 	position: fixed;
 	width: 95%;
-	height: 95%;
+	height: 93%;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
+}
+
+.modal img{
+	width: 40%;
+	float: left;
 }
 
 .modal-content{
@@ -3537,7 +3542,3 @@ footer .logo-footer{
 	overflow: auto;
 }
 
-.modal img{
-	width: 50%;
-	float: left;
-}
