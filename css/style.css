@@ -88,8 +88,12 @@ html{
 body{
 	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1em;
-	color: #4b4b4b;
+	color: #2e6be8;
 	overflow-x: hidden;
+}
+
+section{
+	background-color: white;
 }
 
 /*
@@ -3332,16 +3336,6 @@ img.mfp-img{
 /* ------------------------------------------------------------------------------- */
 /*	XX. Prime Movers Lab
 /* ------------------------------------------------------------------------------- */
-
-/*
-body{
-	background-color: #2e6be8;
-}
-
-header{
-	background-color: white;
-}
-*/
 
 header .logo{
 	width: 100px;
