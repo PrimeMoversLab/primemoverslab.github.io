@@ -3406,7 +3406,7 @@ footer .logo-footer{
 	background-color: rgba(46,107,232,0.85);
 }
 
-.main h2{
+.main h2, .main #content-home-headline{
 	color: white;
 }
 
