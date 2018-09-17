@@ -1356,17 +1356,17 @@ label.error{
 }
 
 .main-about{
-	background: url(../img/bg/bg-about-1.jpg) 50% 0 no-repeat;
+	background: url(/img/bg/bg-about-1.jpg) 50% 0 no-repeat;
 	background-size: cover;
 }
 
 .main-about-2{
-	background: url(../img/bg/bg-about-2.jpg) 50% 0 no-repeat;
+	background: url(/img/bg/bg-atlas.png) 50% 0 no-repeat;
 	background-size: cover;
 }
 
 .main-freelance{
-	background: url(../img/bg/bg-freelance.jpg) 50% 0 no-repeat;
+	background: url(/img/bg/bg-freelance.jpg) 50% 0 no-repeat;
 	background-size: cover;
 }
 
@@ -1375,16 +1375,16 @@ label.error{
 }
 
 .main-agency{
-	background: url(../img/bg/bg-agency.jpg) 50% 0 no-repeat;
+	background: url(/img/bg/bg-agency.jpg) 50% 0 no-repeat;
 	background-size: cover;
 }
 
 .main-startup{
-	background: url(../img/bg/startup.jpg) 50% 0 no-repeat;
+	background: url(/img/bg/startup.jpg) 50% 0 no-repeat;
 }
 
 .bg-aside-1{
-	background: url(../img/bg/bg-aside-1.jpg) 50% 0 no-repeat;
+	background: url(/img/bg/bg-aside-1.jpg) 50% 0 no-repeat;
 }
 
 .mouse-helper{
@@ -1393,7 +1393,7 @@ label.error{
 }
 
 .mouse-helper .ion-mouse{
-	background: url(../img/mouse.png);
+	background: url(/img/mouse.png);
 	background-size: cover;
 	width: 0.6635em;
 	height: 0.9695em;
@@ -1569,7 +1569,7 @@ label.error{
 
 
 .bg-about{
-	background: url(../img/bg/1-648x697.jpg) 50% 50% no-repeat;
+	background: url(../img/bg/bg-fountainhead.jpg) 50% 50% no-repeat;
 	background-size: cover;
 }
 
