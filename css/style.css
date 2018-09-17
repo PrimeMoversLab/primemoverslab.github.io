@@ -3418,6 +3418,10 @@ footer .logo-footer{
 	padding-top: 7.1em;
 }
 
+.portfolio .section-title-2{
+	margin: 0;
+}
+
 .isotope{
 	margin-top: 100px;
 }
@@ -3489,7 +3493,7 @@ footer .logo-footer{
 	color: #2e6be8;
 }
 
-/* Team Modal */
+/* Modal */
 
 .team .animated{
 	-webkit-animation-duration: 0.5s;
