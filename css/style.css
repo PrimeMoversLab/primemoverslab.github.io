@@ -88,7 +88,8 @@ html{
 body{
 	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 1em;
-	color: #2e6be8;
+	background-color: #2e6be8;
+	color: #4b4b4b;
 	overflow-x: hidden;
 }
 
