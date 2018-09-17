@@ -1370,6 +1370,11 @@ label.error{
 	background-size: cover;
 }
 
+.main-portfolio{
+	background: url(/img/bg/bg-portfolio.jpg) 50% 0 no-repeat;
+	background-size: cover;
+}
+
 .main-freelance{
 	background: url(/img/bg/bg-freelance.jpg) 50% 0 no-repeat;
 	background-size: cover;
