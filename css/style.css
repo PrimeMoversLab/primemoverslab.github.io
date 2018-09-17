@@ -3414,6 +3414,16 @@ footer .logo-footer{
 	text-indent: -0.5em;
 }
 
+.core-values img{
+	max-width: 100px;
+	margin: 0 auto 15px;
+	display: block;
+}
+
+.core-values h4{
+	text-align: center;
+}
+
 .porftolio{
 	padding-top: 7.1em;
 }
@@ -3567,11 +3577,6 @@ footer .logo-footer{
 	color: #aaa;
 }
 
-@media (max-width: 768px){
-	.modal img{width: 100%; margin-right: 0; margin-bottom: 50px;}
-	.modal-body{top: 90px;}
-}
-
 .modal.fade .modal-dialog {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
@@ -3580,4 +3585,11 @@ footer .logo-footer{
 .modal.fade:not(.in) .modal-dialog {
     -webkit-transform: translate3d(25%, 0, 0);
     transform: translate3d(25%, 0, 0);
+}
+
+/* RWD */
+	
+@media (max-width: 768px){
+	.modal img{width: 100%; margin-right: 0; margin-bottom: 50px;}
+	.modal-body{top: 90px;}
 }
