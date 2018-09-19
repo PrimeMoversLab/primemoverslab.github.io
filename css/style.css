@@ -3426,6 +3426,10 @@ footer .logo-footer{
 	text-indent: -0.5em;
 }
 
+.team-name, .team-spec {
+	font-size: 0.875em;
+}
+
 .core-values img{
 	max-width: 100px;
 	margin: 0 auto 15px;
@@ -3605,28 +3609,24 @@ footer .logo-footer{
 @media (max-width: 768px){
 	.modal img{width: 100%; margin-right: 0; margin-bottom: 50px;}
 	.modal-body{top: 90px;}
+	.team-name, .team-spec {font-size: 1em;}
 }
 
-/* 5 Columns */
+/* 5 Columns col-sm12(1) col-md-6(2) col-lg-3(4) .col-lg-15(5)*/
 
-.col-xs-15, .col-sm-15, .col-md-15, .col-lg-15{
+
+.col-lg-15{
 	position: relative;
 	min-height: 1px;
-}
-
-.team .col-xs-15, .team .col-sm-15, .team .col-md-15, .team .col-lg-15, .team .col-md-4, .col-sm-2{padding: 0;}
-.team .col-xs-15{width: 20%; float: left;}
-
-@media (max-width: 1200px){
-	.team .col-lg-15{width: 20%; float: left;}
+	padding: 0;
+	width: 20%;
+	float: left;
 }
 
 @media (max-width: 992px){
-	.team .col-md-15{width: 20%; float: left;}
-	.team .col-md-4{width: 50%; float: left;}
+	.team .col-lg-15{width: 50%;}
 }
 
 @media (max-width: 768px){
-	.team .col-sm-15{width: 20%; float: left;}
-	.team .col-sm-2{width: 100%; float: left;}
+	.team .col-lg-15{width: 100%;}
 }
