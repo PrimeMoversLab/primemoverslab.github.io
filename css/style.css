@@ -3423,6 +3423,7 @@ footer .logo-footer{
 
 .team-name, .team-spec {
 	font-size: 0.875em;
+	padding: 0 15px;
 }
 
 .core-values img{
@@ -3628,6 +3629,7 @@ footer .logo-footer{
 
 @media (max-width: 992px){
 	.team .col-lg-15{width: 50%;}
+	.team-name, .team-spec{font-size: 1.25em;}
 }
 
 @media (max-width: 768px){
