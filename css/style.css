@@ -3614,8 +3614,7 @@ footer .logo-footer{
 
 /* 5 Columns col-sm12(1) col-md-6(2) col-lg-3(4) .col-lg-15(5)*/
 
-
-.col-lg-15{
+.team .col-lg-15{
 	position: relative;
 	min-height: 1px;
 	padding: 0;
