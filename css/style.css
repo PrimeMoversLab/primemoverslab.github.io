@@ -3616,11 +3616,17 @@ footer .logo-footer{
 }
 
 /* RWD */
-	
+
+.team-caption{
+	top: 0;
+	bottom: 2em;
+}
+
 @media (max-width: 768px){
 	.modal img{width: 100%; margin-right: 0; margin-bottom: 50px;}
 	.modal-body{top: 90px;}
-	.team-name, .team-spec {font-size: 1em;}
+	.team-caption{bottom: 5em;}
+	.team-name, .team-spec{font-size: 1em;}
 }
 
 /* 5 Columns col-sm12(1) col-md-6(2) col-lg-3(4) .col-lg-15(5)*/
@@ -3638,6 +3644,6 @@ footer .logo-footer{
 	.team-name, .team-spec{font-size: 1.25em;}
 }
 
-@media (max-width: 768px){
+@media (max-width: 600px){ /* or 480 */
 	.team .col-lg-15{width: 100%;}
 }
