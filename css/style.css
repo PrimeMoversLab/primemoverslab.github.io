@@ -3455,6 +3455,11 @@ footer .logo-footer{
 	padding-bottom: 0;
 }
 
+.main-about-2 .opener, .main-team .opener, .main-portfolio .opener{
+	max-width: 900px;
+	margin: 0 auto;
+}
+
 .col-team .team-meta-team:hover{
 	cursor: pointer;
 	color: #2e6be8;
