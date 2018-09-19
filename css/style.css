@@ -3461,7 +3461,13 @@ footer .logo-footer{
 	margin: 0 auto;
 }
 
-.main-team:before, .main-portfolio:before {
+.main-team:before, .main-portfolio:before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
 	background-color: rgba(46,107,232,0.85);
 }
 
