@@ -3634,6 +3634,7 @@ footer .logo-footer{
     .col-md-15 {
         width: 20%;
         float: left;
+	  padding: 0
     }
 }
 
