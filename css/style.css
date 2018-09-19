@@ -1775,11 +1775,6 @@ label.error{
 /*-----------------------------------------------------------------------------*/
 
 
-.main-portfolio{
-	background: url(../img/bg/bg-portfolio.jpg) 50% 0 no-repeat;
-	background-size: cover;
-}
-
 .filter{
 	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	text-align: center;
