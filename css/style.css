@@ -3460,6 +3460,10 @@ footer .logo-footer{
 	margin: 0 auto;
 }
 
+.main-team:before, .main-portfolio:before {
+	background-color: rgba(46,107,232,0.85);
+}
+
 .col-team .team-meta-team:hover{
 	cursor: pointer;
 	color: #2e6be8;
