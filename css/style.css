@@ -3630,6 +3630,11 @@ footer .logo-footer{
 	transform: translate3d(25%, 0, 0);
 }
 
+.modal-bio .modal-social{
+	color: #4b4b4b;
+	margin-top: 20px;
+}
+
 /* RWD */
 
 @media (max-width: 992px){
