@@ -3620,6 +3620,10 @@ footer .logo-footer{
 	color: #aaa;
 }
 
+.modal-header a{
+	opacity: 0.7;
+}
+
 .modal.fade .modal-dialog {
 	-webkit-transform: translate3d(0, 0, 0);
 	transform: translate3d(0, 0, 0);
