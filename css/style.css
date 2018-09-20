@@ -3631,8 +3631,12 @@ footer .logo-footer{
 }
 
 .modal-bio .modal-social{
-	color: #4b4b4b;
-	margin-top: 20px;
+	color: #777777;
+	margin-top: 15px;
+}
+
+.modal-bio .modal-social:hover{
+	color: #2e6be8;
 }
 
 /* RWD */
