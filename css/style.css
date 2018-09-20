@@ -3617,11 +3617,11 @@ footer .logo-footer{
 }
 
 .modal-header a{
-	color: #aaa;
+	color: #999;
 }
 
-.modal-header a{
-	opacity: 0.7;
+.modal-header a:hover{
+	color: #333;
 }
 
 .modal.fade .modal-dialog {
