@@ -2588,7 +2588,7 @@ img.mfp-img{
 	position: absolute;
 	left: 0;
 	width: 100%;
-	bottom: 3em;
+	bottom: 1em;
 	text-align: center;
 }
 
@@ -3644,11 +3644,14 @@ footer .logo-footer{
 }
 
 /* RWD */
-
+@media (min-width: 993px){
+	/* .team-caption .team-social{display: none;} */
+}
+	
 @media (max-width: 992px){
 	.team .col-lg-15{width: 50%;}
 	.team-name, .team-spec{font-size: 1.25em;}
-	.team-caption .team-social{display: none;}
+	/* .team-caption .team-social{display: block;} */
 }
 
 @media (max-width: 768px){
