@@ -3486,7 +3486,7 @@ footer .logo-footer{
 	margin: 0 auto;
 }
 
-.col-team .team-meta-team:hover{
+.col-team .team-meta:hover{
 	cursor: pointer;
 	color: #2e6be8;
 }
