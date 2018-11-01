@@ -3648,6 +3648,7 @@ footer .logo-footer{
 @media (max-width: 992px){
 	.team .col-lg-15{width: 50%;}
 	.team-name, .team-spec{font-size: 1.25em;}
+	.team-caption .team-social{display: none;}
 }
 
 @media (max-width: 768px){
@@ -3659,3 +3660,4 @@ footer .logo-footer{
 @media (max-width: 600px){ /* or 480 */
 	.team .col-lg-15{width: 100%;}
 }
+
