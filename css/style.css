@@ -3664,9 +3664,13 @@ footer .logo-footer{
 
 /* Email Sub */
 
+footer .email{
+	font-size: 0.8125em;
+}
+
 #mc_embed_signup{
 	margin-top: 20px;
-	font-size: 1em;
+	font-size: 0.8125em;
 }
 
 #mc_embed_signup label{
