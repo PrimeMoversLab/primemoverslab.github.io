@@ -4639,7 +4639,7 @@ tp-caption.Team-Thumb,
     border-radius: 0 0 0 0px;
     text-align: center
 }
-
+/* Email Sub
 #mc_embed_signup input#mce-EMAIL {
     font-family: "Lato", sans-serif;
     font-size: 15px;
@@ -4684,6 +4684,7 @@ tp-caption.Team-Thumb,
 #mc_embed_signup input#mc-embedded-subscribe:hover {
     background: #0083d4;
 }
+*/
 @media only screen and (max-width: 767px) {
     #mc_embed_signup input#mce-EMAIL {
         width: 200px;
