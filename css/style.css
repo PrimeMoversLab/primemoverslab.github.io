@@ -3673,13 +3673,10 @@ footer .logo-footer{
 	margin-bottom: 15px;
 }
 
-#mc_embed_signup input{
+#mce-EMAIL{
 	font-weight: normal;
 	width: auto;
 	min-width: 200px;
-}
-
-#mce-EMAIL{
 	margin-bottom: 15px;
 }
 
