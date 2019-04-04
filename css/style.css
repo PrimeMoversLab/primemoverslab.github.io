@@ -3665,12 +3665,12 @@ footer .logo-footer{
 /* Email Sub */
 
 footer .email{
-	font-size: 0.8125em;
+	font-size: 13px;
 }
 
 #mc_embed_signup{
-	margin-top: 20px;
-	font-size: 0.8125em;
+	margin-top: 40px;
+	font-size: 13px;
 }
 
 #mc_embed_signup label{
