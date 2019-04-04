@@ -3662,3 +3662,20 @@ footer .logo-footer{
 	.team .col-lg-15{width: 100%;}
 }
 
+/* Email Sub */
+
+#mc_embed_signup{
+	margin-top: 20px;
+}
+
+#mc_embed_signup label{
+	font-weight: normal;
+	margin-bottom: 15px;
+}
+
+#mc_embed_signup input{
+	font-weight: normal;
+	margin-bottom: 15px;
+	width: auto;
+	min-width: 200px;
+}
