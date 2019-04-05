@@ -3695,4 +3695,6 @@ footer .email{
 	font-weight: 700;
 	margin-top: 15px;
 	color: #2e6be8;
+	text-transform: uppercase;
+	letter-spacing: 0.08em;
 }
