@@ -3675,14 +3675,14 @@ footer .email{
 
 #mc_embed_signup label{
 	font-weight: normal;
-	margin-bottom: 10px;
+	margin-bottom: 9px;
 }
 
 #mce-EMAIL{
 	font-weight: normal;
 	width: auto;
 	min-width: 200px;
-	margin-bottom: 15px;
+	margin-bottom: 2px;
 }
 
 #mc-embedded-subscribe{
