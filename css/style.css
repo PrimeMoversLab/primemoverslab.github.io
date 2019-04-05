@@ -3684,6 +3684,7 @@ footer .email{
 	min-width: 200px;
 	margin-bottom: 2px;
 	padding: 0;
+	display: block;
 }
 
 #mc-embedded-subscribe{
