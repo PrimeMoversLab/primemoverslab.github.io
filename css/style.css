@@ -3683,6 +3683,7 @@ footer .email{
 	width: auto;
 	min-width: 200px;
 	margin-bottom: 2px;
+	padding: 0;
 }
 
 #mc-embedded-subscribe{
