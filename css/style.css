@@ -1724,9 +1724,8 @@ label.error{
 
 .icon-video-section:hover,
 .icon-video-section:focus {
-	background-color: white;
 	color: white;
-	background-color: transparent;
+	background-color: transparent; /*white
 }
 
 
