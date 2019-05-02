@@ -1706,10 +1706,10 @@ label.error{
 	width: 6em;
 	height: 6em;
 	line-height: 6em;
-	border: 3px solid #2e6be8;
-	background-color: #2e6be8;
+	border: 3px solid white;
+	background-color: white;
 	border-radius: 50%;
-	color: #fff;
+	color: white;
 	text-align: center;
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
@@ -1724,10 +1724,9 @@ label.error{
 
 .icon-video-section:hover,
 .icon-video-section:focus {
-	background-color: #2e6be8;
-	color: #fff;
+	background-color: white;
+	color: white;
 	background-color: transparent;
-	color: #2e6be8;
 }
 
 
