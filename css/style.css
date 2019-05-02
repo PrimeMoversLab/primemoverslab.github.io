@@ -1681,7 +1681,7 @@ label.error{
 
 .video-section {
 	position: relative;
-	padding: 12.5em 0;
+	padding: 9em 0 18em 0;
 	background: url(../img/bg/bg-video.png) 50% no-repeat;
 }
 
@@ -1714,6 +1714,7 @@ label.error{
 	-webkit-transition: all 0.3s;
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
+	margin-top: 1.5em;
 }
 
 .icon-video-section .ion-ios-play {
