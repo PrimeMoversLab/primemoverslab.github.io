@@ -1682,7 +1682,7 @@ label.error{
 .video-section {
 	position: relative;
 	padding: 12.5em 0;
-	background: url(../img/bg/bg-video.jpg) 50% no-repeat;
+	background: url(../img/bg/bg-video.png) 50% no-repeat;
 }
 
 .video-section:before {
