@@ -3398,6 +3398,15 @@ footer .logo-footer{
 	float: left;
 }
 
+/* Team 4 Columns */
+.team .col-lg-16{
+	position: relative;
+	min-height: 1px;
+	padding: 0;
+	width: 25%;
+	float: left;
+}
+
 .stat-number-pml{
 	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: bold;
@@ -3642,39 +3651,39 @@ footer .logo-footer{
 /* RWD */
 
 @media (max-width: 992px){
-	.team .col-lg-15{width: 50%;}
-	.team-name, .team-spec{font-size: 1.25em;}
-	.team-social{bottom: 3em;}
-	.social-list li a{font-size: 1.5em;}
+	.team .col-lg-15, .team .col-lg-16 {width: 50%;}
+	.team-name, .team-spec {font-size: 1.25em;}
+	.team-social {bottom: 3em;}
+	.social-list li a {font-size: 1.5em;}
 }
 
 @media (max-width: 768px){
-	.modal img{width: 100%; margin-right: 0; margin-bottom: 50px;}
-	.modal-body{top: 90px;}
-	.team-caption{bottom: 5em;}
+	.modal img {width: 100%; margin-right: 0; margin-bottom: 50px;}
+	.modal-body {top: 90px;}
+	.team-caption {bottom: 5em;}
 }
 
 @media (max-width: 600px){ /* or 480 */
-	.team .col-lg-15{width: 100%;}
+	.team .col-lg-15, .team .col-lg-16 {width: 100%;}
 }
 
 /* Email Sub */
 
-footer .email{
+footer .email {
 	font-size: 13px;
 }
 
-#mc_embed_signup{
+#mc_embed_signup {
 	margin-top: 43px;
 	font-size: 13px;
 }
 
-#mc_embed_signup label{
+#mc_embed_signup label {
 	font-weight: normal;
 	margin-bottom: 7px;
 }
 
-#mce-EMAIL{
+#mce-EMAIL {
 	font-weight: normal;
 	width: auto;
 	min-width: 200px;
@@ -3683,7 +3692,7 @@ footer .email{
 	display: block;
 }
 
-#mc-embedded-subscribe{
+#mc-embedded-subscribe {
 	background: none;
 	border: none;
 	padding: 0;
