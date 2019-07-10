@@ -3277,19 +3277,16 @@ img.mfp-img {
 	.portfolio-quote {
 		max-width: 800px;
 		margin: 0 auto;
-		text-align: left;
-		text-indent: -0.35rem;
 	}
 
 	.portfolio-founder {
 		font-weight: 700;
 		color: #2e6be8;
-		text-align: center;
 		padding-top: 20px;
+		margin-bottom: 0;
 	}
 
 	.portfolio-title {
-		text-align: center;
 	}
 
 	/* Blog */
