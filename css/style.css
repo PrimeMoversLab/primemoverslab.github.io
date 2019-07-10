@@ -3274,6 +3274,20 @@ img.mfp-img {
 		padding-top: 10em;
 	}
 
+	.portfolio-quote {
+		max-width: 800px;
+		margin: 0 auto;
+		text-align: left;
+		text-indent: -0.35rem;
+	}
+
+	.portfolio-founder {
+		font-weight: 700;
+		color: #2e6be8;
+	}
+
+	.portfolio-title {
+	}
 
 	/* Blog */
 
