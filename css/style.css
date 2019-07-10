@@ -3279,11 +3279,13 @@ img.mfp-img {
 		margin: 0 auto;
 		text-align: left;
 		text-indent: -0.35rem;
+		font-size: 
 	}
 
 	.portfolio-founder {
 		font-weight: 700;
 		color: #2e6be8;
+		text-align: left;
 	}
 
 	.portfolio-title {
