@@ -3284,9 +3284,8 @@ img.mfp-img {
 		color: #2e6be8;
 		padding-top: 20px;
 		margin-bottom: 0;
-	}
-
-	.portfolio-title {
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
 	}
 
 	/* Blog */
@@ -3669,6 +3668,14 @@ footer .logo-footer{
 	.team-name, .team-spec {font-size: 1.25em;}
 	.team-social {bottom: 3em;}
 	.social-list li a {font-size: 1.5em;}
+	.portfolio-founder {
+		font-weight: 700;
+		color: #2e6be8;
+		padding-top: 20px;
+		margin-bottom: 0;
+		letter-spacing: 0.2em;
+		text-transform: uppercase;
+	}
 }
 
 @media (max-width: 768px){
