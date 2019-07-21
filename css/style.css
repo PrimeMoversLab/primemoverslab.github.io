@@ -3723,3 +3723,9 @@ footer .email {
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
 }
+
+/* Careers */
+
+#job-desc p {
+	margin-bottom: 25px;
+}
