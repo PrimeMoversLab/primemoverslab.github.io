@@ -3726,10 +3726,15 @@ footer .email {
 
 /* Careers */
 
+.job-desc-title {
+	margin-top: 120px;
+}
+
 .job-desc p {
 	margin-bottom: 25px;
 }
 
-.job-desc-title {
-	margin-top: 120px;
+.job-desc li {
+    list-style: disc;
+    padding-bottom: 5px;
 }
