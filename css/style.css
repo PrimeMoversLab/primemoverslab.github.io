@@ -3738,3 +3738,8 @@ footer .email {
     list-style: disc;
     padding-bottom: 12px;
 }
+
+.job-desc-offset {
+	padding-left: 30px;
+	padding-right: 30px;
+}
