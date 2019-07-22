@@ -3456,11 +3456,11 @@ footer .logo-footer{
 	color: white;
 }
 
-#about-quote{
+#about-quote {
 	text-indent: -0.5em;
 }
 
-.team-caption{
+.team-caption {
 	top: 0;
 	bottom: 2em;
 }
@@ -3469,97 +3469,97 @@ footer .logo-footer{
 	font-size: 0.875em;
 }
 
-.core-values img{
+.core-values img {
 	max-width: 100px;
 	margin: 0 auto 15px;
 	display: block;
 }
 
-.core-values h4{
+.core-values h4 {
 	text-align: center;
 }
 
-.porftolio{
+.porftolio {
 	padding-top: 7.1em;
 }
 
-.portfolio .section-title-2{
+.portfolio .section-title-2 {
 	margin: 3em 0 0 0;
 }
 
-.isotope{
+.isotope {
 	margin-top: 100px;
 }
 
 .careers .row-about,
-.careers-border-bottom div{
+.careers-border-bottom div {
 	margin-top: 0;
 	margin-bottom: 0;
 	padding-top: 0;
 	padding-bottom: 0;
 }
 
-.main-about-2 .opener, .main-team .opener, .main-portfolio .opener{
+.main-about-2 .opener, .main-team .opener, .main-portfolio .opener {
 	max-width: 900px;
 	margin: 0 auto;
 }
 
-.col-team .team-meta:hover{
+.col-team .team-meta:hover {
 	cursor: pointer;
 	color: #2e6be8;
 }
 
-.careers-border-bottom p{
+.careers-border-bottom p {
 	margin-top: 15px;
 	margin-bottom: 15px;
 }
 
-.careers-title{
+.careers-title {
 	color: #2e6be8;
 }
 
-.careers-border-bottom{
+.careers-border-bottom {
 	border-bottom: 1px #ddd solid;
 }
 
-.careers .careers-function{
+.careers .careers-function {
 	margin-top: 70px;
 }
 
-.resources{
+.resources {
 	margin-top: 50px;
 }
 
-.blog-margin-top{
+.blog-margin-top {
 	margin-top: 95px;
 }
 
-.blog-row{
+.blog-row {
 	margin-top: 50px;
 }
 
-.post .post-title{
+.post .post-title {
 	font-size: 2.5em;
 }
 
-.blog-list .post-thumbnail{
+.blog-list .post-thumbnail {
 	margin-top: 50px;
 	margin-bottom: 50px;
 }
 
-.navbar-toggle.resources-nav .icon-bar{
+.navbar-toggle.resources-nav .icon-bar {
 	background-color: #2e6be8;
 }
 
-.resources .blog{
+.resources .blog {
 	background-color: #fafafa;
 }
 
-.careers a{
+.careers a {
 	color: #707070;
 }
 
-.careers a:hover{
+.careers a:hover {
 	color: #2e6be8;
 }
 
