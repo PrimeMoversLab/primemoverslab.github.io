@@ -1580,12 +1580,12 @@ label.error{
 /*-----------------------------------------------------------------------------*/
 
 
-.bg-about{
+.bg-about {
 	background: url(../img/bg/bg-fountainhead.jpg) 50% 50% no-repeat;
 	background-size: cover;
 }
 
-.about{
+.about {
 	position: relative;
 }
 
@@ -1597,7 +1597,7 @@ label.error{
 	margin-bottom: 0;
 }
 
-.bg-about.bg-left-fluid:before{
+.bg-about.bg-left-fluid:before {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -1607,36 +1607,36 @@ label.error{
 	background-color: rgba(101,52,255,0.85);
 }
 
-.about-cite{
+.about-cite {
 	position: relative;
 	color: #fff;
 }
 
-.col-about{
+.col-about {
 	padding-top: 3em;
 	padding-bottom: 3em;
 }
 
-.bg-mission-1{
+.bg-mission-1 {
 	background: url(../img/bg/1-960x800.jpg) 50% 50% no-repeat;
 	background-size: cover;
 }
 
-.bg-mission-2{
+.bg-mission-2 {
 	background: url(../img/bg/2-960x800.jpg) 50% 50% no-repeat;
 	background-size: cover;
 }
 
 .mission-1,
-.mission-2{
+.mission-2 {
 	overflow: hidden;
 }
 
-.mission-1 .section-title-2{
+.mission-1 .section-title-2 {
 	margin-bottom: 1em;
 }
 
-.fade-title{
+.fade-title {
 	position: absolute;
 	top: -0.2em;
 	left: 0;
@@ -1646,29 +1646,30 @@ label.error{
 }
 
 .bg-right-fluid,
-.bg-left-fluid{
+.bg-left-fluid {
 	padding-top: 3em;
 	padding-bottom: 3em;
 }
 
-.author-cite{
+.author-cite {
 	display: inline-block;
 	font-weight: 300;
-	margin-top: 1.2em;
+	margin-top: 1.25em;
+	font-weight: bold;
 }
 
-.about-cite-title{
-	font-size: 2.18em;
+.about-cite-title {
+	font-size: 2.25em;
 	line-height: 1.4;
 	font-weight: bold;
 }
 
-.title-about{
+.title-about {
 	font-size: 2.18em;
 	margin-bottom: 0.7em;
 }
 
-.row-about{
+.row-about {
 	margin-top: 2em;
 	font-size: 1.125em;
 	line-height: 2;
