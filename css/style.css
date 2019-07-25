@@ -3491,21 +3491,6 @@ footer .logo-footer{
 	margin-top: 100px;
 }
 
-/* Careers */
-
-.careers .careers-listing-title {
-	font-size: 1.25em;
-	margin-bottom: -12px;
-}
-
-.careers .row-about,
-.careers-border-bottom div {
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-top: 0;
-	padding-bottom: 0;
-}
-
 .main-about-2 .opener, .main-team .opener, .main-portfolio .opener {
 	max-width: 900px;
 	margin: 0 auto;
@@ -3514,23 +3499,6 @@ footer .logo-footer{
 .col-team .team-meta:hover {
 	cursor: pointer;
 	color: #2e6be8;
-}
-
-.careers-border-bottom p {
-	margin-top: 15px;
-	margin-bottom: 15px;
-}
-
-.careers-title {
-	color: #2e6be8;
-}
-
-.careers-border-bottom {
-	border-bottom: 1px #ddd solid;
-}
-
-.careers .careers-function {
-	margin-top: 70px;
 }
 
 .resources {
@@ -3754,4 +3722,36 @@ footer .email {
 .job-desc-offset {
 	padding-left: 15px;
 	padding-right: 15px;
+}
+
+@media (min-width: 992px) {
+	.careers .careers-listing-title {
+		font-size: 1.375em;
+		margin-bottom: -12px;
+	}
+}
+
+.careers .row-about,
+.careers-border-bottom div {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.careers-border-bottom p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.careers-title {
+	color: #2e6be8;
+}
+
+.careers-border-bottom {
+	border-bottom: 1px #ddd solid;
+}
+
+.careers .careers-function {
+	margin-top: 70px;
 }
