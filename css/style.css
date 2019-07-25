@@ -3724,7 +3724,7 @@ footer .email {
 	padding-right: 15px;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 991px) {
 	.careers .careers-listing-title {
 		font-size: 1.375em;
 		margin-bottom: -12px;
