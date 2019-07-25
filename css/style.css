@@ -1727,6 +1727,10 @@ label.error{
 	background-color: transparent;
 }
 
+.areas img {
+	max-width: 1200px;
+	width: 100%;
+}
 
 /* 4.2 Stats */
 
