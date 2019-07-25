@@ -3491,6 +3491,13 @@ footer .logo-footer{
 	margin-top: 100px;
 }
 
+/* Careers */
+
+.careers .careers-listing-title {
+	font-size: 1.25em;
+	margin-bottom: -12px;
+}
+
 .careers .row-about,
 .careers-border-bottom div {
 	margin-top: 0;
