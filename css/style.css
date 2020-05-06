@@ -3536,7 +3536,7 @@ footer .logo-footer{
 	background-color: #fafafa;
 }
 
-.careers a {
+.careers p {
 	color: #707070;
 }
 
@@ -3744,7 +3744,7 @@ footer .email {
 }
 
 .careers-title,
-.careers-border-bottom .col-md-5 {
+.col-md-5 a {
 	color: #2e6be8;
 }
 
