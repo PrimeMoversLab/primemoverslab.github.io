@@ -3730,13 +3730,6 @@ footer .email {
 	padding-right: 15px;
 }
 
-@media (max-width: 991px) {
-	.careers .careers-listing-title {
-		font-size: 1.375em;
-		margin-bottom: -12px;
-	}
-}
-
 .careers .row-about,
 .careers-border-bottom div {
 	margin-top: 0;
@@ -3750,7 +3743,8 @@ footer .email {
 	margin-bottom: 15px;
 }
 
-.careers-title {
+.careers-title,
+.careers-border-bottom a {
 	color: #2e6be8;
 }
 
@@ -3760,4 +3754,11 @@ footer .email {
 
 .careers .careers-function {
 	margin-top: 70px;
+}
+
+@media (max-width: 991px) {
+	.careers .careers-listing-title {
+		font-size: 1.375em;
+		margin-bottom: -12px;
+	}
 }
