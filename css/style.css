@@ -3744,7 +3744,7 @@ footer .email {
 }
 
 .careers-title,
-.careers-border-bottom a {
+.careers-border-bottom .col-md-5 {
 	color: #2e6be8;
 }
 
