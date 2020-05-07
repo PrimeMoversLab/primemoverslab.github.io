@@ -3755,15 +3755,15 @@ footer .email {
 	margin-top: 70px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
 	.careers .careers-listing-title {
 		font-size: 1.375em;
 		margin-bottom: -12px;
 	}
-	.careers-border-bottom .col-md-3 {
+	.careers-border-bottom .careers-listing-company {
 		margin-bottom: 0;
 	}
-	.careers-border-bottom .col-md-4 {
+	.careers-border-bottom .careers-listing-location {
 		margin-top: 0;
 	}
 }
