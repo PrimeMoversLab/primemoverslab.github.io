@@ -3537,16 +3537,16 @@ footer .logo-footer{
 	background-color: #fafafa;
 }
 
+.resources-inactive {
+	color: #9a9a9a;
+}
+
 .careers p {
 	color: #707070;
 }
 
 .careers a:hover {
 	color: #2e6be8;
-}
-
-.resources-inactive {
-	color: lightgray;
 }
 
 /* Modal */
