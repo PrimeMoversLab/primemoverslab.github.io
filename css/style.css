@@ -3508,10 +3508,6 @@ footer .logo-footer{
 	color: #2e6be8;
 }
 
-.resources {
-	margin-top: 50px;
-}
-
 .blog-margin-top {
 	margin-top: 95px;
 }
@@ -3533,12 +3529,19 @@ footer .logo-footer{
 	background-color: #2e6be8;
 }
 
+.resources {
+	margin-top: 50px;
+}
+
 .resources .blog {
 	background-color: #fafafa;
 }
 
 .resources-inactive {
 	color: #9a9a9a;
+}
+.resources-links-margin-top {
+	margin-top: 10px;
 }
 
 .careers p {
