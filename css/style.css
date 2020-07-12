@@ -3426,6 +3426,7 @@ footer .logo-footer{
 	float: left;
 }
 
+/* Stuff */
 .stat-number-pml{
 	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: bold;
@@ -3542,6 +3543,10 @@ footer .logo-footer{
 
 .careers a:hover {
 	color: #2e6be8;
+}
+
+.resources-inactive {
+	color: lightgray;
 }
 
 /* Modal */
