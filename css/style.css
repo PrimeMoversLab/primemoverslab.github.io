@@ -1353,6 +1353,11 @@ label.error{
 	background-size: cover;
 }
 
+.main-event-breakthrough2020{
+	background: url(/img/events/breakthrough2020.png) 50% 0 no-repeat;
+	background-size: cover;
+}
+
 .main-team{
 	background: url(/img/bg/bg-particles.gif) 50% 0 no-repeat;
 	background-size: cover;
