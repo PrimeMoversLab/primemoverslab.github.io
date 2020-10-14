@@ -2548,11 +2548,11 @@ img.mfp-img {
 	color: #3d3d3d;
 }
 
-.team-caption.white .social-list li a:hover{
+.team-caption.white .social-list li a:hover {
 	color: #2e6be8;
 }
 
-.team-meta{
+.team-meta {
 	opacity: 0;
 	position: absolute;
 	top: 50%;
@@ -2566,18 +2566,22 @@ img.mfp-img {
 	transition: all 0.3s ease-in;
 }
 
-.team-name{
+.team-pml .team-name {font-size: 1.125em;}
+
+.team-pml .team-spec {font-size: 1em;}
+
+.team-name {
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
 	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-.team-spec{
+.team-spec {
 	display: block;
 	margin-top: 1em;
 }
 
-.team-social{
+.team-social {
 	position: absolute;
 	left: 0;
 	width: 100%;
@@ -2585,11 +2589,11 @@ img.mfp-img {
 	text-align: center;
 }
 
-.team-social li a:hover{
+.team-social li a:hover {
 	color: #fff;
 }
 
-.team-profile:hover .team-caption{
+.team-profile:hover .team-caption {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	 -ms-transform: scale(1);
@@ -2597,7 +2601,7 @@ img.mfp-img {
 	 transform: scale(1);
 }
 
-.col-team:hover .team-meta{
+.col-team:hover .team-meta {
 	opacity: 1;
 	left: 0;
 }
