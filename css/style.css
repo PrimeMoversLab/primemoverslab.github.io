@@ -3647,10 +3647,6 @@ footer .logo-footer {
 
 /* RWD */
 
-.nav-desktop {display: block;}
-.nav-desktop-hidden {display: none;}
-
-
 @media (max-width: 992px){
 	.team .col-lg-15, .team .col-lg-16 {width: 50%;}
 	.team-name, .team-spec {font-size: 1.25em;}
@@ -3664,8 +3660,6 @@ footer .logo-footer {
 		letter-spacing: 0.2em;
 		text-transform: uppercase;
 	}
-	.nav-desktop {display: none;}
-	.nav-desktop-hidden {display: block;}
 }
 
 @media (max-width: 768px){
