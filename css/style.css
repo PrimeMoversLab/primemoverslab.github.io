@@ -787,8 +787,8 @@ label.error{
 	border-bottom: 0;
 }
 
-.navbar-responsive .navbar-toggle{
-	/* display: block; */
+.navbar-responsive .navbar-toggle {
+	display: block;
 	margin-right: 0;
 }
 
