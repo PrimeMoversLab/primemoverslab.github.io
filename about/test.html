@@ -5,6 +5,9 @@
 		var host = "www.primemoverslab.com"
 		if (window.location.host == host && window.location.protocol != "https:") {window.location.protocol = "https:"}
 	</script>
+
+	<!-- No bots indexing -->
+	<meta name="robots" content="noindex">
 	<meta property="og:title" content="Prime Movers Lab">
 	<meta property="og:description" content="Backing breakthrough scientific inventions transforming billions of lives">
 	<meta property="og:image" content="https://www.primemoverslab.com/thumbnail-og.png">
@@ -56,26 +59,49 @@
 				<img class="logo-icon" src="/img/primemoverslab-icon.svg">
 			</a>
 
-			<!-- Navbar Collapse -->
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+			<!-- Nav Desktop -->
+
+			<button type="button" class="navbar-toggle collapsed nav-desktop" data-toggle="collapse" data-target="#nav-collapse">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-
-			<!-- Navigation Mobile -->
-			<nav class="nav-mobile">
+			<ul class="nav-desktop" id="nav-li-list">
+				<li><a href="/team">Team</a></li>
+				<li><a href="/portfolio">Portfolio</a></li>
+				<li><a href="/press">Press</a></li>
+				<li><a href="/ideas">Ideas</a></li>
+			</ul>
+			<nav class="nav-mobile nav-desktop" style="z-index: 999;">
 				<div class="collapse" id="nav-collapse"> 
 					<ul class="nav-mobile-list">
 						<li><a href="/about">About</a></li>
-						<li><a href="/portfolio">Portfolio</a></li>
-						<li><a href="/team">Team</a></li>
 						<li><a href="/careers">Careers</a></li>
-						<li><a href="/resources">Resources</a></li>
 						<li><a href="https://medium.com/prime-movers-lab" target="_blank">Blog</a></li>
 					</ul>
 				</div>
-			</nav> 
+			</nav>
+
+			<!-- Nav Mobile -->
+
+			<button type="button" class="navbar-toggle collapsed nav-desktop-hidden" data-toggle="collapse" data-target="#nav-mobile-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<nav class="nav-mobile nav-desktop-hidden">
+				<div class="collapse" id="nav-mobile-collapse"> 
+					<ul class="nav-mobile-list">
+						<li><a href="/team">Team</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/press">Press</a></li>
+						<li><a href="/ideas">Ideas</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/careers">Careers</a></li>
+						<li><a href="https://medium.com/prime-movers-lab" target="_blank">Blog</a></li>
+					</ul>
+				</div>
+			</nav>
 		</div>
 	</header>
 
@@ -212,12 +238,13 @@
 						</a>
 					</div>
 					<div class="col-contacts col-base col-sm-6 col-md-3">
-						<ul class="nav-bottom">
-							<li><a href="/about">About</a></li>
-							<li><a href="/portfolio">Portfolio</a></li>
+						<ul class="nav-bottom">	
 							<li><a href="/team">Team</a></li>
+							<li><a href="/portfolio">Portfolio</a></li>
+							<li><a href="/press">Press</a></li>
+							<li><a href="/ideas">Ideas</a></li>
+							<li><a href="/about">About</a></li>
 							<li><a href="/careers">Careers</a></li>
-							<li><a href="/resources">Resources</a></li>
 							<li><a href="https://medium.com/prime-movers-lab" target="_blank">Blog</a></li>
 							<li><a href="https://docsend.com/view/s/g2h4i5bjzp">LP Portal</a></li>
 						</ul>
@@ -247,7 +274,7 @@
 			<div class="footer-bottom">
 				<div class="container">
 					<div class="copyrights">
-						©2020 Prime Movers Lab. All Rights Reserved.
+						©2021 Prime Movers Lab. All Rights Reserved.
 					</div>
 					<ul class="social-list">
 						<li><a href="https://www.linkedin.com/company/prime-movers-lab" class="fa fa-linkedin"></a></li>
