@@ -37,28 +37,9 @@
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
 		gtag('config', 'UA-158055162-1');
-
-		$(
-			function() {
-				const bgv = $('#bgvid');
-				if (bgv.is(':visible')) {
-					$('source', bgv).each(
-						function() {
-							const el = $(this);
-							el.attr('src', el.data('src'));
-						}
-					);
-					bgv[0].load();
-				}
-			}
-		)
 	</script>
 	<style>
 		html, body {overscroll-behavior-x: none; width: 100%; overflow-x: hidden;}
-		.hidden-xs {display: none;}
-		@media screen and (max-width: 992px) {
-			.hidden-xs {display: block;}
-		}
 	</style>
 </head>
 <body>
@@ -127,13 +108,10 @@
 		
 	<!-- Home -->
 	<main class="main main-full main-video">
-		<video id="bgvid" class="home-video video-desktop hidden-xs" autoplay loop muted poster="/video/future-home.png">
+		<video id="bgvid" class="home-video" autoplay loop muted poster="/video/future-home.png">
 			<source data-src="/video/540.mp4" type="video/mp4">
 			<source data-src="/video/540.webm" type="video/webm">
 		</video>
-		<div class="home-video video-desktop-hidden">
-			<img src="/video/future-home-mobile.png" style="width:auto;">
-		</div>
 		<div class="container">
 			<div class="opener">
 				<div class="row">
