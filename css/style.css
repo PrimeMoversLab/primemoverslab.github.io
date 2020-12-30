@@ -3805,6 +3805,6 @@ footer .email {
 
 
 @media (max-width: 992px){
-	.nav-desktop {display: none;}
-	.nav-desktop-hidden {display: block;}
+	.nav-desktop, .video-desktop {display: none;}
+	.nav-desktop-hidden, .video-desktop-hidden {display: block;}
 }
