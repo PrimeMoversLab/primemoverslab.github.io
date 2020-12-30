@@ -3527,7 +3527,8 @@ footer .logo-footer {
 }
 
 .resources {
-	margin-top: 50px;
+	/** margin-top: 50px; **/
+	padding-top: 175px;
 }
 
 .resources .blog {
