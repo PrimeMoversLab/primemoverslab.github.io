@@ -56,7 +56,7 @@
 	<style>
 		html, body {overscroll-behavior-x: none; width: 100%; overflow-x: hidden;}
 		.hidden-xs {display: none;}
-		@media screen and (max-width: 900px) {
+		@media screen and (max-width: 992px) {
 			.hidden-xs {display: block;}
 		}
 	</style>
@@ -127,10 +127,13 @@
 		
 	<!-- Home -->
 	<main class="main main-full main-video">
-		<video id="bgvid" class="home-video hidden-xs" autoplay loop muted poster="/video/future-home.png">
+		<video id="bgvid" class="home-video video-desktop hidden-xs" autoplay loop muted poster="/video/future-home.png">
 			<source data-src="/video/540.mp4" type="video/mp4">
 			<source data-src="/video/540.webm" type="video/webm">
 		</video>
+		<div class="home-video video-desktop-hidden">
+			<source data-src="/video/future-home.png">
+		</div>
 		<div class="container">
 			<div class="opener">
 				<div class="row">
