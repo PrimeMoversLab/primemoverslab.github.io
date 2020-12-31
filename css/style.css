@@ -3800,11 +3800,11 @@ footer .email {
 .nav-mobile-list {
 	text-align: right;
 }
-.nav-deskto, .video-desktopp {display: block;}
-.nav-desktop-hidden, .video-desktop-hidden {display: none;}
+.nav-desktop {display: block;}
+.nav-desktop-hidden {display: none;}
 
 
 @media (max-width: 992px){
-	.nav-desktop, .video-desktop {display: none;}
-	.nav-desktop-hidden, .video-desktop-hidden {display: block;}
+	.nav-desktop {display: none;}
+	.nav-desktop-hidden {display: block;}
 }
