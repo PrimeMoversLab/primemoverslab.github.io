@@ -5,6 +5,7 @@
 		var host = "www.primemoverslab.com"
 		if (window.location.host == host && window.location.protocol != "https:") {window.location.protocol = "https:"}
 	</script>
+
 	<meta property="og:title" content="Prime Movers Lab">
 	<meta property="og:description" content="Backing breakthrough scientific inventions transforming billions of lives">
 	<meta property="og:image" content="https://www.primemoverslab.com/thumbnail-og.png">
@@ -25,14 +26,6 @@
 	<!-- Styles -->
 	<link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
 	<link href="/css/style.css" rel="stylesheet" media="screen">
-	<style>
-		@media (min-width: 992px){
-			.isotope .isotope-item {width: 50%;}
-		}
-		.showcase-video {padding-top: 70px;}
-		.showcase-color, .showcase-color:hover, .showcase-color:focus {color: white;}
-		.navbar-responsive .navbar-toggle {display: block;}
-	</style>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158055162-1"></script>
@@ -42,6 +35,9 @@
 		gtag('js', new Date());
 		gtag('config', 'UA-158055162-1');
 	</script>
+	<style>
+		html, body {overscroll-behavior-x: none; width: 100%; overflow-x: hidden;}
+	</style>
 </head>
 <body>
 
@@ -62,485 +58,446 @@
 			</a>
 
 			<!-- Navbar Collapse -->
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+			<button type="button" class="navbar-toggle collapsed nav-desktop" data-toggle="collapse" data-target="#nav-collapse">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-
-			<!-- Navigation Mobile -->
-			<nav class="nav-mobile">
+			<ul class="nav-desktop" id="nav-li-list">
+				<li><a href="/team">Team</a></li>
+				<li><a href="/portfolio">Portfolio</a></li>
+				<li><a href="/press">Press</a></li>
+				<li><a href="/ideas">Ideas</a></li>
+			</ul>
+			<nav class="nav-mobile nav-desktop" style="z-index: 999;">
 				<div class="collapse" id="nav-collapse"> 
 					<ul class="nav-mobile-list">
 						<li><a href="/about">About</a></li>
-						<li><a href="/portfolio">Portfolio</a></li>
-						<li><a href="/team">Team</a></li>
 						<li><a href="/careers">Careers</a></li>
-						<li><a href="/resources">Resources</a></li>
 						<li><a href="https://medium.com/prime-movers-lab" target="_blank">Blog</a></li>
 					</ul>
 				</div>
-			</nav> 
+			</nav>
+
+			<!-- Nav Mobile -->
+
+			<button type="button" class="navbar-toggle collapsed nav-desktop-hidden" data-toggle="collapse" data-target="#nav-mobile-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<nav class="nav-mobile nav-desktop-hidden">
+				<div class="collapse" id="nav-mobile-collapse"> 
+					<ul class="nav-mobile-list">
+						<li><a href="/team">Team</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/press">Press</a></li>
+						<li><a href="/ideas">Ideas</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/careers">Careers</a></li>
+						<li><a href="https://medium.com/prime-movers-lab" target="_blank">Blog</a></li>
+					</ul>
+				</div>
+			</nav>
 		</div>
 	</header>
 
 	<!-- Portfolio -->
-	<main class="main main-inner main-portfolio" data-stellar-background-ratio="0.8">
-		<div class="container">
-			<div class="opener">
-				<h1>Portfolio</h1>
-				<h3>Anyone who fights for the future, lives in it today</h3>
-			</div>
-		</div>
-	</main>
-
-	<!-- Investments -->
 	<div class="content">
-		<section class="portfolio">
-			<div class="container">
-				<div class="row">
-					<header class="text-center col-md-8 col-md-offset-2">
-						<h2 class="section-title-2">Investments</h2>
-					</header>
-				</div>
-				<div class="isotope isotope-padding">
-					<div class="isotope-item">
-						<a href="https://momentus.space" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/momentus.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a href="https://www.youtube.com/watch?v=p6rOlfUerwo" class="icon-video-section js-video-play">
-											<i class="ion-ios-play"></i>
-										</a>
-										<a class="showcase-color" href="https://momentus.space" target="_blank">
-											<div class="showcase-item-category showcase-video">MOMENTUS</div>
-											<div class="showcase-item-title">Revolutionary Space Transit</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
+		<section class="team section pb-0" style="padding-top:3em;">
+			<div class="section-content">
+				<!-- row -->
+				<div class="row clearfix">
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-momentus.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://momentus.space" target="_blank">
+										<strong class="team-name">Momentus</strong>
+										<span class="team-spec">Revolutionary Space Transit</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
 					</div>
-					<div class="isotope-item">
-						<a href="https://heliogen.com" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/heliogen.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a href="https://www.youtube.com/watch?v=wxmo5qQnhwU" class="icon-video-section js-video-play">
-											<i class="ion-ios-play"></i>
-										</a>
-										<a class="showcase-color" href="https://heliogen.com" target="_blank">
-											<div class="showcase-item-category showcase-video">HELIOGEN</div>
-											<div class="showcase-item-title">Solar for Industrial Heat</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-heliogen.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://heliogen.com" target="_blank">
+										<strong class="team-name">Heliogen</strong>
+										<span class="team-spec">Solar for Industrial Heat</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
 					</div>
-					<div class="isotope-item">
-						<a href="https://www.covaxx.com" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/covaxx.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color" href="https://www.covaxx.com" target="_blank">
-											<div class="showcase-item-category">COVAXX</div>
-											<div class="showcase-item-title">Coronavirus Diagnostic and Vaccine</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-covaxx.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://www.covaxx.com" target="_blank">
+										<strong class="team-name">COVAXX</strong>
+										<span class="team-spec">Coronavirus Diagnostic and Vaccine</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
 					</div>
-					<div class="isotope-item">
-						<a href="http://www.halo-industries.com" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/halo.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a href="https://www.youtube.com/watch?v=vtnhVcXS4RE" class="icon-video-section js-video-play">
-											<i class="ion-ios-play"></i>
-										</a>
-										<a class="showcase-color" href="http://www.halo-industries.com" target="_blank">
-											<div class="showcase-item-category showcase-video">HALO</div>
-											<div class="showcase-item-title">Cutting-Edge Semiconductor Manufacturing</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="https://seedandroe.com" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/upward-farms.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a href="https://www.youtube.com/watch?v=8PQsH6wuKag" class="icon-video-section js-video-play">
-											<i class="ion-ios-play"></i>
-										</a>
-										<a class="showcase-color" href="https://eatupwardfarms.com" target="_blank">
-											<div class="showcase-item-category showcase-video">UPWARD FARMS</div>
-											<div class="showcase-item-title">Sustainable Aquaponic Farming</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="https://www.taranawireless.com" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/tarana.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color" href="https://www.taranawireless.com" target="_blank">
-											<div class="showcase-item-category">TARANA</div>
-											<div class="showcase-item-title">Fixed Wireless Access</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="https://flypyka.com" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/pyka.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a href="https://www.youtube.com/watch?v=dNqRoqLW8CU" class="icon-video-section js-video-play">
-											<i class="ion-ios-play"></i>
-										</a>
-										<a class="showcase-color" href="https://flypyka.com" target="_blank">
-											<div class="showcase-item-category showcase-video">PYKA</div>
-											<div class="showcase-item-title">Autonomous Electric Airplanes</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="https://energyvault.com" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/energy-vault.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color" href="https://energyvault.com" target="_blank">
-											<div class="showcase-item-category">ENERGY VAULT</div>
-											<div class="showcase-item-title">Gravity-Based Grid Scale Energy Storage</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="https://www.flyarcher.com" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/archer.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color" href="https://www.flyarcher.com" target="_blank">
-											<div class="showcase-item-category">ARCHER</div>
-											<div class="showcase-item-title">Advanced Air Mobility</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="https://flypyka.com" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/nelumbo.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color" href="https://www.nelumbo.io" target="_blank">
-											<div class="showcase-item-category">NELUMBO</div>
-											<div class="showcase-item-title">Nanostructured Materials</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="https://flypyka.com" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/space-perspective.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color" href="https://thespaceperspective.com" target="_blank">
-											<div class="showcase-item-category">SPACE PERSPECTIVE</div>
-											<div class="showcase-item-title">Edge of Space Travel</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="https://www.elevian.com" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/elevian.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color" href="https://www.elevian.com" target="_blank">
-											<div class="showcase-item-category">ELEVIAN</div>
-											<div class="showcase-item-title">Regenerative Medicines for Age-Related Diseases</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="https://www.unlimitedtomorrow.com" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/unlimitedtomorrow.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color" href="https://www.unlimitedtomorrow.com" target="_blank">
-											<div class="showcase-item-category">UNLIMITED TOMORROW</div>
-											<div class="showcase-item-title">Advanced Prosthetic Devices</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a>
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/carbon-capture.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color">
-											<div class="showcase-item-category">CARBON CAPTURE</div>
-											<div class="showcase-item-title">Cost-Effectively Removing CO<sub>2</sub> From the Atmosphere</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="https://www.platypusneuro.com" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/optios.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color" href="https://www.optios.com" target="_blank">
-											<div class="showcase-item-category">OPTIOS</div>
-											<div class="showcase-item-title">Neuro-Performance Enhancement</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="http://polyspectra.com" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/polyspectra.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color" href="https://polyspectra.com" target="_blank">
-											<div class="showcase-item-category">POLYSPECTRA</div>
-											<div class="showcase-item-title">3D Printing for Manufacturing</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="https://noble.ai" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/noble.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color" href="https://noble.ai" target="_blank">
-											<div class="showcase-item-category">NOBLE.AI</div>
-											<div class="showcase-item-title">Reduce R&D Costs with AI</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="https://www.lifekind.ai" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/lifekind.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color" href="https://www.lifekind.ai" target="_blank">
-											<div class="showcase-item-category">LIFEKIND</div>
-											<div class="showcase-item-title">Lifelike AI Personas</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="https://idealabstudio.com">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/idealab-studio.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color" href="https://idealabstudio.com">
-											<div class="showcase-item-category">IDEALAB STUDIO</div>
-											<div class="showcase-item-title">World’s Leading Startup Incubator</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a href="http://www.gordian.bio" target="_blank">
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/gordian.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color" href="https://www.gordian.bio" target="_blank">
-											<div class="showcase-item-category">GORDIAN</div>
-											<div class="showcase-item-title">Untangle Complex Disease</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a>
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/blank.png"></div>
-								<figcaption class="">
-									<div class="showcase-item-info">
-										<a class="showcase-color">
-											<div class="showcase-item-category"></div>
-											<div class="showcase-item-title"></div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
-					</div>
-					<div class="isotope-item">
-						<a>
-							<figure class="showcase-item">
-								<div class="showcase-item-thumbnail"><img src="/img/portfolio/flowing-energy.png"></div>
-								<figcaption class="showcase-item-hover">
-									<div class="showcase-item-info">
-										<a class="showcase-color">
-											<div class="showcase-item-category">FLOWING ENERGY</div>
-											<div class="showcase-item-title">Scalable Affordable Stirling Engines</div>
-										</a>
-									</div>
-								</figcaption>
-							</figure>
-						</a>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-upwardfarms.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://eatupwardfarms.com" target="_blank">
+										<strong class="team-name">Upward Farms</strong>
+										<span class="team-spec">Sustainable Aquaponic Farming</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
 					</div>
 				</div>
-			</div>
-		</section>
-
-		<!-- Quotes -->
-		<!--
-		<section class="partners">
-			<div class="container">
-				<div class="row">
-					<header class="text-center col-md-8 col-md-offset-2">
-						<h2 class="section-title-2" style="padding-top: 60px;">Founder Testimonials</h2>
-					</header>
-				</div>
-				<div class="js-partners-carousel">
-					<div class="partner">
-						<img src="/img/portfolio/mikhail-kokorich.png">
-						<p class="portfolio-founder">Mikhail Kokorich</p>
-						<p class-"portfolio-title">CEO of Momentus</p>
-						<p class="portfolio-quote">Prime Movers Lab has been deeply supportive and we feel the partnership. I am very grateful for help on the small stuff and big picture strategy. It has even helped me to create my style and approach. I like our consistent conversations and that we are well synchronized on our milestones and plans. I feel I am not alone. Decker is also helping us a lot. He helped me address some topics with my business partner that further deepened our relationship. I also think he coached me to reframe and explain some of my decisions to our team better. I am finding it very helpful.</p>
+				<!-- end row -->
+				<!-- row -->
+				<div class="row clearfix">
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-halo.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="http://www.halo-industries.com" target="_blank">
+										<strong class="team-name">Halo Industries</strong>
+										<span class="team-spec">Cutting-Edge Semiconductor Manufacturing</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
 					</div>
-					<div class="partner">
-						<img src="/img/portfolio/bill-gross.png">
-						<p class="portfolio-founder">Bill Gross</p>
-						<p class-"portfolio-title">CEO of Heliogen</p>
-						<p class="portfolio-quote">Dakin and Prime Movers Lab are a very different kind of investor than any I have had in the past 30 years. What sets them apart in an entirely different (and better) category is how smart, helpful, and humble they are. They took the time to understand our business and technology better than anyone else, and thus were able to add more value. They also are thought leaders – and leaders in general – not looking to others for social proof – they are bold enough and smart enough to be strong and supportive backers. Finally, and on top of all of that, they share my goal of making the world a better place, and I very much look forward to doing just that with them.</p>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-tarana.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://www.taranawireless.com" target="_blank">
+										<strong class="team-name">Tarana</strong>
+										<span class="team-spec">Fixed Wireless Access</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
 					</div>
-					<div class="partner">
-						<img src="/img/portfolio/jason-green.png">
-						<p class="portfolio-founder">Jason Green</p>
-						<p class-"portfolio-title">CEO of Upward Farms</p>
-						<p class="portfolio-quote">Dakin is described by successful, serial CEOs in the PML portfolio as a brilliant business strategist and their most valuable thought partner (a function of equal parts intellect and openness), the only investor with whom they conduct (and benefit from!) weekly conversations, and always acting in service to the company. My own experiences with Dakin have exceeded even these high expectations. Also, the firm at large is stacked with talent – design, engineering, executive coaching, and more. Beyond just being capital partners, PML truly stands out as a cross-functional agency that will be a force multiple for our own talent.</p>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-boom.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://cfs.energy" target="_blank">
+										<strong class="team-name">Boom</strong>
+										<span class="team-spec">Supersonic Airliner</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
 					</div>
-					<div class="partner">
-						<img src="/img/portfolio/mei-mei-hu.png">
-						<p class="portfolio-founder">Mei Mei Hu</p>
-						<p class-"portfolio-title">CEO of Covaxx</p>
-						<p class="portfolio-quote">Prime Movers Lab is a truly different type of investor and an invaluable partner. The team is a group of superhero trouble shooters and offer untold amounts of strategic insight, support, and engagement. They recognized our vision to transform billions of lives and our strategic needs from an investor and were fair and extremely rapid in addressing them. We have built numerous companies and have never had such a thoughtful, connected, and invested partner.</p>
-					</div>
-					<div class="partner">
-						<img src="/img/portfolio/michael-norcia.png">
-						<p class="portfolio-founder">Michael Norcia</p>
-						<p class-"portfolio-title">CEO of Pyka</p>
-						<p class="portfolio-quote">We chose Prime Movers Lab to lead our round because of their background and focus on deep, ambitious hardware-based tech, as well as their ability to provide us with a wide range of support. On the tech side of things, they have helped us create high level technical goals that are a good blend of ambitious and realistic. In terms of support, they have proven to be an invaluable sounding board for almost every category of company decision, from coming up with effective hiring processes, to helping cultivate personal growth within our leadership team.</p>
-					</div>
-					<div class="partner">
-						<img src="/img/portfolio/liam-berryman.png">
-						<p class="portfolio-founder">Liam Berryman</p>
-						<p class-"portfolio-title">CEO of Nelumbo</p>
-						<p class="portfolio-quote">Prime Mover's Lab is the breakthrough venture capital partnership of our time. Their approach casts a clear signal and addresses a monumental market opportunity. By focusing on hard problems, partnering for the long term, and devoting themselves to the development of their founders, this fund has successfully tapped into a wave of entrepreneurial energy that is changing the industries that touch our lives every day. Helping these companies to succeed will address some of the largest problems keeping our society from a sustainable, equitable, and prosperous future for all. I can think of no better opportunity than the chance to work with Prime Mover's Lab.</p>
-					</div>
-					<div class="partner">
-						<img src="/img/portfolio/david-bach.png">
-						<p class="portfolio-founder">David Bach</p>
-						<p class-"portfolio-title">CEO of Optios</p>
-						<p class="portfolio-quote">I can honestly report that the Prime Movers team has offered value to both myself and our company in a manner that I’ve never before experienced. In addition to offering us access to their minds and rolodex, Prime Movers proactively interacts with our company as if we are their customer, and as if their only job is to do whatever is needed to ensure that we are wildly successful. As of this writing, Dakin has had a flawless investment track record. Now that I've had the chance to work with him directly, I think I may understand how he's been able to beat the odds here.</p>
-					</div>
-					<div class="partner">
-						<img src="/img/portfolio/andrei-iancu.png">
-						<p class="portfolio-founder">Andrei Iancu</p>
-						<p class-"portfolio-title">CEO of Halo</p>
-						<p class="portfolio-quote">We are incredibly excited to partner with PML because of how impressed we quickly became by the experience, work ethic and service mindset of their entire team. We're not only strong believers in PML's core thesis on the potential of physics-powered start-ups, but also in the ability of the PML team to execute and add value. Although we had a number of offers, some that even provided a higher valuation, we felt that the complete package offered by PML was a strong differentiator and we are looking forward to working together to improve the lives of billions across the world.</p>
-					</div>
-					<div class="partner">
-						<img src="/img/portfolio/easton-lachapelle.png">
-						<p class="portfolio-founder">Easton LaChapelle</p>
-						<p class-"portfolio-title">CEO of Unlimited Tomorrow</p>
-						<p class="portfolio-quote">Unlimited Tomorrow's core philosophy is to democratize assistive technology across the world, which involves creating deep and meaningful partnerships. We look at our investors as true partners, and Prime Movers Lab exemplifies this perfectly. The Prime Movers Lab team empowers me as CEO and our company as a whole so we can outperform and overdeliver.</p>
-					</div>
-					<div class="partner">
-						<img src="/img/portfolio/ray-weitekamp.png">
-						<p class="portfolio-founder">Ray Weitekamp</p>
-						<p class-"portfolio-title">CEO of polySpectra</p>
-						<p class="portfolio-quote">We chose Prime Movers Lab to lead our seed round because of their commitment to supporting deep tech founders. We resonate with their physics-focused thesis and were impressed by the depth of their technical diligence. We are excited to partner with them and have already started to benefit from their excellent founder resources, which they are continuously improving. Simply put, we picked Prime Movers Lab because they have their priorities straight.</p>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-energyvault.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://energyvault.com" target="_blank">
+										<strong class="team-name">Energy Vault</strong>
+										<span class="team-spec">Gravity-Based Grid Scale Energy Storage</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
 					</div>
 				</div>
-			</div>
-		</section>
-		-->
-
-		<!-- Banner -->
-		<section class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-8 col-md-offset-2">
-						<div class="banner banner-blue">
-							<div class="banner-content">
-								<p class="banner-text">If you are a <i>Prime Mover</i> with a growth mentality and breakthrough inventions in physics, we want to learn about you and help you to realize your ambitious plans to revolutionize the most important industries in the world.</p>
-								<a href="mailto:contact@primemoverslab.com" class="btn btn-white">Contact Us</a>
-							</div>
-						</div>
+				<!-- end row -->
+				<!-- row -->
+				<div class="row clearfix">
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-pyka.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://www.flypyka.com" target="_blank">
+										<strong class="team-name">Pyka</strong>
+										<span class="team-spec">Autonomous Electric Airplanes</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-spaceperspective.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://thespaceperspective.com" target="_blank">
+										<strong class="team-name">Space Perspective</strong>
+										<span class="team-spec">Edge of Space Travel</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-commonwealthfusion.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://cfs.energy" target="_blank">
+										<strong class="team-name">Commonwealth Fusion</strong>
+										<span class="team-spec">Clean & Limitless Fusion Energy</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-axiom.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://www.axiomspace.com" target="_blank">
+										<strong class="team-name">Axiom Space</strong>
+										<span class="team-spec">Thriving Home in Space</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
 					</div>
 				</div>
+				<!-- end row -->
+				<!-- row -->
+				<div class="row clearfix">
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-turntide.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://turntide.com" target="_blank">
+										<strong class="team-name">Turntide</strong>
+										<span class="team-spec">World's Most Efficient Motor</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-epirus.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://www.epirusinc.com" target="_blank">
+										<strong class="team-name">Epirus</strong>
+										<span class="team-spec">Modern Defense Systems</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-archer.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://www.flyarcher.com" target="_blank">
+										<strong class="team-name">Archer</strong>
+										<span class="team-spec">Advanced Air Mobility</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-spartan.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://www.spartanradar.com" target="_blank">
+										<strong class="team-name">Spartan</strong>
+										<span class="team-spec">Next Generation Radar</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end row -->
+				<!-- row -->
+				<div class="row clearfix">
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-diamondage.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://www.diamondage.us" target="_blank">
+										<strong class="team-name">Diamond Age</strong>
+										<span class="team-spec">Full Stack Robotic Construction Technology</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-unlimitedtomorrow.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://www.unlimitedtomorrow.com" target="_blank">
+										<strong class="team-name">Unlimited Tomorrow</strong>
+										<span class="team-spec">Advanced Prosthetic Devices</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-elevian.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://www.elevian.com" target="_blank">
+										<strong class="team-name">Elevian</strong>
+										<span class="team-spec">Regenerative Medicines for Age-Related Diseases</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-carboncapture.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="#">
+										<strong class="team-name">Carbon Capture</strong>
+										<span class="team-spec">Cost-Effectively Removing CO<sub>2</sub> From the Atmosphere</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end row -->
+				<!-- row -->
+				<div class="row clearfix">
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-polyspectra.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://polyspectra.com" target="_blank">
+										<strong class="team-name">PolySpectra</strong>
+										<span class="team-spec">3D Printing for Manufacturing</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-noble.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://noble.ai" target="_blank">
+										<strong class="team-name">Noble.AI</strong>
+										<span class="team-spec">Reduce R&D Costs with AI</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-optios.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://optios.com" target="_blank">
+										<strong class="team-name">Optios</strong>
+										<span class="team-spec">Neuro-Performance Enhancement</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-nelumbo.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://www.nelumbo.io" target="_blank">
+										<strong class="team-name">Nelumbo</strong>
+										<span class="team-spec">Nanostructured Materials</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end row -->
+				<!-- row -->
+				<div class="row clearfix">
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-idealabstudio.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://idealabstudio.com" target="_blank">
+										<strong class="team-name">Idealab Studio</strong>
+										<span class="team-spec">World’s Leading Startup Incubator</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-gordian.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://www.gordian.bio" target="_blank">
+										<strong class="team-name">Gordian</strong>
+										<span class="team-spec">Untangle Complex Disease</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-flowingenergy.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="#">
+										<strong class="team-name">Flowing Energy</strong>
+										<span class="team-spec">Scalable Affordable Stirling Engines</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/portfolio/tile-lifekind.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://www.lifekind.ai" target="_blank">
+										<strong class="team-name">Lifekind</strong>
+										<span class="team-spec">Lifelike AI Personas</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+				<!-- end row -->
 			</div>
 		</section>
 
@@ -554,12 +511,13 @@
 						</a>
 					</div>
 					<div class="col-contacts col-base col-sm-6 col-md-3">
-						<ul class="nav-bottom">
-							<li><a href="/about">About</a></li>
-							<li><a href="/portfolio">Portfolio</a></li>
+						<ul class="nav-bottom">	
 							<li><a href="/team">Team</a></li>
+							<li><a href="/portfolio">Portfolio</a></li>
+							<li><a href="/press">Press</a></li>
+							<li><a href="/ideas">Ideas</a></li>
+							<li><a href="/about">About</a></li>
 							<li><a href="/careers">Careers</a></li>
-							<li><a href="/resources">Resources</a></li>
 							<li><a href="https://medium.com/prime-movers-lab" target="_blank">Blog</a></li>
 							<li><a href="https://docsend.com/view/s/g2h4i5bjzp">LP Portal</a></li>
 						</ul>
@@ -589,7 +547,7 @@
 			<div class="footer-bottom">
 				<div class="container">
 					<div class="copyrights">
-						©2020 Prime Movers Lab. All Rights Reserved.
+						©2021 Prime Movers Lab. All Rights Reserved.
 					</div>
 					<ul class="social-list">
 						<li><a href="https://www.linkedin.com/company/prime-movers-lab" class="fa fa-linkedin"></a></li>
@@ -629,6 +587,6 @@
 	<script src="/js/rev-slider/revolution.extension.parallax.min.js"></script>
 	<script src="/js/rev-slider/revolution.extension.slideanims.min.js"></script>
 	<script src="/js/rev-slider/revolution.extension.video.min.js"></script>
-	<script src="/js/interface.js"></script>
+	<script src="/js/interface.js"></script> 
 </body>
 </html>
