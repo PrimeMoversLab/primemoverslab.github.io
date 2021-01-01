@@ -5,6 +5,7 @@
 		var host = "www.primemoverslab.com"
 		if (window.location.host == host && window.location.protocol != "https:") {window.location.protocol = "https:"}
 	</script>
+
 	<meta property="og:title" content="Prime Movers Lab">
 	<meta property="og:description" content="Backing breakthrough scientific inventions transforming billions of lives">
 	<meta property="og:image" content="https://www.primemoverslab.com/thumbnail-og.png">
@@ -33,9 +34,13 @@
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
 		gtag('config', 'UA-158055162-1');
+
+		if (isMobile) {
+			$(".home-video").find('video').attr('poster', '/video/future-home-mobile.png');
+		}
 	</script>
 	<style>
-		.navbar-responsive .navbar-toggle {display: block;}
+		html, body {overscroll-behavior-x: none; width: 100%; overflow-x: hidden;}
 	</style>
 </head>
 <body>
@@ -56,46 +61,64 @@
 				<img class="logo-icon" src="/img/primemoverslab-icon.svg">
 			</a>
 
-			<!-- Navbar Collapse -->
+			<!-- Nav Desktop -->
 
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-collapse">
+			<button type="button" class="navbar-toggle collapsed nav-desktop" data-toggle="collapse" data-target="#nav-collapse">
 				<span class="sr-only">Toggle navigation</span>
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-
-			<!-- Navigation Mobile -->
-			<nav class="nav-mobile">
+			<ul class="nav-desktop" id="nav-li-list">
+				<li><a href="/team">Team</a></li>
+				<li><a href="/portfolio">Portfolio</a></li>
+				<li><a href="/press">Press</a></li>
+				<li><a href="/ideas">Ideas</a></li>
+			</ul>
+			<nav class="nav-mobile nav-desktop" style="z-index: 999;">
 				<div class="collapse" id="nav-collapse"> 
 					<ul class="nav-mobile-list">
 						<li><a href="/about">About</a></li>
-						<li><a href="/portfolio">Portfolio</a></li>
-						<li><a href="/team">Team</a></li>
 						<li><a href="/careers">Careers</a></li>
-						<li><a href="/resources">Resources</a></li>
 						<li><a href="https://medium.com/prime-movers-lab" target="_blank">Blog</a></li>
 					</ul>
 				</div>
-			</nav> 
+			</nav>
+
+			<!-- Nav Mobile -->
+
+			<button type="button" class="navbar-toggle collapsed nav-desktop-hidden" data-toggle="collapse" data-target="#nav-mobile-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<nav class="nav-mobile nav-desktop-hidden">
+				<div class="collapse" id="nav-mobile-collapse"> 
+					<ul class="nav-mobile-list">
+						<li><a href="/team">Team</a></li>
+						<li><a href="/portfolio">Portfolio</a></li>
+						<li><a href="/press">Press</a></li>
+						<li><a href="/ideas">Ideas</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/careers">Careers</a></li>
+						<li><a href="https://medium.com/prime-movers-lab" target="_blank">Blog</a></li>
+					</ul>
+				</div>
+			</nav>
 		</div>
 	</header>
 		
 	<!-- Home -->
-	<main class="main main-full main-agency">
-	<!-- <main class="main main-full main-video">
-		<video class="home-video" autoplay loop muted poster="/video/poster.png">
-			<source src="/video/cern-xs.mp4" type="video/mp4">
-			<source src="/video/cern-xs.webm" type="video/webm">
+	<main class="main main-full main-video">
+		<video class="home-video" autoplay loop muted poster="/video/future-home-mobile.png">
+			<source src="/video/540.mp4" type="video/mp4">
+			<source src="/video/540.webm" type="video/webm">
 		</video>
-	-->
 		<div class="container">
 			<div class="opener">
 				<div class="row">
 					<div class="col-md-9 text-left-md">
 						<h1>Funding Breakthrough Scientific Startups</h1>
-						<div class="lead-hr wow fadeInLeft"></div>
-						<p class="lead wow fadeInUp" data-wow-delay="0.3s"><i>Prime Movers Lab</i> invests in breakthrough scientific startups founded by <i>Prime Movers,</i> the inventors who transform billions of lives. We invest in seed-stage companies reinventing energy, transportation, infrastructure, manufacturing, human augmentation, and agriculture.</p>
-						<a href="/about" class="btn wow fadeInUp btn-blue" data-wow-delay="0.5s">About Us</a>
+						<a href="/about" class="btn wow fadeInUp btn-blue" data-wow-delay="0.5s">Learn More</a>
 					</div>
 				</div>
 			</div>
@@ -106,135 +129,283 @@
 	</main>
 
 	<div class="content">
-		<section class="statistics section bg-light">
+		<!-- Portfolio News -->
+		<section class="section pb-0">
 			<div class="container">
 				<div class="row">
 					<header class="text-center col-md-8 col-md-offset-2">
-						<h2 class="section-title">Portfolio</h2>
-						<p class="section-lead">Groundbreaking space propulsion to enable in-space transportation.</p>
-						<p class="section-lead">Industrial solar heat available at the same price as natural gas.</p>
-						<p class="section-lead">COVID-19 diagnostic and vaccine to end the pandemic.</p>
-						<p class="section-lead">Cutting-edge semiconductor manufacturing tools.</p>
-						<p class="section-lead">Indoor vertical farming using aquaponics to be the lowest cost producer.</p>
-						<p class="section-lead">Autonomous electric airplanes for agricultural aerial application.</p>
+						<h2 class="section-title" style="margin-top:60px;">Portfolio News</h2>
 					</header>
 				</div>
-				<div class="section-content">
-					<div class="video-section">
+			</div>
+			<div class="section-content-2">
+				<div class="container">
+					<div class="row-base row clearfix">
+						<div class="col-blog col-blog-home col-base col-md-4">
+							<article class="blog">
+								<div class="blog-thumbnail">
+									<a href="https://www.businesswire.com/news/home/20201007005323/en/Momentus-to-Become-Public-Through-Merger-With-Stable-Road-Acquisition-Corp">
+										<div class="blog-thumbnail-img"><img class="img-responsive" src="/img/resources/100720-businesswire-momentus.jpeg"></div>
+									</a>
+								</div>
+								<div class="blog-info">
+									<a href="https://momentus.space" class="blog-rubric">Momentus</a>
+									<h3 class="blog-title">
+										<a href="https://www.businesswire.com/news/home/20201007005323/en/Momentus-to-Become-Public-Through-Merger-With-Stable-Road-Acquisition-Corp">Momentus to Become Public Through Merger With Stable Road Acquisition Corp</a>
+									</h3>
+									<div class="blog-meta">
+										<div class="pull-left">
+											<a href="https://www.businesswire.com/news/home/20201007005323/en/Momentus-to-Become-Public-Through-Merger-With-Stable-Road-Acquisition-Corp" class="author">Business Wire</a>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="col-blog col-blog-home col-base col-md-4">
+							<article class="blog">
+								<div class="blog-thumbnail">
+									<a href="https://www.reuters.com/article/us-health-coronavirus-covaxx-idUSKBN28526F">
+										<div class="blog-thumbnail-img"><img class="img-responsive" src="/img/resources/112520-reuters-covaxx.jpeg"></div>
+									</a>
+								</div>
+								<div class="blog-info">
+									<a href="https://www.covaxx.com" class="blog-rubric">COVAXX</a>
+									<h3 class="blog-title">
+										<a href="https://www.reuters.com/article/us-health-coronavirus-covaxx-idUSKBN28526F">COVAXX Gets Supply Deals Worth $2.8 Billion for Potential COVID-19 Vaccine</a>
+									</h3>
+									<div class="blog-meta">
+										<div class="pull-left">
+											<a href="https://www.reuters.com/article/us-health-coronavirus-covaxx-idUSKBN28526F" class="author">Reuters</a>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="col-blog col-blog-home col-base col-md-4">
+							<article class="blog">
+								<div class="blog-thumbnail">
+									<a href="https://time.com/collection/best-inventions-2020/5911422/heliogens-helioheat">
+										<div class="blog-thumbnail-img"><img class="img-responsive" src="/img/resources/111920-time-heliogen.jpg"></div>
+									</a>
+								</div>
+								<div class="blog-info">
+									<a href="https://www.heliogen.com" class="blog-rubric">Heliogen</a>
+									<h3 class="blog-title">
+										<a href="https://time.com/collection/best-inventions-2020/5911422/heliogens-helioheat" target="_blank">TIME Names Heliogen’s HelioHeat to List of the Best Inventions of 2020</a>
+									</h3>
+									<div class="blog-meta">
+										<div class="pull-left">
+											<a href="https://time.com/collection/best-inventions-2020/5911422/heliogens-helioheat" class="author">TIME</a>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+					<div class="row-base row clearfix" style="float: left;">
+						<div class="col-blog col-blog-home col-base col-md-4">
+							<article class="blog">
+								<div class="blog-thumbnail">
+									<a href="https://www.forbes.com/sites/jeremybogaisky/2020/10/12/pyka-bets-the-path-to-the-future-of-passenger-planes-runs-through-banana-plantations-in-latin-america">
+										<div class="blog-thumbnail-img"><img class="img-responsive" src="/img/resources/101220-forbes-pyka.jpeg"></div>
+									</a>
+								</div>
+								<div class="blog-info">
+									<a href="https://www.flypyka.com" class="blog-rubric">Pyka</a>
+									<h3 class="blog-title">
+										<a href="https://www.forbes.com/sites/jeremybogaisky/2020/10/12/pyka-bets-the-path-to-the-future-of-passenger-planes-runs-through-banana-plantations-in-latin-america">The Path to the Future of Passenger Planes Runs Through Banana Plantations</a>
+									</h3>
+									<div class="blog-meta">
+										<div class="pull-left">
+											<a href="https://www.forbes.com/sites/jeremybogaisky/2020/10/12/pyka-bets-the-path-to-the-future-of-passenger-planes-runs-through-banana-plantations-in-latin-america" class="author">Forbes</a>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="col-blog col-blog-home col-base col-md-4">
+							<article class="blog">
+								<div class="blog-thumbnail">
+									<a href="https://www.fool.com/investing/2020/11/18/spacex-president-prefers-space-tugs-over-small-roc">
+										<div class="blog-thumbnail-img"><img class="img-responsive" src="/img/resources/111820-motleyfool-momentus.jpeg"></div>
+									</a>
+								</div>
+								<div class="blog-info">
+									<a href="https://www.heliogen.com" class="blog-rubric">Momentus</a>
+									<h3 class="blog-title">
+										<a href="https://www.fool.com/investing/2020/11/18/spacex-president-prefers-space-tugs-over-small-roc">SpaceX President Prefers Space Tugs Over Small Rockets</a>
+									</h3>
+									<div class="blog-meta">
+										<div class="pull-left">
+											<a href="https://www.fool.com/investing/2020/11/18/spacex-president-prefers-space-tugs-over-small-roc" class="author">The Motley Fool</a>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="col-blog col-blog-home col-base col-md-4">
+							<article class="blog">
+								<div class="blog-thumbnail">
+									<a href="https://www.cnbc.com/video/2020/10/07/behind-the-1-point-2-billion-spac-to-take-space-services-company-momentus-public.html">
+										<div class="blog-thumbnail-img"><img class="img-responsive" src="/img/resources/100720-cnbc-momentus.png"></div>
+									</a>
+								</div>
+								<div class="blog-info">
+									<a href="https://momentus.space" class="blog-rubric">Momentus</a>
+									<h3 class="blog-title">
+										<a href="https://www.cnbc.com/video/2020/10/07/behind-the-1-point-2-billion-spac-to-take-space-services-company-momentus-public.html"><a href="https://www.cnbc.com/video/2020/10/07/behind-the-1-point-2-billion-spac-to-take-space-services-company-momentus-public.html" target="_blank">Behind the $1.2 Billion SPAC to Take Space Services Company Momentus Public</a></a>
+									</h3>
+									<div class="blog-meta">
+										<div class="pull-left">
+											<a href="https://www.cnbc.com/video/2020/10/07/behind-the-1-point-2-billion-spac-to-take-space-services-company-momentus-public.html" class="author">CNBC</a>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+					<!-- end row -->
+					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
-							<a href="https://www.youtube.com/watch?v=0FEsj0frhwk" class="icon-video-section js-video-play">
-								<i class="ion-ios-play"></i>
-							</a> 
+							<div class="banner">
+								<div class="banner-content">
+									<a href="/press" class="btn btn-white">Read More</a>
+								</div>
+							</div>
 						</div>
 					</div>
-					<a href="/portfolio" class="btn btn-blue section-content">Our Portfolio</a>
 				</div>
 			</div>
 		</section>
 
-		<!-- Team -->
-		<section class="porftolio section">
-			<div class="container">
-				<div class="row">
-					<header class="text-center col-md-8 col-md-offset-2">
-						<h2 class="section-title">Team</h2>
-						<p class="section-lead">We offer <i>Prime Movers</i> comprehensive resources and integrated coaching to support the transformation of world-class technical experts into extraordinary executives. Our team has developed in-depth academic scientific research, commercialized novel intellectual property, scaled significant enterprises, and mentored renowned scientists on their entrepreneurial journey.</p>
-					</header>
+		<!-- Featured Content -->
+		<section class="team section pb-0">
+			<div class="section-content">
+				<div class="container">
+					<div class="row">
+						<header class="text-center col-md-8 col-md-offset-2">
+							<h2 class="section-title" style="margin-top:-50px; margin-bottom:90px;">Featured Content</h2>
+						</header>
+					</div>
 				</div>
-				<div class="text-center section-content"><a href="/team" class="btn btn-blue">Meet Our Team</a>
-			</div>
-		</section>
-
-		<!-- Resources -->
-		<section class="section home-resources bg-light">
-			<div class="container">
-				<div class="row">
-					<header class="text-center col-md-8 col-md-offset-2">
-						<h2 class="section-title">Featured News</h2>
-					</header>
+				<div class="row clearfix">
+					<div class="col-team col-lg-3 col-md-3">
+						<figure class="team-profile team-pml">
+							<img src="/img/research/ft-inventing-future.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://medium.com/prime-movers-lab/physics-powered-startups-inventing-the-future-6aa629fa7dd0" target="_blank">
+										<strong class="team-name">Breakthrough Scientific Startups: Inventing the Future</strong>
+										<span class="team-spec">Startup Playbook</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3">
+						<figure class="team-profile team-pml">
+							<img src="/img/research/ft-nuclear-fusion.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="/resources/research/nuclear-fusion.pdf" target="_blank">
+										<strong class="team-name">Nuclear Fusion</strong>
+										<span class="team-spec">Thought Paper</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3">
+						<figure class="team-profile team-pml">
+							<img src="/img/research/ft-automation-essentials.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="/resources/research/automation-essentials.pdf" target="_blank">
+										<strong class="team-name">Automation of Essential Services</strong>
+										<span class="team-spec">Thought Paper</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3">
+						<figure class="team-profile team-pml">
+							<img src="/img/research/ft-agriculture-automation.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="/resources/research/agriculture-automation.pdf" target="_blank">
+										<strong class="team-name">Agricultural Automation</strong>
+										<span class="team-spec">Thought Paper</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
 				</div>
-			</div>
-			<div class="container blog-margin-top">
-				<article class="blog">
-					<div class="row">
-						<div class="blog-thumbnail col-md-4">
-							<a href="https://www.reuters.com/article/us-health-coronavirus-covaxx-idUSKBN28526F" target="_blank">
-								<div class="blog-thumbnail-bg col-md-4 visible-md visible-lg" style="background-image: url(/img/resources/112520-reuters-covaxx.jpeg);"></div>
-								<div class="blog-thumbnail-img visible-xs visible-sm"><img class="img-responsive" src="/img/resources/112520-reuters-covaxx.jpeg"></div>
-							</a>
-						</div>
-						<div class="blog-info col-md-8">
-							<p class="blog-rubric">Reuters — November 25, 2020</p>
-							<h3 class="blog-title">
-								<a href="https://www.reuters.com/article/us-health-coronavirus-covaxx-idUSKBN28526F" target="_blank">COVAXX Gets Supply Deals Worth $2.8 Billion for Potential COVID-19 Vaccine</a>
-							</h3>
-							<a class="blog-text" href="https://www.reuters.com/article/us-health-coronavirus-covaxx-idUSKBN28526F" target="_blank">COVAXX said it has received purchase commitments totaling $2.8 billion to deliver more than 140 million doses of its potential COVID-19 vaccine to developing countries, including Brazil, Peru, and Ecuador. The U.S.-based company signed an agreement in September with Brazilian lab and hospital group DASA S.A. to conduct mid-to-late stage trials in Brazil for the vaccine. COVAXX estimates it can produce 100 million doses in first half of next year and 1 billion by end of 2021.</a>
+				<div class="row clearfix">
+					<div class="col-team col-lg-3 col-md-3">
+						<figure class="team-profile team-pml">
+							<img src="/img/research/ft-graphene-nanotubes.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="/resources/research/graphene.pdf" target="_blank">
+										<strong class="team-name">Graphene and Carbon Nanotubes</strong>
+										<span class="team-spec">Thought Paper</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3">
+						<figure class="team-profile team-pml">
+							<img src="/img/research/ft-founders-customers.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="https://medium.com/prime-movers-lab/founders-are-our-customers-how-we-serve-prime-movers-172bf527607e" target="_blank">
+										<strong class="team-name">Founders are our Customers</strong>
+										<span class="team-spec">Startup Playbook</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3">
+						<figure class="team-profile team-pml">
+							<img src="/img/research/ft-carbon-capture.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="/resources/research/carbon-capture.pdf" target="_blank">
+										<strong class="team-name">Carbon Capture</strong>
+										<span class="team-spec">Thought Paper</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-team col-lg-3 col-md-3">
+						<figure class="team-profile team-pml">
+							<img src="/img/research/ft-lithium-batteries.png">
+							<figcaption class="team-caption white">
+								<div class="team-meta">
+									<a href="/resources/research/lithium-batteries.pdf" target="_blank">
+										<strong class="team-name">Lithium Batteries</strong>
+										<span class="team-spec">Thought Paper</span>
+									</a>
+								</div>
+							</figcaption>
+						</figure>
+					</div>					
+				</div>
+				<!-- end row -->
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<div class="banner">
+							<div class="banner-content">
+								<a href="/ideas" class="btn btn-white">Learn More</a>
+							</div>
 						</div>
 					</div>
-				</article>
-				<article class="blog">
-					<div class="row">
-						<div class="blog-thumbnail col-md-4">
-							<a href="https://www.reutersevents.com/renewables/solar-thermal/us-build-5-mw-sco2-csp-plant-spain-backs-global-tower-insulation-standards" target="_blank">
-								<div class="blog-thumbnail-bg col-md-4 visible-md visible-lg" style="background-image: url(/img/resources/111320-reuters-heliogen.png);"></div>
-								<div class="blog-thumbnail-img visible-xs visible-sm"><img class="img-responsive" src="/img/resources/111320-reuters-heliogen.png"></div>
-							</a>
-						</div>
-						<div class="blog-info col-md-8">
-							<p class="blog-rubric">Reuters — November 13, 2020</p>
-							<h3 class="blog-title">
-								<a href="https://www.reutersevents.com/renewables/solar-thermal/us-build-5-mw-sco2-csp-plant-spain-backs-global-tower-insulation-standards" target="_blank">Concentrated Solar Power Startup Heliogen Scores $39 Million in DOE Funding</a>
-							</h3>
-							<a class="blog-text" href="https://www.reutersevents.com/renewables/solar-thermal/us-build-5-mw-sco2-csp-plant-spain-backs-global-tower-insulation-standards" target="_blank">The U.S. Department of Energy (DOE) has awarded concentrated solar developer Heliogen $39 million to build and operate a 5 MW CSP plant with supercritical CO2 (sCO2) power cycle and thermal energy storage. Heliogen will commit $31.1 million to the project, the DOE announced November 12. The project will include a newly-built heliostat field and act as a demonstration plant for the integrated sCO2 power cycle and storage system. The plant will limit the turbine inlet temperature to 600° C in order to use widely-available stainless steel alloys.</a>
-						</div>
-					</div>
-				</article>
-				<article class="blog">
-					<div class="row">
-						<div class="blog-thumbnail col-md-4">
-							<a href="https://youtu.be/pdKW_ABkXNs" target="_blank"><div class="blog-thumbnail-bg col-md-4 visible-md visible-lg" style="background-image: url(/img/resources/101620-cnbc-pml.png);"></div></a>
-							<a href="https://youtu.be/pdKW_ABkXNs" target="_blank"><div class="blog-thumbnail-img visible-xs visible-sm"><img class="img-responsive" src="/img/resources/101620-cnbc-pml.png"></div></a>
-						</div>
-						<div class="blog-info col-md-8">
-							<p class="blog-rubric">CNBC — October 15, 2020</p>
-							<h3 class="blog-title">
-								<a href="https://youtu.be/pdKW_ABkXNs" target="_blank">Prime Movers Lab Founder on the Rise Of SPACs</a>
-							</h3>
-							<a class="blog-text" href="https://youtu.be/pdKW_ABkXNs" target="_blank">Dakin Sloss, Prime Movers Lab founder and general partner, joins ‘Fast Money Halftime Report’ to discuss SPACs and what’s in the Prime Movers Lab portfolio.</a>
-						</div>
-					</div>
-				</article>
-				<article class="blog">
-					<div class="row">
-						<div class="blog-thumbnail col-md-4">
-							<a href="https://www.cnbc.com/video/2020/10/07/behind-the-1-point-2-billion-spac-to-take-space-services-company-momentus-public.html" target="_blank"><div class="blog-thumbnail-bg col-md-4 visible-md visible-lg" style="background-image: url(/img/resources/100720-cnbc-momentus.png);"></div></a>
-							<a href="https://www.cnbc.com/video/2020/10/07/behind-the-1-point-2-billion-spac-to-take-space-services-company-momentus-public.html" target="_blank"><div class="blog-thumbnail-img visible-xs visible-sm"><img class="img-responsive" src="/img/resources/100720-cnbc-momentus.png"></div></a>
-						</div>
-						<div class="blog-info col-md-8">
-							<p class="blog-rubric">CNBC — October 7, 2020</p>
-							<h3 class="blog-title">
-								<a href="https://www.cnbc.com/video/2020/10/07/behind-the-1-point-2-billion-spac-to-take-space-services-company-momentus-public.html" target="_blank">Behind the $1.2 Billion SPAC to Take Space Services Company Momentus Public</a>
-							</h3>
-							<a class="blog-text" href="https://www.cnbc.com/video/2020/10/07/behind-the-1-point-2-billion-spac-to-take-space-services-company-momentus-public.html" target="_blank">CNBC’s Scott Wapner talks with Brian Kabot, chief investment officer of Stable Road Capital. The company is taking Momentus public through a $1.2 billion SPAC deal. Momentus is the first company to offer the infrastructure services necessary to enable enterprise and human existence to flourish in space.</a>
-						</div>
-					</div>
-				</article>
-				<article class="blog">
-					<div class="row">
-						<div class="blog-thumbnail col-md-4">
-						 <a href="https://www.wsj.com/articles/new-venture-firm-prime-movers-lab-focuses-on-science-tech-for-physical-world-11580295601" target="_blank"><div class="blog-thumbnail-bg col-md-4 visible-md visible-lg" style="background-image: url(/img/resources/012920-wsj-pml.png);"></div></a>
-						 <a href="https://www.wsj.com/articles/new-venture-firm-prime-movers-lab-focuses-on-science-tech-for-physical-world-11580295601" target="_blank"><div class="blog-thumbnail-img visible-xs visible-sm"><img class="img-responsive" src="/img/resources/012920-wsj-pml.png"></div></a>
-					        </div>
-					        <div class="blog-info col-md-8">
-						 <p class="blog-rubric">The Wall Street Journal — January 29, 2020</p>
-						 <h3 class="blog-title">
-							<a href="https://www.wsj.com/articles/new-venture-firm-prime-movers-lab-focuses-on-science-tech-for-physical-world-11580295601" target="_blank">New Venture Firm Prime Movers Lab Focuses on Science Tech for Physical World</a>
-						 </h3>
-						 <a class="blog-text" href="https://www.wsj.com/articles/new-venture-firm-prime-movers-lab-focuses-on-science-tech-for-physical-world-11580295601" target="_blank">Prime Movers Lab has raised its first fund, a $100 million vehicle that will target early-stage startups developing new and emerging science-based technologies.</a>
-					        </div>
-					</div>
-				</article>
-				<div class="text-center section-content"><a href="/resources" class="btn btn-blue">Read More</a>
+				</div>
 			</div>
 		</section>
 
@@ -264,12 +435,13 @@
 						</a>
 					</div>
 					<div class="col-contacts col-base col-sm-6 col-md-3">
-						<ul class="nav-bottom">
-							<li><a href="/about">About</a></li>
-							<li><a href="/portfolio">Portfolio</a></li>
+						<ul class="nav-bottom">	
 							<li><a href="/team">Team</a></li>
+							<li><a href="/portfolio">Portfolio</a></li>
+							<li><a href="/press">Press</a></li>
+							<li><a href="/ideas">Ideas</a></li>
+							<li><a href="/about">About</a></li>
 							<li><a href="/careers">Careers</a></li>
-							<li><a href="/resources">Resources</a></li>
 							<li><a href="https://medium.com/prime-movers-lab" target="_blank">Blog</a></li>
 							<li><a href="https://docsend.com/view/s/g2h4i5bjzp">LP Portal</a></li>
 						</ul>
@@ -299,7 +471,7 @@
 			<div class="footer-bottom">
 				<div class="container">
 					<div class="copyrights">
-						©2020 Prime Movers Lab. All Rights Reserved.
+						©2021 Prime Movers Lab. All Rights Reserved.
 					</div>
 					<ul class="social-list">
 						<li><a href="https://www.linkedin.com/company/prime-movers-lab" class="fa fa-linkedin"></a></li>
