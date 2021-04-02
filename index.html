@@ -38,9 +38,6 @@
 		gtag('js', new Date());
 		gtag('config', 'UA-158055162-1');
 
-		if (isMobile) {
-			$(".home-video").find('video').attr('poster', '/video/future-home-mobile.png');
-		}
 	</script>
 	<style>
 		html, body {overscroll-behavior-x: none; width: 100%; overflow-x: hidden;}
@@ -112,7 +109,7 @@
 		
 	<!-- Home -->
 	<main class="main main-full main-video">
-		<video class="home-video" autoplay loop muted poster="/video/future-home-mobile.png">
+		<video class="home-video" autoplay playsinline loop muted poster="/video/future-home-mobile.png">
 			<source src="/video/540_compressed.mp4" type="video/mp4">
 			<source src="/video/540.webm" type="video/webm">
 		</video>
