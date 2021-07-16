@@ -254,3 +254,7 @@ a:visited {
 @media (max-width: 960px){
 	h1 {font-size: 3rem;}
 }
+
+@media (max-width: 540px){
+	h1 {font-size: 2rem;}
+}
