@@ -26,6 +26,7 @@ body {
 h1 {
 	font-size: 4.5rem;
 	line-height: 1.05;
+	font-weight: 200;
 }
 
 h2 {
@@ -50,7 +51,7 @@ h6 {
 
 p {
 	font-size: 1.25rem;
-	line-height: 1.5;
+	line-height: 1.4;
 	letter-spacing: 0.5px;
 }
 
@@ -100,68 +101,19 @@ a:visited {
 	min-height: 0.125rem;
 }
 
-.col-1,
-.col-2,
-.col-3,
-.col-4,
-.col-5,
-.col-6,
-.col-7,
-.col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12 {
-	width: 96%;
-}
-
-.col-1-sm {
-	width: 4.33%;
-}
-
-.col-2-sm {
-	width: 12.66%;
-}
-
-.col-3-sm {
-	width: 21%;
-}
-
-.col-4-sm {
-	width: 29.33%;
-}
-
-.col-5-sm {
-	width: 37.66%;
-}
-
-.col-6-sm {
-	width: 46%;
-}
-
-.col-7-sm {
-	width: 54.33%;
-}
-
-.col-8-sm {
-	width: 62.66%;
-}
-
-.col-9-sm {
-	width: 71%;
-}
-
-.col-10-sm {
-	width: 79.33%;
-}
-
-.col-11-sm {
-	width: 87.66%;
-}
-
-.col-12-sm {
-	width: 96%;
-}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {width: 96%;}
+.col-1-sm {width: 4.33%;}
+.col-2-sm {width: 12.66%;}
+.col-3-sm {width: 21%;}
+.col-4-sm {width: 29.33%;}
+.col-5-sm {width: 37.66%;}
+.col-6-sm {width: 46%;}
+.col-7-sm {width: 54.33%;}
+.col-8-sm {width: 62.66%;}
+.col-9-sm {width: 71%;}
+.col-10-sm {width: 79.33%;}
+.col-11-sm {width: 87.66%;}
+.col-12-sm {width: 96%;}
 
 .row::after {
 	content: "";
@@ -180,57 +132,19 @@ a:visited {
 }
 
 @media only screen and (min-width: 1200px) {
-	.col-1 {
-		width: 4.33%;
-	}
-
-	.col-2 {
-		width: 12.66%;
-	}
-
-	.col-3 {
-		width: 21%;
-	}
-
-	.col-4 {
-		width: 29.33%;
-	}
-
-	.col-5 {
-		width: 37.66%;
-	}
-
-	.col-6 {
-		width: 46%;
-	}
-
-	.col-7 {
-		width: 54.33%;
-	}
-
-	.col-8 {
-		width: 62.66%;
-	}
-
-	.col-9 {
-		width: 71%;
-	}
-
-	.col-10 {
-		width: 79.33%;
-	}
-
-	.col-11 {
-		width: 87.66%;
-	}
-
-	.col-12 {
-		width: 96%;
-	}
-
-	.hidden-sm {
-		display: block;
-	}
+	.col-1 {width: 4.33%;}
+	.col-2 {width: 12.66%;}
+	.col-3 {width: 21%;}
+	.col-4 {width: 29.33%;}
+	.col-5 {width: 37.66%;}
+	.col-6 {width: 46%;}
+	.col-7 {width: 54.33%;}
+	.col-8 {width: 62.66%;}
+	.col-9 {width: 71%;}
+	.col-10 {width: 79.33%;}
+	.col-11 {width: 87.66%;}
+	.col-12 {width: 96%;}
+	.hidden-sm {display: block;}
 }
 
 @media (max-width: 960px) {
@@ -238,11 +152,14 @@ a:visited {
 	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {width: 80%;}
 }
 
+#logo {top: 100px;}
+#nav {top: 150px;}
+#home-intro {top: 350px;}
 #home-para {margin-top: 45px; margin-bottom: 200px;}
 
 @media (max-width: 1600px){
 	h1 {font-size: 3.5rem;}
-	p {font-size: 1.125rem; line-height: 1.4;}
+	p {font-size: 1.125rem;}
 	a {font-size: 1.125rem;}
 	#home-para {margin-top: 30px;}
 }
@@ -252,6 +169,9 @@ a:visited {
 }
 
 @media (max-width: 960px){
+	#home-intro {top: 200px;}
+	#logo {top: 50px;}
+	#nav {top: 100px;}
 	h1 {font-size: 3rem;}
 }
 
