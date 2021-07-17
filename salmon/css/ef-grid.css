@@ -17,7 +17,6 @@ a {
 	font-size: 1.25rem;
 	line-height: 1.5;
 	letter-spacing: 0.5px;
-	color: white;
 	text-decoration: none;
 	border-bottom: 1px transparent solid;
 	opacity: 0.7;
@@ -27,10 +26,9 @@ a {
 	transition: opacity, border-bottom 1s ease;
 }
 
-a:hover {opacity: 1; border-bottom: 1px white solid;}
-a:visited {color: white;}
-
-.white-text h1, .white-text p, .white-text a {color: white;}
+.white-text a {color: white;}
+.white-text a:hover {opacity: 1; border-bottom: 1px white solid;}
+.white-text h1, .white-text p, .white-text a, .white-text a:visited {color: white;}
 
 /* GRID */
 
