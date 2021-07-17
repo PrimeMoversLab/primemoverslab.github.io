@@ -1,5 +1,7 @@
 /* UNIVERSAL */
 
+@import url('bootstrap.min.css');
+
 html, body {height: 100%; width: 100%; margin: 0; padding: 0; left: 0; top: 0; font-size: 100%;}
 img {display: block;}
 
@@ -8,10 +10,10 @@ img {display: block;}
 * {font-family: "Karla", sans-serif; font-size: 1rem; font-weight: 300; line-height: 1.4; color: black;}
 
 h1 {font-size: 4.5rem; line-height: 1.05; font-weight: 200;}
-h2 {font-size: 1.75rem; line-height: 1.2;}
+h2 {font-size: 1.75rem; line-height: 1.2; font-weight: 300;}
 h3 {font-size: 1.375rem;}
-h4 {font-size: 1.125rem; line-height: 1.4; letter-spacing: 0.5px;}
-p {font-size: 1.25rem; line-height: 1.4; letter-spacing: 0.5px;}
+h4 {font-size: 1.125rem; line-height: 1.4; letter-spacing: 0.5px; font-weight: 300;}
+p {font-size: 1.25rem; line-height: 1.4; letter-spacing: 0.5px; margin: 0;}
 p.small, a.small {font-size: 1rem;}
 
 a {
@@ -33,14 +35,6 @@ h1, p, a, a:visited {color: black;}
 .white-text a {color: white;}
 .white-text a:hover {opacity: 1; border-bottom: 1px white solid;}
 .white-text h1, .white-text p, .white-text a, .white-text a:visited {color: white;}
-
-.img-transition {
-	margin-top: -50px;
-	-webkit-transition: margin-top 1s ease-out;
-	-moz-transition: margin-top 1s ease-out;
-	-o-transition: margin-top 1s ease-out;
-	transition: margin-top 1s ease-out;
-}
 
 /* GRID */
 
@@ -69,18 +63,23 @@ h1, p, a, a:visited {color: black;}
 
 #logo {top: 100px;}
 #nav {top: 150px;}
+
 #home-intro {top: 350px;}
 #home-para {margin-top: 45px; margin-bottom: 200px;}
-#spac-intro {top: 250px;}
-#spac-para {margin-top: -45px;}
+#spac-intro {top: 225px;}
+#spac-para {margin-top: 1px;}
+
 #mng-team-intro {top: 400px;}
 #mng-team-pic {top: 450px;}
 #mng-team-pic-name {top: 450px;}
-.mng-team-pic-title {margin-top: -15px;}
+.team-pack h2 {margin-top: 30px;}
+.mng-team-pic-title {margin-top: -7px;}
 #dir-team-intro {top: 600px;}
 #dir-team-pic {top: 650px;}
 #dir-team-pic-name {top: 650px;}
 .dir-team-pic-title {margin-top: -15px;}
+#mng-team-intro p, #dir-team-intro p {margin-top: 30px;}
+
 footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 
 @media (max-width: 1600px) {
@@ -115,3 +114,191 @@ footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 @media (max-width: 600px) {
 	h1 {font-size: 2rem;}
 }
+
+/* MODAL */
+
+.modal {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+
+.modal-content p{
+	margin-bottom: 0;
+}
+
+.modal-dialog{
+	display: inline-block;
+	text-align: left;
+	vertical-align: middle;
+	width: 90%;
+	margin: 25px auto;
+	border-radius: 0;
+}
+
+.modal:before {
+	display: inline-block;
+	vertical-align: middle;
+	content: " ";
+	height: 100%;
+}
+
+@media (min-width: 768px){
+	.modal-dialog {
+		width: 29em;
+	}
+}
+
+.modal-content{
+	border: 0;
+	-webkit-box-shadow: none;
+	 box-shadow:	none;
+}
+
+.modal-header{
+	padding: 3em 1.2em;
+	text-align: center;
+	border-bottom: 0;
+}
+
+.modal-header .close{
+	position: absolute;
+	right: 0.9em;
+	top: 0.9em;
+}
+
+.modal-title{
+	font-size: 1.8em;
+	color: #2e6be8;
+}
+
+.modal-info{
+	color: #b0b0b0;
+	font-size: 1.12em;
+	margin: 0.5em 0 0;
+	line-height: 1.6;
+}
+
+.modal-body{
+	font-size: 1em;
+	padding: 0 4.2em 3em;
+}
+
+.modal-footer{
+	text-align: center;
+	padding: 0;
+	border: 0;
+	margin-top: 2em;
+}
+
+.team .animated {
+	-webkit-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+}
+
+.modal {
+	text-align: left;
+}
+
+.modal-dialog {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.modal img {
+	width: 40%;
+	float: left;
+	margin-right: 50px;
+	margin-bottom: 25px;
+}
+
+.modal-body {
+	position: absolute;
+	width: 100%;
+	top: 130px;
+	overflow: auto;
+}
+
+.modal-bio .team-name {
+
+}
+
+.modal-bio .team-spec {
+	font-size: 1.25em;
+	margin-top: 0.4em;
+	margin-bottom: 1.5em;
+}
+
+.modal-content p {
+	margin-bottom: 1em;
+}
+
+.modal-content{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	border-radius: 0;
+	box-shadow: none;
+	overflow: scroll;
+}
+
+.modal-header{
+	position: absolute;
+	top: 35px;
+	right: 35px;
+	margin: 0;
+	padding: 0;
+	font-size: 1.25rem;
+}
+
+.modal-header a{
+	color: #999;
+}
+
+.modal-header a:hover{
+	color: #333;
+}
+
+.modal.fade .modal-dialog {
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+
+.modal.fade:not(.in) .modal-dialog {
+	-webkit-transform: translate3d(25%, 0, 0);
+	transform: translate3d(25%, 0, 0);
+}
+
+.modal-bio .modal-social{
+	color: #4b4b4b;
+	margin-top: 15px;
+}
+
+.modal-bio .modal-social:hover{
+	color: #2e6be8;
+}
+
+.team-pack {cursor: pointer;}
