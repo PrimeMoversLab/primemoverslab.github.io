@@ -8,10 +8,11 @@ img {display: block;}
 * {font-family: "Karla", sans-serif; font-size: 1rem; font-weight: 300; line-height: 1.4; color: black;}
 
 h1 {font-size: 4.5rem; line-height: 1.05; font-weight: 200;}
-h2 {font-size: 2rem;}
+h2 {font-size: 1.75rem; line-height: 1.2;}
 h3 {font-size: 1.375rem;}
-h4 {font-size: 1.125rem;}
+h4 {font-size: 1.125rem; line-height: 1.4; letter-spacing: 0.5px;}
 p {font-size: 1.25rem; line-height: 1.4; letter-spacing: 0.5px;}
+p.small, a.small {font-size: 1rem;}
 
 a {
 	font-size: 1.25rem;
@@ -20,15 +21,26 @@ a {
 	text-decoration: none;
 	border-bottom: 1px transparent solid;
 	opacity: 0.7;
-	-webkit-transition: opacity, border-bottom 1s ease;
-	-moz-transition: opacity, border-bottom 1s ease;
-	-o-transition: opacity, border-bottom 1s ease;
-	transition: opacity, border-bottom 1s ease;
+	-webkit-transition: opacity, border-bottom 1s ease-out;
+	-moz-transition: opacity, border-bottom 1s ease-out;
+	-o-transition: opacity, border-bottom 1s ease-out;
+	transition: opacity, border-bottom 1s ease-out;
 }
 
+a {color: black;}
+a:hover {opacity: 1; border-bottom: 1px black solid;}
+h1, p, a, a:visited {color: black;}
 .white-text a {color: white;}
 .white-text a:hover {opacity: 1; border-bottom: 1px white solid;}
 .white-text h1, .white-text p, .white-text a, .white-text a:visited {color: white;}
+
+.img-transition {
+	margin-top: -50px;
+	-webkit-transition: margin-top 1s ease-out;
+	-moz-transition: margin-top 1s ease-out;
+	-o-transition: margin-top 1s ease-out;
+	transition: margin-top 1s ease-out;
+}
 
 /* GRID */
 
@@ -59,6 +71,17 @@ a {
 #nav {top: 150px;}
 #home-intro {top: 350px;}
 #home-para {margin-top: 45px; margin-bottom: 200px;}
+#spac-para {margin-top: -45px;}
+#spac-intro {top: 250px;}
+#mng-team-intro {top: 400px;}
+#mng-team-pic {top: 450px;}
+#mng-team-pic-name {top: 450px;}
+.mng-team-pic-title {margin-top: -15px;}
+#dir-team-intro {top: 600px;}
+#dir-team-pic {top: 650px;}
+#dir-team-pic-name {top: 650px;}
+.dir-team-pic-title {margin-top: -15px;}
+footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 
 @media (max-width: 1600px) {
 	h1 {font-size: 3.5rem;}
@@ -70,6 +93,8 @@ a {
 @media (max-width: 1200px) {
 	h1 {font-size: 3rem;}
 	#home-para {margin-top: 30px;}
+	#spac-intro .col-1, #spac-intro .col-2, #spac-intro .col-3, #spac-intro .col-4, #spac-intro .col-5, #spac-intro .col-6, #spac-intro .col-7, #spac-intro .col-8, #spac-intro .col-9, #spac-intro .col-10, #spac-intro .col-11, #spac-intro .col-12 {width: 96%;}
+	#spac-para {margin-top: 75px;}
 }
 
 @media (max-width: 1000px) {
