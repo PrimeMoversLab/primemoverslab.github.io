@@ -38,7 +38,7 @@ h1, p, a, a:visited {color: black;}
 /* GRID */
 
 .container {width: 90%; margin-left: auto; margin-right: auto;}
-.row {position: relative; width: 100%;}
+.row {position: relative; width: 100%; margin-left: 0; margin-right: 0;}
 .row [class^="col"] {float: left; margin: 0.5rem 2%; min-height: 0.125rem;}
 
 .row::after {content: ""; display: table; clear: both;}
@@ -65,7 +65,7 @@ h1, p, a, a:visited {color: black;}
 
 #home-intro {top: 350px;}
 #home-para {margin-top: 45px; margin-bottom: 200px;}
-#spac-intro {top: 225px;}
+#spac-intro {top: 170px;}
 #spac-para {margin-top: 1px;}
 
 #mng-team-intro {top: 400px;}
@@ -91,7 +91,8 @@ footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 @media (max-width: 1200px) {
 	h1 {font-size: 3rem;}
 	#home-para {margin-top: 30px;}
-	#spac-intro .col-1, #spac-intro .col-2, #spac-intro .col-3, #spac-intro .col-4, #spac-intro .col-5, #spac-intro .col-6, #spac-intro .col-7, #spac-intro .col-8, #spac-intro .col-9, #spac-intro .col-10, #spac-intro .col-11, #spac-intro .col-12 {width: 96%;}
+	#spac-intro .col-1, #spac-intro .col-2, #spac-intro .col-3, #spac-intro .col-4, #spac-intro .col-5, #spac-intro .col-6, #spac-intro .col-7, #spac-intro .col-8, #spac-intro .col-9, #spac-intro .col-10, #spac-intro .col-11, #spac-intro .col-12,
+	#mng-team-intro .col-6, #dir-team-intro .col-6 {width: 96%;}
 	#spac-para {margin-top: 75px;}
 }
 
@@ -102,12 +103,14 @@ footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 	#logo {top: 50px;}
 	#nav {top: 100px;}
 	h1 {font-size: 3rem;}
+	.team-pack {padding-bottom: 100px;}
 }
 
 @media (max-width: 800px) {
 	h1 {font-size: 2.5rem;}
 	p {font-size: 1rem;}
 	a {font-size: 1rem;}
+	.team-pack {padding-bottom: 70px;}
 }
 
 @media (max-width: 600px) {
