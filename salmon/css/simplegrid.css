@@ -68,7 +68,7 @@ h1, p, a, a:visited {color: black;}
 #spac-intro {top: 170px;}
 #spac-para {margin-top: 1px;}
 
-#mng-team-intro {top: 400px;}
+#mng-team-intro, #about-intro {top: 400px;}
 #mng-team-pic {top: 450px;}
 #mng-team-pic-name {top: 450px;}
 .team-pack h2 {margin-top: 30px;}
@@ -77,7 +77,7 @@ h1, p, a, a:visited {color: black;}
 #dir-team-pic {top: 650px;}
 #dir-team-pic-name {top: 650px;}
 .dir-team-pic-title {margin-top: -15px;}
-#mng-team-intro p, #dir-team-intro p {margin-top: 30px;}
+#mng-team-intro p, #dir-team-intro p, #about-intro p {margin-top: 30px;}
 
 footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 
