@@ -92,7 +92,7 @@ footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 	h1 {font-size: 3rem;}
 	#home-para {margin-top: 30px;}
 	#spac-intro .col-1, #spac-intro .col-2, #spac-intro .col-3, #spac-intro .col-4, #spac-intro .col-5, #spac-intro .col-6, #spac-intro .col-7, #spac-intro .col-8, #spac-intro .col-9, #spac-intro .col-10, #spac-intro .col-11, #spac-intro .col-12,
-	#mng-team-intro .col-6, #dir-team-intro .col-6 {width: 96%;}
+	#mng-team-intro .col-6, #dir-team-intro .col-6, #about-intro .col-8 {width: 96%;}
 	#spac-para {margin-top: 75px;}
 }
 
