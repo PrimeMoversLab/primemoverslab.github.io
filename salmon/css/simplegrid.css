@@ -80,7 +80,7 @@ h1, p, a, a:visited {color: black;}
 .dir-team-pic-title {margin-top: -15px;}
 #mng-team-intro p, #dir-team-intro p, #about-intro p {margin-top: 30px;}
 
-#home-footer {top: 350px;}
+#home-footer {top: 350px; padding-bottom: 50px;}
 footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 
 @media (max-width: 1600px) {
