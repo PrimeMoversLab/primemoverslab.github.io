@@ -63,8 +63,6 @@ h1, p, a, a:visited {color: black;}
 #logo {top: 100px;}
 #nav {top: 150px;}
 
-body {background: url(img/bg-home.png) no-repeat center center fixed;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
-
 #home-intro {top: 300px;}
 #home-para {margin-top: 45px; margin-bottom: 200px;}
 #spac-intro {top: 170px;}
