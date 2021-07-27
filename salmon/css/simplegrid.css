@@ -63,7 +63,9 @@ h1, p, a, a:visited {color: black;}
 #logo {top: 100px;}
 #nav {top: 150px;}
 
-#home-intro {top: 350px;}
+body {background: url(img/bg-home.png) no-repeat center center fixed;  -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+
+#home-intro {top: 300px;}
 #home-para {margin-top: 45px; margin-bottom: 200px;}
 #spac-intro {top: 170px;}
 #spac-para {margin-top: 1px;}
@@ -80,6 +82,7 @@ h1, p, a, a:visited {color: black;}
 .dir-team-pic-title {margin-top: -15px;}
 #mng-team-intro p, #dir-team-intro p, #about-intro p {margin-top: 30px;}
 
+#home-footer {top: 400px;}
 footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 
 @media (max-width: 1600px) {
