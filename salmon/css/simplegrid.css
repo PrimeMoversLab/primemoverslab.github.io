@@ -69,7 +69,7 @@ h1, p, a, a:visited {color: black;}
 #spac-para {margin-top: 1px;}
 
 #about-intro {top: 300px;}
-#mng-team-intro {top: 400px;}
+#mng-team-intro, #filings {top: 400px;}
 #mng-team-pic {top: 450px;}
 #mng-team-pic-name {top: 450px;}
 .team-pack h2 {margin-top: 30px;}
