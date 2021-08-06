@@ -30,7 +30,7 @@ a {
 
 a {color: black;}
 a:hover {opacity: 1; border-bottom: 1px black solid;}
-h1, p, a, a:visited {color: black;}
+h1, p, a, a:hover; a:visited {color: black;}
 .white-text a {color: white;}
 .white-text a:hover {opacity: 1; border-bottom: 1px white solid;}
 .white-text h1, .white-text p, .white-text a, .white-text a:visited {color: white;}
