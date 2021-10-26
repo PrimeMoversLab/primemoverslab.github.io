@@ -23,7 +23,8 @@ a {
 a:hover {opacity: 1;}
 h1, p, a, a:hover; a:visited {color: black;}
 strong {font-weight: bold; color: white; font-size: 1.25rem;}
-em {font-weight: bold; color: white; font-size: 1.25rem;}
+em {font-family: 'SuperLightItalic', Georgia, serif; font-weight: 100; font-style: italic; color: white; font-size: 1.25rem;}
+/* em {font-family: 'SuperBoldItalic', Georgia, serif; font-weight: 700; font-style: italic; color: white; font-size: 1.25rem;} */
 
 #nav {padding-top: 50px; background-color: #e4e4e4;}
 #nav span {font-family: Helvetica, sans-serif; font-size: 1rem; opacity: 0.7; position: relative; top: 20px;}
