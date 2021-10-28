@@ -3536,6 +3536,10 @@ footer .logo-footer {
 	background-color: #fafafa;
 }
 
+.resources-active {
+	font-weight: bold;
+}
+
 .resources-inactive {
 	color: #9a9a9a;
 }
