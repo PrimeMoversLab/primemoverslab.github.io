@@ -480,6 +480,7 @@ body {
 #subsector-left {position: absolute; top: 0; left: 41.5%; width: 200px;}
 #subsector-center {position: absolute; top: 0; left: 62%; width: 200px;}
 #subsector-right {position: absolute; top: 0; left: 83%; width: 200px;}
+#other {position: absolute; top: 0; left: 50%; width: 200px;}
 
 .input {position: absolute;}
 .input span {z-index: 1000;}
@@ -495,16 +496,19 @@ body {
 #sector-timeline-title a:hover {border-bottom: 1px white solid; opacity: 1;}
 #sector-timeline-title #active-subsector-nav {opacity: 1;}
 
-#subsector-endpara {text-align: center;}
-#subsector-endpara p {font-size: 1.75rem;}
+#subsector-endpara a {margin-top: 200px;}
+#subsector-toppara p {font-size: 1.5rem; text-align: left;}
+#subsector-endpara p {font-size: 1.75rem; text-align: left;}
+#subsector-endpara-backtotop {text-align: center;}
+#subsector-endpara-backtotop a:hover {border-bottom: 1px white solid;}
 
 /* RWD */
-#sector-opener-nav-left, #sector-opener-nav-right {visibility: hidden;}
+
+/* side nav */
+#sector-opener-nav-left, #sector-opener-nav-right {display: none;}
 
 @media screen and (max-width: 1200px) {
-	#subsector-left {visibility: hidden;}
-	#subsector-right {visibility: hidden;}
-	#subsector-other {visibility: hidden;}
+	#subsector-left, #subsector-right, #subsector-other {display: none;}
 	#subsector-center {left: 75%;}
-	#sector-opener-nav-left, #sector-opener-nav-right {visibility: visible;}
+	#sector-opener-nav-left, #sector-opener-nav-right {display: block;}
 }
