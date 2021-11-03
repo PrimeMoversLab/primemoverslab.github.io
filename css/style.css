@@ -1360,6 +1360,11 @@ label.error {
 	background-size: cover;
 }
 
+.main-breakthrough2021 {
+	background: url(/img/events/bg-breakthrough2021.png) 50% 0 no-repeat;
+	background-size: cover;
+}
+
 .main-team {
 	background: url(/img/bg/bg-particles.gif) 50% 0 no-repeat;
 	background-size: cover;
