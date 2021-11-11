@@ -49,9 +49,14 @@
 			background-size: cover;
 		}
 
-		.input#subsector-left-preending::before {height: 890px;}
+		#subsector-left h3, #subsector-center h3, #subsector-right h3 {top: 500px;}
+
+		.input#subsector-left-preending::before {height: 790px;}
 		.input#subsector-center-preending::before {height: 990px;}
-		.input#subsector-right-preending::before {height: 990px;}
+		.input#subsector-right-preending::before {height: 0px;}
+		.input#subsector-long-wireless::before {height: 990px;}
+		.input#subsector-short-smart::before {height: 890px;}
+		.input#subsector-short-precision::before {height: 0px;}
 	</style>
 </head>
 <body>
@@ -101,10 +106,10 @@
 			<a href="buildings/robots-automate-construction.html" class="input" style="top:1300px;"> <!-- class=active -->
 				<span data-year="Robots automate construction" id="robots-automate-construction"></span>
 			</a>
-			<a href="buildings/smart-buildings-integrate-renewables-storage-ai-efficiency.html" class="input" style="top:1800px;"> <!-- class=active -->
+			<a href="buildings/smart-buildings-integrate-renewables-storage-ai-efficiency.html" class="input" id="subsector-left-preending" style="top:1800px;"> <!-- class=active -->
 				<span data-year="Smart buildings integrate renewables, storage, AI, and efficiency" id="smart-buildings-integrate-renewables-storage-ai-efficiency"></span>
 			</a>
-			<a href="buildings/modern-floating-cities-towns-emerge.html" class="input" style="top:2600px;"> <!-- class=active -->
+			<a href="buildings/modern-floating-cities-towns-emerge.html" class="input ending-node" style="top:2600px;"> <!-- class=active -->
 				<span data-year="Modern floating cities & towns emerge" id="modern-floating-cities-towns-emerge"></span>
 			</a>
 		</div>
@@ -112,19 +117,19 @@
 	<div class="flex-parent" id="subsector-center">
 		<div class="input-flex-container">
 			<h3>Communication</h3>
-			<a href="communication/global-broadband-enabled-by-leo-satellite-mega-constellation.html" class="input" style="top:600px;"> <!-- class=active -->
+			<a href="communication/global-broadband-enabled-by-leo-satellite-mega-constellation.html" class="input" id="subsector-center-preending" style="top:600px;"> <!-- class=active -->
 				<span data-year="Global broadband enabled by LEO satellite mega-constellation" id="global-broadband-enabled-by-leo-satellite-mega-constellation"></span>
 			</a>
 			<a href="communication/lunar-communications-network-established.html" class="input" style="top:1100px;"> <!-- class=active -->
 				<span data-year="Lunar communications network established" id="lunar-communications-network-established"></span>
 			</a>
-			<a href="communication/wireless-bandwidth-increases-to-28-gbps.html" class="input" style="top:1300px;"> <!-- class=active -->
+			<a href="communication/wireless-bandwidth-increases-to-28-gbps.html" class="input" id="subsector-long-wireless" style="top:1300px;"> <!-- class=active -->
 				<span data-year="Wireless bandwidth increases to 28 Gbps per device" id="wireless-bandwidth-increases-to-28-gbps"></span>
 			</a>
-			<a href="communication/wireless-bandwidth-increases-to-1600-gbps.html" class="input" style="top:2300px;"> <!-- class=active -->
+			<a href="communication/wireless-bandwidth-increases-to-1600-gbps.html" class="input" id="subsector-center-preending" style="top:2300px;"> <!-- class=active -->
 				<span data-year="Wireless bandwidth increases to 1,600 Gbps per device" id="wireless-bandwidth-increases-to-1600-gbps"></span>
 			</a>
-			<a href="communication/wireless-bandwidth-increases-to-90000-gbps.html" class="input" style="top:3300px;"> <!-- class=active -->
+			<a href="communication/wireless-bandwidth-increases-to-90000-gbps.html" class="input ending-node" style="top:3300px;"> <!-- class=active -->
 				<span data-year="Wireless bandwidth increases to 90,000 Gbps per device" id="wireless-bandwidth-increases-to-90000-gbps"></span>
 			</a>
 		</div>
@@ -132,16 +137,16 @@
 	<div class="flex-parent" id="subsector-right">
 		<div class="input-flex-container">
 			<h3>Water</h3>
-			<a href="water/smart-water-infrastructure.html" class="input" style="top:900px;"> <!-- class=active -->
+			<a href="water/smart-water-infrastructure.html" class="input" id="subsector-short-smart" style="top:900px;"> <!-- class=active -->
 				<span data-year="Smart water infrastructure" id="smart-water-infrastructure"></span>
 			</a>
-			<a href="water/precision-irrigation.html" class="input" style="top:1200px;"> <!-- class=active -->
+			<a href="water/precision-irrigation.html" class="input" id="subsector-short-precision" style="top:1200px;"> <!-- class=active -->
 				<span data-year="Precision irrigation" id="precision-irrigation"></span>
 			</a>
-			<a href="water/advanced-water-filtration-technologies.html" class="input" style="top:1500px;"> <!-- class=active -->
+			<a href="water/advanced-water-filtration-technologies.html" class="input" id="subsector-right-preending" style="top:1500px;"> <!-- class=active -->
 				<span data-year="Advanced water filtration technologies" id="advanced-water-filtration-technologies"></span>
 			</a>
-			<a href="water/cheap-efficient-desalination.html" class="input" style="top:1800px;"> <!-- class=active -->
+			<a href="water/cheap-efficient-desalination.html" class="input ending-node" style="top:1800px;"> <!-- class=active -->
 				<span data-year="Cheap, efficient desalination" id="cheap-efficient-desalination"></span>
 			</a>
 		</div>
@@ -152,19 +157,19 @@
 			<a href="other/fires-albedo-ch4-emissions-tracked-via-satellites.html" class="input" style="top:700px; left:100px;">
 				<span data-year="Fires, albedo and CH4 emissions are tracked from space via satellites" id="fires-albedo-ch4-emissions-tracked-via-satellites"></span>
 			</a>
-			<a href="other/smart-transmission-lines-shut-off-avoid-sparking-fires.html" class="input" style="top:900px; left:600px;">
+			<a href="other/smart-transmission-lines-shut-off-avoid-sparking-fires.html" class="input" style="top:900px; left:500px;">
 				<span data-year="Smart transmission lines shut off to avoid sparking fires" id="smart-transmission-lines-shut-off-avoid-sparking-fires"></span>
 			</a>
 			<a href="other/3d-wireless-power-grid.html" class="input" style="top:1100px; left:100px;">
 				<span data-year="3-D wireless power grid" id="3d-wireless-power-grid"></span>
 			</a>
-			<a href="other/electric-grid-gets-uprated.html" class="input" style="top:1300px; left:400px;">
+			<a href="other/electric-grid-gets-uprated.html" class="input" style="top:1300px; left:650px;">
 				<span data-year="Electric grid gets uprated" id="electric-grid-gets-uprated"></span>
 			</a>
 		</div>
 	</div>
 	<div class="container">
-		<div class="row" id="subsector-endpara" style="top: 3150px;">
+		<div class="row" id="subsector-endpara" style="top: 3250px;">
 			<div class="col-2"></div>
 			<div class="col-8">
 				<p>By 2050, we’ll have the tools to provide us better, more efficient, and healthier buildings; to produce abundant, clean water for billions; to move the clean energy humanity will be generating to where it’s needed; and to augment the information exchange and collaboration that drive human innovation and discovery.</p>
