@@ -371,7 +371,7 @@ p, a {font-size: 22px;}
 
 
 
-/* TIMELINE	*/
+/* TIMELINE */
 
 body {
 	display: flex;
@@ -490,6 +490,10 @@ body {
 	font-size: 12px;
 	text-indent: -10px;
 }
+
+/* faded nodes and breakthrough nodes */
+.node-void {opacity: 0.35;}
+.node-breakthrough {border: 1px rgba(255, 255, 255, 0.6) solid;}
 
 .description-flex-container {
 	width: 80vw;
