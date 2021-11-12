@@ -142,11 +142,11 @@ footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 	transition: opacity .15s linear;
 }
 
-.modal-content p{
+.modal-content p {
 	margin-bottom: 0;
 }
 
-.modal-dialog{
+.modal-dialog {
 	display: inline-block;
 	text-align: left;
 	vertical-align: middle;
@@ -168,25 +168,25 @@ footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 	}
 }
 
-.modal-content{
+.modal-content {
 	border: 0;
 	-webkit-box-shadow: none;
 	 box-shadow:	none;
 }
 
-.modal-header{
+.modal-header {
 	padding: 3em 1.2em;
 	text-align: center;
 	border-bottom: 0;
 }
 
-.modal-header .close{
+.modal-header .close {
 	position: absolute;
 	right: 0.9em;
 	top: 0.9em;
 }
 
-.modal-title{
+.modal-title {
 	font-size: 1.8em;
 	color: #2e6be8;
 }
