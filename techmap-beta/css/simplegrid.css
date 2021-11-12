@@ -35,6 +35,7 @@ h1, p, a, a:hover; a:visited {color: black;}
 .white-text a:hover {opacity: 1; border-bottom: 1px white solid;}
 .white-text h1, .white-text p, .white-text a, .white-text a:visited {color: white;}
 #filings a:hover, #filings a:visited {color: black;}
+h1 sub {font-weight: 300;}
 
 /* GRID */
 
