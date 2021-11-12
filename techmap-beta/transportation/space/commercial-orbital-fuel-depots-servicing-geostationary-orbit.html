@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+
+	<!-- No bots indexing -->
+	<meta name="robots" content="noindex">
+
+	<script>
+		var host = "www.primemoverslab.com"
+		if (window.location.host == host && window.location.protocol != "https:") {window.location.protocol = "https:"}
+	</script>
+
+	<!-- 🌟 -->
+	<title>Technology Roadmap - Beta</title>
+	<meta name="description" content="">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+	<meta property="og:image" content="">
+	<meta property="og:url" content="">
+	<meta name="twitter:title" content="">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:image" content="">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script></script>
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+	<!-- Style Imports -->
+	<link href="../../css/simplegrid.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+	<style>
+		.container {width: 60%;}
+		h1, h2, h3, p, a {font-family: 'Space Mono', monospace; color: black;}
+		body {background: lightgray; font-size: 1em; color: black;}
+		html, body, section {height: 100vh;}
+		#breadcrumbs {padding-top: 40px;}
+		#enablers {padding-top: 20px;}
+		h1 {font-size: 2.5em; padding-top: 0; margin-top: 10px;}
+		p, a, p a {font-size: 1.25em; text-decoration: none; border: none;}
+		p a {font-size: 1em;}
+		a {color: #2e6be5; opacity: 1;}
+		a:hover {opacity: 0.7;}
+		article {width: 80%; margin: 0 auto 50px;}
+		a:hover {border-bottom: none; text-decoration: underline;} /* BUG: Hovering underline */
+		.text {background-color: white; padding: 4em;}
+		img {width: 80%; margin: 50px auto;}
+		p+p {padding-top: 30px;}
+		em {font-size: 1rem; line-height: 1.4;}
+		ul li, ul ol {font-size: 1.25rem; line-height: 1.4;}
+		ul {padding-bottom: 50px;}
+		b {font-size: 1.375rem; font-weight: 700;}
+		ol a {font-size: 1.125rem;}
+		.modal-pullquote {font-size: 1.75rem; font-style: italic; line-height: 1.4; padding-top: 50px; padding-bottom: 50px;}
+		@media only screen and (max-width: 1200px) {
+			.container {width: 90%;}
+			article {width: 90%;}
+			img {width: 100%;}
+		}
+		@media only screen and (max-width: 900px) {
+			.container {width: 100%;}
+			article {width: 90%;}
+		}
+	</style>
+</head>
+<body>
+	<section class="container">
+		<div class="text">
+			<article>
+				<p id="breadcrumbs"><a href="../index.html#commercial-orbital-fuel-depots-servicing-geostationary-orbit">Transportation</a> | Space</p>
+				<h1>Commercial orbital fuel depots servicing geostationary orbit</h1>
+				<!--
+				<p id="enablers">Enablers:<br><a href="">Node1</a>, <a href="">Node2</a>, <a href="">Node3</a></p>
+				-->
+				<p style="padding-top: 60px;">Many geostationary satellites are running out of propellant before the end of their useful life. Replacing them costs hundreds of millions of dollars.</p>
+				<p>By 2025 we expect to see several missions launching vehicles designed to extend the life of these GEO assets and the commercial use of “fuel depots,” enabled by <a href="../space/launch-costs-drop-order-of-magnitude.html">decreasing launch costs</a>. Fuel depots will provide propellant to the service vehicles so they may continue to extend other customers’ operations.</p>
+				<p>Geostationary satellites appear to hang over the same spot on Earth, performing services like communications, weather monitoring, and surveillance. Their orbit is very specific, around the equator (orbital inclination of zero) at about 22,300 miles altitude. From that high up, the view of Earth is expansive (you’d only need 5 or 6 satellites to have a simultaneous view of the entire equatorial region vs. the 100s-1000s of satellites required in low-Earth orbit). Their missions also typically require more instrumentation and power which significantly grow their size as compared to the low-Earth orbit (LEO) satellites providing low latency broadband data services.</p>
+				<p>Current use cases for commercial orbital fuel depots include:</p>
+				<ul>
+					<li>In-orbit refueling currently performed by the expendable, unmanned Russian Progress craft. Storable propellant used is unsymmetrical dimethylhydrazine ((CH<sub>3</sub>)<sub>2</sub>NNH<sub>2</sub>) as the fuel and nitrogen tetroxide (N<sub>2</sub>O<sub>4</sub>) as the oxidizer. (“Hypergolics” that ignite upon contact with each other). Fuel transferred through fluid connectors in the docking hardware.
+					<img src="../../img/transportation/space/3-1.png">
+					<p style="line-height: 0;"><em>An unpiloted Progress vehicle approaches the ISS carrying 1,653 pounds of propellant. Source: <a href="http://spaceflight.nasa.gov/gallery/images/station/crew-29/html/iss029e036174.html">NASA</a></em></p></li>
+					<li style="padding-top:50px;">A robotic refueling mission (RRM) in 2013 on the International Space Station demonstrated more complex operations on satellite hardware that had not been designed for refueling. Activities included peeling back thermal insulation, unscrewing and replacing caps, and opening fuel valves to transfer liquid ethanol (a safe simulant of satellite propellant hydrazine).</li>
+					<li>SpaceLogistics of Northrop Grumman used its Mission Extension Vehicles (MEVs) in 2020 and again in 2021 to extend the operational life of several-ton communications satellites by five years. The satellites were designed and deployed before on-orbit servicing was even possible. The intent is that after five years, the MEVs will have capacity to move on to service other satellites. SpaceLogistics announced plans for 7 additional missions into 2026 (at the CONFERS Global Satellite Servicing Forum 2021).</li>
+					<li>OrbitFab deployed its first fuel depot in June of 2021. The propellant is 100 lbs. of high-test peroxide, a green alternative to hydrazine.</li>
+				</ul>
+			</article>
+			<!--
+			<article style="padding-top: 60px;">
+				<p>Thought Papers:<br><a href="">Link1</a><br><a href="">Link2</a><br><a href="">Link3</a></p>
+				<p>External Sources:<br><a href="">Link1</a><br><a href="">Link2</a></p>
+			</article>
+			<article>
+				<p style="padding-top: 60px;">Share:<br><a href="">Permalink</a> | <a href="">Twitter</a> | <a href="">LinkedIn</a></p>
+			</article>
+			-->
+		</div>
+	</section>
+</body>
+</html>
