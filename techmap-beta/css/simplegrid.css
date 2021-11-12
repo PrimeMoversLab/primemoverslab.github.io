@@ -123,23 +123,23 @@ footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 /* MODAL */
 
 .modal {
-		display: none;
-		overflow: hidden;
-		position: fixed;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		z-index: 1050;
-		-webkit-overflow-scrolling: touch;
-		outline: 0;
+	display: none;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 1050;
+	-webkit-overflow-scrolling: touch;
+	outline: 0;
 }
 
 .fade {
-		opacity: 0;
-		-webkit-transition: opacity .15s linear;
-		-o-transition: opacity .15s linear;
-		transition: opacity .15s linear;
+	opacity: 0;
+	-webkit-transition: opacity .15s linear;
+	-o-transition: opacity .15s linear;
+	transition: opacity .15s linear;
 }
 
 .modal-content p{
@@ -191,19 +191,19 @@ footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 	color: #2e6be8;
 }
 
-.modal-info{
+.modal-info {
 	color: #b0b0b0;
 	font-size: 1.12em;
 	margin: 0.5em 0 0;
 	line-height: 1.6;
 }
 
-.modal-body{
+.modal-body {
 	font-size: 1em;
 	padding: 0 4.2em 3em;
 }
 
-.modal-footer{
+.modal-footer {
 	text-align: center;
 	padding: 0;
 	border: 0;
@@ -259,7 +259,7 @@ footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 	margin-bottom: 1em;
 }
 
-.modal-content{
+.modal-content {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -270,7 +270,7 @@ footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 	overflow: scroll;
 }
 
-.modal-header{
+.modal-header {
 	position: absolute;
 	top: 35px;
 	right: 35px;
@@ -279,11 +279,11 @@ footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 	font-size: 1.25rem;
 }
 
-.modal-header a{
+.modal-header a {
 	color: #999;
 }
 
-.modal-header a:hover{
+.modal-header a:hover {
 	color: #333;
 }
 
@@ -297,12 +297,12 @@ footer {top: 650px; margin-top: 200px; padding-bottom: 50px;}
 	transform: translate3d(25%, 0, 0);
 }
 
-.modal-bio .modal-social{
+.modal-bio .modal-social {
 	color: #4b4b4b;
 	margin-top: 15px;
 }
 
-.modal-bio .modal-social:hover{
+.modal-bio .modal-social:hover {
 	color: #2e6be8;
 }
 
@@ -368,7 +368,6 @@ p, a {font-size: 22px;}
 #sector-timeline-para h3 {font-size: 18px;}
 #sector-timeline-para p {font-size: 12px; opacity: 0.7;}
 #sector-timeline-para p+p {margin-top: 40px; line-height: 1.4;}
-
 
 
 /* TIMELINE */
@@ -492,7 +491,8 @@ body {
 }
 
 /* faded nodes and breakthrough nodes */
-.node-void {opacity: 0.35;}
+
+.node-void {opacity: 0.5;}
 .node-breakthrough {border: 1px rgba(255, 255, 255, 0.6) solid;}
 
 .description-flex-container {
