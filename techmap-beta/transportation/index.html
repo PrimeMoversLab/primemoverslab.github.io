@@ -51,23 +51,17 @@
 
 		#subsector-left h3, #subsector-center h3, #subsector-right h3 {top: 500px;}
 
-		.input#subsector-left-preending::before {height: 0px;}
-		.input#subsector-center-preending::before {height: 90px;}
-		.input#subsector-right-preending::before {height: 0px;}
-		.input#subsector-short-auto::before {height: 490px;}
-		.input#subsector-short-radars::before {height: 190px;}
-		.input#subsector-short-space::before {height: 0px;}
-		.input#subsector-short-aviation::before {height: 0px;}
-		.input#subsector-long-spacedebris::before {height: 2340px;}
-		.input#subsector-long-returnsupersonic::before {height: 1390px;}
+		.input#subsector-left-first::before {height: 1690px;}
+		.input#subsector-center-first::before {height: 1990px;}
+		.input#subsector-right-first::before {height: 1490px;}
 	</style>
 </head>
 <body>
 	<div id="sector-opener-nav-left">
-		<a href="#">← Autonomy</a>
+		<a href="">← Cognition</a>
 	</div>
 	<div id="sector-opener-nav-right">
-		<a href="#">Aviation →</a>
+		<a href="">Enhancement →</a>
 	</div>
 	<div id="home-timeline">
 		<img src="../img/energy-timeline-2.png">
@@ -75,14 +69,14 @@
 	<div class="container" id="rwd-desktop">
 		<div class="row" id="sector-timeline-title">
 			<div class="col-12">
-				<p><a href="../energy">Energy</a> | <a href="../infrastructure">Infrastructure</a> | <a href="../transportation" id="active-subsector-nav">Transportation</a> | <a href="../manufacturing">Manufacturing</a> | <a href="../agriculture">Agriculture</a> | <a href="../humanaugmentation">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> | <a href="../infrastructure">Infrastructure</a> | <a href="../transportation">Transportation</a> | <a href="../manufacturing">Manufacturing</a> | <a href="../agriculture">Agriculture</a> | <a href="../humanaugmentation" id="active-subsector-nav">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>
 	<div class="container" id="rwd-mobile">
 		<div class="row" id="sector-timeline-title">
 			<div class="col-12">
-				<p><a href="../energy">Energy</a> | <a href="../infrastructure">Infrastructure</a> | <a href="../transportation" id="active-subsector-nav">Transportation</a> | <a href="../manufacturing">Manufacturing</a> | <a href="../agriculture">Agriculture</a> | <a href="../humanaugmentation">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> | <a href="../infrastructure">Infrastructure</a> | <a href="../transportation">Transportation</a> | <a href="../manufacturing">Manufacturing</a> | <a href="../agriculture">Agriculture</a> | <a href="../humanaugmentation" id="active-subsector-nav">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>
@@ -91,8 +85,8 @@
 		<div class="row" id="subsector-toppara" style="top: 200px;">
 			<div class="col-2"></div>
 			<div class="col-8">
-				<h2>Transportation</h2>
-				<p>Humans have always had the urge to move and explore. Our global transportation system gives billions of people the opportunity to live richer, more connected lives. It moves the food we eat, the material goods we use, and large portions of the energy we consume. It provides opportunities for exploration, personal growth, and collaboration. It gives us the tools to explore the world around us and even the universe beyond our single planet. At the same time, the transportation sector is a major source of carbon emissions. Over the next thirty years, we’ll electrify the bulk of transportation by making batteries and energy storage cheaper (you can read more about that in the Energy sector). We’ll create new technologies that make our cars and trucks autonomous, saving hundreds of thousands of lives and hundreds of billions of hours of labor each year. We’ll make aviation both faster and more sustainable. And we’ll radically reduce the cost of access to space, the new frontier, offering both new opportunities to use space technology to serve humans on earth and giving us unprecedented capabilities to better understand and explore the universe around us.</p>
+				<h2>Human Augmentation</h2>
+				<p>Throughout history, humans have desired to be more than they are; To live longer, live healthier, overcome disease and disability, and enhance our natural capabilities. In the coming decades, humanity will age, and the demand for increased health, better medicines, new capabilities, and solutions to the fundamental problems of aging itself will take new precedence. New technological and scientific advances will give us the tools to better understand and intervene in the aging process. Perhaps even more remarkably, scientific advances will give us better insights into the functioning of the human mind and brain, and tools, both electronic and psychedelic, to bolster human mental health, cognition, and connection, addressing some of the most intimate sources of human suffering while offering us the tantalizing possibility of becoming healthier, smarter, more connected, and more capable than we are today.</p>
 			</div>
 			<div class="col-2"></div>
 		</div>
@@ -102,94 +96,94 @@
 
 	<div class="flex-parent" id="subsector-left">
 		<div class="input-flex-container">
-			<h3>Autonomy</h3>
-			<a href="autonomy/autonomous-trucks-mining-equipment.html" class="input" id="subsector-short-auto" style="top:600px;"> <!-- class=active -->
-				<span data-year="Autonomous trucks and mining equipment" id="autonomous-trucks-mining-equipment"></span>
+			<h3>Cognition</h3>
+			<a href="cognition/wearable-non-invasive-brain-devices-communication.html" class="input" id="subsector-left-first" style="top:600px;">
+				<span data-year="Wearable, non-invasive brain devices for communication" id="wearable-non-invasive-brain-devices-communication"></span>
 			</a>
-			<a href="autonomy/radars-performance-on-par-with-lidar.html" class="input" id="subsector-short-radars" style="top:1100px;">
-				<span data-year="Radars performance on par with Lidar" id="radars-performance-on-par-with-lidar"></span>
+			<a href="cognition/brain-implants-neurodegeneration-brain-injuries.html" class="input ending-node" style="top:750px;">
+				<span data-year="Brain implants for neurodegeneration and brain injuries" id="brain-implants-neurodegeneration-brain-injuries"></span>
 			</a>
-			<a href="autonomy/fully-autonomous-vehicles.html" class="input ending-node" style="top:1300px;">
-				<span data-year="Fully autonomous vehicles" id="fully-autonomous-vehicles"></span>
+			<a href="cognition/wearable-non-invasive-brain-devices-sleep-focus-pain.html" class="input ending-node" style="top:850px;">
+				<span data-year="Wearable, non-invasive brain devices for sleep, focus, and pain" id="wearable-non-invasive-brain-devices-sleep-focus-pain"></span>
+			</a>
+			<a href="cognition/accelerated-learning-skill-development.html" class="input ending-node" style="top:1000px;">
+				<span data-year="Accelerated learning and skill development" id="accelerated-learning-skill-development"></span>
+			</a>
+			<a href="cognition/breakthrough-psychedelic-plant-based-drugs-common-mental-health.html" class="input ending-node" style="top:1250px;">
+				<span data-year="Breakthrough psychedelic and plant-based drugs for most common mental health issues" id="breakthrough-psychedelic-plant-based-drugs-common-mental-health"></span>
+			</a>
+			<a href="cognition/programmable-sleep.html" class="input ending-node" style="top:1375px;">
+				<span data-year="Programmable sleep" id="programmable-sleep"></span>
+			</a>
+			<a href="cognition/technology-assisted-enlightenment.html" class="input ending-node" style="top:1450px;">
+				<span data-year="Technology assisted enlightenment" id="technology-assisted-enlightenment"></span>
+			</a>
+			<a href="cognition/brain-repair-reversal-neurodegenerative-diseases.html" class="input ending-node" style="top:1800px;">
+				<span data-year="Brain repair and reversal of neurodegenerative diseases" id="brain-repair-reversal-neurodegenerative-diseases"></span>
+			</a>
+			<a href="cognition/memory-prosthetics-uploading-downloading-specific-memories.html" class="input ending-node" style="top:2300px;">
+				<span data-year="Memory prosthetics - for the uploading and downloading of specifc memories or new memories" id="memory-prosthetics-uploading-downloading-specific-memories"></span>
 			</a>
 		</div>
 	</div>
 	<div class="flex-parent" id="subsector-center">
 		<div class="input-flex-container">
-			<h3>Space</h3>
-			<a href="space/space-debris-remediation-through-de-orbit-dead-satellites.html" class="input" id="subsector-long-spacedebris" style="top:650px;">
-				<span data-year="Space debris remediation through de-orbit of dead satellites" id="space-debris-remediation-through-de-orbit-dead-satellites"></span>
+			<h3>Longevity</h3>
+			<a class="input node-void node-void" id="subsector-center-first" style="top:800px;">
+				<span data-year="Effective longevity treatments for pets" id="effective-longevity-treatments-for-pets"></span>
 			</a>
-			<a href="#" class="input ending-node" style="top:750px;">
-				<span data-year="Fires, albedo, and CH4 emissions are tracked from space via satellites" id="fires-albedo-ch4-emissions-tracked-via-satellites"></span>
+			<a class="input node-void ending-node" style="top:1050px;">
+				<span data-year="Longevity drugs address age-related diseases" id="longevity-drugs-address-age-related-diseases"></span>
+			</a>	
+			<a href="longevity/microrobots-treat-cancers-neurodegenerative-diseases.html" class="input ending-node" style="top:1150px;">
+				<span data-year="Microrobots treat cancers and neurodegenerative diseases" id="microrobots-treat-cancers-neurodegenerative-diseases"></span>
 			</a>
-			<a href="space/commercial-orbital-fuel-depots-servicing-geostationary-orbit.html" class="input ending-node" style="top:850px;">
-				<span data-year="Commercial orbital fuel depots servicing geostationary orbit" id="commercial-orbital-fuel-depots-servicing-geostationary-orbit"></span>
+			<a class="input node-void node-void ending-node" style="top:1300px;">
+				<span data-year="Hyper personalized, rapid-feedback medicine" id="hyper-personalized-rapid-feedback-medicine"></span>
 			</a>
-			<a href="space/continuous-lunar-communication-infrastructure.html" class="input ending-node" style="top:1100px;">
-				<span data-year="Continuous lunar communication infrastructure in place" id="continuous-lunar-communication-infrastructure"></span>
+			<a class="input node-void node-void ending-node" style="top:1375px;">
+				<span data-year="Toilet diagnostics" id="toilet-diagnostics"></span>
 			</a>
-			<a href="space/launch-costs-drop-order-of-magnitude.html" class="input ending-node" style="top:1250px;">
-				<span data-year="Launch costs drop another order of magnitude" id="launch-costs-drop-order-of-magnitude"></span>
+			<a class="input node-void node-void ending-node" style="top:1600px;">
+				<span data-year="Health span increases allow the elderly to live younger, more vibrant lives" id="health-span-increases-elderly-live-younger-vibrant-lives"></span>
 			</a>
-			<a href="#" class="input ending-node" style="top:1350px;">
-				<span data-year="Orbiting hotels and commercial business parks" id="orbiting-hotels-commercial-business-parks"></span>
+			<a href="longevity/reproductive-age-extension.html" class="input ending-node" style="top:1800px;">
+				<span data-year="Reproductive age extension" id="reproductive-age-extension"></span>
 			</a>
-			<a href="space/crewed-mars-mission.html" class="input ending-node" style="top:1600px;">
-				<span data-year="Crewed Mars mission" id="crewed-mars-mission"></span>
+			<a class="input node-void node-void ending-node" style="top:2200px;">
+				<span data-year="Lab grown organs replace organ donation" id="lab-grown-organs-replace-organ-donation"></span>
 			</a>
-			<a href="#" class="input ending-node" style="top:1800px;">
-				<span data-year="On-orbit manufacturing for in-space infrastructure" id="on-orbit-manufacturing-in-space-infrastructure"></span>
-			</a>
-			<a href="space/commercial-on-orbit-refueling-common.html" class="input ending-node" style="top:1900px;">
-				<span data-year="Commercial on-orbit refueling is common" id="commercial-on-orbit-refueling-common"></span>
-			</a>
-			<a href="space/lunar-mining.html" class="input ending-node" style="top:2100px;">
-				<span data-year="Lunar mining" id="lunar-mining"></span>
-			</a>
-			<a href="space/large-capacity-fuel-depots.html" class="input ending-node" style="top:2175px;">
-				<span data-year="Large capacity fuel depots enable interorbit mobility and cis-lunar shuttling" id="large-capacity-fuel-depots"></span>
-			</a>
-			<a href="space/first-crewed-moon-base.html" class="input ending-node" style="top:2325px;">
-				<span data-year="First crewed moon base" id="first-crewed-moon-base"></span>
-			</a>
-			<a href="#" class="input ending-node" style="top:2450px;">
-				<span data-year="Cleanup of small scale space debris (<10 cm)" id="cleanup-small-scale-space-debris"></span>
-			</a>
-			<a href="#" class="input ending-node" style="top:2600px;">
-				<span data-year="In-space nuclear propulsion" id="in-space-nuclear-propulsion"></span>
-			</a>
-			<a href="space/near-earth-asteroid-mining.html" class="input ending-node" style="top:2650px;">
-				<span data-year="Near-Earth asteroid mining" id="near-earth-asteroid-mining"></span>
-			</a>			
-			<a href="#" class="input ending-node" style="top:2750px;">
-				<span data-year="Space recycling of satellites rather than de-orbit" id="space-recycling-satellites"></span>
-			</a>
-			<a href="#" class="input ending-node" style="top:3000px;">
-				<span data-year="Lunar helium-3 mining for fusion energy" id="lunar-helium3-mining-fusion-energy"></span>
+			<a class="input node-void node-void ending-node" style="top:2800px;">
+				<span data-year="Slowing and partial reversal of human aging" id="slowing-partial-reversal-human-aging"></span>
 			</a>
 		</div>
 	</div>
 	<div class="flex-parent" id="subsector-right">
 		<div class="input-flex-container">
-			<h3>Aviation</h3>
-			<a href="aviation/return-supersonic-commercial-jets.html" class="input" id="subsector-long-returnsupersonic" style="top:1200px;">
-				<span data-year="Return of supersonic commercial jets" id="return-supersonic-commercial-jets"></span>
+			<h3>Enhancement</h3>
+			<a href="enhancement/soft-clothing-embedded-sensors-continuous-monitoring-physiology-states.html" class="input node-breakthrough" id="subsector-right-first" style="top:800px;">
+				<span data-year="Soft/clothing embedded sensors for continuous monitoring of physiology states" id="soft-clothing-embedded-sensors-continuous-monitoring-physiology-states"></span>
 			</a>
-			<a href="#" class="input ending-node" style="top:1300px;">
-				<span data-year="Over 1 billion gallons of SAF produced each year" id="over-1billion-gallons-of-SAF-produced-each-year"></span>
+			<a class="input node-void node-void ending-node" style="top:1000px;">
+				<span data-year="Severed nerve or spinal cord bypass/repair" id="severed-nerve-spinal-cord-bypass-repair"></span>
 			</a>
-			<a href="aviation/commercial-low-boom-supersonic-jets.html" class="input ending-node" style="top:1750px;">
-				<span data-year="Commercial low-boom supersonic jets" id="commercial-low-boom-supersonic-jets"></span>
+			<a href="enhancement/advanced-prosthetics.html" class="input ending-node" style="top:1100px;">
+				<span data-year="Advanced prosthetics" id="advanced-prosthetics"></span>
 			</a>
-			<a href="#" class="input ending-node" style="top:1850px;">
-				<span data-year="Subsonic aircraft 10% to 20% more fuel efficient" id="subsonic-aircraft-more-fuel-efficient"></span>
+			<a class="input node-void node-void ending-node" style="top:1175px;">
+				<span data-year="Powered exo-skeletons" id="powered-exo-skeletons"></span>
 			</a>
-			<a href="#" class="input ending-node" style="top:2300px;">
-				<span data-year="Hydrogen powered subsonic aircraft" id="hydrogen-powered-subsonic-aircraft"></span>
+			<a class="input node-void node-void ending-node" style="top:1250px;">
+				<span data-year="Accelerated team connection/creativity" id="accelerated-team-connection-creativity"></span>
 			</a>
-			<a href="aviation/hypersonic-jet-aircraft.html" class="input ending-node" style="top:2600px;">
-				<span data-year="Hypersonic jet aircraft" id="hypersonic-jet-aircraft"></span>
+			<a href="enhancement/neuromodulation-find-optimal-states.html" class="input ending-node" style="top:1350px;">
+				<span data-year="Neuromodulation to find optimal states" id="neuromodulation-find-optimal-states"></span>
+			</a>
+			<a href="enhancement/sensory-enhancement-through-brain-interfaces.html" class="input ending-node" style="top:1800px;">
+				<span data-year="Sensory enhancement through brain interfaces" id="sensory-enhancement-through-brain-interfaces"></span>
+			</a>
+			<a href="enhancement/stasis-hibernation-humans-spaceflight-preservation.html" class="input ending-node" style="top:2300px;">
+				<span data-year="Stasis/hibernation in humans, for spaceflight, preservation, etc" id="stasis-hibernation-humans-spaceflight-preservation"></span>
 			</a>
 		</div>
 	</div>
@@ -197,7 +191,7 @@
 		<div class="row" id="subsector-endpara" style="top: 3150px;">
 			<div class="col-2"></div>
 			<div class="col-8">
-				<p>By 2050, new technologies will give us the tools to revolutionize transportation. We will arrive at our destinations more efficiently, and faster, without the burden of human attention to the task of driving - allowing us to use our time on other tasks that matter. Advances in autonomy will make transportation cheaper, safer, cleaner, and easier than ever before for goods to reach people around the world, and for humans to connect with one another. Humanity will take the next steps into the universe around us.</p>
+				<p>By 2050, humanity will have better tools than ever before to improve human health, overcome disease and disability, address the ravages and causes of human aging, and fundamentally improve human cognition and human mental well-being. There will still be tremendous work to do, as we unravel the mysteries and complexities of human biology and cognition. Nevertheless, we will have taken remarkable strides in augmenting humanity and will be continuing to push these frontiers.</p>
 			</div>
 			<div class="col-2"></div>
 		</div>
@@ -213,13 +207,14 @@
 			<div class="col-12">
 				<a href="https://forms.gle/NhrxRJML88XTYE6d7" target="_blank">Take the quick survey</a>
 			</div>
+
 		</div>
 	</div>
 	<div class="container" id="rwd-desktop">
 		<div class="row" id="sector-timeline-title-bottom">
 			<div class="col-12">
 				<h4>Explore Other Sectors</h4>
-				<p><a href="../energy">Energy</a> | <a href="../infrastructure">Infrastructure</a> | <a href="../transportation" id="active-subsector-nav">Transportation</a> | <a href="../manufacturing">Manufacturing</a> | <a href="../agriculture">Agriculture</a> | <a href="../humanaugmentation">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> | <a href="../infrastructure">Infrastructure</a> | <a href="../transportation">Transportation</a> | <a href="../manufacturing">Manufacturing</a> | <a href="../agriculture">Agriculture</a> | <a href="../humanaugmentation" id="active-subsector-nav">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>
