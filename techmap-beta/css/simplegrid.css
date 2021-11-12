@@ -6,7 +6,7 @@ img {display: block;}
 /* TYPOGRAPHY */
 
 * {font-family: monospace; font-size: 1rem; font-weight: 300; line-height: 1.4; color: black;}
-h1, h2, h3, p, a {font-family: 'Space Mono', monospace;}
+h1, h2, h3, p, a, ul, li, ol {font-family: 'Space Mono', monospace;}
 
 h1 {font-size: 4.5rem; line-height: 1.05; font-weight: 200;}
 h2 {font-size: 1.75rem; line-height: 1.2; font-weight: 300;}
