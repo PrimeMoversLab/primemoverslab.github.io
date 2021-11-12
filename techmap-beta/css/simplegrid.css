@@ -348,7 +348,7 @@ p, a {font-size: 22px;}
 #sector-timeline-title {z-index: 2000;}
 #sector-timeline-title {text-align: center;}
 #sector-timeline-title h2 {font-size: 3rem; padding-top: 90px;}
-#sector-timeline-title a {opacity: 0.6;}
+#sector-timeline-title a {opacity: 0.4;}
 #sector-timeline-title a:hover {border-bottom: 1px white solid; opacity: 1;}
 #sector-timeline-title #active-subsector-nav {opacity: 1;}
 
