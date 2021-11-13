@@ -365,7 +365,6 @@ p, a {font-size: 22px;}
 #sector-timeline-title-bottom #active-subsector-nav {opacity: 1;}
 #sector-timeline-title-bottom h4 {color: white; font-size: 20px;}
 
-
 #sector-timeline-para h3 {font-size: 18px;}
 #sector-timeline-para p {font-size: 12px; opacity: 0.7;}
 #sector-timeline-para p+p {margin-top: 40px; line-height: 1.4;}
@@ -471,17 +470,20 @@ body {
 	transform: translate(-50%, -50%);
 	visibility: hidden;
 }
+
 .input span::before, .input span::after {
 	visibility: visible;
 	position: absolute;
 	left: 50%;
 }
+
 .input span::after {
 	content: attr(data-year);
 	top: 25px;
 	transform: translateX(-50%);
 	font-size: 14px;
 }
+
 .input span::before {
 	content: attr(data-info);
 	top: -65px;
@@ -493,7 +495,7 @@ body {
 
 /* faded nodes and breakthrough nodes */
 
-.node-void {opacity: 0.5;}
+.node-void {opacity: 0.4;}
 .node-breakthrough {border: 1px rgba(255, 255, 255, 0.6) solid;}
 
 .description-flex-container {
