@@ -38,6 +38,10 @@
 	<style>
 		html, body {overscroll-behavior-x: none; width: 100%; overflow-x: hidden;}
 		.letter-header {font-weight: bold; font-size: 1.5rem; margin-top: 100px;}
+		.modal-bio .team-spec {
+			margin-top: 5em;
+			margin-bottom: 1.5em;
+		}
 		.letter-subheader {font-weight: bold;}
 		.modal-hidescrollbar {overflow-y: scroll;}
 		.modal-hidescrollbar::-webkit-scrollbar {display: none;}
@@ -45,6 +49,7 @@
 			-ms-overflow-style: none;  /* IE and Edge */
 			scrollbar-width: none;  /* Firefox */
 		}
+		ul li {list-style-type: circle;}
 	</style>
 </head>
 <body>
@@ -185,9 +190,9 @@
 				</div>
 			</div>
 			<!-- Letter Modal -->
-			<div id="letter-modal" class="modal fade modal-hidescrollbar" role="dialog" aria-hidden="true">
+			<div id="letter-modal" class="modal fade" role="dialog" aria-hidden="true">
 				<div class="modal-dialog">
-					<div class="modal-content">
+					<div class="modal-content modal-hidescrollbar">
 						<div class="modal-header">
 							<a href="#" data-dismiss="modal">✕</a>
 						</div>
