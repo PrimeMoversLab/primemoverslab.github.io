@@ -499,9 +499,9 @@ body {
 
 /* RWD */
 
-/* top nav */
-#rwd-desktop {display: block;}
-#rwd-mobile {display: none;}
+/* hide/show */
+#rwd-desktop, .rwd-desk {display: block;}
+#rwd-mobile, .rwd-mobi {display: none;}
 
 /* side nav */
 #sector-opener-nav-left, #sector-opener-nav-right {display: none;}
@@ -528,8 +528,6 @@ body {
 	#subsector-left, #subsector-right, #subsector-other {display: none;}
 	#subsector-center h3 {left: -42%;}
 	#subsector-center {left: 75%;}
-	#rwd-desktop {display: none;}
-	#rwd-mobile {display: block;}
 	#sector-opener-nav-left, #sector-opener-nav-right {display: block;}
 	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {width: 96%;}
 	#home-intro {top: 200px;}
@@ -540,8 +538,10 @@ body {
 	.team-pack {padding-bottom: 100px;}
 }
 
-/* ipad */
+/* small laptop */
 @media (max-width: 1024px) {
+	#rwd-desktop, .rwd-desk {display: none;}
+	#rwd-mobile, .rwd-mobi {display: block;}
 	h1 {font-size: 2.5rem;}
 	p {font-size: 1rem;}
 	a {font-size: 1rem;}
@@ -557,7 +557,18 @@ body {
 	#home-sectors-2 {top: 935px;}
 	#home-sectors-1 .home-sector-icon, #home-sectors-2 .home-sector-icon {padding-bottom: 80px;}
 	#subsector-endpara-backtotop p {padding-left: 30px; padding-right: 30px;}
-	}
+}
+
+/* ipad */
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+	#rwd-desktop, .rwd-desk {display: none;}
+	#rwd-mobile, .rwd-mobi {display: block;}
+	#subsector-toppara h2 {font-size: 1.5rem;}
+	#subsector-toppara p {font-size: 0.875rem;}
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+	#rwd-desktop, .rwd-desk {display: none;}
+	#rwd-mobile, .rwd-mobi {display: block;}
 }
 
 /* iphone */
