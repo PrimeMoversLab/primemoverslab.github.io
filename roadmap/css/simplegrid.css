@@ -525,6 +525,7 @@ body {
 	p {font-size: 1.125rem;}
 	a {font-size: 1.125rem;}
 	#home-para {margin-top: 30px;}
+	#home-para p {font-size: 1.5rem;}
 }
 
 /* small laptop */
