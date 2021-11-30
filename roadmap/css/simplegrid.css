@@ -528,6 +528,7 @@ body {
 	#home-para {margin-top: 30px;}
 }
 
+/* small laptop */
 @media (max-width: 1200px) {
 	h1 {font-size: 3rem;}
 	#home-para {margin-top: 30px;}
@@ -537,7 +538,6 @@ body {
 	#subsector-toppara h2, #subsector-endpara-backtotop h4 {font-size: 2rem; padding-top: 20px; padding-bottom: 50px;}
 	#subsector-toppara p, #subsector-endpara p, #subsector-endpara-backtotop p {font-size: 1.25rem; padding-left: 30px; padding-right: 30px;}
 	#subsector-center h3 {left: -42%;}
-	#subsector-center {left: 75%;}
 	#sector-opener-nav-left, #sector-opener-nav-right {display: block;}
 	.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {width: 96%;}
 	#home-intro {top: 200px;}
@@ -546,10 +546,7 @@ body {
 	#nav {top: 100px;}
 	h1 {font-size: 3rem;}
 	.team-pack {padding-bottom: 100px;}
-}
-
-/* small laptop */
-@media (max-width: 1200px) {
+	#subsector-left, #subsector-center, #subsector-right {left: 44%;}
 	#rwd-desktop, .rwd-desk {display: none;}
 	#rwd-mobile, .rwd-mobi {display: block;}
 	#subsector-other {display: none;}
@@ -582,8 +579,9 @@ and (-webkit-min-device-pixel-ratio: 2) {
 	#rwd-mobile, .rwd-mobi {display: block;}
 	#subsector-toppara h2 {font-size: 1.5rem;}
 	#subsector-toppara p {font-size: 0.5rem;}
-
+	#subsector-left, #subsector-center, #subsector-right {left: 44%;}
 }
+
 @media only screen 
 and (min-device-width: 768px) 
 and (max-device-width: 1024px) 
@@ -606,4 +604,9 @@ and (-webkit-min-device-pixel-ratio: 3) {
 /* idk */
 @media (min-width: 768px){
 	.modal-dialog {width: 29em;}
+}
+
+/* tablet */
+@media (max-width: 900px) {
+	#subsector-left, #subsector-center, #subsector-right {left: 37.5%;}
 }
