@@ -488,8 +488,7 @@ body {
 #subsector-right h3 {position: relative; font-size: 16px; text-align: center; top: 606px; left: -340px;}
 
 #subsector-endpara a {margin-top: 200px;}
-#subsector-toppara p {font-size: 1.5rem; text-align: left;}
-#subsector-endpara p {font-size: 1.75rem; text-align: left;}
+#subsector-toppara p, #subsector-endpara p {font-size: 1.5rem; text-align: left;}
 #subsector-endpara-backtotop {text-align: center;}
 #subsector-endpara-backtotop a {border-bottom: 1px white solid; opacity: 0.6;}
 #subsector-endpara-backtotop a:hover {opacity: 1;}
@@ -499,7 +498,7 @@ body {
 
 /* RWD */
 
-#subsector-toppara p, #subsector-endpara p {padding-left: 100px; padding-right: 100px;}
+#subsector-toppara p {padding-left: 100px; padding-right: 100px;}
 
 body {
 	background: url(../img/energy-bg.png) no-repeat center center fixed;
