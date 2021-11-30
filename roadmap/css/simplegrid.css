@@ -561,6 +561,24 @@ body {
 
 @media screen and (max-width: 800px) {
 	#subsector-toppara h2, #subsector-endpara-backtotop h4 {font-size: 1.5rem; padding-left: 80px; padding-right: 80px;}
-	#subsector-toppara p, #subsector-endpara p, #subsector-endpara-backtotop p {font-size: 0.875rem; padding-left: 80px; padding-right: 80px;}
+	#subsector-toppara p, #subsector-endpara p {font-size: 0.875rem; padding-left: 80px; padding-right: 80px;}
 	#subsector-center h3 {left: -40%;}
+}
+
+/* RWD phase2 */
+
+/* ipad */
+@media screen and (max-width: 1024px) {
+	#home-intro {top: 200px;}
+	#home-intro h1 {font-size: 80px; line-height: 1.2;}
+	#home-para p {font-size: 16px;}
+	#home-sectors-2 {top: 935px;}
+	#home-sectors-1 .home-sector-icon, #home-sectors-2 .home-sector-icon {padding-bottom: 80px;}
+	}
+}
+
+/* iphone */
+@media screen and (max-width: 812px) {
+	#subsector-endpara-backtotop p {padding-left: 30px; padding-right: 30px;}
+	}
 }
