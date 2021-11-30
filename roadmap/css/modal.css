@@ -31,7 +31,8 @@ p+p {padding-top: 30px;}
 }
 @media (max-width: 900px) {
 	.container {width: 100%;}
-	article {width: 90%;}
+	article {width: 95%;}
 	.text {padding-left: 1em; padding-right: 1em;}
 	blockquote {margin-left: 0; margin-right: 0;}
+	.modal-pullquote {font-size: 1.75rem;}
 }
