@@ -567,10 +567,14 @@ body {
 
 /* RWD phase2 */
 
+#bsr-logo {max-width: 300px;}
+
 /* ipad */
 @media screen and (max-width: 1024px) {
+	#bsr-logo {max-width: 200px;}
 	#home-intro {top: 200px;}
 	#home-intro h1 {font-size: 80px; line-height: 1.2;}
+	#home-para {top: 450px;}
 	#home-para p {font-size: 16px;}
 	#home-sectors-2 {top: 935px;}
 	#home-sectors-1 .home-sector-icon, #home-sectors-2 .home-sector-icon {padding-bottom: 80px;}
