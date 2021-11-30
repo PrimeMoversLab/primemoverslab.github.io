@@ -566,24 +566,34 @@ body {
 	#home-sectors-2 {top: 935px;}
 	#home-sectors-1 .home-sector-icon, #home-sectors-2 .home-sector-icon {padding-bottom: 80px;}
 	#subsector-endpara-backtotop p {padding-left: 30px; padding-right: 30px;}
-
 }
 
 /* ipad */
-@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 2) {
 	#rwd-desktop, .rwd-desk {display: none;}
 	#rwd-mobile, .rwd-mobi {display: block;}
 	#subsector-toppara h2 {font-size: 1.5rem;}
 	#subsector-toppara p {font-size: 0.5rem;}
 
 }
-@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
-	#rwd-desktop, .rwd-desk {display: none;}
+@media only screen 
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) 
+and (-webkit-min-device-pixel-ratio: 1) {
+  	#rwd-desktop, .rwd-desk {display: none;}
 	#rwd-mobile, .rwd-mobi {display: block;}
+	#subsector-toppara h2 {font-size: 1.5rem;}
+	#subsector-toppara p {font-size: 0.5rem;}
 }
 
 /* iphone */
-@media (max-width: 812px) {
+@media only screen 
+and (min-device-width: 375px) 
+and (max-device-width: 812px) 
+and (-webkit-min-device-pixel-ratio: 3) {
 	h1 {font-size: 2rem;}
 	#bsr-pml-logo img {display: none; max-width: 150px;}
 }
