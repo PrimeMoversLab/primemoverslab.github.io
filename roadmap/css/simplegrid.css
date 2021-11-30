@@ -499,6 +499,15 @@ body {
 
 /* RWD */
 
+/*agriculture */
+body {
+	background: url(../img/energy-bg.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
 /* hide/show */
 #rwd-desktop, .rwd-desk {display: block;}
 #rwd-mobile, .rwd-mobi {display: none;}
@@ -547,7 +556,7 @@ body {
 	a {font-size: 1rem;}
 	.team-pack {padding-bottom: 70px;}
 	#subsector-toppara h2, #subsector-endpara-backtotop h4 {font-size: 1.5rem; padding-left: 80px; padding-right: 80px;}
-	#subsector-toppara p, #subsector-endpara p {font-size: 0.875rem; padding-left: 80px; padding-right: 80px;}
+	#subsector-toppara p, #subsector-endpara p {font-size: 1rem; padding-left: 80px; padding-right: 80px;}
 	#subsector-center h3 {left: -40%;}
 	#bsr-logo {max-width: 200px;}
 	#home-intro {top: 200px;}
@@ -557,6 +566,7 @@ body {
 	#home-sectors-2 {top: 935px;}
 	#home-sectors-1 .home-sector-icon, #home-sectors-2 .home-sector-icon {padding-bottom: 80px;}
 	#subsector-endpara-backtotop p {padding-left: 30px; padding-right: 30px;}
+
 }
 
 /* ipad */
@@ -564,7 +574,8 @@ body {
 	#rwd-desktop, .rwd-desk {display: none;}
 	#rwd-mobile, .rwd-mobi {display: block;}
 	#subsector-toppara h2 {font-size: 1.5rem;}
-	#subsector-toppara p {font-size: 0.875rem;}
+	#subsector-toppara p {font-size: 0.5rem;}
+
 }
 @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
 	#rwd-desktop, .rwd-desk {display: none;}
