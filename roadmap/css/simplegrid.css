@@ -582,10 +582,18 @@ and (-webkit-min-device-pixel-ratio: 2) {
 	#subsector-toppara h2 {font-size: 1.5rem;}
 	#subsector-toppara p {font-size: 0.5rem;}
 	#subsector-left, #subsector-center, #subsector-right {left: 44%;}
-	#sector-opener-nav-left {left: 30px;}
-	#sector-opener-nav-right {right: 30px;}
+	#sector-opener-nav-left {left: 30px; font-size: 14px;}
+	#sector-opener-nav-right {right: 30px; font-size: 14px;}
 }
 
+/* tablet */
+@media (max-width: 900px) {
+	#subsector-left, #subsector-center, #subsector-right {left: 37.5%;}
+	#sector-opener-nav-left {left: 30px; font-size: 14px;}
+	#sector-opener-nav-right {right: 30px; font-size: 14px;}
+}
+
+/* iphone landscape */
 @media only screen 
 and (min-device-width: 768px) 
 and (max-device-width: 1024px) 
@@ -594,19 +602,19 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	#rwd-mobile, .rwd-mobi {display: block;}
 	#subsector-toppara h2 {font-size: 1.5rem;}
 	#subsector-toppara p {font-size: 0.5rem;}
-	#sector-opener-nav-left {left: 30px;}
-	#sector-opener-nav-right {right: 30px;}
+	#sector-opener-nav-left {left: 30px; font-size: 12px;}
+	#sector-opener-nav-right {right: 30px; font-size: 12px;}
 }
 
-/* iphone */
+/* iphone portrait */
 @media only screen 
 and (min-device-width: 375px) 
 and (max-device-width: 812px) 
 and (-webkit-min-device-pixel-ratio: 3) {
 	h1 {font-size: 2rem;}
 	#bsr-pml-logo img {display: none; max-width: 150px;}
-	#sector-opener-nav-left {left: 30px;}
-	#sector-opener-nav-right {right: 30px;}
+	#sector-opener-nav-left {left: 20px; font-size: 12px;}
+	#sector-opener-nav-right {right: 20px; font-size: 12px;}
 }
 
 /* idk */
@@ -614,9 +622,3 @@ and (-webkit-min-device-pixel-ratio: 3) {
 	.modal-dialog {width: 29em;}
 }
 
-/* tablet */
-@media (max-width: 900px) {
-	#subsector-left, #subsector-center, #subsector-right {left: 37.5%;}
-	#sector-opener-nav-left {left: 30px;}
-	#sector-opener-nav-right {right: 30px;}
-}
