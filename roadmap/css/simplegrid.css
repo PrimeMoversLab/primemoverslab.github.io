@@ -568,6 +568,8 @@ body {
 	#subsector-toppara h5 {margin-top: 50px; text-align: center; font-size: 2rem; padding-top: 50px; padding-bottom: 50px; color: white;}
 	#subsector-endpara .rwd-mobi {padding-bottom: 50px;}
 	#home-sectors-2 {top: 935px;}
+	#sector-opener-nav-left {left: 40px;}
+	#sector-opener-nav-right {right: 40px;}
 }
 
 /* ipad */
@@ -580,6 +582,8 @@ and (-webkit-min-device-pixel-ratio: 2) {
 	#subsector-toppara h2 {font-size: 1.5rem;}
 	#subsector-toppara p {font-size: 0.5rem;}
 	#subsector-left, #subsector-center, #subsector-right {left: 44%;}
+	#sector-opener-nav-left {left: 30px;}
+	#sector-opener-nav-right {right: 30px;}
 }
 
 @media only screen 
@@ -590,6 +594,8 @@ and (-webkit-min-device-pixel-ratio: 1) {
 	#rwd-mobile, .rwd-mobi {display: block;}
 	#subsector-toppara h2 {font-size: 1.5rem;}
 	#subsector-toppara p {font-size: 0.5rem;}
+	#sector-opener-nav-left {left: 30px;}
+	#sector-opener-nav-right {right: 30px;}
 }
 
 /* iphone */
@@ -599,6 +605,8 @@ and (max-device-width: 812px)
 and (-webkit-min-device-pixel-ratio: 3) {
 	h1 {font-size: 2rem;}
 	#bsr-pml-logo img {display: none; max-width: 150px;}
+	#sector-opener-nav-left {left: 30px;}
+	#sector-opener-nav-right {right: 30px;}
 }
 
 /* idk */
@@ -609,4 +617,6 @@ and (-webkit-min-device-pixel-ratio: 3) {
 /* tablet */
 @media (max-width: 900px) {
 	#subsector-left, #subsector-center, #subsector-right {left: 37.5%;}
+	#sector-opener-nav-left {left: 30px;}
+	#sector-opener-nav-right {right: 30px;}
 }
