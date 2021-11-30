@@ -273,7 +273,7 @@ p, h1, h2, h3, a {color: white;}
 p, a {font-size: 22px;}
 
 #home-timeline {position: absolute;}
-#home-intro {top: 350px;}
+#home-intro {top: 300px;}
 #home-intro h1 {text-align: center; font-size: 120px;}
 #home-para {top: 600px;}
 #home-para p {opacity: 0.6;}
