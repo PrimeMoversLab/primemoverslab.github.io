@@ -499,7 +499,8 @@ body {
 
 /* RWD */
 
-/*agriculture */
+#subsector-toppara p, #subsector-endpara p {padding-left: 100px; padding-right: 100px;}
+
 body {
 	background: url(../img/energy-bg.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -507,6 +508,7 @@ body {
 	-o-background-size: cover;
 	background-size: cover;
 }
+#subsector-toppara {top: 200px;}
 
 /* hide/show */
 #rwd-desktop, .rwd-desk {display: block;}
@@ -533,8 +535,7 @@ body {
 	#mng-team-intro .col-6, #dir-team-intro .col-6, #about-intro .col-8 {width: 96%;}
 	#spac-para {margin-top: 75px;}
 	#subsector-toppara h2, #subsector-endpara-backtotop h4 {font-size: 2rem; padding-top: 20px; padding-bottom: 50px;}
-	#subsector-toppara p, #subsector-endpara p, #subsector-endpara-backtotop p {font-size: 1.25rem; padding-left: 60px; padding-right: 60px;}
-	#subsector-left, #subsector-right, #subsector-other {display: none;}
+	#subsector-toppara p, #subsector-endpara p, #subsector-endpara-backtotop p {font-size: 1.25rem; padding-left: 30px; padding-right: 30px;}
 	#subsector-center h3 {left: -42%;}
 	#subsector-center {left: 75%;}
 	#sector-opener-nav-left, #sector-opener-nav-right {display: block;}
@@ -548,17 +549,18 @@ body {
 }
 
 /* small laptop */
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
 	#rwd-desktop, .rwd-desk {display: none;}
 	#rwd-mobile, .rwd-mobi {display: block;}
+	#subsector-other {display: none;}
 	h1 {font-size: 2.5rem;}
 	p {font-size: 1rem;}
 	a {font-size: 1rem;}
 	.team-pack {padding-bottom: 70px;}
 	#subsector-toppara h2, #subsector-endpara-backtotop h4 {font-size: 1.5rem; padding-left: 80px; padding-right: 80px;}
-	#subsector-toppara p, #subsector-endpara p {font-size: 1rem; padding-left: 80px; padding-right: 80px;}
+	#subsector-toppara p, #subsector-endpara p {font-size: 1rem; padding-left: 20px; padding-right: 20px;}
 	#subsector-center h3 {left: -40%;}
-	#bsr-logo {max-width: 200px;}
+	#bsr-logo {max-width: 200px; display: block; margin: 0 auto;}
 	#home-intro {top: 200px;}
 	#home-intro h1 {font-size: 80px; line-height: 1.2;}
 	#home-para {top: 450px;}
@@ -566,6 +568,9 @@ body {
 	#home-sectors-2 {top: 935px;}
 	#home-sectors-1 .home-sector-icon, #home-sectors-2 .home-sector-icon {padding-bottom: 80px;}
 	#subsector-endpara-backtotop p {padding-left: 30px; padding-right: 30px;}
+	#subsector-toppara h5 {margin-top: 50px; text-align: center; font-size: 2rem; padding-top: 50px; padding-bottom: 50px; color: white;}
+	#subsector-endpara .rwd-mobi {padding-bottom: 50px;}
+	#home-sectors-2 {top: 935px;}
 }
 
 /* ipad */

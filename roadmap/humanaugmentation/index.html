@@ -41,23 +41,35 @@
 	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 	<style>
-		body {
-			background: url(../img/energy-bg.png) no-repeat center center fixed;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
-		}
-
 		#sector-timeline-title span, #sector-timeline-title-bottom span {font-size: 1.5rem; color: white; opacity: 0.3;}
 		#subsector-left h3, #subsector-center h3, #subsector-right h3 {top: 500px;}
 
 		.input#subsector-left-first::before {height: 1690px;}
 		.input#subsector-center-first::before {height: 1990px;}
 		.input#subsector-right-first::before {height: 1490px;}
+
+		#subsector-logo {z-index:101;}
+		#subsector-logo img {display:block; margin:50px auto 0; padding:0; max-width:150px; width:100%;}
+
+		@media (max-width: 1200px) {
+			#subsector-left h3, #subsector-center h3, #subsector-right h3 {top: 675px;}
+			#subsector-left {display: block;}
+			#subsector-center {display: none;}
+			#subsector-right {display: none;}
+		}
 	</style>
 </head>
 <body>
+	<!-- nav -->
+	<div class="row" id="subsector-logo">
+		<div class="col-4"></div>
+		<div class="col-4">
+			<a href="../">
+				<img id="bsr-logo" src="../img/bsr-logo.svg">
+			</a>
+		</div>
+		<div class="col-4"></div>
+	</div>
 	<div id="sector-opener-nav-left">
 		<a href="">← Cognition</a>
 	</div>
@@ -70,14 +82,14 @@
 	<div class="container" id="rwd-desktop">
 		<div class="row" id="sector-timeline-title">
 			<div class="col-12">
-				<p><a href="../">Home</a> <span>|</span> <a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation" id="active-subsector-nav">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation" id="active-subsector-nav">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>
 	<div class="container" id="rwd-mobile">
 		<div class="row" id="sector-timeline-title">
 			<div class="col-12">
-				<p><a href="../">Home</a> <span>|</span> <a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation" id="active-subsector-nav">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation" id="active-subsector-nav">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>
@@ -86,8 +98,9 @@
 		<div class="row" id="subsector-toppara" style="top: 200px;">
 			<div class="col-2"></div>
 			<div class="col-8">
-				<h2>Human Augmentation</h2>
-				<p>Throughout history, humans have desired to be more than they are; To live longer, live healthier, overcome disease and disability, and enhance our natural capabilities. In the coming decades, humanity will age, and the demand for increased health, better medicines, new capabilities, and solutions to the fundamental problems of aging itself will take new precedence. New technological and scientific advances will give us the tools to better understand and intervene in the aging process. Perhaps even more remarkably, scientific advances will give us better insights into the functioning of the human mind and brain, and tools, both electronic and psychedelic, to bolster human mental health, cognition, and connection, addressing some of the most intimate sources of human suffering while offering us the tantalizing possibility of becoming healthier, smarter, more connected, and more capable than we are today.</p>
+				<h2 class="rwd-desk">Human Augmentation</h2>
+				<h5 class="rwd-mobi">xxx</h5>
+				<p class="rwd-desk">Throughout history, humans have desired to be more than they are; To live longer, live healthier, overcome disease and disability, and enhance our natural capabilities. In the coming decades, humanity will age, and the demand for increased health, better medicines, new capabilities, and solutions to the fundamental problems of aging itself will take new precedence. New technological and scientific advances will give us the tools to better understand and intervene in the aging process. Perhaps even more remarkably, scientific advances will give us better insights into the functioning of the human mind and brain, and tools, both electronic and psychedelic, to bolster human mental health, cognition, and connection, addressing some of the most intimate sources of human suffering while offering us the tantalizing possibility of becoming healthier, smarter, more connected, and more capable than we are today.</p>
 			</div>
 			<div class="col-2"></div>
 		</div>
@@ -97,7 +110,7 @@
 
 	<div class="flex-parent" id="subsector-left">
 		<div class="input-flex-container">
-			<h3>Cognition</h3>
+			<h3 class="rwd-desk">Cognition</h3>
 			<a href="cognition/wearable-non-invasive-brain-devices-communication.html" class="input" id="subsector-left-first" style="top:600px;">
 				<span data-year="Wearable, non-invasive brain devices for communication" id="wearable-non-invasive-brain-devices-communication"></span>
 			</a>
@@ -129,7 +142,7 @@
 	</div>
 	<div class="flex-parent" id="subsector-center">
 		<div class="input-flex-container">
-			<h3>Longevity</h3>
+			<h3 class="rwd-desk">Longevity</h3>
 			<a href="longevity/effective-longevity-treatments-pets.html" class="input" id="subsector-center-first" style="top:800px;">
 				<span data-year="Effective longevity treatments for pets" id="effective-longevity-treatments-pets"></span>
 			</a>
@@ -161,7 +174,7 @@
 	</div>
 	<div class="flex-parent" id="subsector-right">
 		<div class="input-flex-container">
-			<h3>Enhancement</h3>
+			<h3 class="rwd-desk">Enhancement</h3>
 			<a href="enhancement/soft-embedded-sensors-continuous-monitoring-physiology.html" class="input node-void" id="subsector-right-first" style="top:800px;">
 				<span data-year="Soft/clothing embedded sensors for continuous monitoring of physiology states" id="soft-embedded-sensors-continuous-monitoring-physiology"></span>
 			</a>
@@ -192,6 +205,7 @@
 		<div class="row" id="subsector-endpara" style="top: 3150px;">
 			<div class="col-2"></div>
 			<div class="col-8">
+				<p class="rwd-mobi">Throughout history, humans have desired to be more than they are; To live longer, live healthier, overcome disease and disability, and enhance our natural capabilities. In the coming decades, humanity will age, and the demand for increased health, better medicines, new capabilities, and solutions to the fundamental problems of aging itself will take new precedence. New technological and scientific advances will give us the tools to better understand and intervene in the aging process. Perhaps even more remarkably, scientific advances will give us better insights into the functioning of the human mind and brain, and tools, both electronic and psychedelic, to bolster human mental health, cognition, and connection, addressing some of the most intimate sources of human suffering while offering us the tantalizing possibility of becoming healthier, smarter, more connected, and more capable than we are today.</p>
 				<p>By 2050, humanity will have better tools than ever before to improve human health, overcome disease and disability, address the ravages and causes of human aging, and fundamentally improve human cognition and human mental well-being. There will still be tremendous work to do, as we unravel the mysteries and complexities of human biology and cognition. Nevertheless, we will have taken remarkable strides in augmenting humanity and will be continuing to push these frontiers.</p>
 			</div>
 			<div class="col-2"></div>
@@ -215,7 +229,7 @@
 		<div class="row" id="sector-timeline-title-bottom">
 			<div class="col-12">
 				<h4>Explore Other Sectors</h4>
-				<p><a href="../">Home</a> <span>|</span> <a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation" id="active-subsector-nav">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation" id="active-subsector-nav">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>

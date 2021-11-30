@@ -41,14 +41,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 	<style>
-		body {
-			background: url(../img/energy-bg.png) no-repeat center center fixed;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
-		}
-
 		#sector-timeline-title span, #sector-timeline-title-bottom span {font-size: 1.5rem; color: white; opacity: 0.3;}
 		#subsector-left h3, #subsector-center h3, #subsector-right h3 {top: 500px;}
 
@@ -59,9 +51,29 @@
 		.input#subsector-short-smart::before {height: 890px;}
 		.input#subsector-short-precision::before {height: 0px;}
 		.input#subsector-first-left::before {height: 1690px;}
+
+		#subsector-logo {z-index:101;}
+		#subsector-logo img {display:block; margin:50px auto 0; padding:0; max-width:150px; width:100%;}
+
+		@media (max-width: 1200px) {
+			#subsector-left h3, #subsector-center h3, #subsector-right h3 {top: 675px;}
+			#subsector-left {display: block;}
+			#subsector-center {display: none;}
+			#subsector-right {display: none;}
+		}
 	</style>
 </head>
 <body>
+	<!-- nav -->
+	<div class="row" id="subsector-logo">
+		<div class="col-4"></div>
+		<div class="col-4">
+			<a href="../">
+				<img id="bsr-logo" src="../img/bsr-logo.svg">
+			</a>
+		</div>
+		<div class="col-4"></div>
+	</div>
 	<div id="sector-opener-nav-left">
 		<a href="#">← Buildings</a>
 	</div>
@@ -74,14 +86,14 @@
 	<div class="container" id="rwd-desktop">
 		<div class="row" id="sector-timeline-title">
 			<div class="col-12">
-				<p><a href="../">Home</a> <span>|</span> <a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure" id="active-subsector-nav">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure" id="active-subsector-nav">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>
 	<div class="container" id="rwd-mobile">
 		<div class="row" id="sector-timeline-title">
 			<div class="col-12">
-				<p><a href="../">Home</a> <span>|</span> <a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure" id="active-subsector-nav">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure" id="active-subsector-nav">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>
@@ -90,8 +102,9 @@
 		<div class="row" id="subsector-toppara" style="top: 200px;">
 			<div class="col-2"></div>
 			<div class="col-8">
-				<h2>Infrastructure</h2>
-				<p>Civilization depends upon vast investments humanity has made in fundamental infrastructure. These infrastructure technologies move the energy we use. They provide us access to safe and reliable drinking water. They give us the ability to communicate with one another around the world, bolstering human collaboration and accelerating innovation. Over the coming decades, billions of people will rise in affluence, demanding more energy, more water, and more access to information and communication. At the same time, we’ll need to improve our power grid, upgrade it to handle a surge of renewable energy, and deal with water challenges brought about by the depletion of groundwater and the threats of climate change. Technological advances and scientific breakthroughs are vital in providing the bedrock infrastructure that humanity needs in order to thrive.</p>
+				<h2 class="rwd-desk">Infrastructure</h2>
+				<h5 class="rwd-mobi">xxx</h5>
+				<p class="rwd-desk">Civilization depends upon vast investments humanity has made in fundamental infrastructure. These infrastructure technologies move the energy we use. They provide us access to safe and reliable drinking water. They give us the ability to communicate with one another around the world, bolstering human collaboration and accelerating innovation. Over the coming decades, billions of people will rise in affluence, demanding more energy, more water, and more access to information and communication. At the same time, we’ll need to improve our power grid, upgrade it to handle a surge of renewable energy, and deal with water challenges brought about by the depletion of groundwater and the threats of climate change. Technological advances and scientific breakthroughs are vital in providing the bedrock infrastructure that humanity needs in order to thrive.</p>
 			</div>
 			<div class="col-2"></div>
 		</div>
@@ -101,7 +114,7 @@
 
 	<div class="flex-parent" id="subsector-left">
 		<div class="input-flex-container">
-			<h3>Buildings</h3>
+			<h3 class="rwd-desk">Buildings</h3>
 			<a href="buildings/low-carbon-cement-is-commercially-competitive.html" class="input" id="subsector-first-left" style="top:900px;">
 				<span data-year="Low-carbon cement is commercially competitive" id="low-carbon-cement-is-commercially-competitive"></span>
 			</a>
@@ -118,7 +131,7 @@
 	</div>
 	<div class="flex-parent" id="subsector-center">
 		<div class="input-flex-container">
-			<h3>Communication</h3>
+			<h3 class="rwd-desk">Communication</h3>
 			<a href="communication/global-broadband-enabled-by-leo-satellite-mega-constellation.html" class="input" id="subsector-center-preending" style="top:600px;">
 				<span data-year="Global broadband enabled by LEO satellite mega-constellation" id="global-broadband-enabled-by-leo-satellite-mega-constellation"></span>
 			</a>
@@ -138,7 +151,7 @@
 	</div>
 	<div class="flex-parent" id="subsector-right">
 		<div class="input-flex-container">
-			<h3>Water</h3>
+			<h3 class="rwd-desk">Water</h3>
 			<a href="water/smart-water-infrastructure.html" class="input" id="subsector-short-smart" style="top:900px;">
 				<span data-year="Smart water infrastructure" id="smart-water-infrastructure"></span>
 			</a>
@@ -174,6 +187,7 @@
 		<div class="row" id="subsector-endpara" style="top: 3250px;">
 			<div class="col-2"></div>
 			<div class="col-8">
+				<p class="rwd-mobi">Civilization depends upon vast investments humanity has made in fundamental infrastructure. These infrastructure technologies move the energy we use. They provide us access to safe and reliable drinking water. They give us the ability to communicate with one another around the world, bolstering human collaboration and accelerating innovation. Over the coming decades, billions of people will rise in affluence, demanding more energy, more water, and more access to information and communication. At the same time, we’ll need to improve our power grid, upgrade it to handle a surge of renewable energy, and deal with water challenges brought about by the depletion of groundwater and the threats of climate change. Technological advances and scientific breakthroughs are vital in providing the bedrock infrastructure that humanity needs in order to thrive.</p>
 				<p>By 2050, we’ll have the tools to provide us better, more efficient, and healthier buildings; to produce abundant, clean water for billions; to move the clean energy humanity will be generating to where it’s needed; and to augment the information exchange and collaboration that drive human innovation and discovery.</p>
 			</div>
 			<div class="col-2"></div>
@@ -196,7 +210,7 @@
 		<div class="row" id="sector-timeline-title-bottom">
 			<div class="col-12">
 				<h4>Explore Other Sectors</h4>
-				<p><a href="../">Home</a> <span>|</span> <a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure" id="active-subsector-nav">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure" id="active-subsector-nav">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>

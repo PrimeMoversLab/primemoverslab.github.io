@@ -41,30 +41,40 @@
 	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 	<style>
-		body {
-			background: url(../img/energy-bg.png) no-repeat center center fixed;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
-		}
-
 		#sector-timeline-title span, #sector-timeline-title-bottom span {font-size: 1.5rem; color: white; opacity: 0.3;}
 		#subsector-left h3, #subsector-center h3, #subsector-right h3 {top: 500px;}
 
 		.input#subsector-left-preending::before {height: 890px;}
 		.input#subsector-center-preending::before {height: 990px;}
 		.input#subsector-right-preending::before {height: 990px;}
+
+		#subsector-logo {z-index:101;}
+		#subsector-logo img {display:block; margin:50px auto 0; padding:0; max-width:150px; width:100%;}
+
+		@media (max-width: 1200px) {
+			#subsector-left h3, #subsector-center h3, #subsector-right h3 {top: 675px;}
+			#subsector-left {display: none;}
+			#subsector-center {display: block;}
+			#subsector-right {display: none;}
+		}
 	</style>
 </head>
 <body>
+	<!-- nav -->
+	<div class="row" id="subsector-logo">
+		<div class="col-4"></div>
+		<div class="col-4">
+			<a href="../">
+				<img id="bsr-logo" src="../img/bsr-logo.svg">
+			</a>
+		</div>
+		<div class="col-4"></div>
+	</div>
 	<div id="sector-opener-nav-left">
-		<a class="rwd-desk" href="#">← Engineered Food</a>
-		<a class="rwd-mobi" href="#">←</a>
+		<a href="engineeredfood.html">← Engineered Food</a>
 	</div>
 	<div id="sector-opener-nav-right">
-		<a class="rwd-desk" href="#">Synthetic Biology →</a>
-		<a class="rwd-mobi" href="#">→</a>
+		<a href="syntheticbiology.html">Synthetic Biology →</a>
 	</div>
 	<div id="home-timeline">
 		<img src="../img/energy-timeline-2.png">
@@ -72,24 +82,25 @@
 	<div class="container" id="rwd-desktop">
 		<div class="row" id="sector-timeline-title">
 			<div class="col-12">
-				<p><a href="../">Home</a> <span>|</span> <a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture" id="active-subsector-nav">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture" id="active-subsector-nav">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>
 	<div class="container" id="rwd-mobile">
 		<div class="row" id="sector-timeline-title">
 			<div class="col-12">
-				<p><a href="../">Home</a> <span>|</span> <a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture" id="active-subsector-nav">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture" id="active-subsector-nav">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>
 
 	<div class="container">
-		<div class="row" id="subsector-toppara" style="top: 200px;">
+		<div class="row" id="subsector-toppara">
 			<div class="col-2"></div>
 			<div class="col-8">
-				<h2>Agriculture</h2>
-				<p>Food production is the bedrock technology of human civilization. Food is, at its heart, the energy source humanity needs to sustain life. Over the coming decades, global food demand will rise by as much as 70%. Demand for meat and protein around the world, in particular, will continue to surge. At the same time, humanity must meet this growing food demand while reducing the environmental impacts of agriculture. And increasingly we wish to do so while reducing the suffering we inflict on animals. Over the coming decades, new technologies and scientific breakthroughs will allow us to produce more food while giving us the tools to reduce the amount of land and water we use - and just possibly, to produce the food humanity craves with less animal suffering.</p>
+				<h2 class="rwd-desk">Agriculture</h2>
+				<h5 class="rwd-mobi">Farming</h5>
+				<p class="rwd-desk">Food production is the bedrock technology of human civilization. Food is, at its heart, the energy source humanity needs to sustain life. Over the coming decades, global food demand will rise by as much as 70%. Demand for meat and protein around the world, in particular, will continue to surge. At the same time, humanity must meet this growing food demand while reducing the environmental impacts of agriculture. And increasingly we wish to do so while reducing the suffering we inflict on animals. Over the coming decades, new technologies and scientific breakthroughs will allow us to produce more food while giving us the tools to reduce the amount of land and water we use - and just possibly, to produce the food humanity craves with less animal suffering.</p>
 			</div>
 			<div class="col-2"></div>
 		</div>
@@ -99,7 +110,7 @@
 
 	<div class="flex-parent" id="subsector-left">
 		<div class="input-flex-container">
-			<h3>Engineered Food</h3>
+			<h3 class="rwd-desk">Engineered Food</h3>
 			<a href="engineeredfood/plant-based-proteins-at-parity-with-processed-animal-products.html" class="input" style="top:800px;">
 				<span data-year="Plant based proteins at parity with processed animal products" id="plant-based-proteins-at-parity-with-processed-animal-products"></span>
 			</a>
@@ -113,7 +124,7 @@
 	</div>
 	<div class="flex-parent" id="subsector-center">
 		<div class="input-flex-container">
-			<h3>Farming</h3>
+			<h3 class="rwd-desk">Farming</h3>
 			<a href="farming/vertical-farming-cost-competitive-for-greens-and-produce.html" class="input" style="top:800px;">
 				<span data-year="Vertical farming cost-competitive for greens and produce" id="vertical-farming-cost-competitive-for-greens-and-produce"></span>
 			</a>
@@ -133,7 +144,7 @@
 	</div>
 	<div class="flex-parent" id="subsector-right">
 		<div class="input-flex-container">
-			<h3>Synthetic Biology</h3>
+			<h3 class="rwd-desk">Synthetic Biology</h3>
 			<a href="syntheticbiology/genetically-modified-insects-reduce-human-and-plant-diseases.html" class="input" style="top:800px;">
 				<span data-year="Genetically modified insects reduce human and plant diseases" id="genetically-modified-insects-reduce-human-and-plant-diseases"></span>
 			</a>
@@ -152,6 +163,7 @@
 		<div class="row" id="subsector-endpara" style="top: 3150px;">
 			<div class="col-2"></div>
 			<div class="col-8">
+				<p class="rwd-mobi">Food production is the bedrock technology of human civilization. Food is, at its heart, the energy source humanity needs to sustain life. Over the coming decades, global food demand will rise by as much as 70%. Demand for meat and protein around the world, in particular, will continue to surge. At the same time, humanity must meet this growing food demand while reducing the environmental impacts of agriculture. And increasingly we wish to do so while reducing the suffering we inflict on animals. Over the coming decades, new technologies and scientific breakthroughs will allow us to produce more food while giving us the tools to reduce the amount of land and water we use - and just possibly, to produce the food humanity craves with less animal suffering.</p>
 				<p>By 2050, scientific breakthroughs will have given us the tools to dramatically increase our food production while sparing land, forests, water, and animal suffering. Global food demand will still be rising, and the transition to sustainable food production will not be complete, but our tools will be better than ever before and offer us the possibility - if we choose it - to begin to restore nature, even as we increase access to safe, healthy, and nutritious food to levels never before seen in human history.</p>
 			</div>
 			<div class="col-2"></div>
@@ -173,7 +185,7 @@
 	<div class="container" id="rwd-desktop">
 		<div class="row" id="sector-timeline-title-bottom">
 			<div class="col-12">
-				<p><a href="../">Home</a> <span>|</span> <a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture" id="active-subsector-nav">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing">Manufacturing</a> <span>|</span> <a href="../agriculture" id="active-subsector-nav">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>

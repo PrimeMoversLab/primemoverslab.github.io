@@ -41,23 +41,35 @@
 	<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
 	<style>
-		body {
-			background: url(../img/energy-bg.png) no-repeat center center fixed;
-			-webkit-background-size: cover;
-			-moz-background-size: cover;
-			-o-background-size: cover;
-			background-size: cover;
-		}
-
 		#sector-timeline-title span, #sector-timeline-title-bottom span {font-size: 1.5rem; color: white; opacity: 0.3;}
 		#subsector-left h3, #subsector-center h3, #subsector-right h3 {top: 500px;}
 
 		.input#subsector-left-first::before {height: 990px;}
 		.input#subsector-center-first::before {height: 1540px;}
 		.input#subsector-right-first::before {height: 2190px;}
+
+		#subsector-logo {z-index:101;}
+		#subsector-logo img {display:block; margin:50px auto 0; padding:0; max-width:150px; width:100%;}
+
+		@media (max-width: 1200px) {
+			#subsector-left h3, #subsector-center h3, #subsector-right h3 {top: 675px;}
+			#subsector-left {display: block;}
+			#subsector-center {display: none;}
+			#subsector-right {display: none;}
+		}
 	</style>
 </head>
 <body>
+	<!-- nav -->
+	<div class="row" id="subsector-logo">
+		<div class="col-4"></div>
+		<div class="col-4">
+			<a href="../">
+				<img id="bsr-logo" src="../img/bsr-logo.svg">
+			</a>
+		</div>
+		<div class="col-4"></div>
+	</div>
 	<div id="sector-opener-nav-left">
 		<a href="#">← Materials</a>
 	</div>
@@ -70,14 +82,14 @@
 	<div class="container" id="rwd-desktop">
 		<div class="row" id="sector-timeline-title">
 			<div class="col-12">
-				<p><a href="../">Home</a> <span>|</span> <a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing" id="active-subsector-nav">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing" id="active-subsector-nav">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>
 	<div class="container" id="rwd-mobile">
 		<div class="row" id="sector-timeline-title">
 			<div class="col-12">
-				<p><a href="../">Home</a> <span>|</span> <a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing" id="active-subsector-nav">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing" id="active-subsector-nav">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>
@@ -86,8 +98,9 @@
 		<div class="row" id="subsector-toppara" style="top: 200px;">
 			<div class="col-2"></div>
 			<div class="col-8">
-				<h2>Manufacturing</h2>
-				<p>Human quality of life has benefited tremendously from the manufacturing improvements that began in antiquity and have surged since the industrial revolution. Our lives are enriched by everything from the clothing we wear to our physical devices and computing infrastructure. In the coming decades, billions of people around the world will enter the global middle class, with more demand for the material wealth we take for granted. At the same time, computational demands will continue to increase, and computing will increasingly be a core aspect of solving every global problem and modernizing every industry. We’ll need to improve our manufacturing techniques to be more environmentally sustainable while addressing the challenges of global supply chains. Technological advances offer us the tools to do all of this.</p>
+				<h2 class="rwd-desk">Manufacturing</h2>
+				<h5 class="rwd-mobi">xxx</h5>
+				<p class="rwd-desk">Human quality of life has benefited tremendously from the manufacturing improvements that began in antiquity and have surged since the industrial revolution. Our lives are enriched by everything from the clothing we wear to our physical devices and computing infrastructure. In the coming decades, billions of people around the world will enter the global middle class, with more demand for the material wealth we take for granted. At the same time, computational demands will continue to increase, and computing will increasingly be a core aspect of solving every global problem and modernizing every industry. We’ll need to improve our manufacturing techniques to be more environmentally sustainable while addressing the challenges of global supply chains. Technological advances offer us the tools to do all of this.</p>
 			</div>
 			<div class="col-2"></div>
 		</div>
@@ -97,7 +110,7 @@
 
 	<div class="flex-parent" id="subsector-left">
 		<div class="input-flex-container">
-			<h3>Materials</h3>
+			<h3 class="rwd-desk">Materials</h3>
 			<a href="materials/green-sustainable-manufacturing-continues-traction.html" class="input" id="subsector-left-first" style="top:800px;">
 				<span data-year="Green & sustainable manufacturing continues to make traction" id="green-sustainable-manufacturing-continues-traction"></span>
 			</a>
@@ -114,7 +127,7 @@
 	</div>
 	<div class="flex-parent" id="subsector-center">
 		<div class="input-flex-container">
-			<h3>Robotics</h3>
+			<h3 class="rwd-desk">Robotics</h3>
 			<a href="robotics/enhanced-workplace-safety-robotics-ai-vr-ar.html" class="input" id="subsector-center-first" style="top:800px;">
 				<span data-year="Enhanced workplace safety through robotics, AI, VR/AR" id="enhanced-workplace-safety-robotics-ai-vr-ar"></span>
 			</a>
@@ -143,7 +156,7 @@
 	</div>
 	<div class="flex-parent" id="subsector-right">
 		<div class="input-flex-container">
-			<h3>Semiconductors</h3>
+			<h3 class="rwd-desk">Semiconductors</h3>
 			<a href="semiconductors/ultra-reality-displays-surpass-monitors-immersive.html" class="input" id="subsector-right-first" style="top:600px;">
 				<span data-year="Ultra reality displays surpass monitors and allow immersive experiences" id="ultra-reality-displays-surpass-monitors-immersive"></span>
 			</a>
@@ -188,6 +201,7 @@
 		<div class="row" id="subsector-endpara" style="top: 3150px;">
 			<div class="col-2"></div>
 			<div class="col-8">
+				<p class="rwd-mobi">Human quality of life has benefited tremendously from the manufacturing improvements that began in antiquity and have surged since the industrial revolution. Our lives are enriched by everything from the clothing we wear to our physical devices and computing infrastructure. In the coming decades, billions of people around the world will enter the global middle class, with more demand for the material wealth we take for granted. At the same time, computational demands will continue to increase, and computing will increasingly be a core aspect of solving every global problem and modernizing every industry. We’ll need to improve our manufacturing techniques to be more environmentally sustainable while addressing the challenges of global supply chains. Technological advances offer us the tools to do all of this.</p>
 				<p>By 2050, we’ll have the tools to manufacture better products to satisfy the physical needs of billions, while doing so at lower cost, in a more distributed fashion, with less human labor, and a lower environmental footprint.</p>
 			</div>
 			<div class="col-2"></div>
@@ -210,7 +224,7 @@
 		<div class="row" id="sector-timeline-title-bottom">
 			<div class="col-12">
 				<h4>Explore Other Sectors</h4>
-				<p><a href="../">Home</a> <span>|</span> <a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing" id="active-subsector-nav">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
+				<p><a href="../energy">Energy</a> <span>|</span> <a href="../infrastructure">Infrastructure</a> <span>|</span> <a href="../transportation">Transportation</a> <span>|</span> <a href="../manufacturing" id="active-subsector-nav">Manufacturing</a> <span>|</span> <a href="../agriculture">Agriculture</a> <span>|</span> <a href="../humanaugmentation">Human Augmentation</a></p>
 			</div>
 		</div>
 	</div>
