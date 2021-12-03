@@ -68,11 +68,12 @@ p.news-title, .news-source {padding: 0 50px; margin: 0;}
 .about-outcomes {margin-top: 200px;}
 .about-outcomes h2 {font-size: 4.5rem;}
 .about-outcomes h3 {font-family: 'SuperLight', Georgia, serif; font-size: 2rem;}
-.about-outcomes p {margin-top: 20px; margin-bottom: 120px;}
+.about-outcomes p {margin-top: 20px; margin-bottom: 120px; font-size: 1.125rem;}
 
 .team h2 {font-size: 4.5rem; padding-bottom: 100px;}
 .team h3 {font-size: 2.5rem; padding-bottom: 0; margin-bottom: 20px;}
 .team .offset-left {position: relative; right: 75px;}
+#about-intro-text p, .team p {font-size: 1.125rem;}
 .team p+p {margin-top: 20px;}
 
 /* NAV */
@@ -119,14 +120,25 @@ p.news-title, .news-source {padding: 0 50px; margin: 0;}
 	font-size: 4rem;
 }
 
+.rwd-desk {display: block;}
+.rwd-mobi {display: none;}
+
 /* RWD	*/
 @media screen and (max-height: 450px) {
 	.overlay a {font-size: 20px}
 	.overlay .closebtn {font-size: 40px; top: 15px; right: 35px;}
 }
 
+@media screen and (max-width: 900px) {
+	.rwd-desk {display: none;}
+	.rwd-mobi {display: block;}
+}
+
 @media screen and (max-width: 720px) {
 	.news-source {padding-top: 50px;}
 	#nav a, #home-intro h1 {padding: 0 50px;}
 	#home-intro a {margin-left: 50px;}
+	#about-intro-text p, .about-outcomes h3, .about-outcomes p, .team h2, .team h3, .team p {padding-left: 50px; padding-right: 50px;}
+	.team .offset-left {right: 0;}
+
 }
