@@ -31,7 +31,7 @@ em {font-family: 'SuperLightItalic', Georgia, serif; font-weight: 100; font-styl
 #nav span:hover {opacity: 1;}
 
 #home-intro {padding-top: 50px; height: 400px; background-color: #e4e4e4; min-height: 800px;}
-#home-intro h1 {font-size: 3rem; line-height: 1.2;  margin-bottom: 100px; margin-top: 240px;}
+#home-intro h1 {font-size: 3rem; line-height: 1.2;	margin-bottom: 100px; margin-top: 240px;}
 #home-intro a {font-size: 1.125rem; border: 1px black solid; padding: 20px 50px; border-radius: 50px;}
 #home-intro img {margin-top: -50px; max-width: 900px;}
 
@@ -50,13 +50,12 @@ em {font-family: 'SuperLightItalic', Georgia, serif; font-weight: 100; font-styl
 #home-pillars .col-4 {padding-bottom: 170px;}
 
 #home-news, #home-blog {background-color: white;}
-.home-news-intro, .home-blog-intro {margin-bottom: 70px;}
-#home-news h2, #home-blog h2 {font-size: 4.5rem; margin-top: 200px;}
-#home-news p, #home-blog p {font-size: 1.25rem; margin-top: 60px;}
+#home-news h2, #home-blog h2 {font-size: 4.5rem; margin-top: 250px;}
+#home-news .news-source, #home-blog .blog-source {font-size: 1.25rem; margin-top: 60px;}
 #home-news .news-title, #home-blog .blog-title {font-size: 3rem;}
-.news-title {line-height: 1.2;}
+p.news-title, .news-source {padding: 0 50px; margin: 0;}
 .news-title a {font-size: 2.5rem; line-height: 1.2;}
-#home-news .news-source, #home-blog .blog-source {color: gray; margin-top: 10px; font-size: 1rem;}
+#home-news .news-source, #home-blog .blog-source {color: gray; margin-top: 15px; font-size: 1rem;}
 .news-border, .blog-border {border-bottom: 1px black solid; margin-top: 40px; margin-bottom: -20px;}
 #home-news, #home-blog {margin-top: 100px;}
 .news-border-container {padding-top: 100px; padding-bottom: 50px;}
@@ -79,52 +78,55 @@ em {font-family: 'SuperLightItalic', Georgia, serif; font-weight: 100; font-styl
 /* NAV */
 
 .overlay {
-  height: 100%;
-  width: 100%;
-  display: none;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0, 0.94);
+	height: 100%;
+	width: 100%;
+	display: none;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0, 0.94);
 }
 
 .overlay-content {
-  position: relative;
-  top: 25%;
-  width: 100%;
-  text-align: center;
-  margin-top: 30px;
+	position: relative;
+	top: 25%;
+	width: 100%;
+	text-align: center;
+	margin-top: 30px;
 }
 
 .overlay a {
-  padding: 10px;
-  text-decoration: none;
-  font-size: 4rem;
-  color: white;
-  display: block;
-  transition: 0.3s;
-  font-family: 'SuperLight', Georgia, serif;
-  font-weight: 100;
+	padding: 10px;
+	text-decoration: none;
+	font-size: 4rem;
+	color: white;
+	display: block;
+	transition: 0.3s;
+	font-family: 'SuperLight', Georgia, serif;
+	font-weight: 100;
 }
 
 .overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
+	color: #f1f1f1;
 }
 
 .overlay .closebtn {
-  position: absolute;
-  top: 25px;
-  right: 160px;
-  font-size: 4rem;
+	position: absolute;
+	top: 25px;
+	right: 160px;
+	font-size: 4rem;
 }
 
+/* RWD	*/
 @media screen and (max-height: 450px) {
-  .overlay a {font-size: 20px}
-  .overlay .closebtn {
-  font-size: 40px;
-  top: 15px;
-  right: 35px;
-  }
+	.overlay a {font-size: 20px}
+	.overlay .closebtn {font-size: 40px; top: 15px; right: 35px;}
+}
+
+@media screen and (max-width: 720px) {
+	.news-source {padding-top: 50px;}
+	#nav a, #home-intro h1 {padding: 0 50px;}
+	#home-intro a {margin-left: 50px;}
 }
