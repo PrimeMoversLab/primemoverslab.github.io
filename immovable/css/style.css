@@ -36,7 +36,7 @@ em {font-family: 'SuperLightItalic', Georgia, serif; font-weight: 100; font-styl
 #home-intro img {margin-top: -50px; max-width: 900px;}
 
 #home-pillars-intro {background-color: #e4e4e4;}
-#home-pillars-intro h2 {font-size: 4.5rem; margin-top: 150px;}
+#home-pillars-intro h2 {font-size: 4.5rem; margin-top: 150px; margin-bottom: 120px;}
 #home-pillars-intro p {font-size: 1.25rem; margin-top: 60px; margin-bottom: 120px;}
 
 #home-pillars {margin-right: 0; margin-right: 0;}
@@ -44,8 +44,8 @@ em {font-family: 'SuperLightItalic', Georgia, serif; font-weight: 100; font-styl
 #home-pillars h3 {font-size: 3.5rem; margin-top: 40px; color: white; padding-left: 75px; padding-right: 75px;}
 #home-pillars p {margin-top: 40px; color: white; padding-left: 75px; padding-right: 75px; padding-bottom: 150px; height: 150px;}
 #home-pillars a {font-size: 1.125rem; border: 1px white solid; padding: 20px 50px; border-radius: 50px; color: white;}
-.pillar-1 {background-color: #c88b56;}
-.pillar-2 {background-color: #386ea9;}
+.pillar-1 {background-color: #386ea9;}
+.pillar-2 {background-color: #c88b56;}
 .pillar-3 {background-color: #4c6e62;}
 #home-pillars .col-4 {padding-bottom: 170px;}
 
@@ -54,9 +54,12 @@ em {font-family: 'SuperLightItalic', Georgia, serif; font-weight: 100; font-styl
 #home-news h2, #home-blog h2 {font-size: 4.5rem; margin-top: 200px;}
 #home-news p, #home-blog p {font-size: 1.25rem; margin-top: 60px;}
 #home-news .news-title, #home-blog .blog-title {font-size: 3rem;}
-#home-news .news-source, #home-blog .blog-source {color: gray; margin-top: 82px; font-size: 1rem;}
+.news-title {line-height: 1.2;}
+.news-title a {font-size: 2.5rem; line-height: 1.2;}
+#home-news .news-source, #home-blog .blog-source {color: gray; margin-top: 10px; font-size: 1rem;}
 .news-border, .blog-border {border-bottom: 1px black solid; margin-top: 40px; margin-bottom: -20px;}
 #home-news, #home-blog {margin-top: 100px;}
+.news-border-container {padding-top: 100px; padding-bottom: 50px;}
 
 .footer {background-color: #e4e2e2; margin-top: 300px; padding-bottom: 150xp; height: 350px;}
 .footer img {padding-top: 150px;}
