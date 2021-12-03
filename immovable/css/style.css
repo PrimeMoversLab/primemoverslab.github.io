@@ -122,10 +122,12 @@ p.news-title, .news-source {padding: 0 50px; margin: 0;}
 
 #values-icons img {max-width: 120px;}
 #values-icons p {padding-bottom: 0px;}
-#quotes p {font-weight: 700; color: gray;}
+#quotes p {color: gray;}
+.partners-logos img {margin: 0 50px; display: inline-block; max-width: 200px;}
 
 .rwd-desk {display: block;}
 .rwd-mobi {display: none;}
+.overlay .closebtn {right: 150px; opacity: 0.4;}
 
 /* RWD	*/
 @media screen and (max-height: 450px) {
@@ -134,6 +136,7 @@ p.news-title, .news-source {padding: 0 50px; margin: 0;}
 }
 
 @media screen and (max-width: 1200px) {
+	.overlay .closebtn {right: 75px;}
 	#home-pillars h3 {font-size: 2rem; padding-left: 30px; padding-right: 30px;}
 	#home-pillars p {font-size: 1rem; padding-left: 30px; padding-right: 30px;}
 }
@@ -141,9 +144,12 @@ p.news-title, .news-source {padding: 0 50px; margin: 0;}
 @media screen and (max-width: 900px) {
 	.rwd-desk {display: none;}
 	.rwd-mobi {display: block;}
+	#pillars-mission-text p {padding-left: 50px; padding-right: 50px;}
 }
 
 @media screen and (max-width: 720px) {
+	.overlay .closebtn {right: 50px;}
+	#nav span {top: -50px; margin-right: 50px;}
 	.news-source {padding-top: 50px;}
 	#nav a, #home-intro h1 {padding: 0 50px;}
 	#home-intro a {margin-left: 50px;}
