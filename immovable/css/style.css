@@ -120,6 +120,10 @@ p.news-title, .news-source {padding: 0 50px; margin: 0;}
 	font-size: 4rem;
 }
 
+#values-icons img {max-width: 120px;}
+#values-icons p {padding-bottom: 0px;}
+#quotes p {font-weight: 700; color: gray;}
+
 .rwd-desk {display: block;}
 .rwd-mobi {display: none;}
 
@@ -127,6 +131,11 @@ p.news-title, .news-source {padding: 0 50px; margin: 0;}
 @media screen and (max-height: 450px) {
 	.overlay a {font-size: 20px}
 	.overlay .closebtn {font-size: 40px; top: 15px; right: 35px;}
+}
+
+@media screen and (max-width: 1200px) {
+	#home-pillars h3 {font-size: 2rem; padding-left: 30px; padding-right: 30px;}
+	#home-pillars p {font-size: 1rem; padding-left: 30px; padding-right: 30px;}
 }
 
 @media screen and (max-width: 900px) {
@@ -140,5 +149,6 @@ p.news-title, .news-source {padding: 0 50px; margin: 0;}
 	#home-intro a {margin-left: 50px;}
 	#about-intro-text p, .about-outcomes h3, .about-outcomes p, .team h2, .team h3, .team p {padding-left: 50px; padding-right: 50px;}
 	.team .offset-left {right: 0;}
-
+	#home-pillars h3 {font-size: 3rem; padding-left: 75px; padding-right: 75px;}
+	#home-pillars p {font-size: 1.25rem; padding-left: 75px; padding-right: 75px;}
 }

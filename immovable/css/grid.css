@@ -41,6 +41,7 @@ body {
 
 * {font-family: Helvetica, sans-serif; color: black; line-height: 1.4; font-size: 1rem;}
 .superlight {font-family: 'SuperLight', Georgia, serif; font-weight: 100;}
+.superLlightitalic {font-family: 'SuperLightItalic', Georgia, serif; font-weight: 100; font-style: italic;}
 .helve {font-family: Helvetica, sans-serif;}
 
 /* TYPOGRAPHY */
@@ -221,5 +222,5 @@ p {
 
 @media only screen and (min-width: 60em) { /* 960px */
 	.container {width: 100%;}
-	
+
 }
