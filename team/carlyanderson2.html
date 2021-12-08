@@ -37,6 +37,11 @@
 	</script>
 	<style>
 		html, body {overscroll-behavior-x: none; width: 100%; overflow-x: hidden;}
+		.modal {display: block;}
+		.fade {opacity: 1;}
+		.modal.fade:not(.in) .modal-dialog {
+			-webkit-transform: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);}
 	</style>
 </head>
 <body>
