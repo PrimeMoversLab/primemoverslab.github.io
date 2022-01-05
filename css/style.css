@@ -130,7 +130,7 @@ h1 i,
 }
 
 h2,
-.h2{ 
+.h2 { 
 	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 700;
 	font-size: 2.5em;
@@ -425,7 +425,7 @@ label.error {
 	outline: none!important;
 }
 
-.btn.btn-trans{		 
+.btn.btn-trans {		 
 	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 	background-color: rgba(255,255,255,0.2);
 }
@@ -434,7 +434,7 @@ label.error {
 	background-color: #2e6be8;
 }
 
-.btn.btn-trans-2{		 
+.btn.btn-trans-2 {		 
 	box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 	background-color: rgba(255,255,255,0.1);
 }
@@ -854,7 +854,7 @@ label.error {
 	color: #fff;
 }
 
-.nav-desctop-list	> li {
+.nav-desctop-list > li {
 	display: inline-block;
 	margin-left: 3em;
 }
@@ -924,7 +924,7 @@ label.error {
 	color: #fff;
 }
 
-.nav-desctop-list > li > ul > li >	a:after,
+.nav-desctop-list > li > ul > li > a:after,
 .nav-desctop-list > li > ul > .active > a:after {
 	content: '';
 	position: absolute;
@@ -941,15 +941,14 @@ label.error {
 	transition: all 0.5s;
 }
 
-
 .nav-desctop-list > li > ul > li:hover > a:after,
 .nav-desctop-list > li > ul > .active >	a:after {
 	opacity: 1;
 	margin-right: -10px;
 }
 
-.nav-desctop-list > li > ul > li:hover >	a,
-.nav-desctop-list > li > ul >	.active >	a {
+.nav-desctop-list > li > ul > li:hover > a,
+.nav-desctop-list > li > ul > .active >	a {
 	padding-left: 20px;
 	color: #fff;
 }
@@ -962,10 +961,7 @@ label.error {
 	top: -0.6em;
 }
 
-
 /* 2.3 Nav Mobile */
-
-
 
 .nav-mobile {
 	clear: both;
@@ -1072,9 +1068,7 @@ label.error {
 	color: #959595;
 }
 
-
 /* 2.4 Navbar Affix */
-
 
 .navbar.affix {
 	position: fixed;
@@ -1125,9 +1119,7 @@ label.error {
 	background-color: #2e6be8;
 }
 
-
 /* 2.5 Navbar Dark */
-
 
 .navbar-dark.affix {
 	background-color: #161616;
@@ -1229,7 +1221,6 @@ label.error {
 	text-decoration: none;
 }
 
-
 .navbar-left .social-list {
 	float: none;
 	margin-bottom: 2em;
@@ -1243,11 +1234,9 @@ label.error {
 	padding: 8.2em 0;
 }
 
-
 /*-----------------------------------------------------------------------------*/
 /*	3. Main
 /*-----------------------------------------------------------------------------*/
-
 
 .main {
 	position: relative;
@@ -1280,7 +1269,6 @@ label.error {
 	height: 100%;
 	background-color: rgba(19,19,19,0.7);
 }
-
 
 .main-full .opener {
 	position: relative;
@@ -1434,9 +1422,7 @@ label.error {
 	transform: translateX(-50%);
 }
 
-
 /* 3.1 Slider */
-
 
 .rev_slider {
 	color: #fff;
@@ -1572,11 +1558,9 @@ label.error {
 	color: #fff;
 }
 
-
 /*-----------------------------------------------------------------------------*/
 /*	4. About
 /*-----------------------------------------------------------------------------*/
-
 
 .bg-about {
 	background: url(../img/bg/bg-fountainhead.jpg) 50% 50% no-repeat;
@@ -1769,11 +1753,9 @@ label.error {
 	border-left-color: #3e3e3e;
 }
 
-
 /*-----------------------------------------------------------------------------*/
 /*	5. Portfolio
 /*-----------------------------------------------------------------------------*/
-
 
 .filter {
 	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -1947,11 +1929,7 @@ label.error {
 	text-align: center;
 }
 
-
-
 /* 5.1 Magnific popup */
-
-
 
 .mfp-zoom-out-cur {
 	padding-right: 0;
@@ -2096,11 +2074,9 @@ img.mfp-img {
 	line-height: 1;
 }
 
-
 /*-----------------------------------------------------------------------------*/
 /*	6. Events
 /*-----------------------------------------------------------------------------*/
-
 
 .col-event a:hover {
 	text-decoration: none;
@@ -2141,11 +2117,9 @@ img.mfp-img {
 	background:url(../img/bg/event.png) right bottom no-repeat;
 }
 
-
 /*-----------------------------------------------------------------------------*/
 /*	7. Features
 /*-----------------------------------------------------------------------------*/
-
 
 .features p {
 	margin-bottom: 0;
@@ -2178,11 +2152,9 @@ img.mfp-img {
 	color:#4b4b4b;
 }
 
-
 /*-----------------------------------------------------------------------------*/
 /*	8. Services
 /*-----------------------------------------------------------------------------*/
-
 
 .main-services-1 {
 	background:url(../img/bg/bg-services-1.jpg);
@@ -2220,11 +2192,9 @@ img.mfp-img {
 	margin-top: 1em;
 }
 
-
 /*-----------------------------------------------------------------------------*/
 /*	9. Blog
 /*-----------------------------------------------------------------------------*/
-
 
 .main-blog {
 	background:url(../img/bg/bg-blog.jpg) 50% 0	no-repeat;
@@ -2437,9 +2407,7 @@ img.mfp-img {
 	margin-top: 0;
 }
 
-
 /* 9.3 Widget Search */
-
 
 .widget_search .search-form {
 	max-width:420px;
@@ -2465,9 +2433,7 @@ img.mfp-img {
 	text-decoration: none;
 }
 
-
 /* 9.5 Widget Tags */
-
 
 .blog-tags {
 	margin-top: -0.7em;
@@ -2494,11 +2460,9 @@ img.mfp-img {
 	text-decoration: none;
 }
 
-
 /*-----------------------------------------------------------------------------*/
 /*	10. Team
 /*-----------------------------------------------------------------------------*/
-
 
 .col-team {
 	padding: 0;
@@ -2613,11 +2577,9 @@ img.mfp-img {
 	left: 0;
 }
 
-
 /* ------------------------------------------------------------------------------- */
 /*	11. Clients
 /* ------------------------------------------------------------------------------- */
-
 
 .clients {
 	overflow: hidden;
@@ -2668,11 +2630,9 @@ img.mfp-img {
 	padding: 1em;
 }
 
-
 /* ------------------------------------------------------------------------------- */
 /*	12. Banner
 /* ------------------------------------------------------------------------------- */
-
 
 .section-banner {
 	margin-bottom: 14em;
@@ -2742,11 +2702,9 @@ img.mfp-img {
 	margin-bottom: 3em;
 }
 
-
 /* ------------------------------------------------------------------------------- */
 /*	13. Contacts
 /* ------------------------------------------------------------------------------- */
-
 
 .main-contacts {
 	background: url(../img/bg/bg-contacts.jpg) 50% 0;
@@ -2881,11 +2839,9 @@ img.mfp-img {
 	margin-right: 7px;
 }
 
-
 /* ------------------------------------------------------------------------------- */
 /*	14. Coming Soon
 /* ------------------------------------------------------------------------------- */
-
 
 .comming-soon {
 	background-color: #1c1c1c;
@@ -2901,11 +2857,9 @@ img.mfp-img {
 	background-color: rgba(10,10,10,0.7);
 }
 
-
 /* ------------------------------------------------------------------------------- */
 /*	15. 404 Page
 /* ------------------------------------------------------------------------------- */
-
 
 .main-404 {
 	background: url(../img/bg/bg-404.jpg) 50% 0 no-repeat;
@@ -2920,11 +2874,9 @@ img.mfp-img {
 	margin-top: 2em;
 }
 
-
 /* ------------------------------------------------------------------------------- */
 /*	16. Footer
 /* ------------------------------------------------------------------------------- */
-
 
 .footer {
 	color: #fff;
@@ -3030,11 +2982,9 @@ img.mfp-img {
 	float: right;
 }
 
-
 /* ------------------------------------------------------------------------------- */
 /*	17. Modals
 /* ------------------------------------------------------------------------------- */
-
 
 .modal {
 	text-align: center;
@@ -3056,7 +3006,6 @@ img.mfp-img {
 	margin: 25px auto;
 	border-radius: 0;
 }
-
 
 .modal:before {
 	display: inline-block;
@@ -3116,11 +3065,9 @@ img.mfp-img {
 	margin-top: 2em;
 }
 
-
 /* ------------------------------------------------------------------------------- */
 /*	18. Responsive
 /* ------------------------------------------------------------------------------- */
-
 
 /* 18.1 Min width 768px */
 
@@ -3156,9 +3103,7 @@ img.mfp-img {
 	}
 }
 
-
 /* 18.2 Min width 992px */
-
 
 @media (min-width: 992px) {
 
@@ -3317,9 +3262,7 @@ img.mfp-img {
 	}
 }
 
-
 /* 18.3 Min width 1200px */
-
 
 @media (min-width: 1200px) {
 
@@ -3356,7 +3299,6 @@ img.mfp-img {
 		padding-left: 4.5em;
 	}
 }
-
 
 /* ------------------------------------------------------------------------------- */
 /*	XX. Prime Movers Lab
@@ -3430,6 +3372,7 @@ footer .logo-footer {
 }
 
 /* Stuff */
+
 .stat-number-pml {
 	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: bold;
@@ -3814,7 +3757,6 @@ footer .email {
 }
 .nav-desktop {display: block;}
 .nav-desktop-hidden {display: none;}
-
 
 @media (max-width: 992px) {
 	.nav-desktop {display: none;}
