@@ -211,7 +211,7 @@ p {
 
 ul {
 	list-style: none;
-	/* padding-left: 0; list outdent */
+	padding-left: 0; /* list outdent */
 }
 
 a {
