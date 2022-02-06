@@ -31,6 +31,8 @@
 	<link href="/css/style.css" rel="stylesheet" media="screen">
 
 	<style>
+		#table-contents a {display: block; font-size: 1.125em; font-weight: bold; text-transform: uppercase; letter-spacing: 0.2em; padding-bottom: 20px;}
+		.chapter-anchor {margin-bottom: 200px;}
 		h2 {font-size: 3em;}
 		#intro {font-size: 1.375em; line-height: 1.4; font-style: italic;}
 		p, .takeaways li {font-size: 1.25em;}
@@ -42,7 +44,7 @@
 		.section-content-2 {padding-bottom: 8em;}
 		.subheading {padding-top: 2.5em; font-weight: bold;}
 		.author-notes {font-style: italic;}
-		.references p {font-size: 1em;}
+		.references-links p {font-size: 1em;}
 	</style>
 </head>
 <body>
@@ -134,12 +136,19 @@
 				<!-- table of contents -->
 				<div class="section-content-2">
 					<div class="row-base row">
-						<div class="col-md-8 col-md-offset-2 table-contents">
+						<div class="col-md-8 col-md-offset-2" id="table-contents">
 							<h4>Table of Contents</h4>
 							<a href="#flow-physics">Flow Physics</a>
 							<a href="#aerothermodynamic-design">Aerothermodynamic Design</a>
-							<a href="hypersonics-history">Hypersonics History</a>
-							<a href="hypersonics-history">Hypersonics History</a>
+							<a href="#hypersonics-history">Hypersonics History</a>
+							<a href="#economics-concorde">Economics of the Concorde</a>
+							<a href="#politics-kills-progress">Politics Kills Progress</a>
+							<a href="#sonic-boom-suppression">Enabling Technology: Sonic Boom Suppression</a>
+							<a href="#hypersonic-enabling-technologies">Hypersonic Enabling Technologies</a>
+							<a href="#commercial-market">Commercial Market</a>
+							<a href="#dual-use-technologies-increase-tam">Dual-Use Technologies Increase TAM</a>
+							<a href="#conclusion">Conclusion</a>
+							<a href="#references">references</a>
 						</div>
 					</div>
 				</div>
@@ -152,10 +161,11 @@
 					</div>
 				</div>
 				<!-- end section -->
+				<div class="chapter-anchor" id="flow-physics"></div>
 				<div class="section-content-2">
 					<div class="row-base row">
 						<div class="col-md-8 col-md-offset-2">
-							<h4 id="flow-physics">Flow Physics</h4>
+							<h4>Flow Physics</h4>
 							<p>Before we dive into the current state-of-the-art, a definition of the basic terms and concepts of high-speed flow physics is warranted.</p>
 							<p>Supersonic flight denotes a vehicle whose speed (magnitude of the velocity vector) is faster than the local speed of sound (a). Aerodynamicists LOVE to non-dimensionalize so that it’s easier to compare their performance. For supersonic flight, the non-dimensional number of choice is the Mach number.</p>
 							<img class="images" src="/img/ideas/thoughtpaper/high-speed-flight/1.png">
@@ -184,10 +194,11 @@
 					</div>
 				</div>
 				<!-- end section -->
+				<div class="chapter-anchor" id="aerothermodynamic-design"></div>
 				<div class="section-content-2">
 					<div class="row-base row">
 						<div class="col-md-8 col-md-offset-2">
-							<h4 id="aerothermodynamic-design">Aerothermodynamic Design</h4>
+							<h4>Aerothermodynamic Design</h4>
 							<p>In aerodynamic design, the function determines the form. In other words, aircraft look the way they do as a result of the flow physics they are required to fly through. Subsonic aircraft have soft rounded shapes with smooth continuous gradients in radius of curvature — the design intent is to keep the flow smooth and attached for as long as possible to reduce drag.</p>
 							<p class="author-notes">Author’s note: I’ve not yet mentioned the transonic flow regime. Today’s commercial passenger jets tend to cruise at M~0.85, which means their wings encounter transonic flow phenomena during flight: there are local shockwaves on the upper surface of the wing (the suction side of the airfoil) that cause the flow to detach early and create a much higher drag coefficient. In 1969 NASA Langley researcher Dr. Richard Whitcomb designed the supercritical airfoil to be optimized for transonic flow. The supercritical airfoil shape enables aircraft designers to trade between increased subsonic cruise speed before encountering the transonic drag penalty OR thicker wing sections — reducing structural weight and enabling higher lift at lower speeds. Dr. Whitcomb is also credited with the area rule, which is applied to the fuselage of supersonic jets.</p>
 							<p>In contrast, supersonic aircraft have sharp leading edges. The design intent is to reduce drag by keeping the shock waves attached and as oblique as possible. The <b>pressure drag dominates over viscous skin friction drag for supersonic aircraft, contributing ~85 percent of the total drag force</b>. While aircraft designers optimize the outer mold line of the vehicle for cruise conditions, most supersonic aircraft also have variable geometry for the subsonic flight regime. Some famous examples: the Concorde’s articulating droop nose [6] and the F-14’s variable swept wings [7]. Of note, while the SR-71’s engine had linearly translating spike [8], its purpose was to optimize supersonic flight performance by keeping the oblique shock attached to the engine inlet.</p>
@@ -209,10 +220,11 @@
 					</div>
 				</div>
 				<!-- end section -->
+				<div class="chapter-anchor" id="hypersonics-history"></div>
 				<div class="section-content-2">
 					<div class="row-base row">
 						<div class="col-md-8 col-md-offset-2">
-							<h4 id="hypersonics-history">Hypersonics History</h4>
+							<h4>Hypersonics History</h4>
 							<p>Imagine being nearly 100 years ahead of your time in predicting a technology — not just its existence, but the mechanisms for how that technology can be realized in practice. In their wonderful book Coming Home: Reentry and Recovery from Space [10], NASA historians Roger Launius and Dennis Jenkins briefly cover one of the earliest concepts for a hypersonic spaceplane: the Sänger-Bredt Silverbird. While getting his PhD at the Vienna Polytechnic Institute in 1929, Eugen Sänger conceptualized a reusable rocket-powered space plane that would fly in a phugoid motion (skip-gliding along the top of the atmosphere). He would later refine the design with his mathematician wife Irene Bredt. The design reference trajectory and method of propulsion were both feasible back then (and variations of this solution architecture are used in military hypersonic systems today). What Sänger underestimated were the heat loads.</p>
 							<img class="images" src="/img/ideas/thoughtpaper/high-speed-flight/1.png">
 							<p class="small-caption">Upper left: a wind tunnel model for the Silverbird [10], Lower left: a summary table of the Silverbird conceptual design specifications [11], Right: a Sänger-Bredt report drawing [12]</p>
@@ -227,6 +239,7 @@
 					</div>
 				</div>
 				<!-- end section -->
+				<div class="chapter-anchor" id="economics-concorde"></div>
 				<div class="section-content-2">
 					<div class="row-base row">
 						<div class="col-md-8 col-md-offset-2">
@@ -240,6 +253,7 @@
 					</div>
 				</div>
 				<!-- end section -->
+				<div class="chapter-anchor" id="politics-kills-progress"></div>
 				<div class="section-content-2">
 					<div class="row-base row">
 						<div class="col-md-8 col-md-offset-2">
@@ -255,6 +269,7 @@
 					</div>
 				</div>
 				<!-- end section -->
+				<div class="chapter-anchor" id="sonic-boom-suppression"></div>
 				<div class="section-content-2">
 					<div class="row-base row">
 						<div class="col-md-8 col-md-offset-2">
@@ -272,6 +287,7 @@
 					</div>
 				</div>
 				<!-- end section -->
+				<div class="chapter-anchor" id="hypersonic-enabling-technologies"></div>
 				<div class="section-content-2">
 					<div class="row-base row">
 						<div class="col-md-8 col-md-offset-2">
@@ -284,6 +300,7 @@
 					</div>
 				</div>
 				<!-- end section -->
+				<div class="chapter-anchor" id="commercial-market"></div>
 				<div class="section-content-2">
 					<div class="row-base row">
 						<div class="col-md-8 col-md-offset-2">
@@ -306,6 +323,7 @@
 					</div>
 				</div>
 				<!-- end section -->
+				<div class="chapter-anchor" id="dual-use-technologies-increase-tam"></div>
 				<div class="section-content-2">
 					<div class="row-base row">
 						<div class="col-md-8 col-md-offset-2">
@@ -337,6 +355,7 @@
 					</div>
 				</div>
 				<!-- end section -->
+				<div class="chapter-anchor" id="conclusion"></div>
 				<div class="section-content-2">
 					<div class="row-base row">
 						<div class="col-md-8 col-md-offset-2">
@@ -346,9 +365,10 @@
 					</div>
 				</div>
 				<!-- end section -->
+				<div class="chapter-anchor" id="references"></div>
 				<div class="section-content-2">
 					<div class="row-base row">
-						<div class="col-md-8 col-md-offset-2 references">
+						<div class="col-md-8 col-md-offset-2 references-links">
 							<h4>References</h4>
 							<p>[1] Shapiro, A., <a href="https://www.amazon.com/Dynamics-Thermodynamics-Compressible-Fluid-Flow/dp/0471066915">The Dynamics and Thermodynamics of Compressible Fluid Flow</a>, p. 122, 1953</p>
 							<p>[2] Candler, G., <a ref="https://www.annualreviews.org/doi/10.1146/annurev-fluid-010518-040258">Rate Effects in Hypersonic Flows</a>, Annual Review of Fluid Mechanics, 2019</p>
@@ -473,7 +493,8 @@
 
 	<!-- SCRIPTS -->
 
-	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/js/jquery.min.js"></script>
+	<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+	<script src="/js/jquery.min.js"></script>
 	<script src="/js/jquery.viewport.js"></script>
 	<script src="/js/jQuerySimpleCounter.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
