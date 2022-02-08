@@ -5,10 +5,6 @@
 		var host = "www.primemoverslab.com"
 		if (window.location.host == host && window.location.protocol != "https:") {window.location.protocol = "https:"}
 	</script>
-
-	<!-- No bots indexing -->
-	<meta name="robots" content="noindex">
-
 	<meta property="og:title" content="Prime Movers Lab">
 	<meta property="og:description" content="Backing breakthrough scientific inventions transforming billions of lives">
 	<meta property="og:image" content="https://www.primemoverslab.com/thumbnail-og.png">
@@ -36,9 +32,9 @@
 		h2 {font-size: 3em;}
 		#intro {font-size: 1.375em; line-height: 1.4; font-style: italic;}
 		p, .takeaways li {font-size: 1.25em;}
-		.small-caption {font-size: 1em; margin-top: -75px; padding-bottom: 100px; text-align: center;}
+		.small-caption {font-size: 1em; padding-bottom: 100px; text-align: center;}
 		.small-caption a {font-size: 1em;}
-		.images {width: 100%; padding: 50px 0 100px 0;}
+		.images {width: 100%; padding: 50px 0 30px 0;}
 		h4 {font-size: 1.75em;}
 		h5 {text-transform: none; font-style: italic; font-weight: normal; font-size: 2.375em; line-height: 1.3; padding: 25px 0; letter-spacing: 0.05em; color: #2e6be8;}
 		.section-content-2 {padding-bottom: 8em;}
@@ -46,6 +42,9 @@
 		.subheading {padding-top: 2.5em; font-weight: bold;}
 		.author-notes {font-style: italic;}
 		.references-links p {font-size: 1em;}
+		@media (max-width: 992px) {
+			#thoughtpaper .images {padding: 25px 0 15px 0;}
+		}
 	</style>
 </head>
 <body>
