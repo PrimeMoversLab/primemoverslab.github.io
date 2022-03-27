@@ -249,7 +249,7 @@
 							<h4>Ground Equipment</h4>
 							<p>The big news in ground equipment has been the ability to demonstrate communications with satellites in different orbits. <a href="https://www.isotropicsystems.com" target="_blank">Isotropic Systems</a> recently completed an additional demonstration of this capability for the U.S. Army [46], after having done its own tests in collaboration with SES last November. One take-away from interviews I’ve conducted with officials in the SDA and Space Force is that the DOD is overrun with terminals for the various satellite systems. Whoever figures out how to make “one terminal to rule them all” will have more gold than Smaug.</p>
 							<p class="author-notes">Author’s note: the <a href="https://dificonsortium.org" target="_blank">DIFI Consortium</a> is working to create open “RF over IP” like standards for interoperable satellite communications. [47]</p>
-							<p><a href="https://www.kymetacorp.com" target="_blank">Kymeta</a> is another company working on multi-orbit terminals. Prime Movers Lab Technical Partner Alessandro Levi did a fantastic job explaining their technology in his whitepaper on Metamaterials [48], so I’d rather direct curious readers there. (Kymeta also has a whitepaper on their website for even more technical readers [49].) Kymeta is working on a stationary user terminal for OneWeb’s network, to be released this summer [50]. In February Kymeta entered into a strategic partnership with Kratos to develop a mobile antenna and software-defined terminal solution [51].</p>
+							<p><a href="https://www.kymetacorp.com" target="_blank">Kymeta</a> is another company working on multi-orbit terminals. Prime Movers Lab Technical Partner Alessandro Levi did a fantastic job explaining their technology in his whitepaper on <a href="https://www.primemoverslab.com/resources/ideas/metamaterials.pdf" target="_blank">Metamaterials</a> [48], so I’d rather direct curious readers there. (Kymeta also has a whitepaper on their website for even more technical readers [49].) Kymeta is working on a stationary user terminal for OneWeb’s network, to be released this summer [50]. In February, Kymeta entered into a strategic partnership with Kratos to develop a mobile antenna and software-defined terminal solution [51].</p>
 						</div>
 					</div>
 				</div>
@@ -324,173 +324,9 @@
 					<div class="row-base row">
 						<div class="col-md-10 col-md-offset-1">
 							<h4>Companies to Track</h4>
-							<p><b>Boom</b><br>Location: USA<br>Products: Commercial supersonic jet<br>Propulsion: Low-bypass turbofan<br>Partnerships: Air Force</p>
-							<p><b>Exosonic</b><br>Location: USA<br>Products: Commercial supersonic jet<br>Propulsion: Low-bypass turbofan<br>Partnerships: Air Force</p>
-							<p><b>Spike</b><br>Location: USA<br>Products: Supersonic private jet<br>Propulsion: Low-bypass turbofan<br>Partnerships: N/A</p>
-							<p><b>Hermeus</b><br>Location: USA<br>Products: Reusable hypersonic aircraft<br>Propulsion: Turbine-based combined cycle<br>Partnerships: Air Force</p>
-							<p><b>Venus</b><br>Location: USA<br>Products: Reusable hypersonic aircraft<br>Propulsion: Still in stealth-mode<br>Partnerships: DARPA, NASA</p>
-							<p><b>Radian</b><br>Location: USA<br>Products: Sled-lauchned SSTO space plane<br>Propulsion: Rocket<br>Partnerships: ?</p>
-							<p><b>FGC Plasma</b><br>Location: USA<br>Products: Tactical missiles, SAF compatible igniters<br>Propulsion: Scramjet<br>Partnerships: Air Force, DARPA, DOE</p>
-							<p><b>Reaction Engines</b><br>Location: UK<br>Products: Heat exchanger, SABRE engine<br>Propulsion: Rocket-based combined cycle<br>Partnerships: Air Force, Ministry of Defense</p>
-							<p><b>Hypersonix</b><br>Location: Australia<br>Products: Military drone, spaceplane<br>Propulsion: Scramjet<br>Partnerships: Boeing, Kratos</p>
-							<p><b>Beijing Lingkong Tianxing Technology</b><br>Location: China<br>Products: Reusable hypersonic aircraft<br>Propulsion: ?<br>Partnerships: N/A</p>
-						</div>
-					</div>
-				</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-							<img class="images" src="/img/ideas/thoughtpaper/high-speed-flight/x-02.webp">
-							<p class="small-caption">Change in flow properties across a normal shock</p>
-							<p>Flow physics in the supersonic flight regime are reasonably well modeled in one-dimension (1-D) via the normal shock relations. While the shock wave itself is an irreversible process, on either side of the shock the simplifying assumptions of isentropic flow (ideal gas, adiabatic, inviscid, irrotational flow) can be applied to get a closed-form solution. Rather than show equations, it’s helpful to view the normal shock relations plotted, to see how much each quantity changes with an increasing freestream Mach number.</p>
-							<img class="images" src="/img/ideas/thoughtpaper/high-speed-flight/x-03.webp">
-							<p class="small-caption">The normal shock relations for air [1]</p>
-							<p>You might ask, what’s the point of a 1-D model? Aircraft are 3-D! Aerodynamicists, in addition to loving non-dimensional numbers, also love scaling laws. They provide a framework for thinking about the largest first-order effects of the flow physics. In the diagram above, the biggest takeaway is that <b>pressure scales with velocity squared</b>.</p>
-							<p>The practical design implication for aircraft is that the faster you go, the larger the pressure loads and the more thrust you’ll need to overcome the resultant induced drag force. Pressure scales linearly with freestream density and linearly with the cross-sectional area of the aircraft, so aircraft designers have af to ~1,400K at Mach 5, to ~12,000 K at Mach 15. As illustrated in the computational image below, hypersonic flow is non-ideal, with energy dissipation pathways that reduce the near-wall gas temperature closer to ~6,000 K. (The hypersonic flight environment is dominated by tremendous heat loads. This is still hotter than any existing material melting point. Materials will be covered in more detail later.)</p>
-							<img class="images" src="/img/ideas/thoughtpaper/high-speed-flight/x-04.webp">
-							<p class="small-caption">Computational Fluid Dynamics models illustrate thermochemical non-equilibrium of hypersonic flow. The blunt nose shape on the left pushes the highest temperature region away from the surface. [2]</p>
-							<p>As speed increases above Mach 5, the collisions of the gas molecules are no longer elastic (like balls on a pool table bouncing off each other), meaning that the idealh numbers (M>10) and altitudes (>60km). This phenomenology creates the plasma responsible for the communications black-out zone during re-entry. The graph below illustrates the regimes for different hypersonic flow physics and flight trajectories for known vehicles.</p>
-							<img class="images" src="/img/ideas/thoughtpaper/high-speed-flight/x-05.webp">
-							<p class="small-caption">Hypersonic Flow Physics Phenomenology: (a) Turbulence Regime and (b) Thermochemistry [3]</p>
-							<p>These changes to the flow physics, known as thermochemical nonequilibrium flow, are a challenge to model accurately. Rather than write out the Navier-Stokes equations here, it’s faster to discuss their mathematical properties. The Navier-Stokes equations are mixed-type partial differential equations (PDEs). This means that the solutions are weak (non-unique) and dependent on the local flow properties. In the stagnation region of a hypersonic flow, they behave as elliptical PDEs, while beyond the Mach line they behave as hyperbolic PDEs. Getting a converged solution representative of reality is hard. That’s why <b>test data and simplified approximations (aka hand-calcs) are so important — they anchor us to reality</b>.</p>
-							<p>A key point to appreciate about the majority of our modern hypersonic computational fluid dynamics (CFD) solvers is that they all use a similar numerical approach to se of epistemic uncertainty head-on, researchers are computing reaction coefficients from first principles statistical atomic collisions [5] and collecting new shock tube data.) The charts below illustrate the <b>disconnect between ground test data we can acquire and the regimes where we actually fly</b>.</p>
-							<img class="images" src="/img/ideas/thoughtpaper/high-speed-flight/x-06.webp">
-							<p class="small-caption">There’s not a ground-based wind tunnel on Earth that can replicate the conditions experienced in air during hypersonic flight. That’s part of what has slowed progress in this field – flight test is essential (and expensive)! [3]</p>
-							<p>CFD practitioners create high-quality converged solutions by paying careful attention to the flow-field discretization (aka grid quality and timestep), boundary conditions, initial conditions, and selection of turbulence models appropriate for the flow regime. It’s very easy to create a garbage result using CFD!</p>
-						</div>
-					</div>
-				</div>
-				<!-- end section -->
-				<div class="chapter-anchor" id="aerothermodynamic-design"></div>
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1">
-							<h4>Aerothermodynamic Design</h4>
-							<p>In aerodynamic design, the function determines the form. In other words, aircraft look the way they do as a result of the flow physics they are required to fly through. Subsonic aircraft have soft rounded shapes with smooth continuous gradients in radius of curvature — the design intent is to keep the flow smooth and attached for as long as possible to reduce drag.</p>
-							<p class="author-notes">Author’s note: I’ve not yet mentioned the transonic flow regime. Today’s commercial passenger jets tend to cruise at M~0.85, which means their wings encounter transonic flow phenomena during flight: there are local shockwaves on the upper surface of the wing (the suction side of the airfoil) that cause the flow to detach early and create a much higher drag coefficien [6] and the F-14’s variable swept wings [7]. Of note, while the SR-71’s engine had lineaign, what makes hypersonics hard is trying to survive the environment resultant from the <b>heat flux scaling with velocity cubed</b>.</p>
-							<img class="images" src="/img/ideas/thoughtpaper/high-speed-flight/x-07.webp">
-							<p class="small-caption">Force and heat flux on a blunt-body re-entry vehicle per FAA Guide <a href="https://www.faa.gov/about/office_org/headquarters_offices/avs/offices/aam/cami/library/online_libraries/aerospace_medicine/tutorial/media/III.4.1.7_Returning_from_Space.pdf" target="_blank">Returning from Space</a> [9]</p>
-							<p>Recap: subsonic vehicles have rounded edges and supersonic ones have sharp leading edges. Hypersonic vehicles go back to rounded (aka blunt) shapes. <b>When designing a hypersonic vehicle, the top engineering priority shifts from reducing drag to surviving the heat loads.</b> Blunt body theory was developed to push the shock wave off from the vehicle, as conventional materials cannot withstand the post-shock environment.</p>
-							<img class="images" src="/img/ideas/thoughtpaper/high-speed-flight/x-08.webp">
-							<p class="small-caption">Aerospace materials, example use, and properties</p>
-							<p>Key takeaways from this table:</p>
-							<ul class="takeaways">
-								<li>Aerospace engineers love titanium because it’s light and strong, but its melting point is low.</li>
-								<li>Tungsten has a much higher melting point, but it’s very heavy and somewhat brittle.</li>
-								<li>Lots of ongoing research into using Silicon Carbide, among other types of Ultra High Temperature Ceramics (UHTCs), as a next-gen material for leading edges and as a coating layer on other parts of the vehicle. The problem with ceramics is their low fracture toughness and lack of tensile strength. (Impact resistance is a problem for all-ceramic thermal protection solutions, with the most tragic example being the loss of Shuttle Columbia.)</li>
-							</ul>
-							<p>There are three types of thermal protection systems (TPS): passive, ablative, and active. Passive thermal systems are reusable; they rely on radiative heat rejectionl tf 3x to ensure survivability of the vehicle in a worst-case scenario. These large TPS margins eat into the weight available to carry passengers and cargo. <b>Hypersonic vehicle designers deal with the large uncertainties on predicted heat loads by allocating a substantial amount of their weight budget to thermal protection systems.</b></p>
-						</div>
-					</div>
-				</div>
-				<!-- end section -->
-				<div class="chapter-anchor" id="hypersonics-history"></div>
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1">
-							<h4>Hypersonics History</h4>
-							<p>Imagine being nearly 100 years ahead of your time in predicting a technology — not just its existence, but the mechanisms for how that technology can be realized in practice. In their wonderful book Coming Home: Reentry and Recovery from Spdt. The design reference trajectory and method of propulsion were both feasible back then (and variations of this solution architecture are used in military hypersonic systems today). What Sänger underestimated were the heat loads.</p>
-							<img class="images" src="/img/ideas/thoughtpaper/high-speed-flight/x-09.webp">
-							<p class="small-caption">Upper left: a wind tunnel model for the Silverbird [10], Lower left: a summary table of the Silverbird conceptual design specifications [11], Right: a Sänger-Bredt report drawing [12]</p>
-							<p>There exists somewhat of a debate as to the identity of the first vehicle to achieve hypersonic speeds. As aerospace legend John Anderson notes for The Smithsonian [13], the first object to travel hypersonic (over 5 times faster than the speed of sounydrogen has a much higher flame speed thus is easier to light in a supersonic combustion environment and (2) hydrogen is more energetic. <b>The X-51A achieving sustained net-positive thrust with a hydrocarbon scramjet was the hypersonic equivalent of the Wright Brothers’ Flight.</b></p>
-							<img class="images" src="/img/ideas/thoughtpaper/high-speed-flight/x-10.webp">
-							<p class="small-caption">The history of hypersonics research. (Special thanks to Dr. Richard Hallion for sharing his latest version of this graphic!)</p>
-							<p>Observant readers will note a ~40-year gap between the X-15 and the X-43 programs for successfully demonstrated hypersonics milestones. Hypersonics development in the U.S. was cyclical for decades. Beyond the lack of an external impetus to develop hypersonic capabilities, another reason that U.S. funding for hypersonics crements are ill-defined and continually changing. This alone drives one reason to remain optimistic about non-traditional commercial hypersonic companies: they are setting their own requirements for the product, rather than the inefficient and painful iterative process with government program managers that happens today.</p>
-						</div>
-					</div>
-				</div>
-				<!-- end section -->
-				<div class="chapter-anchor" id="economics-concorde"></div>
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1">
-							<h4>Economics of the Concorde</h4>
-							<p>The last time civilians were able to fly supersonic speeds for commercial air travel was in 2003, when the Concorde retired. For 27 years the Concorde carried 100 first-class passengers, cruising at Mach 2 across the Atlantic Ocean.</p>
-							<p>While the Concorde was a commercial jet, it was heavily subsidized by the British and French governments due to its operational economics. The subsonic takeoff required after-burning engines with 215 percent higher fuel burn than in supersonic cruisency would OPEC oil embargo increased the price of fuel 4x, and (3) 1976 overland sonic boom restrictions killed many routes. <b>Due to the oil crisis the airline operational trend shifted from high speed to high capacity</b> wide-body subsonic jets like the 747.</p>
-						</div>
-					</div>
-				</div>
-				<!-- end section -->
-				<div class="chapter-anchor" id="politics-kills-progress"></div>
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1">
-							<img class="images" src="/img/ideas/thoughtpaper/high-speed-flight/x-11.webp">
-							<h4>Politics Kills Progress</h4>
-							<p>The Concorde was not the only commercial supersonic jet of its era. The desire for a supersonic commercial jet became a national prestige project for the Americans, the Russians, and the British and the French (who partnered together via ependent from all other countries, focusing his efforts on nuclear reby the government would pick up the larger portion of the R&D budget, but the U.S. companies participating were expected to contribute a decent amount of private er day fcent of the Oklahoma City population was not in favor of the sonic boom noise. If the FAA had run a more reasonable campaign, perhaps the anti-SST movement would have never taken off.</p>
-						</div>
-					</div>
-				</div>
-				<!-- end section -->
-				<div class="chapter-anchor" id="sonic-boom-suppression"></div>
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1">
-							<h4>Enabling Technology: Sonic Boom Suppression</h4>
-							<p>With our background tour of the fundamentals and history complete, we’re ready to dive into the state-of-the-art research on aerodynamic design for sonic boom ng colleion results enables supersonic aircraft designers to scale up the low-boom design principles for large passenger vehicles with sufficient design margin for success.</p>
-						</div>
-					</div>
-				</div>
-				<!-- end section -->
-				<div class="chapter-anchor" id="hypersonic-enabling-technologies"></div>
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1">
-							<h4>Hypersonic Enabling Technologies</h4>
-							<p>The most exciting innovations for hypersonics are happening in propulsion and active therming Technology</a> is also entering the spaceplane race, having received nearly $63M in funding last year [44].</p>
-						</div>
-					</div>
-				</div>
-				<!-- end section -->
-				<div class="chapter-anchor" id="commercial-market"></div>
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1">
-							<h4>Commercial Market</h4>
-							<p>The commercial supersonic flight market can be divided into two segments: smaller-sized business jets that carry less than 20 passengers and larger-sized commer Boom and hypersonic startup Hermeus recently did with their $30M STRATFI the Internal Rate of Return for different high-speed aircraft. A notable conclusion from both reports is that the <b>business case for high-speed flight exists without government subsidies</b>.</p>
-							<img class="images" src="/img/ideas/thoughtpaper/high-speed-flight/x-17.webp">
-							<p class="small-caption">High-Speed aircraft can operate profitably thanks to factors like improvements in engine efficiency and aerodynamic design optimization. SpaceWorks ROSETquired. The better news is that the US government will continue to invest heavily into hypersonic R&D because of the defensive applications.</p>
-						</div>
-					</div>
-				</div>
-				<!-- end section -->
-				<div class="chapter-anchor" id="dual-use-technologies-increase-tam"></div>
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1">
-							<h4>Dual-Use Technologies Increase TAM</h4>
-							<p>Human-rated high-performance aerospace vehicles tend to follow a development path dss the reality of a 21st century Great Power Competition. Unlike the Coled for defense applications, the business case for these hypersonic aircraft developers gets much stronger.</p>
-						</div>
-					</div>
-				</div>
-				<!-- end section -->
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1">
-							<h4>Companies to Track</h4>
-							<p><b>Boom</b><br>Location: USA<br>Products: Commercial supersonic jet<br>Propulsion: Low-bypass turbofan<br>Partnerships: Air Force</p>
-							<p><b>Exosonic</b><br>Location: USA<br>Products: Commercial supersonic jet<br>Propulsion: Low-bypass turbofan<br>Partnerships: Air Force</p>
-							<p><b>Spike</b><br>Location: USA<br>Products: Supersonic private jet<br>Propulsion: Low-bypass turbofan<br>Partnerships: N/A</p>
-							<p><b>Hermeus</b><br>Location: USA<br>Products: Reusable hypersonic aircraft<br>Propulsion: Turbine-based combined cycle<br>Partnerships: Air Force</p>
-							<p><b>Venus</b><br>Location: USA<br>Products: Reusable hypersonic aircraft<br>Propulsion: Still in stealth-mode<br>Partnerships: DARPA, NASA</p>
-							<p><b>Radian</b><br>Location: USA<br>Products: Sled-lauchned SSTO space plane<br>Propulsion: Rocket<br>Partnerships: ?</p>
-							<p><b>FGC Plasma</b><br>Location: USA<br>Products: Tactical missiles, SAF compatible igniters<br>Propulsion: Scramjet<br>Partnerships: Air Force, DARPA, DOE</p>
-							<p><b>Reaction Engines</b><br>Location: UK<br>Products: Heat exchanger, SABRE engine<br>Propulsion: Rocket-based combined cycle<br>Partnerships: Air Force, Ministry of Defense</p>
-							<p><b>Hypersonix</b><br>Location: Australia<br>Products: Military drone, spaceplane<br>Propulsion: Scramjet<br>Partnerships: Boeing, Kratos</p>
-							<p><b>Beijing Lingkong Tianxing Technology</b><br>Location: China<br>Products: Reusable hypersonic aircraft<br>Propulsion: ?<br>Partnerships: N/A</p>
+							<p><b>SpaceX</b><br>Status: Private<br>Products: Starlink broadband constellation<br>Valuation: $100B<br>Last Financing: $755M, Oct 2021</p>
+							<!-- end table -->
+							<p>Most of the companies in this landscape are quite mature. A nascent area to keep an eye on over the next couple years is quantum communications, with an exciting experiment launching to the ISS later in 2022 [90]. In fact, NSR reports 30 different quantum communications payloads scheduled to launch by 2030 [91].) The promise of quantum communications is one potential approach to secure communications. MIT Lincoln Lab developed the “protected tactical waveform” [92] for DOD encrypted communications. The Space Force has up to $5B budgeted to build a secure unjammable space-based communication architecture [93].</p>
 						</div>
 					</div>
 				</div>
@@ -500,8 +336,8 @@
 					<div class="row-base row">
 						<div class="col-md-10 col-md-offset-1">
 							<h4>Conclusion</h4>
-							<p>At Prime Movers Lab we believe in the power of human connection and the precious value of time. High-speed flight is no longer a game of national prestige, subject to the whims of politics. It’s become the domain of private industry, wherigh-speed flight will return to the market, regulations around overland sonic boom will be changed thanks to NASA’s X-59 program, and hypersonic technologies will transition from military to civilian flight. The future is faster!</p>
-						</div>
+							<p>The satellite communications sector is currently going through a period of exponential growth, driven by two complementary macro trends – the reduced cost of launch and Moore’s Law making electronics smaller, more capable, and lower power. Additionally, electric propulsion, phased array antennas, and optical inter-satellite links have enabled the emergent slim form factor design for LEO mega-constellations. SpaceX has demonstrated the feasibility of the LEO mega-constellation business case: Starlink sells fiber-quality broadband internet to consumers living in remote locations. Beyond broadband, other interesting market sectors to watch include IoT and 5G backhaul via direct-to-cell-phone service. Optical inter-satellite links and the high volumes of Earth Observation data are driving the nascent in-space compute market, with data centers in-space helping to create an environment of real-time actionable intelligence via data fusion and machine learning. Turbulent times have been a somber reminder of the importance of space-based data and communications for helping billions of lives here on Earth.</p>
+							</div>
 					</div>
 				</div>
 				<!-- end section -->
@@ -510,62 +346,102 @@
 					<div class="row-base row">
 						<div class="col-md-10 col-md-offset-1 references-links">
 							<h4>References</h4>
-							<p>[1] Shapiro, A., <a href="https://www.amazon.com/Dynamics-Thermodynamics-Compressible-Fluid-Flow/dp/0471066915" target="_blank">The Dynamics and Thermodynamics of Compressible Fluid Flow</a>, p. 122, 1953</p>
-							<p>[2] Candler, G., <a ref="https://www.annualreviews.org/doi/10.1146/annurev-fluid-010518-040258" target="_blank">Rate Effects in Hypersonic Flows</a>, Annual Review of Fluid Mechanics, 2019</p>
-							<p>[3] Bose, D., et. al., <a href="https://arc.aiaa.org/doi/10.2514/1.A32268" target="_blank">Uncertainty Assessment of Hypersonic Aerothermodynamics Prediction Capabilities</a>, Journal of Spacecraft and Rockets, Vol 50, No. 1, 2013</p>
-							<p>[4] Bose, D., et. al. , <a href="https://arc.aiaa.org/doi/10.2514/6.2011-3141" target="_blank">Uncertainty Assessment of Hypersonic Aerothermodynamic Prediction Capability</a>, 42nd AIAA Thermophysics Conference, Honolulu HI, June 2011, AIAA-2011-3141</p>
-							<p>[5] Chaudry, R., et. al., <a href="https://arc.aiaa.org/doi/10.2514/6.2018-0237" target="_blank">Quasiclassical Trajectory Analysis of Oxygen Dissociation via O2, O, and N2</a>, AIAA SciTech Conference, Kissimmee FL, Jan 2018, AIAA-2018-0237</p>
-							<p>[6] <a href="http://www.concordesst.com/nose.html" target="_blank">www.concordesst.com/nose.html</a></p>
-							<p>[7] Kress, R., <a href="https://arc.aiaa.org/doi/10.2514/6.1983-1051" target="_blank">Variable Sweep Wing Design</a>, Aircraft Prototype and Technology Demonstrator Symposium, Dayton OH, March 1983, AIAA-83-1051</p>
-							<p>[8] <a href="http://www.enginehistory.org/Convention/2014/SR-71Inlts/SR-71Inlts.shtml" target="_blank">www.enginehistory.org/Convention/2014/SR-71Inlts/SR-71Inlts.shtml</a></p>
-							<p>[9] FAA Guide, <a href="https://www.faa.gov/sites/faa.gov/files/about/office_org/headquarters_offices/avs/III.4.1.7_Returning_from_Space.pdf" target="_blank">Returning from Space</a></p>
-							<p>[10] Launius, R., and Jenkins, D., <a href="https://www.nasa.gov/sites/default/files/695726main_ComingHome-ebook.pdf" target="_blank">Coming Home: Reentry and Recovery from Space</a>, NASA SP-2011-593</p>
-							<p>[11] <a href="https://www.globalsecurity.org/wmd/world/germany/sanger.htm" target="_blank">www.globalsecurity.org/wmd/world/germany/sanger.htm</a></p>
-							<p>[12] <a href="https://apps.dtic.mil/sti/pdfs/AD1082458.pdf" target="_blank">https://apps.dtic.mil/sti/pdfs/AD1082458.pdf</a></p>
-							<p>[13] <a href="https://airandspace.si.edu/stories/editorial/hypersonic-flight" target="_blank">airandspace.si.edu/stories/editorial/hypersonic-flight</a></p>
-							<p>[14] <a href="https://history.nasa.gov/SP-60/ch-1.html" target="_blank">history.nasa.gov/SP-60/ch-1.html</a></p>
-							<p>[15] <a href="https://www.nasa.gov/centers/dryden/history/pastprojects/HyperX/index.html" target="_blank">www.nasa.gov/centers/dryden/history/pastprojects/HyperX/index.html</a></p>
-							<p>[16] <a href="https://www.af.mil/About-Us/Fact-Sheets/Display/Article/104467/x-51a-waverider" target="_blank">www.af.mil/About-Us/Fact-Sheets/Display/Article/104467/x-51a-waverider</a></p>
-							<p>[17] <a href="https://www.heritageconcorde.com/concorde-olympus-593-mk610-engines" target="_blank">www.heritageconcorde.com/concorde-olympus-593-mk610-engines</a></p>
-							<p>[18] Buttler, T., and Carbonel, J.C., <a href="https://www.amazon.com/Building-Concorde-Tony-Buttler/dp/1910809144" target="_blank">Building Concorde: From Drawing Board to Mach 2</a>, Ch. 10, 2018</p>
-							<p>[19] Conway, E., <a href="https://www.amazon.com/High-Speed-Dreams-Technopolitics-Supersonic-Transportation/dp/0801890810" target="_blank">High-Speed Dreams: NASA and the Technopolitics of Supersonic Transportation, 1945-1999</a>, 2008</p>
-							<p>[20] Simons, G., <a href="https://www.amazon.com/Valkyrie-American-Ill-fated-Supersonic-Bomber/dp/1473822858" target="_blank">Valkyrie The North American XB-70: The USA’s Ill-fated Supersonic Heavy Bomber</a>, 2011</p>
-							<p>[21] McGinn, J., and Lofgren, E., <a href="https://www.defensenews.com/opinion/commentary/2022/01/20/three-steps-to-help-defense-innovation-break-free-from-its-shackles" target="_blank">Three steps to help defense innovation break free from its shackles</a>, Defense News, Jan 2022</p>
-							<p>[22] Schneider, D., <a href="https://spectrum.ieee.org/the-new-supersonic-boom" target="_blank">The New Supersonic Boom</a>, IEEE Spectrum, Aug 2021</p>
-							<p>[23] <a href="https://www.nasa.gov/specials/X59/science-of-sound.html" target="_blank">www.nasa.gov/specials/X59/science-of-sound.html</a></p>
-							<p>[24] <a href="https://www.nasa.gov/specials/X59" target="_blank">www.nasa.gov/specials/X59</a></p>
-							<p>[25] <a href="https://www.aero.jaxa.jp/eng/research/frontier/sst/d-send.html" target="_blank">www.aero.jaxa.jp/eng/research/frontier/sst/d-send.html</a></p>
-							<p>[26] <a href="https://news.mit.edu/2012/supersonic-biplane-0319" target="_blank">https://news.mit.edu/2012/supersonic-biplane-0319</a></p>
-							<p>[27] <a href="https://www.nasa.gov/aero/x-59-quesst-overview" target="_blank">www.nasa.gov/aero/x-59-quesst-overview</a></p>
-							<p>[28] <a href="https://www.noisequest.psu.edu/noisebasics-basics.html" target="_blank">www.noisequest.psu.edu/noisebasics-basics.html</a></p>
-							<p>[29] Nemec, M., Aftosmis, M., and Spurlock, W., <a href="https://www.nas.nasa.gov/upload/files/sc19presentations/NASA_SC19_Nemec_Demo.ppsx" target="_blank">Minimizing Sonic Boom Through Simulation-Based Design: the X-59 Airplane</a>, SC19, Denver, CO, Nov 17–22, 2019</p>
-							<p>[30] <a href="https://www.nasa.gov/specials/X59/whats-next-for-x59.html" target="_blank">www.nasa.gov/specials/X59/whats-next-for-x59.html</a></p>
-							<p>[31] <a href="https://www.airforce-technology.com/news/newsafrl-confirms-feasibility-of-rels-sabre-engine-concept-4558439" target="_blank">www.airforce-technology.com/news/newsafrl-confirms-feasibility-of-rels-sabre-engine-concept-4558439</a></p>
-							<p>[32] <a href="https://www.ukspace.org/reaction-engines-test-programme-fully-validates-precooler-at-hypersonic-heat-conditions" target="_blank">www.ukspace.org/reaction-engines-test-programme-fully-validates-precooler-at-hypersonic-heat-conditions</a></p>
-							<p>[33] <a href="https://www.darpa.mil/news-events/2016-06-24" target="_blank">www.darpa.mil/news-events/2016-06-24</a></p>
-							<p>[34] Drummond, J.P., Diskin, G.S., and Cutler, A.D., <a href="https://ntrs.nasa.gov/citations/20060020221" target="_blank">Fuel-Air Mixing and Combustion in Scramjets</a>, 2006</p>
-							<p>[35] Vigano, D., and Maddalena, L., <a href="https://aip.scitation.org/doi/full/10.1063/5.0012506" target="_blank">On Sustaining Turbulence Production in Interacting Supersonic Streamwise Vortices</a>, Physics of Fluids, Vol 32, Issue 7, July 2020</p>
-							<p>[36] <a href="https://spaceaustralia.com/index.php/news/hypersonix-and-boeing-join-forces-develop-hypersonic-launch-vehicle" target="_blank">https://spaceaustralia.com/index.php/news/hypersonix-and-boeing-join-forces-develop-hypersonic-launch-vehicle</a></p>
-							<p>[37] Scott, R., <a href="https://www.janes.com/defence-news/defence/latest/hypersonix-kratos-team-to-develop-and-fly-dart-ae-hypersonic-vehicle" target="_blank">Hypersonix, Kratos, team to develop and fly DART AE hypersonic vehicle</a>, Janes, Jan 2022</p>
-							<p>[38] <a href="https://www.nasa.gov/ames/heeet" target="_blank">www.nasa.gov/ames/heeet</a></p>
-							<p>[39] Jia, Y., et. al., <a href="https://www.sciencedirect.com/science/article/pii/S0272884220327772" target="_blank">Additive Manufacturing of ZrB2-ZrSi2 Ultra-High Temperature Ceramic Composites using an Electron Beam Melting Process</a>, Ceramics International, Volume 47, Issue 2, Jan 2021</p>
-							<p>[40] Feilden, E., et. al., <a href="https://www.sciencedirect.com/science/article/pii/S0272884219311307" target="_blank">High Temperature Strength of an Ultra-High Temperature Ceramic Produced by Additive Manufacturing</a>, Ceramics International, Volume 45, Issue 15, October 2019</p>
-							<p>[41] Ionescu, E., et. al., <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/adem.201900269" target="_blank">Polymer-Derived Ultra-High Temperature Ceramics (UHTCs) and Related Materials”, Advanced Engineering Materials</a>, June 2019</p>
-							<p>[42] Ciu, H., Hensleigh, R., et. al., <a href="https://www.cambridge.org/core/journals/journal-of-materials-research/article/additive-manufacturing-and-sizedependent-mechanical-properties-of-threedimensional-microarchitected-hightemperature-ceramic-metamaterials/3B195752D812D985322476050C05EE62" target="_blank">Additive Manufacturing and Size-Dependent Mechanical Properties of 3-D Microarchitected High-Temperature Ceramic Materials</a>, Journal of Materials Research, Feb 2018</p>
-							<p>[43] Duffy, R., <a href="https://payloadspace.com/interview-radian-aerospace" target="_blank">Q&A with Radian CEO Richard Humphrey</a>, Payload Space, Jan 2022</p>
-							<p>[44] Jones, A., <a href="https://www.space.com/private-chinese-space-plane-tourism-travel" target="_blank">Chinese Space Plane company targets suborbital tourism, point-to-point travel by 2025</a>, Space.com, Jan 2022</p>
-							<p>[45] <a href="https://hub.united.com/2021-06-03-united-adding-supersonic-speeds-with-new-agreement-to-buy-aircraft-from-boom-supersonic-2653216403.html" target="_blank">https://hub.united.com/2021-06-03-united-adding-supersonic-speeds-with-new-agreement-to-buy-aircraft-from-boom-supersonic-2653216403.html</a></p>
-							<p>[46] <a href="https://www.sbir.gov/sbirsearch/detail/1936637" target="_blank">www.sbir.gov/sbirsearch/detail/1936637</a></p>
-							<p>[47] <a href="https://www.floridatoday.com/story/news/2021/05/21/aerion-supersonic-abruptly-shuts-down-citing-challenges-securing-capital/5208809001" target="_blank">www.floridatoday.com/story/news/2021/05/21/aerion-supersonic-abruptly-shuts-down-citing-challenges-securing-capital/5208809001</a></p>
-							<p>[48] <a href="https://aviationweek.com/aerospace/spike-takes-different-path-supersonic-renaissance" target="_blank">https://aviationweek.com/aerospace/spike-takes-different-path-supersonic-renaissance</a></p>
-							<p>[49] <a href="https://www.virgingalactic.com/articles/virgin-galactic-unveils-mach-3-aircraft-design-for-high-speed-travel-and-signs-memorandum-of-understanding-with-rolls-royce" target="_blank">www.virgingalactic.com/articles/virgin-galactic-unveils-mach-3-aircraft-design-for-high-speed-travel-and-signs-memorandum-of-understanding-with-rolls-royce</a></p>
-							<p>[50] Mullins, C. and Lehmer, R., Executive Summary of ‘Independent Market Study: Commercial Hypersonic Transportation’, BryceTech and SAIC, Feb 2021, <a href="https://ntrs.nasa.gov/citations/20210015472" target="_blank">NTRS Document ID 20210015472</a></p>
-							<p>[51] Mullins, C. and Lehmer, R., Independent Market Study: Commercial Hypersonic Transportation, BryceTech and SAIC, April 2021, <a href="https://ntrs.nasa.gov/citations/20210015471" target="_blank">NTRS Document ID 20210015471</a></p>
-							<p>[52] Bastedo, W., et. al., T036 Hypersonic Study: Industry Presentation, Deloitte and SpaceWorks and the National Institute of Aerospace, Feb 2021, <a href="https://ntrs.nasa.gov/citations/20210014932" target="_blank">NTRS Document ID 20210014932</a></p> 
-							<p>[53] Bastedo, W., et. al., Commercial Hypersonic Transportation Market Study, Deloitte and SpaceWorks and the National Institute of Aerospace, April 2021, <a href="https://ntrs.nasa.gov/citations/20210014711" target="_blank">NTRS Document ID 20210014711</a></p>
-							<p>[54] <a href="https://dod.defense.gov/Portals/1/Documents/pubs/2018-National-Defense-Strategy-Summary.pdf" target="_blank">https://dod.defense.gov/Portals/1/Documents/pubs/2018-National-Defense-Strategy-Summary.pdf</a></p>
-							<p>[55] <a href="https://crsreports.congress.gov/product/pdf/R/R45811" target="_blank">https://crsreports.congress.gov/product/pdf/R/R45811</a></p>
-							<p>[56] <a href="https://breakingdefense.com/2021/02/pentagon-hypersonics-director-rebuts-the-critics-point-by-point" target="_blank">https://breakingdefense.com/2021/02/pentagon-hypersonics-director-rebuts-the-critics-point-by-point</a></p>
+							<p>[1] Stein, E.V., <a href="https://medium.com/prime-movers-lab/launch-cost-and-cadence-are-key-enablers-for-the-new-space-economy-510bf49c5dbb" target="_blank">Launch Cost and Cadence Are Key Enablers for the New Space Economy</a>, October 2021</p>
+							[2] Stein, E.V., “Bottlenecks in Rocket Engine Production May Slow the Space Economy Flywheel”, January 2022 
+[3] Press, L., “A New Chinese Broadband Satellite Constellation”, October 2020
+[4] https://nssdc.gsfc.nasa.gov/nmc/spacecraft/display.action?id=2019-074A
+[5] Holst, J., “Project Kuiper's Imaginary Rocket”, Ill-Defined Space Substack, November 2021 
+[6] https://en.wikipedia.org/wiki/OneWeb_satellite_constellation
+[7] https://www.telesat.com/wp-content/uploads/2021/04/Telesat-Lightspeed-Specifications-Sheet.pdf
+[8] https://directory.eoportal.org/web/eoportal/satellite-missions/l/lemur
+[9] Jewett, R., “FCC Authorizes Boeing V-Band LEO Broadband Constellation”, Satellite Today, November 2021
+[10] u/winpickles4life, “AST SPACEMOBILE - The Starlink of Smartphones”, r/ASTSpaceMobile subreddit, October 2021 
+[11] https://lynk.world/lynk-files-for-fcc-license-to-enable-global-mobile-connectivity
+[12] Brodkin, J., “Firm planning 100,000 satellites claims it will “clean space” by capturing debris” Ars Technica, February 2022
+[13] Foust, J., “European Union advances broadband constellation despite negative assessments”, SpaceNews, February 2022 
+[14] Messier, D., “Russia’s Sphere Satellite Constellation Moves Toward Implementation ”, ParabolicArc, January 2022
+[15] Wang, B., “Version 2 Starlink with Lasers and Gen 2 SpaceX Starlink Bigger and Faster”, September 2021 
+[16] McDowell, J., https://planet4589.org/astro/starsim/con.html, accessed March 2022
+[17] Quilty Analytics, LEO Broadband Special Report Series, February 2020
+[18] Northern Sky Research (NSR), Satellite Communications
+[19] Lionnet, P., Twitter thread on satellite constellation economics, October 2021
+[20] Pachler, N., et. al. “An Updated Comparison of Four Low Earth Orbit Satellite Constellation Systems to Provide Global Broadband”, IEEE International Conference on Communications Workshops, 14-23 June 2021, INSPECT # 21098901
+[21] Lifson, M. and Linares, R., “Is there enough room in space for tens of billions of satellites, as Elon Musk suggests? We don’t think so.”, SpaceNews, January 2022 
+[22] Holmes, M., “Steve Collar Part Two: SES Will ‘Likely’ Leverage LEO in Multi-Orbit Future”, Satellite Today, January 2022
+[23] Griffin, T., Twitter post on future multi-orbit architectures, February 2022
+[24] Kisseleff, S., et. al. “Radio Resource Management Techniques for Multibeam Satellite Systems”, IEEE Communications Letters, October 2020
+[25] Cakaj, S., et. al., “The Coverage Analysis for Low Earth Orbiting Satellites at Low Elevation”, International Journal of Advanced Computer Science and Applications, Vol. 5, No. 6, 2014
+[26] https://www.satellitetoday.com/content-collection/ses-hub-geo-meo-and-leo/
+[27] Keller, J., “DARPA hires seven companies, spends more than $100 million, to reinvent the RF phased array antenna”, Military & Aerospace Electronics, April 2014
+[28] https://www.everythingrf.com/community/what-is-phased-array-antenna
+[29] https://www.businesswire.com/news/home/20220302005268/en/CesiumAstro-Secures-60-Million-in-Oversubscribed-Series-B-Funding
+[30] “Global Flat Panel Satellite Antenna Market Size, Manufacturers, Supply Chain, Sales Channel and Clients, 2020-2026”, 360 Research Reports, August 2020
+[31] https://www.nasa.gov/smallsat-institute/sst-soa/in-space-propulsion
+[32] Werner, D., “Orbion wins contract to demonstrate high-thrust propulsion”, SpaceNews, August 2021
+[33] https://www.nasa.gov/mission_pages/tdm/sep/index.html
+[34] Zorpette, G., “How the Hall Effect Still Reverberates”, IEEE Spectrum, January 2022
+[35] https://astra.com/news/astra-acquires-apollo-fusion-to-reach-new-orbits/
+[36] https://accion-systems.com/news/press/accion-systems-raises-42-million-in-series-c-led-by-tracker-capital/
+[37] “Space Propulsion Market by Type (Chemical Propulsion, Non-chemical Propulsion), System Component (Thrusters, Propellant Feed System, Nozzle), Platform (Satellite, Launch Vehicle), Orbit, End User, Orbit, Support Service, Region - Global Forecast to 2025”, Markets and Markets, October 2020
+[38] Henry, C. “Mynaric raises $12.5 million from mystery constellation customer”, SpaceNews, March 2019
+[39] Erwin, S., “CACI ramping up production of optical terminals for low Earth orbit satellites”, SpaceNews, January 2022
+[40] https://www.nasa.gov/mission_pages/tdm/lcrd/index.html
+[41] Erwin, S., “Space Development Agency, General Atomics eye options after setback in laser comms experiment”, SpaceNews, February 2022
+[42] Erwin, S. “DoD space agency funds development of laser terminal that connects to multiple satellites at once”, SpaceNews, March 2022
+[43] “Tesat-Spacecom to establish U.S. manufacturing facility”, SpaceNews, February 2022
+[44] “Mynaric Receives Optical Comms Contract From The ESA”, SatNews, February 2022
+[45] Erwin, S., “DoD wants ‘resilient’ space systems, but how to get there is still unclear”, SpaceNews, March 2022
+[46] Jewett, R., “Isotropic Demonstrates GEO, MEO Satcom Link to the US Army”, Satellite Today, February 2022
+[47] Donnison, A., “Interoperability Brings Satellite Communications Infrastructure Into the Digital Age”, Satellite Today, February 2022
+[48] Levi, A., “Metamaterials”, Prime Movers Lab Thought Paper, October 2021
+[49] Stevenson, R., et. al.,, “Metamaterial Surface Antenna Technology: Commercialization through Diffractive Metamaterials and Liquid Crystal Display Manufacturing”, 10th International Congress on Advanced Electromagnetic Materials in Microwaves and Optics – Metamaterials 2016, Crete, Greece, 17-22 September 2016
+[50] Rainbow, J., “Kymeta plans to release OneWeb terminal by next summer”, SpaceNews, December 2021
+[51] Jewett, R., “Kymeta and Kratos Form Partnership to Combine Antenna and Virtual Ground Technologies”, Satellite Today, February 2022
+[52] Satellite Industry Association & BryceTech, “State of the Satellite Industry Report”, June 2021
+[53] “A New Space Economy on the Edge of Lift Off”, Morgan Stanley, February 2021
+[54] Highfill, T., Jouard, A., and Franks, C., “Updated and Revised Estimates of the U.S. Space Economy, 2012–2019”,Bureau of Economic Analysis, U.S. Department of Commerce, January 2022 
+[55] Crane, K., Linck, E., Lal, B., and Wei, R., “Measuring the Space Economy: Estimating the Value of Economic Activities in and for Space”, Institute for Defense Analysis - Science & Technology Policy Institute, March 2020
+[56] Daehnick, C., Klinghoffer, I., Maritz, B., and Wiseman, B., “Large LEO satellite constellations: Will it be different this time?”, McKinsey, May 2020
+[57] Holmes, M., “Credit Suisse Report Says LEO Constellations Will be Challenged by Increasing Data Use”, Satellite Today, January 2022
+[58] Farrar, T., “Op-Ed | LEO broadband: Will this time be different?”, SpaceNews, January 2022
+[59] McKetta, I., “How Starlink’s Satellite Internet Stacks Up Against HughesNet and Viasat around the Globe”, Ookla Insights, August 2021
+[60] Boyle, K., “Can Starlink Save the American Mother?”, The Rambler Substack, January 2022
+[61] https://broadbandusa.maps.arcgis.com/apps/webappviewer/index.html?id=e2b4907376b548f892672ef6afbc0da5
+[62] Rainbow, J., “UK funds beam-hopping satellite for OneWeb-led consortium in 2022”, SpaceNews, May 2021
+[63] Rainbow, J., “SatixFy to go public through latest space SPAC deal”, SpaceNews, March 2022
+[64] NSR, “Aeronautical SATCOM Markets, 9th Edition”, June 2021
+[65] NSR, “Maritime SATCOM Markets, 9th Edition”, July 2021
+[66] Farrar, T., Twitter thread on AST Space Mobile technical feasibility, July 2021
+[67] Werner, D., “Lynk satellites connect with thousands of devices”, SpaceNews, February 2022
+[68] Hardesty, L, “Vodaphone works with AST SpaceMobile to close digital divide”, Fierce Wireless, February 2022
+[69] “Lynk Global Inc. Signs Contracts with MNOs to Bring Satellite-Direct-to-Phone Connectivity to Seven Pacific and Caribbean Island Nations”, BusinessWire, February 2022
+[70] https://www.fcc.gov/5g-fund
+[71] Nelius, J., “SpaceX's Still-in-Beta Starlink ISP Gets Nearly a Billion Dollars to Try and Fix Rural Internet”, Gizmodo, December 2020
+[72] https://investors.rocketlabusa.com/news/news-details/2022/Rocket-Lab-Selected-by-MDA-to-Design-and-Build-Spacecraft-for-Globalstar/default.aspx
+[73] NSR, “M2M and IoT via Satellite, 12th Edition”, September 2021
+[74] Sheetz, M., “SpaceX is buying satellite data start-up Swarm, in a rare acquisition by Elon Musk’s space company”, CNBC, August 2021
+[75] Mohney, D., “IoT-ish Fleet Space Technologies secures $26.4M B round funding”, Space IT Bridge, November 2021
+[76] Hendry, J., “Fleet scores $20m grant for Adelaide satellite factory”, IoT Hub, March 2022
+[77] “Astrocast goes public and attracts Palantir as investor”, Startup Ticker, August 2021
+[78] Jewett, R., “Iridium’s IoT Subscriber Growth Drives Another Year of Record Revenue in 2021”, Satellite Today, February 2022
+[79] https://www.nasa.gov/smallsat-institute/sst-soa/ground-data-systems-and-mission-operations
+[80] https://www.sda.mil/space-development-agency-makes-awards-for-tranche-1-transport-layer/
+[81] https://www.esa.int/Applications/Telecommunications_Integrated_Applications/Data-relay_system_connects_astronauts_direct_to_Europe
+[82] Sheetz, M., “Kepler Communications raises $60 million expand network, add US office”, CNBC, June 2021
+[83] Rainbow, J., and Werner, D., “SpaceLink hires OHB to build data relay satellites”, SpaceNews, October 2021
+[84] Bell, J., “For Your Information: A New Approach to Connectivity—Why We Invested in Mangata Networks”, Playground Global, February 2022
+[85] https://ramon.space/press/ramon-space-announces-high-capacity-space-resilient-storage-solution/ 
+[86] Jewett, R., “2020: A Year of Dramatic Change in the Satellite Industry”, Satellite Today, December 2020
+[87] Strout, N., “Lockheed Martin experiments with a mesh network in space”, C4ISRNET, January 2020
+[88] Erwin, S., “Space Development Agency experiment demonstrates on-orbit data processing”, SpaceNews, February 2022
+[89] https://www.ntia.doc.gov/files/ntia/publications/2003-allochrt.pdf
+[90] Torbet, G., “Experiment into quantum communications is heading to the ISS”, Digital Trends,March 2022
+[91] NSR, “The Quantum Race for Secure Communications”, October 2021
+[92] https://www.ll.mit.edu/r-d/projects/protected-antijam-tactical-satcom
+[93] Hitchens, T., “Space Force Wants $5B For Anti-Jam Satcoms”, Breaking Defense, February 2020
+[94] https://science.nasa.gov/ems/01_intro
+
+
 						</div>
 					</div>
 				</div>
