@@ -44,7 +44,7 @@
 		.subheading {padding-top: 2.5em; font-weight: bold;}
 		.author-notes {font-style: italic;}
 		.references-links p {font-size: 1em;}
-		p, .takeaways li {font-size: 1.25em;}
+		p, .takeaways li, .takeaways ol {font-size: 1.25em;}
 		.images {width: 100%; padding: 50px 0 70px 0;}
 		.small-caption {font-size: 1em; padding-bottom: 100px; text-align: center;}
 		.small-caption a {font-size: 1em;}
@@ -207,7 +207,7 @@
 							<p class="small-caption">Covariances intersect along orbital paths, triggering a conjunction warning. Image credit: The Aerospace Corporation [17]</p>
 							<p>Conjunction warnings obviously consume the time and attention of spacecraft operators, who need to consider the risks of action versus inaction. Inaction (or not maneuvering) could obviously result in a collision, losing an asset and creating more debris. Action consumes resources which may reduce mission life, revenues and customer satisfaction. For example, consuming propellant for an unplanned maneuver to avoid space junk could shorten a mission. As you deplete your propellant, the amount of “station keeping” that you can do also reduces. Meaning a five- year mission life might be reduced to four years because you can’t maintain the position in orbit required to deliver your services. Reduced time on station means reduced time to generate revenue for that asset. Add to that the possibility that maneuvering your asset may temporarily cut services which could impact revenues further (and likely make some customers unhappy).</p>
 							<p>How often do CDMs occur? The number of conjunctions between two spacecraft at < 1 km apart currently occurs around 3,200 times per week [18] and is growing. When you consider conjunctions involving trackable debris, one study suggests that number grows to over 27,000 a week [19]. The study makes a case that conjunctions internal to a constellation (such as a conjunction between two Starlink satellites) are negligible risk due to the “robust operational stationkeeping and collision avoidance capability exhibited to date.”</p>
-							<p>Indeed the conjunction warnings to which SpaceX responds appear to be from debris. SpaceX reported in FCC filings that last year, its satellites, “which are equipped with automated collision-avoidance systems, conducted more than 5,500 moves, or about 15 a day. Most were related to debris or satellites that couldn’t be moved…”[20]</p>
+							<p>Indeed the conjunction warnings to which SpaceX responds appear to be from debris. SpaceX reported in FCC filings that last year, its satellites, “which are equipped with automated collision-avoidance systems, conducted more than 5,500 moves, or about 15 a day. Most were related to debris or satellites that couldn’t be moved…” [20]</p>
 							<p>Starlink inter-constellation conjunctions accounted for 45 percent of the total identified conjunctions. No other mega constellation has this much internal traffic management – yet. Regardless, if you discount the conjunction warnings within Starlink, the number of conjunctions is still staggering at over 14,000 a week. Within those, debris – the stuff you can’t control – completely dominates. Over two-thirds are potential debris-on-debris collisions.</p>
 							<p>Note, this study uses LeoLab’s impressive catalog of 16,852 objects where the smallest is on the order of “operational cubesats as small as 0.25U (10cm x 10cm x 2.5cm).” [21] What this means is that the collision warnings only considers 38 percent of the total assumed 44,000 plus objects greater than 10 cm. </p>
 							<p class="subheading">Ground-based Tracking</p>
@@ -282,10 +282,10 @@
 							<p class="subheading uppercase">Debris Mitigation</p>
 							<p>The Inter-Agency Space Debris Coordination Committee (IADC), an international forum of space agencies and authorized governmental entities, publishes the IADC Space Debris Mitigation Guidelines[48]. The members agree, in principle, to mitigating generating debris by:</p>
 							<ul class="takeaways">
-								<ol>Limiting debris released during operations (e.g., exploding separation bolts, peeling coatings)</ol>
-								<ol>Minimizing the potential for on-orbit break-ups (e.g., exploding fuel tanks or batteries)</ol>
-								<ol>Ensuring timely post-mission disposal (e.g., deorbit into the atmosphere or move to a graveyard orbit)</ol>
-								<ol>Preventing on-orbit collisions (e.g., be trackable, be maneuverable)</ol>
+								<li>Limiting debris released during operations (e.g., exploding separation bolts, peeling coatings)</li>
+								<li>Minimizing the potential for on-orbit break-ups (e.g., exploding fuel tanks or batteries)</li>
+								<li>Ensuring timely post-mission disposal (e.g., deorbit into the atmosphere or move to a graveyard orbit)</li>
+								<li>Preventing on-orbit collisions (e.g., be trackable, be maneuverable)</li>
 							</ul>
 							<p>Various “standards” exist across the (now many) space-faring nations, but the teeth they wield varies. As most are just guidelines, compliance is low, which begs for inexpensive, low-burden solutions, or solutions that significantly lower a company's operating costs. Examples include:</p>
 							<ul class="takeaways">
@@ -371,7 +371,7 @@
 								Differentiator: in-space recycling of debris to make metal propellant rods for plasma thrusters<br>
 								Year Founded: 2017<br>
 								Country: USA<br>
-								Last Financing: n\a (bootstrapped, SBIR grants)
+								Last Financing: n/a (bootstrapped, SBIR grants)
 							</p>
 							<p>
 								<b>D-Orbit</b><br>
@@ -573,12 +573,11 @@
 							<p>[13] Greenfieldboyce, Nell, <a href="https://www.npr.org/2011/09/21/140641362/where-falling-satellite-lands-is-anyones-guess" target="_blank">Where Falling Satellite Lands Is Anyone's Guess</a>, NPR, September 21, 2011</p>
 							<p>[14] Roulette, Joey, <a href="https://www.theverge.com/2021/4/2/22364582/spacex-rocket-debris-falls-farm-washington" target="_blank">SpaceX Rocket Debris Lands on Man’s Farm in Washington</a>, The Verge, April 2, 2021</p>
 							<p>[15] Foust, Jeff, <a href="https://spacenews.com/house-bill-would-designate-space-as-critical-infrastructure" target="_blank">House Bill Would Designate Space as Critical Infrastructure</a>, Space News, Jun 4, 2021</p>
-							<p>[16] <a href="https://www.agi.com/products/odtk" target="_blank">Orbit Determination Tool Kit (ODTK)</a>, AGI, accessed March 22, 2022</p>
+							<p>[16] <a href="https://www.agi.com/products/odtk" target="_blank">Image of ODTK Sensor fusion, Orbit Determination Tool Kit (ODTK)</a>, AGI, accessed March 22, 2022</p>
 							<p>[17] Abraham, Andrew, <a href="https://aerospace.org/sites/default/files/2018-05/GPS_Transponders-For-Space-Traffic-Management.pdf" target="_blank">GPS Transponders for Space Traffic Management</a>, The Aerospace Corporation, April 2018</p>
 							<p>[18] Pultarova, Tereza, <a href="https://www.space.com/spacex-starlink-satellite-collision-alerts-on-the-rise" target="_blank">SpaceX Starlink Satellites Responsible for Over Half of Close Encounters in Orbit, Scientist Says</a>, Space.com, August 18, 2021</p>
 							<p>[19] Stevenson, et al., Identifying the Statistically-Most-Concerning Conjunctions in LEO, Advanced Maui Optical and Space Surveillance Technologies Conference (AMOS), Maui, Hawai’i, USA, August 2021</p>
 							<p>[20] Maidenberg, Micah, <a href="https://www.wsj.com/articles/spacexs-plans-to-send-thousands-more-satellites-into-orbit-worry-nasa-11644921000" target="_blank">SpaceX’s Plans to Send Thousands More Satellites Into Orbit Worry NASA</a>, The Wall Street Journal, February 15, 2022</p>
-
 							<p>[21] <a href="https://leolabs.space/faqs" target="_blank">What Is the Smallest Size Satellite LeoLabs Can Track?</a>, LeoLabs, accessed 13 March 2022</p>
 							<p>[22] Sgobba, Tommaso, and Allahdadi, Firooz, <a href="https://www.sciencedirect.com/topics/engineering/space-surveillance" target="_blank">Chapter 8 - Orbital Operations Safety, Safety Design for Space Operations</a>, Elsevier, 2013</p>
 							<p>[23] Kirkpatrick, Keith, <a href="https://cacm.acm.org/magazines/2021/5/252166-a-traffic-cop-for-low-earth-orbit/fulltext" target="_blank">A Traffic Cop for Low Earth Orbit</a>, Communications of the ACM, May 2021, Vol. 64 No. 5, Pages 15-17</p>
@@ -589,19 +588,18 @@
 							<p>[28] Rainbow, Jason, <a href="https://spacenews.com/northstar-ssa-and-earth-intelligence-constellation-gets-key-government-approval" target="_blank">NorthStar SSA and Earth Intelligence Constellation Gets Key Government Approval</a>, Space News, August 24, 2021</p>
 							<p>[29] Foust, Jeff, <a href="https://spacenews.com/spire-to-build-space-situational-awareness-satellites-for-northstar" target="_blank">Spire to Build Space Situational Awareness Satellites for NorthStar</a>, Space News, March 16, 2022</p>
 							<p>[30] <a href="https://northstar-data.com/ses-2022-03-31-en" target="_blank">SES Partners with NorthStar to tackle Space Sustainability Challenges</a>, NorthStar Earth & Space, March 31, 2022</p>
+							<p>[31] <a href="https://northstar-data.com/space" target="_blank">Image of Continuous Custody, Congestion in Space is a Clear and Present Danger to All Satellites</a>, NorthStar Earth & Space, accessed on March 13, 2022</p>
+							<p>[32] Foust, Jeff, <a href="https://spacenews.com/privateer-unveils-technology-for-improved-tracking-of-space-objects" target="_blank">Privateer Unveils Technology for Improved Tracking of Space Objects</a>, Space News, March 4, 2022</p>
+							<p>[33] Werner, Debra, <a href="https://spacenews.com/skycorp-iss-connector-demonstration" target="_blank">Skycorp to Test “USB for Space” Cable Outside ISS</a>, Space News, March 2, 2022</p>
+							<p>[34] <a href="https://orbitaldebris.jsc.nasa.gov/remediation" target="_blank">Debris Remediation</a>, Orbital Debris Program Office, NASA, accessed on March 13, 2022</p>
+							<p>[35] <a href="https://www.unoosa.org/oosa/en/ourwork/spacelaw/treaties/outerspacetreaty.html" target="_blank">Treaty on the Principles Governing the Activities of States in the Exploration and Use of Outer Space, including the Moon and Other Celestial Bodies</a>, United Nations, New York</p>
+							<p>[36] McKnight, et al, Identifying the 50 Statistically Most-Concerning Derelict Objects in LEO, 71st International Astronautical Congress (IAC) – The CyberSpace Edition, Dubai, UAE, October 2020</p>
+							<p>[37] <a href="https://orbitaldebris.jsc.nasa.gov/library/usg_orbital_debris_mitigation_standard_practices_november_2019.pdf" target="_blank">U.S. Government Orbital Debris Mitigation Standard Practices</a>, Washington, D.C. 2001, updated November 2019</p>
+							<p>[38] Pultarova, Tereza, <a href="https://www.space.com/astroscale-first-space-junk-capture-demonstration" target="_blank">Astroscale’s Space Junk Removal Satellite Aces 1st Orbital Test</a>, Space.com, August 27, 2021</p>
+							<p>[39] Grush, Loren, <a href="https://www.theverge.com/2020/2/6/21124997/oneweb-internet-space-satellite-mega-constellation-soyuz-rocket-watch-live-stream" target="_blank">Watch Internet-From-Space Provider OneWeb Launch Its Biggest Batch of Satellites Yet</a>, The Verge, February 6, 2020</p>
+							<p>[40] xxxxx, <a href="https://news.satnews.com/2021/01/14/altius-space-machines-dogtags-grapple-fixtures-launch-aboard-oneweb-sats" target="_blank">Altius Space Machines’ DogTags™ Grapple Fixtures Launch Aboard OneWeb Satellites</a>, satnews, January 14, 2021</p>
 
-							<p>[31] xxxxx, <a href="hhhhh" target="_blank">wwwwww</a>, xxxxx</p>
-							<p>[32] xxxxx, <a href="hhhhh" target="_blank">wwwwww</a>, xxxxx</p>
-							<p>[33] xxxxx, <a href="hhhhh" target="_blank">wwwwww</a>, xxxxx</p>
-							<p>[34] xxxxx, <a href="hhhhh" target="_blank">wwwwww</a>, xxxxx</p>
-							<p>[35] xxxxx, <a href="hhhhh" target="_blank">wwwwww</a>, xxxxx</p>
-							<p>[36] xxxxx, <a href="hhhhh" target="_blank">wwwwww</a>, xxxxx</p>
-							<p>[37] xxxxx, <a href="hhhhh" target="_blank">wwwwww</a>, xxxxx</p>
-							<p>[38] xxxxx, <a href="hhhhh" target="_blank">wwwwww</a>, xxxxx</p>
-							<p>[39] xxxxx, <a href="hhhhh" target="_blank">wwwwww</a>, xxxxx</p>
-							<p>[40] xxxxx, <a href="hhhhh" target="_blank">wwwwww</a>, xxxxx</p>
-
-							<p>[41] xxxxx, <a href="hhhhh" target="_blank">wwwwww</a>, xxxxx</p>
+							<p>[41] Mathewson, Samantha, <a href="https://www.space.com/esa-startup-clearspace-debris-removal-2025" target="_blank">ESA Partners With Startup to Launch First Debris Removal Mission in 2025</a>, Space.com, May 16, 2021</p>
 							<p>[42] xxxxx, <a href="hhhhh" target="_blank">wwwwww</a>, xxxxx</p>
 							<p>[43] xxxxx, <a href="hhhhh" target="_blank">wwwwww</a>, xxxxx</p>
 							<p>[44] xxxxx, <a href="hhhhh" target="_blank">wwwwww</a>, xxxxx</p>
