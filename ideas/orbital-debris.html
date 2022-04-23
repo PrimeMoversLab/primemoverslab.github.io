@@ -35,6 +35,7 @@
 	<link href="/css/style.css" rel="stylesheet" media="screen">
 
 	<style>
+		#link-download {display: block; font-size: 1.125em; padding-top: 20px; padding-bottom: 20px;}
 		#table-contents a {display: block; font-size: 1.125em; font-weight: bold; text-transform: uppercase; letter-spacing: 0.2em; padding-bottom: 20px;}
 		.section-content-2 {padding-bottom: 8em;}
 		#intro {font-size: 1.375em; line-height: 1.4; font-style: italic;}
@@ -44,8 +45,8 @@
 		.subheading {padding-top: 2.5em; font-weight: bold;}
 		.author-notes {font-style: italic;}
 		.references-links p {font-size: 1em;}
-		p, .takeaways li, .takeaways ol {font-size: 1.25em;}
-		.images {width: 100%; padding: 50px 0 70px 0;}
+		p, .takeaways li {font-size: 1.25em;}
+		.images {width: 100%; padding: 50px 0 50px 0;}
 		.small-caption {font-size: 1em; padding-bottom: 100px; text-align: center;}
 		.small-caption a {font-size: 1em;}
 		.uppercase {text-transform: uppercase;}
@@ -230,7 +231,7 @@
 							<p>Like SCOUT, NorthStar will partner with satellites to host their sensors. NorthStar originally contracted LeoStella, Thales Alenia Space’s smallsat-manufacturing joint venture with BlackSky (NYSE: BKSY), to build and deploy their first three satellites by 2022. However, obtaining those licenses has been tricky since regulators treat the constellation as a whole (i.e., NorthStar can’t get separate licenses for the first three). If spectrum is allocated to (and thus consumed by) a constellation of 52 satellites, then regulators want to see a plan that includes milestones for the entire constellation deployed within nine years. That requires quite a bit of capital and early commitments!</p>
 							<p>In recent developments, NorthStar has partnered with Spire (NYSE: SPIR) to develop three satellites for launch in 2023 that will carry NorthStar sensors. Space situational awareness (SSA) data will be collected for NorthStar, but be operated as part of Spire’s “space-as-a-service” constellation [29]. A partnership was also recently announced between NorthStar and SES (EPA: SESG) to launch, develop and evolve NorthStar’s SSA products for use by SES’s satellite operations for fleet management [30].</p>
 							<img class="images" src="/img/ideas/thoughtpaper/orbital-debris/x-07.webp">
-							<p class="small-caption">Northstar's constellation of satellites will use optical sensors for tracking objects across multiple orbits. Image Credit: Northstar [31]</p>
+							<p class="small-caption">Northstar's constellation of satellites will use optical sensors for tracking objects across multiple orbits.<br>Image Credit: Northstar [31]</p>
 							<p>Multiple satellite sensors may be grouped to provide more robust coverage and specific characteristics of objects (in addition to their orbits). Recently formed, <b>Privateer</b>/ [32] offers a constellation of multi-sensor satellites for debris location and characterization. They, too, are proposing to put their sensors on other spacecraft and leverage existing constellations. However, the real technology here may be a branch of Chief Science Officer and Space Environmentalist Dr. Moriba Jah's ATRIAGraph, called “Wayfinder”. Wayfinder is an open-access and near real-time visualization of objects in Earth orbit. They are offering object state information (position, velocity) for free, 24 hrs in advance; any predictors farther into the future than that would be for a price. They then provide an application on top of which people can build different services, for example, companies planning satellite servicing or debris removal activities.</p>
 							<p><b>Vyoma</b> is building a satellite constellation that uses onboard optical cameras and global navigation satellite system (GNSS) receivers. The receivers allow Vyoma to precisely determine the orbit of their own satellites which then, with the optical data, are used to inform the location of the objects being tracked. They also incorporate data from ground-based sensors, and the latest self-calibrated and -maintained atmospheric models.</p>
 							<p>Vyoma sources <em>both</em> the spacecraft and optical sensors but intends to own/operate the constellation. They perform edge computing, using machine learning with orbit determination algorithms to reduce debris position uncertainties to < 100 m, real-time. The reduced data is then sent to the ground for physics-based modeling of atmospheric drag. Ultimately they claim tighter 3-day projections of positional uncertainty, reducing the number of times a satellite operator would have to maneuver. Like other providers, they intend to offer additional services to shore up the business case. For Vyoma, the differentiator may be providing third-party software that uses Vyoma observation data to automate satellite responses to conjunction warnings.</p>
@@ -244,7 +245,7 @@
 							<img class="images" src="/img/ideas/thoughtpaper/orbital-debris/x-08.webp">
 							<p class="small-caption">LDEF retrieval by STS-32 space shuttle mission in 1990. Image credit: NASA</p>
 							<p>The trick is to capture the debris without creating more debris. In LEO, small pieces can be traveling at speeds up to over 7,800 m/s (17,500 mph). At these speeds, “hypervelocity” impacts can cause materials to liquefy or even vaporize. Spall, fragments breaking off a larger body, can be ejected creating more debris. Even if the debris is caught and does not exit the other side, the impact can create spall on the backside as seen here.</p>
-							<img class="images" src="/img/ideas/thoughtpaper/orbital-debris/x-09.webp">
+							<img class="images" src="/img/ideas/thoughtpaper/orbital-debris/x-09.gif">
 							<p class="small-caption">Projectile impacting a thin aluminum plate at 7,000 m/s. The particle disintegrated and created fragmentation on the backside despite not penetrating the plate. Image credit: NASA, Public Domain</p>
 							<p>“Whipple shields” have been used successfully for quite a while to protect crew and spacecraft from these small hypervelocity impacts in space. Named for the inventor Fred Whipple, the shield consists of multiple layers. The first does little to stop the particle but rather acts to break up the debris and disperse the now smaller fragments. The many layers through which the particles pass are optimized with various structures and materials to minimize mass while entrapping the debris and spall. The innovation here is unlikely the pad but rather its size, deployment, operation, and business case to be effective.</p>
 							<p><b>ADR is taking action to locate, capture and remove a piece of debris.</b> Usually ADR applies to large, tracked objects. With a catalog that contains thousands of candidates greater than 10 cm, the question is how to prioritize the debris.</p>
