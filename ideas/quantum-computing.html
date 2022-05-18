@@ -235,14 +235,14 @@
 							<p>Different qubits can be utilized to solve different challenges, depending on the application. For example, photons are good for quantum communication since they are the only qubits that can travel and be kept at room temperature indefinitely.</p>
 							<p>Most IT giants – including Google, IBM, Intel – exploit the quantum characteristics of electrons in superconducting circuits to create quantum computers. That approach is also developed by large startups like Rigetti and IQM. Cryogenic temperatures (about 15 milli-Kelvin) are required for this. Superconducting qubits are the most researched and resourced approach to building quantum computers. These qubits consist of Josephson Junctions: a pair of superconducting metal strips separated by a tiny nanometer-wide gap that electrons cross, leading to quantum effects. The superconducting qubits are manipulated with microwave pulses (<a href="https://spie.org/news/photonics-focus/novdec-2020/a-new-kind-of-quantum?SSO=1" target="_blank">SPIE 2020</a>). These quantum computers require huge <a href="https://en.wikipedia.org/wiki/Dilution_refrigerator" target="_blank">dilution refrigerators</a> (very different from your fridge at home!) to keep the qubits near absolute zero.</p>
 							<p><b>Microsoft</b> is developing topological quantum computing. These more exotic “topological” qubits don’t store the information by changing the energy of particles but rather by affecting how the particles interact with each other — their topology. Topological qubits are, in theory, more stable than qubits encoded in individual particles but are also farther from commercialization. In topological quantum computers, the qubits are <a href="https://en.wikipedia.org/wiki/Anyon" target="_blank">anyons</a> (a little-known quasiparticle). Observing these quasiparticles was a huge physics breakthrough, and won the 2016 Nobel Prize in Physics (<a href="https://www.washingtonpost.com/news/speaking-of-science/wp/2016/10/04/2016-nobel-prize-in-physics-awarded-to-three-men-for-revealing-the-secrets-of-exotic-matter" target="_blank">Washington Post explainer</a>). Topological qubits also require the chips to be held at low temperatures.</p>
-							<p><b>D-Wave</b>, an industry leader, is developing quantum annealing computing. Quantum annealing is a metaheuristic for finding the global minimum of a given objective function over a given set of candidate solutions (candidate states), by a process using quantum fluctuations. It works well on very specific problems like optimization and if you were interested you can pick up a Quantum annealing computer from D-Wave for $10-15 million.</p>
+							<p><b>D-Wave</b>, an industry leader, is developing quantum annealing computing. Quantum annealing is a metaheuristic for finding the global minimum of a given objective function over a given set of candidate solutions (candidate states), by a process using quantum fluctuations. It works well on very specific problems like optimization.</p>
 							<p><b>Companies like IonQ and the conglomerate Honeywell are leading the charge in trapped-ion quantum computing, which involves trapping ions within a vacuum.</b> Ions (charged atoms or protons), can be confined and suspended in free space using electromagnetic fields. Qubits are stored in stable electronic states of each ion, and quantum information can be transferred through the collective quantized motion of the ions in a shared trap (interacting through the Coulomb force). Lasers induce coupling between the qubit states (for single qubit operations) or coupling between the internal qubit states and the external motional states (for entanglement between qubits).</p>
 							<p><b>Atom Computing and Cold Quanta</b> are using neutral atoms as qubits. Like ion-trap systems, qubits can be programmed using the energy levels of the atoms. Light, or electromagnetic radiation, can be used to trap and manipulate the quantum states of uncharged (neutral) atoms. Multiple qubits that are nearby in space can be programmed to interact with one another via two-qubit gates. This opens up some tantalizing possibilities for exotic quantum-computing circuit topologies.</p>
 							<p>The main hardware components constituting a neutral atom quantum processor are shown in Figure 7. The trapping laser light (in red) is shaped by the spatial light modulator (SLM) to produce multiple microtraps at the focal plane of the lens (see inset). The moving tweezers (in purple), dedicated to rearranging the atoms in the register, are controlled by a 2D acousto-optic laser beam deflector (AOD) and superimposed on the main trapping beam with a polarizing beam-splitter (PBS). The fluorescence light (in green) emitted by the atoms is split from the trapping laser light by a dichroic mirror and collected onto a camera. (b) Photography of the heart of a neutral-atom quantum co-processor. The register is prepared at the center of this setup.</p>
 							<img class="images" src="/img/ideas/thoughtpaper/quantum-computing/x-07.webp">
 							<p class="small-caption">Figure 7. Overview of the main hardware components of a neutral atom quantum processor. Source: <a href="https://arxiv.org/abs/2006.12326" target="_blank">arXiv:2006.12326</a> [quant-ph]</p>
 							<p>Neutral atom platforms for quantum processing have a unique potential for scalability: <b>the size of the quantum register is only limited by the amount of trapping laser power and by the performance of the optical system generating the optical tweezers</b>.</p>
-							<p>Quantum computers based on <b>Silicon Photonics</b> use single photons in silicon photonic waveguides (i.e. pipes for photons) and are then manipulated using networks of optical components. PsiQuantum and <a href="https://www.xanadu.ai/hardware" target="_blank">Xanadu</a> are working on this approach.</p>
+							<p>Quantum computers based on <b>silicon photonics</b> use single photons in silicon photonic waveguides (i.e. pipes for photons) and are then manipulated using networks of optical components. PsiQuantum and <a href="https://www.xanadu.ai/hardware" target="_blank">Xanadu</a> are working on this approach.</p>
 							<p>The startup <b>EeroQ uses electrons on the surface of liquid helium</b> as qubits.</p>
 							<p>Other approaches are still in development, including using nitrogen vacancy (NV) centers in diamonds as qubits, and silicon quantum dots.</p>
 							<p class="subheading uppercase">General Quantum Computer Metrics</p>
@@ -255,7 +255,7 @@
 								<li><b>Energy consumption:</b> At the moment, quantum machines are not efficient from a power consumption point of view.</li>
 							</ul>
 							<p>The <b>DiVincenzo criteria</b> are conditions necessary for constructing a quantum computer. They were proposed in 2000 by the theoretical physicist David P. DiVincenzo. The criteria prescribe a computer that would be able to efficiently simulate quantum systems, such as in solving the quantum many-body problem. (These criteria build on the ideas proposed by mathematician Yuri Manin in 1980, and physicist Richard Feynman in 1982.)</p>
-							<p>DiVincenzo Criteria can be helpful in evaluating a startup quantum computing technology:</p>
+							<p>DiVincenzo Criteria can be helpful in evaluating a startup's quantum computing technology:</p>
 							<ul class="takeaways">
 								<li>A scalable physical system with well-characterized qubits.</li>
 								<li>The ability to initialize the state of the qubits to a simple fiducial state. One simple way to initialize a qubit is to wait long enough for the qubit to relax to its energy ground state. In addition, controlling the qubit potential by the tuning knobs allows faster initialization mechanisms.</li>
@@ -280,133 +280,103 @@
 								<li><b>Architecture/how much space the computer occupies:</b> Most quantum computers require ultra-low temperatures close to absolute zero (-270 degrees Celsius or -450 degrees Fahrenheit) and/or advanced optics to run.</li>
 								<li>Classical and quantum computers are <b>good at solving different problems</b> (algorithms).</li>
 							</ul>
-
-
-
-
-
-
-
-
-
-							<p></p>
-							<p></p>
-							<p></p>
-							<p></p>
-							<p></p>
-							<p></p>
-							<p></p>
-							<p></p>
-							<p></p>
-							<p></p>
-							<p></p>
-							<p></p>
-							<p></p>
-							<p></p>
-							<p></p>
-							
-							<p>The earliest generation of the technology was the passive electronically steeredsultaneously in different directions. Texas startup <a href="https://www.cesiumastro.com" target="_blank">CesiumAstro</a> recently completed a $60M Series B financing round for their modular AESA platform [29].</p>
-							<p>A phased asecific direction is an interference effect between omnidirectional emitters.</p>
-							<p class="author-notes">Author’s note on beam forming vs beam steering. Beam forming is using superposition to create the beam. Beam steering is dynamically changing that beam’s direction.</p>
-							<p>Digital Beam Forming (DBF) based phased arrays have digital receivers connected to each antenna element. As the signal is digitized at each of the antenna elements by thsna) market is projected to have a CAGR of ~41 percent from 2021-2026 [30].</p>
-							<p class="subheading uppercase">Electric Propulsion</p>
-							<p>In-space propulsion has a sizeable design space, as illustrated below, with a half dozen different options available to complete the standard tasks of a satellites’ mission life, such as station keeping, maneuvering to avoid debris, and end-of-life retirement moves (deorbit for LEO or park in graveyard orbit about GEO).</p>
-							
-							<p class="author-notes">Author’s note: thousands of satellites burning up in the atmosphere has the unintentional side-effect of being a geoengineering experiment to slow climate change. One way to mitigate solar radiation is via dispersal of aluminum particles.</p>
-							<p>Shorter mission life cosll fire for long durations, periodically turning off to deal with thermal heat soak, and can take many months to get a satellite to its final orbit.</p>
-							<p>Due to the low thrust of electric propulsors, the thrusters begin firing days before predicted conjunction for satellites to maneuver out of the way of orbital debris. <a href="https://orbionspace.com" target="_blank">Orbion Space Technology</a> was recently awarded a Phase II SBIR from AFWERX to develop a solution for little-to-no-warning debris collision avoidance maneuvers, blending their Hall thruster with an emergency store of cold gas to increase the thrust [32].</p>
-							
-							<p>For brevity sake, I won’t cover technical details on the half dozen different types of electric thrusters. For those who are curious about the most ubiquitous fosn an $83M post-money valuation [36]. The global space propulsion market is projected to have a CAGR of ~16 percent from 2020-2025 [37].</p>
-							<p class="subheading uppercase">Inter-Satellite Links</p>
-							<p>Enabling satellites to communicate directly with one another and to pass on information is the osto RF. OISLs use a narrow beam of light to communicate and require a direct line of sight to minimize interference. This makes OISLs robust against jamming and eavesdropping (a bad actor would have to intercept along the line of sight path directly).</p>
-							<img class="images" src="/img/ideas/thoughtpaper/quantum-computing/x-09.gif">
-							<p class="small-caption">Optical Intersatellite Links – space is the ideal environment for laser-based communications [38]</p>
-							<p>The DOD and NASA have programs testing inter-satellite links, such as DARPA’s BlackJack progrshardware for the Space Development Agency (SDA) [41]. The SDA utilizes a more modern ‘portfolio approach’ to capabilities development, which means they have another shot-on-goal via an award to optical communications startups <a href="http://bridgecomminc.com" target="_blank">BridgeComm</a> and <a href="https://www.spacemicro.com" target="_blank">Space Micro</a>, who are developing an optical one-to-many links that can do point-to-multipoint transmission [42]. The commercial satellite industry’s need for optical inter-satellite links accelerated the development and adoption timelines. Several commercial OISL providers have successfully demonstrated their technology, including <a href="https://www.tesat.de" target="_blank">Tesat-Spacecom</a> [43] and <a href="https://mynaric.com" target="_blank">Mynaric</a> [44].</p>
-							<p class="author-notes">Author’s note: optical downlinks and optical ground stations are another possibility, busitectures [45] and optical downlink has unique strengths from a cybersecurity perspective.</p>
+							<p>The first useful (quantum advantaged) quantum computers will be <b>hybrids</b> with quantum processors running some operations, and classical processors running others. Having a hybrid also helps address the memory problem - intermediate results can be transferred to a classical memory chip. There are some areas where we know quantum computers will excel: simulating complex natural systems (chemicals, materials, weather), breaking RSA encryption, and specific algorithms. Quantum computers can encode much more complex information in a single quantum bit, due to superposition. This allows them to solve systems of complex equations (like the position and state of many electrons) more easily. It’s similar to the difference between measuring derivatives over and over to find the lowest point in a mountain range, and being able to see the entire landscape at once.</p>
+							<p>For quantum computer calculations, more qubits and computational time are required as the problem gets more difficult. <b>The advantage is that the computation time scales only polynomially with the size of the problem, and not exponentially as for classical computers.</b> Polynomial-time is much, much shorter than exponential time as n, the number of inputs or parameters to calculate (e.g. the number of electrons in a molecule to include) increases.</p>
+							<img class="images" src="/img/ideas/thoughtpaper/quantum-computing/x-09.webp">
+							<p class="small-caption">Figure 9. Example of exponential vs polynomial scaling. If the y-axis is how long your program takes to run, and n is the number of inputs to your model, you’ll want to use a method that scales polynomially (n or n<sup>2</sup>) rather than exponentially (10<sup>n</sup>).</p>
+							<p>Identifying problems that are classically hard and quantumly easy is a very active area of research, and this question is far from being definitively answered. It can be a challenging task to understand the potential business impact of quantum applications. This is one reason for the many collaborations between big corporations and research institutes or big tech players to understand and get “smart” in their strategy.</p>
+							<p>Two areas where quantum computing is expected to add value are finance and chemical and materials discovery. However, there are many other problems (specifically graph problems and optimization research) where quantum computers may excel, i.e. for scheduling, and resource optimization, like the traveling salesman problem.</p>
+							<p class="subheading uppercase">Finance</p>
+							<p>In a data-heavy environment, ever-more-powerful computers are required to calculate probability properly. With this in mind, some banks are turning to a new breed of computers that use quantum physics principles to crunch massive quantities of data quickly. These institutions are able to evaluate big or unstructured data sets efficiently. Sharper insights into these categories may help banks make better decisions and provide better customer care, such as through more timely or relevant offerings (perhaps a mortgage based on browsing history). <b>Capital markets, corporate finance, portfolio management, and encryption-related operations all have compelling application cases.</b> This can be a path to true competitive advantage in an increasingly commoditized world. Quantum computers are especially interesting in applications where algorithms are driven by live data streams, such as real-time market prices, which include a high amount of random noise.</p>
+							<p>Financial and economic crises during the previous two decades have resulted in significant changes in how banks and other market players assessed and priced risk across asset classes. As a result, increasingly <b>complicated and real-time risk models driven by artificial intelligence but still based on traditional computers were introduced</b>.</p>
+							<p>When determining where quantum computing would be most beneficial, four capital markets sector archetypes should be considered: sellers, buyers, matchmakers (including trading platforms and brokers), and rule setters.</p>
+							<p>In general, sellers and matchmakers spend in information technology (IT) to increase capacity rather than solve complexity. Buyers and rule makers, on the other hand, frequently want more sophisticated models. For example, <b>quant-driven hedge funds</b> seek to profit on analytical complexity. As a result, they would be an obvious target for ultra-powerful processing. <b>Large banks, which play various roles in financial markets, are also early adopters.</b></p>
+							<p>If you want to learn more about fintech and quantum, read this <a href="https://www.mckinsey.com/industries/financial-services/our-insights/how-quantum-computing-could-change-financial-services">McKinsey article</a>.</p>
+							<p><b>Out of the 160+ industry partners working with IBM’s quantum computers, seven are financial services firms, including JP Morgan, Barclays, Goldman Sachs, and Wells Fargo.</b> Overall there are currently 20 financial institutions in the quantum ecosystem.</p>
+							<p><b>Goldman Sachs and Citigroup also invest directly in quantum computing companies like D-Wave and QC Ware.</b></p>
+							<p class="subheading uppercase">Chemicals and Pharmaceuticals</p>
+							<p>Quantum computers are much better suited to simulate molecules and materials (and find better ones!) than “classical” computers because they follow quantum mechanics. It’s really hard to simulate chemicals with lots of electrons or possible configurations. Solving the equations to describe the location and movement of electrons on a classical computer takes a huge amount of processing power and memory. Even with today’s supercomputers, we can barely get exact solutions for simple molecules. For more science, see this <a href="https://docs.google.com/document/d/1Ve70pdNeQyrOb2v7tlypbYC1D68D6DfxOJgHi_8ecmk/edit">thought piece on quantum chemistry</a>.</p>
+							<p>Beware of the hype! <b>Exact solutions (i.e. quantum computers) aren’t always needed to design new and better molecules.</b> Quantum chemistry is a mature field – researchers routinely calculate important chemical properties using approximations, many of which are darn good. The pace of computer-assisted drug discovery has, in fact, been accelerating for decades without quantum computers. Example: Density functional theory (DFT) was a huge breakthrough in the 1990s that allowed chemists to make much more accurate chemical structure predictions.</p>
+							<p>Looking ahead, the continued increase in the computation power, distributed cloud-based computational resources, and the miracles of AI/ML are giving chemists and biochemists more powerful tools. Dozens of AI/ML startups are already on the hunt for better candidates for pharma leads, battery materials, and even low-carbon cement formulations. Many are producing good hits without using quantum computers.</p>
+							<p>Quantum computing can stand out where the approximations for classical computers break down. Examples include molecules containing metal atoms (which have many associated electrons), materials with large shared electron systems, and regions of a molecule/drug where super high accuracy is key.</p>
+							<p>Examples of important chemical and biological molecules that are difficult to simulate with classical systems are:</p>
+							<ul class="takeaways">
+								<li>A DNA regulation enzyme <b>histone demethylase</b>, which helps switch genes on/off</li>
+								<li>The non-covalent binding between <b><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5222781">biotin and the avidin protein</a></b>, which has been used for nanoscale drug delivery systems</li>
+								<li>Biological nitrogen fixation by the enzyme <b>nitrogenase</b>, which converts nitrogen into two ammonia molecules under ambient conditions.</li>
+								<li>The <b><a href="https://www.nature.com/articles/s41534-018-0102-2">N-chromophore</a></b> photosynthetic complex, which plants use to efficiently convert sunlight and CO2 into organic molecules.</li>
+								<li>Materials showing high-temperature superconductivity, which would be useful for applications in energy and electronics.</li>
+								<li>Super high accuracy is important in drug discovery studies, i.e. calculating the binding affinity of drug active regions in different liquids and protein environments.</li>
+							</ul>
+							<p>To put things in perspective: the ability to use quantum computers to create new, improved molecules is only the first step in the process. Scientists then need to find a way to make the molecule correctly, stabilize it, scale-up production, ensure quality control, find distribution channels, and make sales. This is a long road.</p>
+							<p>Major pharma companies have expressed interest: Amgen, Biogen, Genentech, Pfizer and others have projects with quantum simulation companies (many of whom hope to harness quantum computers when they become available).</p>
+							<p>Meanwhile, large companies have quantum computing research divisions exploring how to use quantum computers to solve compelling (or not so compelling) problems:</p>
+							<ul class="takeaways">
+								<li>Microsoft’s team is working to understand how nitrogenase converts atmospheric nitrogen into fertilizer at ambient temperatures. (<a href="https://www.microsoft.com/en-us/research/publication/elucidating-reaction-mechanisms-on-quantum-computers">Journal article</a>)</li>
+								<li>IBM’s team is calculating dissociation curves for simple molecules found in lithium sulfur batteries. (<a href="https://research.ibm.com/publications/quantum-computation-of-dominant-products-in-lithium-sulfur-batteries">Journal article</a>)</li>
+								<li>Google wants to be acknowledged for reaching quantum supremacy. They also made ‘Time Crystals’.</li>
+								<li>An interesting use case is how IBM quantum computing services were used by Daimler to simulate the chemical reactions, at a molecular level, in lithium batteries. Simulating how the electrons react with the molecule takes days and it’s just an approximation. Simulating the full chemical reaction is too complicated. This is a specific use case driven by the macrotrend of being net-carbon zero by 2030 and Daimler shifting to full electric technology. Read the full <a href="https://www.ibm.com/case-studies/daimler">case study</a> here.</li>
+							</ul>
+							<p class="subheading uppercase">Business Models</p>
+							<p>In most cases, quantum computing will be primarily offered as a cloud service (<b>Quantum Computing as a Service, or QCaaS</b>). In the last few years, there’s been a race to provide <a href="https://www.cnet.com/news/amazon-ibm-and-microsoft-race-to-bring-global-access-to-quantum-computing">public cloud-based quantum services</a>. For example:</p>
+							<ul class="takeaways">
+								<li>Microsoft has been building quantum computing services for over a decade, including a <a href="https://azure.microsoft.com/en-us/services/quantum/#product-overview">quantum computing service in Azure</a> that can be accessed remotely by users. The service currently simulates 30–40 qubits.</li>
+								<li>IBM launched its “Q Network” in 2016 to provide access to the company’s experts, developer tools, and cloud-based quantum systems for organizations to trial. According to the company, 130 billion executions have now been run on the Q Network, and 100 commercial partners, <a href="https://www.zdnet.com/article/ces-2020-ibm-adds-delta-as-it-expand-its-q-network">including Delta Airlines, Goldman Sachs, and ExxonMobil</a>, have signed up for membership.</li>
+								<li>Rigetti <a href="https://medium.com/rigetti/introducing-rigetti-quantum-cloud-services-c6005729768c">launched it’s cloud computing service</a> in 2018, along with a $1 million prize for the first conclusive demonstration of quantum advantage on their platform. (Note: his is currently a quantum simulator, rather than access to a full device.)</li>
+								<li>D-Wave has launched cloud services, as well as selling quantum annealing hardware.</li>
+								<li>AWS is offering access to others’ quantum computing services through its <a href="https://aws.amazon.com/quantum-solutions-lab/">quantum solutions platform</a>.</li>
+							</ul>
+							<p>While other business models like <b>hardware or equipment sales</b> and consulting services are possible, we expect QCaaS to be the main source of revenue based on scalability. That said, several quantum computing companies hope to secure profit-sharing contracts similar to the relationship between 23andMe and GlaxoSmithKline, through which 23andMe receives 50% of the profits from any GlaxoSmithKline drug for a target identified using data from 23andMe’s health app. The value of the quantum computer and quantum software tools in creating the final product will certainly be the topic of heated contract discussions.</p>
+							<p class="subheading uppercase">Quantum Software</p>
+							<p>While outside the scope of Prime Movers Lab investment, software development for quantum computers is also a growing area, with well over a dozen startups focusing on providing software services (notably Cambridge Quantum Computing, 1QBit, Strangeworks, and Zapata).</p>
 						</div>
 					</div>
 				</div>
 				<!-- end section -->
-				<div class="chapter-anchor" id="ground-equipment"></div>
+				<div class="chapter-anchor" id="macro"></div>
 				<div class="section-content-2">
 					<div class="row-base row">
 						<div class="col-md-10 col-md-offset-1">
-							<h4>Ground Equipment</h4>
-							<p>The big news in ground equipment has been the ability to demonstrate communications with satellites in different orbits. <a href="https://www.isotropicsystems.com" target="_blank">Isotropic Systems</a> recently completed an additional demonstration of this capability for the U.S. Army [46], after having done sthe DOD is overrun with terminals for the various satellite systems. Whoever figures out how to make “one terminal to rule them all” will have more gold than Smaug.</p>
-							<p class="author-notes">Author’s note: the <a href="https://dificonsortium.org" target="_blank">DIFI Consortium</a> is working to create open “RF over IP” like standards for interoperable satellite communications. [47]</p>
-							<p><a href="https://www.kymetacorp.com" target="_blank">Kymeta</a> is another company working on multi-orbit terminals. Prime Movers Lab Technical Partner Alessandro Levi did a fantastic job explaining their technology in his whitepaper on <a href="https://www.primemoverslab.com/resources/ideas/metamaterials.pdf" target="_blank">Metamaterials</a> [48], so I’d rather direct curious readers thsategic partnership with Kratos to develop a mobile antenna and software-defined terminal solution [51].</p>
-						</div>
-					</div>
-				</div>
-				<!-- end section -->
-				<div class="chapter-anchor" id="commercial-satellite-market"></div>
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1">
-							<h4>Commercial Satellite Market</h4>
-							<p>The satellite industry clocks in at $271B as of 2020 [52]. The SATCOM portion of that market is currently ~$22B (minus the part of the telecommunications market that is focused on television and radio).</p>
+							<h4>Macro</h4>
+							<p class="subheading uppercase">Market Sizes & Stats</p>
+							<p>The quantum computing market is anticipated to grow from $472 million USD in 2021 to <b>1.765 billion USD by 2026</b> (source: Quantum Computing Market with COVID-19 impact by Offering (Systems and Services), Deployment (On Premises and Cloud Based), Application, Technology, End-use Industry and Region - Global Forecast to 2026), at a <b>CAGR of 30.2%</b> over the forecast period.</p>
+							<p>The <b>early use of quantum computing</b> in the <b>banking and finance industry</b> is projected to boost the market's worldwide expansion. Other important factors driving the growth of the quantum computing market include increased government funding in research and development activities connected to quantum computing technology. Following COVID-19, some firms are concentrating on the implementation of <b>Quantum Computing As a Service (QCaaS)</b>. This, in turn, is likely to help the quantum computing business develop. However, difficulties with stability and error correction are anticipated to limit market development.</p>
+							<p>Quantum computing is gaining popularity in the banking and finance services business, which is concentrating on accelerating trade operations, transactions, and data processing by orders of magnitude. Simulation is one of the most important possible uses of quantum computing. Quantum computing aids in the discovery of a more effective and economical method of managing financial risks. When conventional computers are employed in financial institutions, the processing time and costs of high-quality solutions can rise exponentially, but quantum computers can perform fast operations at optimal costs, resulting in cost reductions and new income potential.</p>
+							<p>Other markets that will drive the adoption will be <b>healthcare and pharmaceutical, transportation and logistic, chemistry and material science, cybersecurity, academia, and governments</b>.</p>
+							<p class="subheading uppercase">Investment Snapshot</p>
+							<p>The number of companies founded steadily increased since 2011 and peaked in 2018 as can be seen in Figure 10.</p>
 							<img class="images" src="/img/ideas/thoughtpaper/quantum-computing/x-10.webp">
-							<p class="small-caption">Satellite Industry Association (SIA) and BryceTech 2021 report “State of the Satellite Industry” [52]</p>
-							<p>For context, terrestrial telecommunications is a trillion-dollar industry. People are puschnology, Policy, and Strategy at NASA, led a study in 2019 while at the IDA Science & Technology Policy Institute to “Measure the Space Economy” [55].</p>
+							<p class="small-caption">Figure 10. Number of companies founded over time. Source: Pitchbook</p>
+							<p>The number of quantum computing deals peaked in 2020 at 125. However, 2021, a record-breaking year for VC in general, saw the greatest deal value, with over $3B in quantum computing related deals as seen in Figures 11 and 12.</p>
 							<img class="images" src="/img/ideas/thoughtpaper/quantum-computing/x-11.webp">
-							<p class="small-caption">Left: U.S. space economy gross output by industry group [54], Right: Estimates of size & composition of space economy [55]</p>
-							<p>Of note, the SIA report s context the future projections for the space economy generated via investment bank research.</p>
-							<p class="author-notes">Author’s note: I’m still new to the lingo of finance, but I think the label ‘exuberant’ could be applied to some of the projections shown below.</p>
+							<p class="small-caption">Figure 11. Number of deals over time. Source: Pitchbook</p>
 							<img class="images" src="/img/ideas/thoughtpaper/quantum-computing/x-12.webp">
-							<p class="small-caption">Comparisons by category of 2016 estimates and 2040 projections of the size of the space economy [55]</p>
-							<p>For one final perspective that’s neither government, nor space consultant, nor banker,shome equipment costs, the consumer home broadband internet could grow by ~32 percent annually.</p>
+							<p class="small-caption">Figure 12. Investment value of deals over time. Source: Pitchbook</p>
+							<p>The year 2021 also saw some corporate and M&A activity in quantum computing for the first time.</p>
+							<p class="subheading uppercase">IP Snapshot</p>
+							<p>The U.S. leads the world in the number of patent families related to quantum computing, according to pitchbook research. Roughly 60 percent of patents were filed in North America, 22 percent in Asia, 15 percent in Europe, and 2 percent in other continents (Figure 13).</p>
 							<img class="images" src="/img/ideas/thoughtpaper/quantum-computing/x-13.webp">
-							<p class="small-caption">McKinsey report on LEO mega-constellations – a “disruptive” scenario was modeled, whereby LEO SATCOM quality of service reaches its full potential AND costs drop. The demand for satellite broadband then grows ~32% for consumers and ~63% for business. [56]</p>
-						</div>
-					</div>
-				</div>
-				<!-- end section -->
-				<div class="chapter-anchor" id="market-stratification"></div>
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1">
-							<h4>Market Stratification</h4>
-							<p>The SATCOM market can be stratified into the following segments: Fixed Broadband, Mobile (air, maritime, auto), IoT, 5G Backhaul, and Orbital Data Relays.</p>
-							<p class="subheading uppercase">Fixed Broadband</p>
-							<p>Fixed broadband refers to satellites beaming the internet to your home/office. The competitors in spportunity at $9.3B, with $4.7B coming from the U.S. and Europe [57].</p>
-							<p class="author-notes">Author’s note: seasoned SATCOM consultants are providing the historical counter-perspective and asking good questions [58].</p>
-							<p>I am optimistic for this market, if only because there are so many parts of the country without goos“Can Starlink Save the American Mother?” [60].)</p>
+							<p class="small-caption">Figure 13. Location of patents by country of priority and location of the inventor. Source: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3734185">Quantum technologies patents, publications, and investments</a>, Michel Kurek</p>
 							<img class="images" src="/img/ideas/thoughtpaper/quantum-computing/x-14.webp">
-							<p class="small-caption">Red zones are places where over 25% of the population reports no internet access! [61]</p>
-							<p class="subheading uppercase">Mobile Broadband</p>
-							<p>Mobile broadband refers to satellites beaming the internet to large things that move, like airps beam hopping design this year and is working with startup SatixFy on an airplane terminal that supports beam hopping and is compatible with both OneWeb’s LEO satellite and GEO providers [62]. In March 2022, <a href="https://www.satixfy.com" target="_blank">SatixFy</a> announced their intention to SPAC at a $239M valuation, including a $29M PIPE [63]. The aeronautical market growth is projected to be between 8-11 percent [64], while the maritime market is segmented with expected to grow between 1.8-2.4 percent [65].</p>
-							<p class="subheading uppercase">5G Backhaul – Intriguing New Players</p>
-							<p>Earlier we learned that the universal terminal is the dream. Instead of working on a new terminal design, what if the existing antennas in everyone’s pocket worked? Two startups are working on satellites that can communicate directly with cell phones: <a href="https://lynk.world" target="_blank">Lynk</a> and Reddit darling <a href="https://ast-science.com/spacemobile" target="_blank">AST SpaceMobile</a> (NASDAQ ticker $ASTS) [10]. SATCOM is a physics-bounded process. In order to communicate, something has to be “stronsitially be a global text messaging service with potential for more if things progress well.</p>
-							<p class="subheading uppercase">IoT</p>
-							<p>One could make just as large a table for proposed IoT constellations as I did earlier for broadband. The market here is nascent, sitting around $1B in size today psdscape here, I again chose to focus on companies with satellites in orbit. Companies to consider tracking include <a href="https://swarm.space" target="_blank">Swarm</a> (what will SpaceX do with the acquired IP from their undisclosed size deal [74]?), startup <a href="https://fleetspace.com" target="_blank">Fleet Space</a> (who closed a $26M round last year [75] and received a $20M grant from the Australian government [76]), and <a href="https://www.astrocast.com" target="_blank">Astrocast</a> (who IPO’d on the Euronext Growth Oslo exchange last August [77]). It’s also worth noting legacy players Orbcomm, Iridium, and Globalstar all have systems that service the IoT market. In fact, Iridium’s recent positive earnings was mostly attributed to IoT growth – <em>“Iridium’s commercial IoT subscribers grew 24% from the year-ago period to 1,193,000 customers, driven by continued strength in consumer personal communications devices. IoT Data subscribers now represent 76% of billable commercial subscribers.”</em> [78].</p>
-							<p class="subheading uppercase">Orbital Data Relays</p>
-							<p>Orbital data relays were once the domain of governments. The earliest example is NASA’s Tracking and Data Relay Ssata relay system, linking with the ISS and other EU assets [81]. Toronto startup <a href="https://kepler.space" target="_blank">Kepler Communications</a>, who raised a $60M round last year, is creating what they term an in-space internet infrastructure [82].</p>
-							<p>The other benefit of orbital relays is extracting more value from Earth Observation (EO) datas Twitter was relying on days-old data from EO providers to make their threat assessments. At SmallSat Symposium in February 2022, the concept of <b>timeliness of data</b> was repeatedly brought up in panel discussions. One startup working to alleviate this problem is <a href="https://www.eosspacelink.com" target="_blank">SpaceLink</a>, who are creating a MEO constellation with optical intersatellite links [83]. They plan to provide customers a way to aggregate more of their data and get it downlinked, to enable near real-time data collection. Another startup, <a href="https://www.mangatanetworks.com" target="_blank">Mangata Networks</a>, is looking to build a MEO - HEO satellite communications network and combine it with their terrestrial data processing [84].</p>
-							<p class="author-notes">Author’s Note: in addition to timeliness of data, another repeated topic at Smasntage of existing terrestrial compute. For edge compute, companies like <a href="https://ramon.space" target="_blank">Ramon.Space</a> are working on spacss. Two newer companies to track in this sector include a systems solution, <a href="https://nebulacompute.com" target="_blank">Nebula Compute</a>, and a materials supplier, <a href="https://cosmicshielding.com" target="_blank">Cosmic Shielding Corporation</a>.</p>
+							<p class="small-caption">Figure 14. Organizations holding six or more patents since 2010. Source: <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3734185">Quantum technologies patents, publications, and investments</a>, Michel Kurek</p>
+							<p>We see several types of players on the list of IP holders (Figure 14). Of note:</p>
+							<ul class="takeaways">
+								<li>US IT behemoths (IBM, Intel, Microsoft, Google)</li>
+								<li>Asian conglomerates, primarily Japanese, historically focused on telecommunications and electronic equipment (illustrated by a mobile phone on the graph: Hitachi, Toshiba).</li>
+								<li>Startups specializing in quantum computing have built or intend to build a quantum computer (D-Wave, Rigetti, Origin Quantum, IonQ, PsiQuantum, Atom). Others are more concerned with software (e.g., 1QBit, Zapata) or communication security (Quantum ID).</li>
+								<li>Defense and security sector organizations (Northrop Grumman on the corporate side, U.S. Navy, and U.S. Army on the military side) are also present, as are several civilian agencies and government research institutions.</li>
+							</ul>
 						</div>
 					</div>
 				</div>
 				<!-- end section -->
-				<div class="chapter-anchor" id="regulatory-environment"></div>
+				<div class="chapter-anchor" id="investing-thoughts"></div>
 				<div class="section-content-2">
 					<div class="row-base row">
 						<div class="col-md-10 col-md-offset-1">
-							<h4>Regulatory Environment</h4>
-							<p>Spectrum is an incredibly valuable finite resource. In the United States, the Federal Communications Commission (FCC) holds auctions for specific frequencies, typically netting tens of billions of dollars each time. The tricky part about spectrum allocations in the U.S. is that it’s not only frequency dependent, but also local area dependent. (For example, a company can be licensed in one county of a state but not others.) The below chart illustrates the U.S. frequency allocations.</p>
-							<img class="images" src="/img/ideas/thoughtpaper/quantum-computing/x-15.webp">
-							<p class="small-caption">U.S. radio wave spectrum is administered by the FCC [89]</p>
-							<p>The process for getsoyed by a specific date. The FCC denied their request.</p>
-							<p class="author-notes">Author’s note: I imagine a number of analysts put the Boeing constellation as low probability of occurrence.</p>
-							<p>The U.S. has a spectrum crunch, thanks to the large allocations set aside for the DOD and emergency services.</p>
-						</div>
-					</div>
-				</div>
-				<!-- end section -->
-				<div class="chapter-anchor" id="companies-to-track"></div>
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1">
-							<h4>Companies to Track</h4>
+							<h4>Investing Thoughts</h4>
+							<p class="subheading uppercase">Landscape</p>
+							<p>A landscape look at quantum computing hardware companies is shown in Table 1.</p>
 							<p><b>SpaceX</b> (Private)<br>Products: Starlink broadband constellation<br>Valuation: $100B, Last Financing: $755M, Oct 2021</p>
 							<p><b>AST SpaceMobile</b> (Public)<br>Products: Direct-to-cell-phone SATCOM<br>Valuation: $1.2B (market cap), Last Financing: $462M SPAC, April 2021</p>
 							<p><b>E-Space</b> (Private)<br>Products: Constellation as a service<br>Valuation: Undisclosed, Last Financing: $50M, Feb 2022</p>
@@ -416,13 +386,8 @@
 							<p><b>Ramon.Space</b> (Private)<br>Products: In-space compute hardware<br>Valuation: Undisclosed, Last Financing: $17.5M, May 2021</p>
 							<p><b>Nebula Compute</b> (Private)<br>Products: On-orbit data centers<br>Valuation: Not priced round, Last Financing: $1.25M, Sep 2021</p>
 							<p><b>Cosmic Shielding</b> (Private)<br>Products: Doped polymer radiation shielding material<br>Valuation: Not priced round, Last Financing: $1M, April 2021</p>
-						</div>
-					</div>
-				</div>
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1">
-							<p>Most of the companies in this landscape are quite mature. A nascent area to keep an eye on over the next couple years is quantum communications, with an exciting experiment lsDOD encrypted communications. The Space Force has up to $5B budgeted to build a secure unjammable space-based communication architecture [93].</p>
+							<p>For years, the quantum market seemed boring and sleepy even considering the eight M&A deals from 2016-2020. These deals were related to companies developing technologies for the quantum era encryption (Quantum Numbers), software for quantum equipment (Labber acquired by Keysight Technologies) but also software (Quantum Computing, QxBranch acquired by Rigetti, Quantum Benchmark acquired by Keysight Technologies) and HW components (High Precision Devices, Muquans) to be used with quantum. In 2021, there was a change in pace and also a change in the type of companies that were subject to SPAC or M&A. Eight deals happened in 2021. That is a sign of maturity in the industry that can now “show” early products. These products are still very early, with limited functionalities, i.e. they can solve very few computational problems.</p>
+							<p>Our perspective is that quantum companies are starting to be confident that they will be able to scale their architecture by increasing the number of qubits. For example, Rigetti announced a SPAC, claiming that their booking order went up to $15 million from the previous forecast of $5 million. Different components of quantum computing and software reached a good enough level to enable some of these quantum technologies platforms. Software is very strategic as confirmed by the acquisition of QxBranch by Rigetti. Also, the merger of Cambridge Quantum Computing and Honeywell Quantum Solution shows the same pattern.</p>
 						</div>
 					</div>
 				</div>
@@ -432,44 +397,22 @@
 					<div class="row-base row">
 						<div class="col-md-10 col-md-offset-1">
 							<h4>Conclusion</h4>
-							<p>The satellsligence via data fusion and machine learning. Turbulent times have been a somber reminder of the importance of space-based data and communications for helping billions of lives here on Earth.</p>
-							</div>
-					</div>
-				</div>
-				<!-- end section -->
-				<div class="chapter-anchor" id="references"></div>
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1 references-links">
-							<h4>References</h4>
-							<p>[110] u/winpickles4life, <a href="https://www.reddit.com/r/ASTSpaceMobile/comments/q6tqw8/ast_spacemobile_the_starlink_of_smartphones" target="_blank">AST SPACEMOBILE - The Starlink of Smartphones</a>, r/ASTSpaceMobile subreddit, October 2021</p>
-							<p>[11] <a href="https://lynk.world/lynk-files-for-fcc-license-to-enable-global-mobile-connectivity" target="_blank">Lynk Files for FCC License to Enable Global Mobile Connectivity</a>, Lynk</p>
-							<p>[129] <a href="https://finance.yahoo.com/news/lynk-global-inc-signs-contracts-110000904.html" target="_blank">Lynk Global Inc. Signs Contracts with MNOs to Bring Satellite-Direct-to-Phone Connectivity to Seven Pacific and Caribbean Island Nations</a>, BusinessWire, February 2022</p>
-							<p>[72] Rainbow, J. and Werner, D., <a href="https://spacenews.com/ohb-to-build-spacelink-satellites" target="_blank">Spacelink Hires OHB to Build Data Relay Satellites</a>, SpaceNews, October 2021</p>
-							<p>[84] Bell, J., <a href="https://playgroundglobal.medium.com/for-your-information-a-new-approach-to-connectivity-why-we-invested-in-mangata-networks-84a245e827b8" target="_blank">For Your Information: A New Approach to Connectivity—Why We Invested in Mangata Networks</a>, Playground Global, February 2022</p>
-							<p>[821] NSR, <a href="https://www.nsr.com/the-quantum-race-for-secure-communications" target="_blank">The Quantum Race for Secure Communications</a>, October 2021</p>
-							<p>[92] <a href="https://www.ll.mit.edu/r-d/projects/protected-antijam-tactical-satcom" target="_blank">Protected Antijam Tactical SATCOM</a>, Lincoln Laboratory, MIT</p>
-							<p>[93] Hitchens, T., <a href="https://breakingdefense.com/2020/02/space-force-wants-5b-for-anti-jam-satcoms" target="_blank">Space Force Wants $5B For Anti-Jam SATCOMs</a>, Breaking Defense, February 2020</p>
-							<p>[94] <a href="https://science.nasa.gov/ems/01_intro" target="_blank">Introduction to the Electromagnetic Spectrum</a>, NASA Science</p>
+							<p>Developing quantum computers involves beautiful math, breakthrough physics, creative engineering design, and enough uncertainty to capture the imagination. The key challenge for early-stage and growth investors alike is that the killer applications for quantum computers are still largely unknown.</p>
+							<p>The quantum computing field is growing up rapidly, but is still many years away from achieving a universal quantum computer. Quantum computers will need at least 1000 logical qubits to solve interesting problems, or about one million actual, physical qubits given expected error rates. By contrast, today’s most advanced quantum computer prototypes have at most 100 physical qubits.</p>
+							<p>Meanwhile, powerhouse companies like Microsoft, IBM and Amazon have begun to build out quantum service platforms in the cloud. This puts these megacompanies in a strong position to capture a large part of the value created, regardless of which quantum computing approach turns out to be the most powerful, useful and/or widely applicable. Quantum computing will be primarily offered as a cloud service, at least at first.</p>
+							<p>Quantum computers will one day have an advantage in certain classes of chemistry, materials science, and optimization routines. While there has yet to be a “killer app” for quantum, we suspect that it will come in the form of an optimization routine that generates value each time it is run. (It’s easy to imagine a future where some logistics problems are run on AWS “quantum cores.” It is less easy for us to imagine a future where a quantum computing company receives a massive payout for helping identify a drug candidate, although this business model is often pitched (a la the agreement between <a href="https://www.gsk.com/en-gb/media/press-releases/gsk-and-23andme-sign-agreement-to-leverage-genetic-insights-for-the-development-of-novel-medicines">23andMe and GSK</a> to share profits from discoveries made mining 23andMe’s data).</p>
+							<p>Is this a challenging area for private investment? Yes, especially given that most experts in the industry predict that useful quantum computers are still 15+ years away. However, we feel it is worth the risk given the transformative nature of the technology. In addition to the classes of problems that we currently know quantum computers will excel at, more and more research is being done on areas where quantum computers (or even NISQ devices) can solve currently intractable problems. Research into combining quantum computing with machine learning and neural networks is especially interesting.</p>
+							<p>The rate of future progress in quantum computing could also accelerate rapidly. Major strides are being made in adjacent technology areas: high-temperature superconductors, optics, lasers, control systems, laser controls, and computation power. Scientific breakthroughs in quantum computing must be accompanied by breakthroughs in mathematics and computer science. For this reason, it is worth tracking progress in algorithm development, and in research on Noisy Intermediate Scale Quantum computers, or NISQ devices.</p>
+							<p>There is also downside protection in the tremendous amount of IP and know-how being generated by startups in this space. We are cautiously bullish on this space, especially for quantum computing technologies that have the ability to scale the number of qubits rapidly, have a pathway to high fidelity, and show strong customer focus early.</p>
+							<p>While it isn’t too late for new startups to make a splash, the wave of new quantum company formation is slowing down. University spinouts are common in the field of quantum computing startups, given that much of the IP generated in this space comes from a relatively small set of physics departments around the world. At this point, most of the more researched approaches to creating qubits are now being pursued by IT giants and/or startups.</p>
+							<p>Several quantum computing companies are now blazing trails in the public markets: Rigetti, IonQ, and Cambridge Quantum Computing to name a few. This has established that there is a path to exit for this sector, though it may prove to be a rocky one.</p>
+							<p>Perhaps the best argument that quantum computers will eventually become critical to new products is looking back at how people (specifically leaders in the field!) viewed classical computers in the early days. The inventors of the transistor and early computer startups could not have possibly imagined how navigation apps, internet search, online banking, video streaming, e-commerce, and social media would infiltrate and change modern life. Similarly, it’s hard to imagine what people might create with quantum computers. We want to conclude with a famous quote from the chairman of IBM Thomas Watson in 1943, <em>“I think there is a world market for maybe five computers.”</em></p>
 						</div>
 					</div>
 				</div>
-				<!-- end section -->
-				<div class="chapter-anchor" id="appendix"></div>
-				<div class="section-content-2">
-					<div class="row-base row">
-						<div class="col-md-10 col-md-offset-1">
-							<h4>Appendix</h4>
-							<img class="images" src="/img/ideas/thoughtpaper/quantum-computing/x-16.webp">
-							<p class="small-caption">The Electromagnetic Spectrum. Areas in gray indicate parts of the spectrum where the atmosphere blocks the signal. [94]</p>
-						</div>
-					</div>
-				</div>
-				<!-- end section -->
 			</div>
 		</section>
 	</div>
-
 	<footer id="footer" class="footer footer-2 bg-light">
 		<div class="container">
 			<div class="row-base row">
