@@ -214,7 +214,7 @@ footer a:hover {opacity: 1;}
 	.leadership-thumbnail, .advisor-thumbnail {display: none;}
 	.content-home h2, .content-whoweare h6, .content-product .valueprop, .content-product .testimonial-quote {margin-top: 0; padding-top: 0;}
 	.content-whoweare h2, .content-product h3, .content-product .testimonial-name {font-size: 1.25rem;}
-	.content-home p, .content-product p, .content-product .testimonial-title, .content-whoweare h6, .content-whoweare p {font-size: 0.75rem;}
+	.content-home p, .content-product p, .content-product .testimonial-title, .content-whoweare h6, .content-whoweare p {font-size: 1.25rem;}
 	.prev-next span {display: none;}
 	.content-product .testimonial-quote {font-size: 1.25rem; text-indent: -0.5rem;}
 	.media-category a, .content-media h6 {font-size: 0.875rem;}
