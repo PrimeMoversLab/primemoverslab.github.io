@@ -61,44 +61,11 @@ p + p {padding-top: 15px;}
 
 #whoweare #learnmore-expand {margin-top: 40px; margin-bottom: 20px; display: none;}
 
-#home h2 {
-	background: linear-gradient(to right, #f9ad8b 0%, #a786f9 100%);
-	-webkit-background-clip: text; background-clip: text;
-	-webkit-text-fill-color: transparent; text-fill-color: transparent;
-	padding: 150px 0;
-}
-
-#solutions h2 {
-	background: linear-gradient(to right, #0199f1 0%, #a0d00f 100%);
-	-webkit-background-clip: text; background-clip: text;
-	-webkit-text-fill-color: transparent; text-fill-color: transparent;
-	padding: 150px 0;
-}
-
-#whoweare h2 {
-	background: linear-gradient(to right, #0199f1 0%, #a0d00f 100%);
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
-	text-fill-color: transparent;
-	padding: 150px 0 0 0;
-}
-
-#product h2 {
-	background: linear-gradient(to right, #0199f1 0%, #a0d00f 100%);
-	-webkit-background-clip: text; background-clip: text;
-	-webkit-text-fill-color: transparent; text-fill-color: transparent;
-	padding: 150px 0 0 0;
-}
-
-#joinus h2 {
-	background: linear-gradient(to right, #0199f1 0%, #a0d00f 100%);
-	-webkit-background-clip: text;
-	background-clip: text;
-	-webkit-text-fill-color: transparent;
-	text-fill-color: transparent;
-	padding: 150px 0 0 0;
-}
+#home h2 {padding: 150px 0;}
+#solutions h2 {padding: 150px 0;}
+#whoweare h2 {padding: 150px 0 0 0;}
+#product h2 {padding: 150px 0 0 0;}
+#joinus h2 {padding: 150px 0 0 0;}
 
 /* content */
 
@@ -121,9 +88,6 @@ p + p {padding-top: 15px;}
 .content-product .casestudy {margin-top: 240px;}
 .content-whoweare-intro, .content-joinus-intro {margin-top: 150px;}
 .bio p {font-size: 0.875rem;}
-.content-contact h2 {font-size: 1.75rem; margin-top: 90px;}
-.content-contact form {font-family: 'Gordita-Regular', Helvetica, Arial, Sans-Serif; font-weight: normal; font-size: 1rem; margin-top: 60px;}
-.content-contact input {padding: 5px 0 10px 0; font-family: 'Gordita-Regular', Helvetica, Arial, Sans-Serif; font-weight: normal; font-size: 1rem; min-width: 200px; width: 100%; margin-top: 10px; outline: none; border: none; border-bottom: 1px #ddd solid;}
 
 .leadership-thumbnail, .advisor-thumbnail {margin-top: 50px;}
 .leadership-thumbnail .col-12, .advisor-thumbnail .col-12 {font-size: 0;}
@@ -147,21 +111,12 @@ p + p {padding-top: 15px;}
 .media-date {padding-top: 150px; font-size: 0.875rem;}
 #pressrelease .media-title {padding-top: 20px; padding-bottom: 50px; color: black;}
 #pressrelease .pressrelease-quote {font-size: 1rem; text-indent:-0.5rem;}
-#pressrelease i {font-family: 'Gordita-RegularItalic', Helvetica, Arial, Sans-Serif; font-weight: normal; font-style: italic;}
 #pressrelease a {color: black; text-decoration: none;}
-
-#privacypolicy-intro {margin-top: 50px; margin-bottom: 0;}
-.privacypolicy-subtitle {margin-top: 50px; font-family: 'Gordita-Bold', Helvetica, Arial, Sans-Serif; font-weight: bold;}
 
 /* action */
 
 .action {margin-top: 50px;}
-.action h2 {
-	background: linear-gradient(to right, #f9ad8b 0%, #a786f9 100%);
-	-webkit-background-clip: text; background-clip: text;
-	-webkit-text-fill-color: transparent; text-fill-color: transparent;
-	padding: 150px 0 40px 0;
-}
+.action h2 {padding: 150px 0 40px 0;}
 
 /* buttons */
 
@@ -173,8 +128,7 @@ p + p {padding-top: 15px;}
 	margin-top: 50px;
 	padding-bottom: 10px;
 	color: black;
-	font-family: 'Gordita-Bold', Helvetica, Arial, Sans-Serif;
-	-moz-font-feature-settings:'aalt=0,case=0,frac=0,liga=0,lnum=0,locl=0,onum=0,ordn=0,pnum=0,ss01=0,ss02=0,ss03=0,ss04=0,ss05=0,ss06=0,ss08=0,tnum=0,zero=0';
+	font-family: 'Barlow', Sans-Serif;
 	font-weight: bold;
 	line-height: 1.5;
 }
@@ -186,33 +140,13 @@ p + p {padding-top: 15px;}
 	color: white;
 	opacity: 0.7;
 	display: block;
-	font-family: 'Gordita-Bold', Helvetica, Arial, Sans-Serif;
-	-moz-font-feature-settings:'aalt=0,case=0,frac=0,liga=0,lnum=0,locl=0,onum=0,ordn=0,pnum=0,ss01=0,ss02=0,ss03=0,ss04=0,ss05=0,ss06=0,ss08=0,tnum=0,zero=0';
+	font-family: 'Barlow', Sans-Serif;
 	font-weight: bold;
 	max-width: 300px;
 	margin: 0 auto;
 }
 
-.content-contact a:after, .action a:after, .content-solutions a:after,  #whoweare a:after, .content-product a:after, .prev-next a:after, .media-inactive a:after, .content-contact a:after {
-	content: '';
-	position: absolute;
-	width: 100%;
-	height: 3px;
-	bottom: 0;
-	left: 0;
-	background: linear-gradient(to right, #f9ad8b 0%, #a786f9 100%);
-	transform: scaleX(0);
-	transform-origin: bottom right;
-	transition: transform 0.2s;
-}
-
-.content-contact a:hover:after, .action a:hover:after, .content-solutions a:hover:after, #whoweare a:hover:after, .content-product a:hover:after, .prev-next a:hover:after, .media-inactive a:hover:after, .content-contact a:hover:after {
-	transform-origin: bottom left;
-	transform: scaleX(1);
-}
-
 .overlay-content a:hover {opacity: 1; transition: opacity 0.2s ease-in 0.1s;}
-.media-category a {font-family: 'Gordita-Regular', Helvetica, Arial, Sans-Serif; font-weight: normal;}
 /* .overlay .closebtn {position: absolute; top: 20px; right: 45px; font-size: 60px;} */
 .media-inactive a:hover {color: black;}
 .media-inactive a {color: #aaa;}
@@ -222,7 +156,7 @@ p + p {padding-top: 15px;}
 .next-prev-left a {position: absolute; top: 0; left:0;}
 .next-prev-right a {position: absolute; top: 0; right:0; text-align: right;}
 .content-joinus-jobs a, .content-media a {display: block; color: black; text-decoration: none; padding-bottom: 15px; opacity: 1;}
-.content-joinus-jobs a:hover, .content-media a:hover {opacity: 0.6; -webkit-transition: opacity 0.2s ease-in 0.1s; transition: opacity 0.2s ease-in 0.1s;}
+.content-joinus-jobs a:hover, .content-media a:hover {opacity: 0.6;}
 
 /* footer */
 
@@ -270,11 +204,7 @@ footer a {
 	padding-bottom: 10px;
 }
 
-footer a:hover {
-	opacity: 1;
-	-webkit-transition: opacity 0.2s ease-in 0.1s;
-	transition: opacity 0.2s ease-in 0.1s;
-}
+footer a:hover {opacity: 1;}
 
 /* responsive 960, 720, 540 */
 
