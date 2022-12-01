@@ -2982,6 +2982,14 @@ img.mfp-img {
 	float: right;
 }
 
+.copyrights #disclosure, .copyrights #disclosure:visited {
+	color: #525252;
+}
+
+.copyrights #disclosure:hover {
+	color: #2e6be8;
+}
+
 /* ------------------------------------------------------------------------------- */
 /*	17. Modals
 /* ------------------------------------------------------------------------------- */
