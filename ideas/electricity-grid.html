@@ -184,7 +184,7 @@
 							<h4>Understanding the Grid [4]</h4>
 							<p class="subheading">What Is the Grid?</p>
 							<p>The electricity grid spans from the power electronics systems that connect generation sources to electric wires, through high voltage transmission lines, electric substations and converter stations, to the distribution lines that run through cities and towns and into the breakbox in a home or business. From a technology perspective, it’s easiest to think about in 3 buckets:</p>
-							<p>The <b>Transmission System</b> is the wires that traditionally connect large power plants to distribution substations. Hundreds of thousands of miles of interconnected high voltage transmission lines (>100 kV) primarily bring power from a plant towards a population center. [] They move power over distance for bulk power purchase.</p>
+							<p>The <b>Transmission System</b> is the wires that traditionally connect large power plants to distribution substations. Hundreds of thousands of miles of interconnected high voltage transmission lines (>100 kV) primarily bring power from a plant towards a population center. [5] They move power over distance for bulk power purchase.</p>
 							<p>The <b>Distribution System</b> is the wires, sensors and substations that traditionally bring power to homes and businesses. There are more than a million miles of distribution lines in the US. [] This flow of power has been primarily one way, from the system into the home, but that is changing with distributed energy resources.</p>
 							<p>The <b>Grid Edge</b> is at either end of the system, the technology that integrates power generation sources or integrates loads. This includes inverters that convert, for example, rooftop solar or EVs to grid compliant power, smart meters that measure consumption, and smart circuit breakers or other management systems that may have control of the systems and appliances behind the meter. With the growth of rooftop solar, battery walls, and electric vehicles, these previously distinct edges are blurring into each other. The challenges at the grid edge are power sensing and control. Managing a lot of small resources is functionally different than managing a few large resources. The data needs, response time, and number of interactions is much higher with many small resources. The way large resources interact with the system is also different than how small resources interact. This is a fast growing area for hardware and software solutions. Grid edge includes vehicle-to-grid and building-to-grid solutions.</p>
 							<img class="images" src="/img/ideas/thoughtpaper/electricity-grid/x-01.webp">
@@ -319,17 +319,16 @@
 							<p>In the last five years, the Advanced Research Projects Agency for Energy (ARPA-E) at the US Department of Energy has invested more than $80 million in breakthrough technology ideas across three funding programs that will be the next frontier of tech for the grid [39]:</p>
 							<ul class="takeaways">
 								<li><b>Performance-based Energy Resource Feedback, Optimization, and Risk Management (PERFORM)</b>, released in 2020, funded 12 projects. These range from models and algorithms to software tools that could be deployed to plan or manage risk of variable resources within the grid. While not hardtech like the rest of this list, these projects will be the foundation for the clean energy transformation. Managing technical risk and market risk are essential for ensuring the transition can happen.</li>
-								<li><b>Building Reliable Electronics to Achieve Kilovolt Effective Ratings Safely (BREAKERS)</b>, released in 2018, funded 7 projects aimed at circuit breakers for medium voltage DC (1-100kV, just below the transmission voltage range). Medium voltage DC is itself an interesting area, essentially DC for distribution.<br><br>
-								<em>MVDC lines could connect, for example, grid scale solar, storage and wind directly to loads. This is especially attractive for data centers right now, but the area could grow, especially if super conducting and undergrounding capabilities grow.</em><br><br>
-								DC circuit breakers are a technical challenge compared to AC circuit breakers because DC power does not oscillate through zero many times per second. AC circuit breakers can stop the power when there’s no power to stop, so the force needed is minimal. DC circuit breakers have to actually interrupt the power, which requires a lot of force. Legacy DC systems were synced with AC systems so they could easily use an AC circuit breaker. The latest DC technology does not need the AC systems in the same way, which makes them more flexible to use but opens up the circuit breaker need. MVDC solutions could likely be stacked for high voltage applications areas, as well.</li>
+								<li><b>Building Reliable Electronics to Achieve Kilovolt Effective Ratings Safely (BREAKERS)</b>, released in 2018, funded 7 projects aimed at circuit breakers for medium voltage DC (1-100kV, just below the transmission voltage range). Medium voltage DC is itself an interesting area, essentially DC for distribution.</li>
+								<p class="callout">MVDC lines could connect, for example, grid scale solar, storage and wind directly to loads. This is especially attractive for data centers right now, but the area could grow, especially if super conducting and undergrounding capabilities grow.</p>
+								<p>DC circuit breakers are a technical challenge compared to AC circuit breakers because DC power does not oscillate through zero many times per second. AC circuit breakers can stop the power when there’s no power to stop, so the force needed is minimal. DC circuit breakers have to actually interrupt the power, which requires a lot of force. Legacy DC systems were synced with AC systems so they could easily use an AC circuit breaker. The latest DC technology does not need the AC systems in the same way, which makes them more flexible to use but opens up the circuit breaker need. MVDC solutions could likely be stacked for high voltage applications areas, as well.</p>
 								<li><b>Creating Innovative and Reliable Circuits Using Inventive Topologies and Semiconductors (CIRCUITS)</b>, released in 2017, funded 22 projects.<br><br>
-								<em>Semiconductors are essential for making the existing grid work in a new way.</em><br><br>
-								The selected projects range across application areas, including power conversion and power condition for grid applications. Semiconductors are going to be the backbone of the grid, whether it’s highly connected or increasingly balkanized. The types of power coming on line have different characteristics and grid effects than the power used for the last 100 years.</li>
+								<p class="callout">Semiconductors are essential for making the existing grid work in a new way.</p>
+								<p>The selected projects range across application areas, including power conversion and power condition for grid applications. Semiconductors are going to be the backbone of the grid, whether it’s highly connected or increasingly balkanized. The types of power coming on line have different characteristics and grid effects than the power used for the last 100 years.</p>
 								<li>The 2018 and 2021 OPEN solicitations and the ongoing Exploratory Topics program have also funded projects broadly related to the above categories, including high voltage circuit breakers and AI applications for national transmission planning and management.</li>
 							</ul>
 							<p class="subheading">Other Hardware Areas of Interest</p>
-							<p><b>Modular Transformers and Converters</b></p>
-							<p>Electricity transformers are the building blocks of the grid; they are the components that turn low voltage into high voltage and vice versa. Converters are the components that turn AC to DC. Both of these essential components need a modular solution. Our grid is surprisingly bespoke — modular transformers and converters would enable a faster and cheaper expansion of capacity. Research in this area started decades ago, including at the Electric Power Research Institute (EPRI), on transformers but solutions have not taken off yet. Lack of compatibility between global grids is a possible barrier. Additionally, though fear of transformer shortages is always top of mind for utilities, until recently those fears were not realized. The pandemic created supply chain shortages, exacerbated by the market consolidation and off-shoring of the past decade. Transformers are in short supply, with high prices and long wait times. Recent substation attacks, both singular as in North Carolina and widespread as in Ukraine, highlight the critical need for more robust technical solutions. [40]</p>
+							<p><b>Modular transformers and converters are the building blocks of the grid; they are the components that turn low voltage into high voltage and vice versa. Converters are the components that turn AC to DC. Both of these essential components need a modular solution. Our grid is surprisingly bespoke — modular transformers and converters would enable a faster and cheaper expansion of capacity. Research in this area started decades ago, including at the Electric Power Research Institute (EPRI), on transformers but solutions have not taken off yet. Lack of compatibility between global grids is a possible barrier. Additionally, though fear of transformer shortages is always top of mind for utilities, until recently those fears were not realized. The pandemic created supply chain shortages, exacerbated by the market consolidation and off-shoring of the past decade. Transformers are in short supply, with high prices and long wait times. Recent substation attacks, both singular as in North Carolina and widespread as in Ukraine, highlight the critical need for more robust technical solutions. [40]</p>
 						</div>
 					</div>
 				</div>
@@ -408,14 +407,51 @@
 					<div class="row-base row">
 						<div class="col-md-10 col-md-offset-1">
 							<h4>References</h4>
-							<p>[1] <a href="https://www.gatesnotes.com/Energy/2022-State-of-the-Energy-Transition" target="_blank">GatesNotes</a> “The state of the energy transition” attributes 42% of global emissions are attributed to the electricity and transportation sectors, with electric vehicles and clean energy technologies posed to lower these emissions with roughly $70 billion invested into over 1,300 clean-energy startups. </p>
-							<p>[2] Electric cars require approximately 207 kilogram of critical minerals/vehicle (66.3 kg Graphite, 53.2 kg Cu, 39.9 kg Ni, 24.5 kg Mn, 13.3 kg Co, 8.9 kg Li) vs. 33.5 kg/vehicle (22.3 kg Cu, 11.2 kg Mn) in an internal combustion engine. <a href="https://www.iea.org/reports/the-role-of-critical-minerals-in-critical-mineralss" target="_blank">IEA Report</a></p>
-							<p>[3] Onshore wind production requires about 10,153 kg/Megawatt produced (5,500 kg Zn, 2900 kg Cu, 780 kg Mn, 470 kg Cr, 404 kg Ni, 99 kg Mo) vs. 1,148 kilogram per Megawatt produced in a natural gas plant (1,100 kg Cu, 48 kg Cu). <a href="https://www.iea.org/reports/the-role-of-critical-minerals-in-clean-energy-transitions" target="_blank">IEA Report</a></p>
-							<p>[4] <a href="https://www.reuters.com/graphics/AUTOS-ELECTRIC/USA/mopanyqxwva" target="_blank">Reuters Graphic</a> “The long road to electric cars” references paths forward to adoption of EVs from less than 1% of the current fleet being electric to expected 45% deployment by 2035 according to industry analysis from IHS Markit.</p>
-							<p>[5] <a href="https://www.bloomberg.com/news/articles/2021-08-09/at-least-two-thirds-of-global-car-sales-will-be-electric-by-2040#xj4y7vzkg" target="_blank">Bloomberg Market</a> post citing “At least two-thirds of global car sales will be electric by 2040”.</p>
-							<p>[6] Thacker Pass, Nevada is currently the largest lithium resource being developed by <a href="https://www.lithiumamericas.com" target="_blank">Lithium Americas</a>, estimated to begin construction in 2023, and aiming for a final production of around 5,600 tonnes of lithium content per year. King’s Mountain, North Carolina possesses hard rock (spodumene) lithium deposits with <a href="https://piedmontlithium.com/projects/carolina-lithium" target="_blank">Piedmont Lithium</a> estimating a production of lithium hydroxide to begin in 2026, expecting to produce 30,000 tonnes of lithium hydroxide per year when fully operational. The <a href="https://spectrum.ieee.org/evs-to-drive-a-lithium-supply-crunch" target="_blank">Salton Sea</a> in California is home to several active geothermal plants with a complex mixed salt content, which is currently challenging and expensive to separate. Controlled Thermal Resources, operator of the proposed geothermal energy and lithium extraction pilot plant is hoping to develop up to 20,000 tonnes of lithium hydroxide per year by 2024.</p>
-							<p>[7] Helpful FAQ from the <a href="https://nickelinstitute.org/media/4817/lifecycledata-faq-update2020.pdf" target="_blank">Nickel Institute</a> regarding Life Cycle data regarding global nickel production and the 13 kg of CO<sub>2</sub> emissions associated with 1 kg of Ni production.</p>
-							<p>[8] In-depth analysis of <a href="https://www.brookings.edu/wp-content/uploads/2022/08/LTRC_ChinaSupplyChain.pdf" target="_blank">current critical mineral holdings within China</a> by Brookings Institute.</p>
+							<p>[1] American Association of Engineering Societies, <a href="www.sciencedaily.com/releases/2000/03/000303075501.htm" target="_blank">National Academy Of Engineering Reveals Top Engineering Impacts of The 20th Century: Electrification Cited As Most Important</a>, ScienceDaily, March 2000</a></p>
+							<p>[2] Larson, E., et al, <a href="https://environmenthalfcentury.princeton.edu" target="_blank">Net-Zero America: Potential Pathways, Infrastructure, and Impacts, Interim Report</a>, Princeton University, 2020</p>
+							<p>[3] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[4] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[5] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[6] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[7] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[8] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[9] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[10] xxx <a href="xxx" target="_blank">xxx</a></p>
+
+							<p>[11] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[12] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[13] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[14] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[15] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[16] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[17] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[18] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[19] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[20] xxx <a href="xxx" target="_blank">xxx</a></p>
+
+							<p>[21] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[22] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[23] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[24] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[25] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[26] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[27] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[28] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[29] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[30] xxx <a href="xxx" target="_blank">xxx</a></p>
+
+							<p>[31] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[32] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[33] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[34] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[35] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[36] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[37] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[38] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[39] xxx <a href="xxx" target="_blank">xxx</a></p>
+							<p>[40] xxx <a href="xxx" target="_blank">xxx</a></p>
+
+							<p>[41] xxx <a href="xxx" target="_blank">xxx</a></p>
 						</div>
 					</div>
 				</div>
