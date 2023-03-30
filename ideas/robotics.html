@@ -179,6 +179,8 @@
 						<div class="col-md-10 col-md-offset-1">
 							<h4>Why Now?</h4>
 							<p>Labor shortages are facing almost every industry, meaning robots are not wanted primarily to replace workers, but just to meet demand. These shortages affect a diversity of industries, from logistics to service work and elder care, meaning that there are a wide variety of tasks that need automation. Some of these tasks are still far away from being reliably performed by robots, but many that seemed far off a decade or two ago are now possible thanks to new technological advances.</p>
+							<img class="images" src="/img/ideas/thoughtpaper/robotics/x-02.webp">
+							<p class="small-caption">Tesla’s FSD labelling at work. Image Source: Tesla</p>
 							<p>We are no longer working with your parents’ computer chips. Not only has compute density increased [1], allowing far more complicated instructions to be processed on the robot itself,advances in cloud technology and edge computing [2] give robots the ability to more rapidly communicate with each other and access the level of computation infrastructure necessary to process the rich information they are taking in.</p>
 							<p>Sensors are also playing an important role here. Not only are traditional sensors, such as LiDAR getting cheaper [3], more sensing options are available [4]. Significant advances in computer vision allow a camera to provide more information than ever before. For the robots of yesteryear, perception often meant obstacle detection, but now, not only can we detect the existence of obstacles, we can categorize them semantically, reconstruct them internally, share their location with other robots in the fleet, predict their movement, and so much more.</p>
 							<p class="callout">The combination of algorithm development plus increased compute power to run those algorithms means that <b>we are that much closer to robots being able to sense the world in ways similar to humans, if not in some ways superior to humans.</b></p>
@@ -192,6 +194,8 @@
 						<div class="col-md-10 col-md-offset-1">
 							<h4>Form Factor</h4>
 							<p>Robots in the popular imagination have taken many forms, but sci-fi depictions skew toward the humanoid. Science fiction has a hold on the popular perception of robots, as can be seen by the popularity of Boston Dynamics videos or Elon Musk’s imagining of Optimus. But how practical are humanoids and how far away are we from humanoid robots providing a meaningful percentage of labor?</p>
+							<img class="images" src="/img/ideas/thoughtpaper/robotics/x-01.webp">
+							<p class="small-caption">Various robot form factors</p>
 							<p>In my opinion, humanoids are still a sci-fi dream. Counterintuitively, it is much easier to get a humanoid to land a backflip than it is to build one that can safely and reliably do an everyday task such as walking over to a bin, rummaging through it, and picking a specified object out of it.</p>
 							<p class="callout">Humans and robots do not share the same strengths, and we have much higher expectations of robots’ skill when performing tasks that are easy for us.</p>
 							<p>A backflip is impressive because most of us can’t do one, but when it comes to something like catching a ball or opening a door, our expectations are much higher. A robot that can land a backflip on one out of ten tries is impressive, but a robot that can open a door only one out of ten times is a failure, and neither are reliable enough for any industrial application. <b>This is one of the many reasons why I believe chasing after humanoids is not the fastest way towards widespread robot adoption. Going after tasks that are difficult for humans is a better first step.</b></p>
@@ -211,6 +215,8 @@
 						<div class="col-md-10 col-md-offset-1">
 							<h4>Perception</h4>
 							<p>Humans perceive the world around them primarily through audio sensors (ears), visual sensors (eyes), touch sensors (skin), and smell sensors (nose). Robots are working on catching up to human sensing abilities in those areas, but also have access to sensors that go far beyond human capabilities. Similarly to form factor, I believe that simply mimicking human sensing is not the right approach - we will almost always fall short. Leaning into the strengths that differentiate robots from humans, such as the ability to put visual sensors anywhere you’d like or measuring depth perfectly, is what will maximize value. That being said, perception technologies have come a long way towards mimicking human perception, and these advances are a large part of what makes now such an exciting time for robotics.</p>
+							<img class="images" src="/img/ideas/thoughtpaper/robotics/x-03.webp">
+							<p class="small-caption">Robot as a service dog</p>
 							<p class="subheading">Vision</p>
 							<p>In conversation after conversation with startup founders, when we ask what is enabling you to bring this technology to market now, the answer is more often than not vision algorithms. Deep learning has caused an explosion of progress in the field of computer vision. From images and video we can very reliably detect and classify objects [9]. We can also create 3D maps [10] of our environment and use those maps for simulation and training or for navigation and localization. However, there is still significant work to be done on making those 3D maps more efficiently and reliably and moving beyond seeing to understanding.</p>
 							<p class="subheading">Touch</p>
@@ -219,6 +225,7 @@
 							<p>Audio sensing seems to be fairly neglected in commercial robotics, save for the Alexa/Siri-style voice commands ( we did see at least one Alexa-enabled autonomous mobile robot at CES), and perhaps for good reason. A lot can be accomplished with just vision and touch, and I haven’t encountered many use cases where audio is absolutely essential. However, I will take this section to highlight one of the integrations of audio that I find the most interesting. Dima Damen’s group at the University of Bristol put together the Epic-Sounds dataset [13], one of the largest datasets with audio-only labels, allowing for researchers to train sound recognition, using audio to distinguish everyday tasks, potentially augmenting sensing capabilities.</p>
 							<p class="subheading">Smell</p>
 							<p>Smell is a less often considered sense when talking about robotics, but it is a great way to demonstrate how we already alter our environment to more easily work with human sensors and the ways in which we have long used non-human sensors to augment our perception. We use smell in tasks like cooking, but it is primarily our aversion to bad odors that springs us to action. A dirty diaper calls us to change it, and we avoid foul smelling meat. This sense is so ingrained that we add a foul odor to naturally odorless gas to warn folks of a gas leak. Robots can be equipped with alternative sensors so that we don’t have to rely on our sense of smell to detect danger. Sensors can automatically detect not only hazardous gasses [14], but radiation [15], or even disease [16]. Smell is also a great example of our long history of using non-human sensors to augment our perception capabilities. While human smell is limited, canine small is famously strong. For centuries we have used dogs as aids in our perception, and viewing robot perception as the computer-age analogue to service dogs, is a good way to frame the potential of robotic sensing.</p>
+
 						</div>
 					</div>
 				</div>
@@ -255,7 +262,6 @@
 							<h4>Conclusion</h4>
 							<p>With the advances in compute power and perception, this is a very exciting time to be in robotics, but it is also important to not get ahead of ourselves. While advances in AI can provide some pretty convincing demos, it is very important that we don’t see an impressive display of one aspect of human behavior and then extrapolate that all other types of human behavior are easily attainable. A robot might be able to do a backflip or have a conversation that passes the Turing test, but it doesn’t necessarily mean it can do something as seemingly “simple” as reliably and safely walking over varied terrain.</p>
 							<p>It makes the most sense to lean into what robots are best at and allow humans to excel in their own domains. The next few decades will be all about human-robot collaboration, and the winners will be the folks who figure out how to best pair humans and robots together for maximum potential.</p>
-							<img class="images" src="/img/ideas/thoughtpaper/robotics/x-01.webp">
 						</div>
 					</div>
 				</div>
@@ -282,24 +288,24 @@
 							<h4>References</h4>
 							<p>[1] Thompson, Neil C., Shuning Ge, and Gabriel F. Manso, The importance of (exponentially more) computing power, arXiv preprint, arXiv:2206.14007, 2022</p>
 							<p>[2] Solminski, Jon, and Brad Bonn, <a href="https://aws.amazon.com/blogs/robotics/how-boston-dynamics-and-aws-use-mobility-and-computer-vision-for-dynamic-sensing" target="_blank">How Boston Dynamics and AWS Use Mobility and Computer Vision for Dynamic Sensing</a>, AWS Robotics Blog, Amazon, October 2021</p>
-							<p>[3] Saracco, Roberto, <a href="https://cmte.ieee.org/futuredirections/2019/07/16/lidar-is-getting-cheaper">LiDAR Is Getting Cheaper</a>, IEEE Blog, IEEE, July 2019</p>
-							<p>[4] Chris Teale, <a href="https://www.smartcitiesdive.com/news/is-lidar-a-fools-errand/554574">Is LiDAR a ‘fool’s errand’?</a>, SmartCities Dive, SmartCities Dive, May 2019</p>
-							<p>[5] Soft Robotics, <a href="https://biodesign.seas.harvard.edu/soft-robotics">Research</a>, Harvard Biodesign Lab</p>
-							<p>[6] <a href="https://www.softroboticsinc.com">Soft Robotics</a></p>
-							<p>[7] R. Katzschmann, J. DelPreto, R. MacCurdy, A. Marchese, and D. Rus, <a href="https://www.csail.mit.edu/research/sofi-soft-robotic-fish">SoFi - The Soft Robotic Fish</a>, Research, MIT CSAIL, December 2018</p>
-							<p>[8] C. Laschi, <a href="https://spectrum.ieee.org/robot-octopus-points-the-way-to-soft-robotics-with-eight-wiggly-arms">Robot Octopus Points the Way to Soft Robotics With Eight Wiggly Arms</a>, Spectrum, IEEE, August 2016</p>
-							<p>[9] Vipul Kumar, <a href="https://towardsdatascience.com/how-to-detect-objects-in-real-time-using-opencv-and-python-c1ba0c2c69c0">How to Detect Objects in Real-Time Using OpenCV and Python</a>, Towards Data Science, November 2020</p>
-							<p>[10] Charalambos Theodorou, Vladan Velisavljevic, Vladimir Dyo, and Fredi Nonyelu, <a href="https://doi.org/10.1016/j.array.2022.100222">Visual SLAM algorithms and their application for AR, mapping, localization, and wayfinding</a>, Array, Volume 15, 2022, 100222, ISSN 2590-0056</p>
+							<p>[3] Saracco, Roberto, <a href="https://cmte.ieee.org/futuredirections/2019/07/16/lidar-is-getting-cheaper" target="_blank">LiDAR Is Getting Cheaper</a>, IEEE Blog, IEEE, July 2019</p>
+							<p>[4] Chris Teale, <a href="https://www.smartcitiesdive.com/news/is-lidar-a-fools-errand/554574" target="_blank">Is LiDAR a ‘fool’s errand’?</a>, SmartCities Dive, SmartCities Dive, May 2019</p>
+							<p>[5] Soft Robotics, <a href="https://biodesign.seas.harvard.edu/soft-robotics" target="_blank">Research</a>, Harvard Biodesign Lab</p>
+							<p>[6] <a href="https://www.softroboticsinc.com" target="_blank">Soft Robotics</a></p>
+							<p>[7] R. Katzschmann, J. DelPreto, R. MacCurdy, A. Marchese, and D. Rus, <a href="https://www.csail.mit.edu/research/sofi-soft-robotic-fish" target="_blank">SoFi - The Soft Robotic Fish</a>, Research, MIT CSAIL, December 2018</p>
+							<p>[8] C. Laschi, <a href="https://spectrum.ieee.org/robot-octopus-points-the-way-to-soft-robotics-with-eight-wiggly-arms" target="_blank">Robot Octopus Points the Way to Soft Robotics With Eight Wiggly Arms</a>, Spectrum, IEEE, August 2016</p>
+							<p>[9] Vipul Kumar, <a href="https://towardsdatascience.com/how-to-detect-objects-in-real-time-using-opencv-and-python-c1ba0c2c69c0" target="_blank">How to Detect Objects in Real-Time Using OpenCV and Python</a>, Towards Data Science, November 2020</p>
+							<p>[10] Charalambos Theodorou, Vladan Velisavljevic, Vladimir Dyo, and Fredi Nonyelu, <a href="https://doi.org/10.1016/j.array.2022.100222" target="_blank">Visual SLAM algorithms and their application for AR, mapping, localization, and wayfinding</a>, Array, Volume 15, 2022, 100222, ISSN 2590-0056</p>
 							<p>[11] Yu, You, et al, Biofuel-powered soft electronic skin with multiplexed and wireless sensing for human-machine interfaces, Science robotics 5.41 (2020): eaaz7946</p>
 							<p>[12] Jacobs, Paul, Michael J. Fu, and M. Cenk Çavuşoğlu, High fidelity haptic rendering of frictional contact with deformable objects in virtual environments using multi-rate simulation, The International Journal of Robotics Research 29.14, 2010: 1778-1792</p>
 							<p>[13] Huh, Jaesung, et al, Epic-Sounds: A Large-scale Dataset of Actions That Sound, arXiv preprint arXiv:2302.00646, 2023</p>
-							<p>[14] <a href="https://ionscience.com/usa/news/autonomous-gas-detection-with-robot-and-falco-pid-detector">Autonomous Gas Detection with Robot and Falco PID Detector</a>, ION Science ION, September 2021</p>
+							<p>[14] <a href="https://ionscience.com/usa/news/autonomous-gas-detection-with-robot-and-falco-pid-detector" target="_blank">Autonomous Gas Detection with Robot and Falco PID Detector</a>, ION Science ION, September 2021</p>
 							<p>[15] Pavlovsky, Ryan, et al, 3-D radiation mapping in real-time with the localization and mapping platform LAMP from unmanned aerial systems and man-portable configurations, arXiv preprint arXiv:1901.05038, 2018</p>
 							<p>[16] De Silva, Thushani, et al, Ultrasensitive rapid cytokine sensors based on asymmetric geometry two-dimensional MoS2 diodes, Nature Communications 13.1, 2022: 7593</p>
-							<p>[17] <a href="https://www.parc.com/blog/half-human-half-computer-meet-the-modern-centaur">Half-Human, Half-Computer? Meet the Modern Centaur</a>, Blog PARC</p>
-							<p>[18] Kate Darling, <a href="https://www.wired.co.uk/article/robots-animals-kate-darling">Robots are animals, not humans</a>, Wired, April 2021</p>
+							<p>[17] <a href="https://www.parc.com/blog/half-human-half-computer-meet-the-modern-centaur" target="_blank">Half-Human, Half-Computer? Meet the Modern Centaur</a>, Blog PARC</p>
+							<p>[18] Kate Darling, <a href="https://www.wired.co.uk/article/robots-animals-kate-darling" target="_blank">Robots are animals, not humans</a>, Wired, April 2021</p>
 							<p>[19] Hu, Delin, et al, Smart Capacitive E-Skin Takes Soft Robots Beyond Proprioception, 2022</p>
-							<p>[20] <a href="https://www.businesswire.com/news/home/20210621005532/en/Global-Warehouse-Automation-Robots-Technologies-and-Solutions-Market-Report-2021-2030---ResearchAndMarkets.com">Global Warehouse Automation Robots, Technologies, and Solutions Market Report 2021-2030</a>, Business Wire Berkshire Hathaway, June 2021</p>
+							<p>[20] <a href="https://www.businesswire.com/news/home/20210621005532/en/Global-Warehouse-Automation-Robots-Technologies-and-Solutions-Market-Report-2021-2030---ResearchAndMarkets.com" target="_blank">Global Warehouse Automation Robots, Technologies, and Solutions Market Report 2021-2030</a>, Business Wire Berkshire Hathaway, June 2021</p>
 						</div>
 					</div>
 				</div>
