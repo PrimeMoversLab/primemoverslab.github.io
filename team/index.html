@@ -44,6 +44,8 @@
 	</script>
 	<style>
 		html, body {overscroll-behavior-x: none; width: 100%; overflow-x: hidden;}
+		.modal, .modal-content {-ms-overflow-style: none; scrollbar-width: none; overflow-y: scroll;}
+		.modal::-webkit-scrollbar, .modal-content::-webkit-scrollbar {display: none;}
 	</style>
 </head>
 <body>
@@ -120,6 +122,7 @@
 		<!-- Team -->
 		<section class="team section pb-0" style="padding-top:3em;">
 			<div class="section-content">
+				<!-- 1st row -->
 				<div class="clearfix">
 					<!-- Dakin -->
 					<div class="col-team col-lg-3 col-md-3 col-sm-6">
@@ -147,8 +150,8 @@
 									<div class="modal-bio">
 										<strong class="team-name">Dakin Sloss</strong>
 										<span class="team-spec">Founder & General Partner</span>
-										<p>Dakin Sloss is an entrepreneur, investor, and philanthropist. He is the Founder and General Partner of Prime Movers Lab, the world’s leading partner to breakthrough scientific startups. He has led investments in transformative companies including Momentus (MTNS), Heliogen (HLGN), Vaxxinity (VAXX), Tarana, Upward Farms, and Boom Supersonic. Prior to founding Prime Movers Lab, Dakin served as founding CEO of Tachyus and OpenGov.</p>
-										<p>He is also a philanthropist dedicated to ending world hunger, resolving the global mental health pandemic, and redesigning early childhood education to cultivate integrated beings across body, mind, and spirit. Dakin studied Mathematics, Physics, and Philosophy at Stanford University. Dakin has been recognized as one of Yahoo Finance’s THE NEXT: 21 people who will have a significant impact on the worlds of finance, business, sports, or politics in the year ahead. In 2016, Dakin was recognized as the featured Forbes 30 Under 30 energy entrepreneur. In 2017, he was named a San Francisco Business Times 40 Under 40 honoree.</p>
+										<p>Dakin Sloss is an entrepreneur, investor, and philanthropist. He is Founder and General Partner of Prime Movers Lab, the world’s leading partner of breakthrough scientific startups. He has led investments in transformative companies including Tarana, Halo, Carbon Capture, Focused Energy, Gilgamesh, Paradromics, Vaxxinity, Diamond Age, E-Space, Space Perspective, and Boom.</p>
+										<p>Prior to founding Prime Movers Lab, Dakin served as founding CEO of Tachyus and OpenGov. He is also a philanthropist dedicated to ending world hunger, resolving the global mental health pandemic, and redesigning early childhood education to cultivate integrated beings across body, mind and spirit. Dakin studied Mathematics, Physics, and Philosophy at Stanford University. Dakin has been recognized as one of Yahoo Finance’s THE NEXT: 21 people who will have a significant impact on the worlds of finance, business, sports or politics in the year ahead and was featured on CNBC. In 2016, Dakin was recognized as the featured Forbes 30 Under 30 energy entrepreneur. In 2017, he was named as a San Francisco Business Times 40 Under 40 honoree.</p>
 										<a href="https://www.linkedin.com/in/dakin-sloss-7463b633" target="_blank" class="fa fa-linkedin modal-social"></a>
 									</div>
 								</div>
@@ -181,7 +184,7 @@
 									<div class="modal-bio">
 										<strong class="team-name">Zia Huque</strong>
 										<span class="team-spec">General Partner</span>
-										<p>Zia Huque is a General Partner of Prime Movers Lab where he focuses on growth-stage investing. Zia brings a wealth of experience in later-stage financing, having worked in risk investment and risk management across credit, rates, equities, and derivatives asset classes for the vast majority of his career. Zia currently serves on the boards of portfolio companies Boom Supersonic, Energy Vault, Lyten, and Upward Farms. Zia also brings his operational expertise to Prime Movers Lab, having had vast executive, strategic and operational responsibilities across multiple businesses and regions of a top-five global investment bank.</p>
+										<p>Zia Huque is a General Partner of Prime Movers Lab where he focuses on growth-stage investing. Zia brings a wealth of experience in later-stage financing, having been in the business of risk investment and risk management across credit, rates, equities, and derivatives asset classes for the vast majority of his career. Zia also brings his operational expertise to Prime Movers Lab, having had vast executive, strategic and operational responsibilities across multiple businesses and regions of a top-five global investment bank managing tens of billions of dollars and thousands of employees. He serves on the boards of Energy Vault (NRGV), Lyten, Upward Farms, Boom Supersonic, and Quantum Space.</p>
 										<p>Zia served as the President and Chief Executive Officer of Deutsche Bank Securities Inc., the U.S. Broker Dealer of Deutsche Bank, from early 2018 until his departure from Wall Street in 2019. At Deutsche Bank, Zia was also Head of Equities, Fixed Income & Currencies for the Americas from 2016 to 2018 and Global Co-Chief Operating Officer of Corporate Banking and Securities from 2012 until 2016. During Zia’s 30-year finance career on Wall Street, he held multiple executive positions in the United States, Europe and Asia while leading investment banking, sales and trading functions spanning many industries, products, and clients.</p>
 										<p>Zia received his BA in Economics and in Political Science from Williams College. He resides in Wyoming with his wife and two daughters and is active in the local community.</p>
 										<a href="https://www.linkedin.com/in/zia-huque-b756431b6" target="_blank" class="fa fa-linkedin modal-social"></a>
@@ -190,78 +193,6 @@
 							</div>
 						</div>
 					</div>
-					<!-- Anton -->
-					<div class="col-team col-lg-3 col-md-3 col-sm-6">
-						<figure class="team-profile team-pml">
-							<img src="/img/team/antonbrevde.webp">
-							<figcaption class="team-caption white">
-								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#anton-modal">
-									<strong class="team-name">Anton Brevde</strong>
-									<span class="team-spec">Partner</span>
-								</div>
-								<ul class="team-social social-list">
-									<li><a href="https://www.linkedin.com/in/anton-brevde-3b465814" target="_blank" class="fa fa-linkedin"></a></li>
-								</ul>
-							</figcaption>
-						</figure>
-					</div>
-					<div id="anton-modal" class="modal fade" role="dialog" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<a href="#" data-dismiss="modal">✕</a>
-								</div>
-								<div class="modal-body">
-									<img src="/img/team/antonbrevde.webp">
-									<div class="modal-bio">
-										<strong class="team-name">Anton Brevde</strong>
-										<span class="team-spec">Partner</span>
-										<p>Anton Brevde is a Partner at Prime Movers Lab. He supports the Prime Movers Lab team and portfolio across all facets of the business. He utilizes his years of startup experience to help the team evaluate the market for potential investments and to support portfolio companies. He serves on the boards of portfolio companies E-Space, Tarana, Space Perspective, Quantum Space, and Diamond Age in addition to Spartan.</p>
-										<p>Previously, Anton was co-founder and CEO of Asseta, a B2B marketplace for manufacturing equipment and spare parts. Asseta provides leading semiconductor manufacturers a safe and efficient platform to sell their excess assets. At Asseta, Anton raised money from premier investors such as Y Combinator, Gil Penchina, Jeff Epstein (ex-COO of Oracle), and Red Swan Ventures. He led a global business development effort targeting Fortune 1000 companies across the US, Europe, China, Taiwan, Korea, Singapore, and Japan. Anton earned a BS in Finance from Villanova University cum laude.</p>
-										<a href="https://www.linkedin.com/in/anton-brevde-3b465814" target="_blank" class="fa fa-linkedin modal-social"></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Gaetano -->
-					<div class="col-team col-lg-3 col-md-3 col-sm-6">
-						<figure class="team-profile team-pml">
-							<img src="/img/team/gaetano-crupi.webp">
-							<figcaption class="team-caption white">
-								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#gaetano-modal">
-									<strong class="team-name">Gaetano Crupi</strong>
-									<span class="team-spec">Partner</span>
-								</div>
-								<ul class="team-social social-list">
-									<li><a href="https://www.linkedin.com/in/gaetanocrupi" target="_blank" class="fa fa-linkedin"></a></li>
-								</ul>
-							</figcaption>
-						</figure>
-					</div>
-					<div id="gaetano-modal" class="modal fade" role="dialog" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<a href="#" data-dismiss="modal">✕</a>
-								</div>
-								<div class="modal-body">
-									<img src="/img/team/gaetano-crupi.webp">
-									<div class="modal-bio">
-										<strong class="team-name">Gaetano Crupi</strong>
-										<span class="team-spec">Partner</span>
-										<p>Gaetano is a Partner for Prime Movers Lab where he invests both in early-stage and growth-stage companies. His areas of interest include energy transition, agriculture, transportation and infrastructure. Gaetano currently serves on the boards of portfolio companies Mycoworks, Atom Computing, Gilgamesh Pharmaceuticals, Oceanix, and Bandit. Gaetano is a three-time entrepreneur and brings his experience building companies to evaluate opportunities and supports portfolio CEOs in scaling world-changing companies. Obsessed with building teams and organizations, he co-founded and served as CEO of Cabin Technologies, the tech-enabled long-distance mobility company solving intercity travel, and was responsible for launching their never-before-seen, actively suspended cabins that makes highway travel smoother than trains.</p>
-										<p>Previously, Gaetano was the COO of Betable, the world’s first fintech/game-engine platform powering real-currency play in apps across any platform or device. In 2006, Gaetano founded Machina, a production company focusing on web series, music videos, and commercials during the transition to digitally-consumed content. Gaetano was nominated for a Grammy in 2013 for his work with Foster the People and also produced Beyonce’s “Move Your Body” video for Michelle Obama’s “Let’s Move!” project. Before becoming a producer, Gaetano was a consumer and retail investment banker at Goldman Sachs in New York. Gaetano is an alumni of Wharton and the Stanford Graduate School of Business. Having grown up in Brazil, Venezuela, Canada, and the United States, Gaetano speaks three languages fluently and lives to explore.</p>
-										<a href="https://www.linkedin.com/in/gaetanocrupi" target="_blank" class="fa fa-linkedin modal-social"></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- end row -->
-				<!-- 2nd row -->
-				<div class="clearfix">
 					<!-- Justin -->
 					<div class="col-team col-lg-3 col-md-3 col-sm-6">
 						<figure class="team-profile team-pml">
@@ -269,7 +200,7 @@
 							<figcaption class="team-caption white">
 								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#justin-modal">
 									<strong class="team-name">Justin Briggs</strong>
-									<span class="team-spec">Partner</span>
+									<span class="team-spec">Biologist & Partner</span>
 								</div>
 								<ul class="team-social social-list">
 									<li><a href="https://www.linkedin.com/in/briggsly" target="_blank" class="fa fa-linkedin"></a></li>
@@ -287,8 +218,8 @@
 									<img src="/img/team/justin-briggs.webp">
 									<div class="modal-bio">
 										<strong class="team-name">Justin Briggs</strong>
-										<span class="team-spec">Partner</span>
-										<p>Justin Briggs is a scientific entrepreneur and investor working at the nexus of biology, chemistry, and engineering. Justin is a Biologist and Partner at Prime Movers Lab, working to accelerate our portfolio companies and cultivating new breakthrough opportunities. Justin currently serves on the boards of portfolio companies Elevian, Iridia, and Iviva. Over the last 15 years, Justin was an operator at nearly a dozen biotech, nanotech, robotics, and software companies with multiple exits and over $100 million in venture backing. Justin also supported venture creation at startup studios such as Deep Science Ventures and Accele Venture Partners. Justin developed novel therapeutics and regenerative medicines in disease areas including oncology, neurology, autoimmune, cardiometabolic, and infectious diseases across ten countries and four continents.</p>
+										<span class="team-spec">Biologist & Partner</span>
+										<p>Justin Briggs is a scientific entrepreneur and investor working at the nexus of biology, chemistry, and engineering. He is a Biologist & Partner at Prime Movers Lab, working to accelerate our portfolio companies and cultivating new breakthrough opportunities. Over the last 15 years, Justin was an operator at nearly a dozen biotech, nanotech, robotics, and software companies with multiple exits and over $100 million in venture backing. Justin also supported venture creation at startup studios such as Deep Science Ventures and Accele Venture Partners. Justin developed novel therapeutics and regenerative medicines in disease areas including oncology, neurology, autoimmune, cardiometabolic, and infectious diseases across ten countries and four continents. Currently, Justin serves on the board of directors for Elevian, Iridia, and Iviva Medical and is a board observer at Morphoceuticals and Dimension Inx.</p>
 										<p>Prior to joining Prime Movers Lab, Justin developed next-generation biologic medicines, novel pharmaceuticals, diagnostics, and other technologies at companies including Antiverse, Tetherex Pharmaceuticals, Accele BioPharma, Otologic Pharmaceutics, Pamlico BioPharma, Synereca, Jortan Pharma, Altheus Therapeutics, Crescendo Biosciences, and Southwest Nanotechnologies. Justin co-founded TomorrowScale Ventures and startups Chorus Labs, SnapLab Technologies, and Patch Botanics. Justin is knowledgeable across many discovery, development, commercialization, and scaling activities relevant to deep tech and life science companies, has a degree in biomedical sciences from the University of Oklahoma, an MBA with high honors from Oklahoma City University, and is a co-inventor on multiple issued patents.</p>
 										<a href="https://www.linkedin.com/in/briggsly" target="_blank" class="fa fa-linkedin modal-social"></a>
 									</div>
@@ -303,7 +234,7 @@
 							<figcaption class="team-caption white">
 								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#josh-modal">
 									<strong class="team-name">Josh Agenbroad</strong>
-									<span class="team-spec">Partner</span>
+									<span class="team-spec">Mechanical Engineer & Partner</span>
 								</div>
 								<ul class="team-social social-list">
 									<li><a href="https://www.linkedin.com/in/joshua-agenbroad" target="_blank" class="fa fa-linkedin"></a></li>
@@ -321,8 +252,8 @@
 									<img src="/img/team/josh-agenbroad.webp">
 									<div class="modal-bio">
 										<strong class="team-name">Josh Agenbroad</strong>
-										<span class="team-spec">Partner</span>
-										<p>Josh Agenbroad is a Partner at Prime Movers Lab. He supports early-stage deal sourcing and diligence with a focus on energy, manufacturing, and transportation. He has a mechanical engineering background with particular expertise in techno-economic analysis of energy systems.</p>
+										<span class="team-spec">Mechanical Engineer & Partner</span>
+										<p>Josh Agenbroad is a Mechanical Engineer & Partner at Prime Movers Lab. He supports early-stage deal sourcing and diligence with a focus on energy, manufacturing, and transportation. He has a mechanical engineering background with particular expertise in techno-economic analysis of energy systems. He serves on the boards of Carbon Capture Inc. and Wacomet Water Co.</p>
 										<p>Prior to joining Prime Movers Lab, Josh co-founded a leading climate-tech startup accelerator ecosystem called Third Derivative. Third Derivative works with 12 strategic corporate partners and 20 VC funds to support a portfolio of 100+ startups that have now raised over $500M of follow-on funding. In addition to his role on the leadership team, he led the startup selection and diligence team while also providing portfolio support for 20+ startups. Before Third Derivative, Josh worked for 10 years at the Rocky Mountain Institute, gravitating toward client-driven work done in a management consulting style. He worked with a wide variety of Fortune 500 corporations, governments, utilities, regulators, and startups from around the world, identifying opportunities and presenting the business case for energy efficiency and renewables. He helped launch RMI’s China and Africa programs.</p>
 										<p>Josh earned an MSME from Colorado State University while researching woodburning cookstove efficiency at the CSU Energy Institute. He earned his BSME from University of New Mexico while competing on the FSAE motorsports team. He takes great inspiration from friends and family as well as the natural world, enjoyed via bike, hike, splitboard, or raft. He loves to tinker, hack, design, build, and learn by doing.</p>
 										<a href="https://www.linkedin.com/in/joshua-agenbroad" target="_blank" class="fa fa-linkedin modal-social"></a>
@@ -331,6 +262,10 @@
 							</div>
 						</div>
 					</div>
+				</div>
+				<!-- end row -->
+				<!-- 2nd row -->
+				<div class="clearfix">
 					<!-- Brad -->
 					<div class="col-team col-lg-3 col-md-3 col-sm-6">
 						<figure class="team-profile team-pml">
@@ -357,7 +292,7 @@
 									<div class="modal-bio">
 										<strong class="team-name">Brad Pruente</strong>
 										<span class="team-spec">Partner</span>
-										<p>Brad is a Partner at Prime Movers Lab where he leads deal sourcing and supports the diligence process. His work spans Prime Movers Lab’s six sectors but he has a particular interest in agriculture and foodtech and has led the firm’s landscaping efforts into several nascent food technologies including cultivated protein and mycelium.</p>
+										<p>Brad is a Partner at Prime Movers Lab where he leads deal sourcing and supports the diligence process. His work spans Prime Movers Lab’s six sectors but he has a particular interest in agriculture, food tech, and robotics. He serves on the board of directors for Robust AI, Diamond Age, Upward Farms, Dalan Animal Health, and Bandit (fka Conscious Cultures), and as a board observer for Pyka.</p>
 										<p>Prior to joining Prime Movers Lab, Brad was the first employee at Asseta, a marketplace for semiconductor manufacturing equipment, where he led go-to-market efforts in Asseta’s largest business lines. He led efforts to secure and manage an international asset disposition deal with a Fortune 100 chipmaker. Brad was relentlessly focused on delivering customer value and launched two of Asseta’s most successful services. Earlier in his career, Brad worked in KPMG’s M&A diligence group, specializing in the energy, agriculture, healthcare, and transportation industries. Brad earned a BBA from Emory University and was recognized as a member of the 100 Senior Honorary for emerging alumni leaders.</p>
 										<a href="https://www.linkedin.com/in/bradpruente" target="_blank" class="fa fa-linkedin modal-social"></a>
 									</div>
@@ -372,7 +307,7 @@
 							<figcaption class="team-caption white">
 								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#pritha-modal">
 									<strong class="team-name">Pritha Ghosh</strong>
-									<span class="team-spec">Partner</span>
+									<span class="team-spec">Chemical Engineer & Partner</span>
 								</div>
 								<ul class="team-social social-list">
 									<li><a href="https://www.linkedin.com/in/prithaghosh" target="_blank" class="fa fa-linkedin"></a></li>
@@ -390,18 +325,50 @@
 									<img src="/img/team/pritha-ghosh.webp">
 									<div class="modal-bio">
 										<strong class="team-name">Pritha Ghosh</strong>
-										<span class="team-spec">Partner</span>
-										<p>Prior to joining Prime Movers Lab, Pritha was a Research Principal at the Astera Institute, where she analyzed the landscapes of a variety of scientific and metascientific topics. Earlier in her career, Pritha worked at the Institute for Defense Analyses, where she assessed emerging technologies, conducted computational modeling of logistics, and advised parter nations’ Ministries of Defense. Pritha earned a PhD in Chemical Engineering from Northwestern, and an AB in Chemistry from Princeton.</p>
+										<span class="team-spec">Chemical Engineer & Partner</span>
+										<p>Pritha is a Chemical Engineer & Partner at Prime Movers Lab. She supports deal sourcing and diligence in manufacturing, infrastructure, energy, and transportation. She also serves as a board observer for Atom Computing.</p>
+										<p>Prior to joining Prime Movers Lab, Pritha was a Research Principal at the Astera Institute, where she analyzed the landscapes of a variety of scientific and metascientific topics, including novel organizational structures for research institutions, and advances in scientific communication. Previously, Pritha worked at the Institute for Defense Analyses, where she assessed emerging technologies to inform investment decisions. Additionally, she worked with civilian and military staff, domestically and internationally, in service of implementing reforms to future planning and budgeting decision-making. Pritha earned a PhD in Chemical Engineering from Northwestern with a focus on trapping gases in novel porous materials under humid conditions, and an AB in Chemistry from Princeton.</p>
 										<a href="https://www.linkedin.com/in/prithaghosh" target="_blank" class="fa fa-linkedin modal-social"></a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<!-- end row -->
-				<!-- 3rd row -->
-				<div class="clearfix">
+					<!-- Anna -->
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/team/anna-thomas.webp">
+							<figcaption class="team-caption white">
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#anna-modal">
+									<strong class="team-name">Anna Thomas, PhD</strong>
+									<span class="team-spec">Aerospace Engineer & Partner</span>
+								</div>
+								<ul class="team-social social-list">
+									<li><a href="https://www.linkedin.com/in/anna-thomas-phd" target="_blank" class="fa fa-linkedin"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+					<div id="anna-modal" class="modal fade" role="dialog" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<a href="#" data-dismiss="modal">✕</a>
+								</div>
+								<div class="modal-body">
+									<img src="/img/team/anna-thomas.webp">
+									<div class="modal-bio">
+										<strong class="team-name">Anna Thomas, PhD</strong>
+										<span class="team-spec">Aerospace Engineer & Partner</span>
+										<p>Anna Thomas is an Aerospace Engineer & Partner at Prime Movers Lab, enabling scientific and engineering breakthroughs in space, aviation, and climate/energy tech. Anna’s mission is to promote a future of exploration and connectedness through key advancements in space, aviation, and transportation that also benefit the planet with a strong focus on sustainability and inclusion.</p>
+										<p>Prior to joining Prime Movers Lab, Anna spent time in management consulting at Booz Allen Hamilton, supporting government clients by founding and scaling novel data science and venture programs as well as managing large programs dedicated to providing funding and advising to startups to enable innovation in natural carbon solutions. Before consulting, Anna spent time at the National Renewable Energy Laboratory as a fellow and principal investigator, building a new laboratory capability leveraging infrared spectroscopy to study the ignition chemistry of alternative fuels for ground and aviation applications.</p>
+										<p>Anna received a PhD and MS from Stanford University in Aeronautics and Astronautics with a focus on the physical chemistry and ignition of green propellants for in-space propulsion applications. Anna also has a degree from the Georgia Institute of Technology in Chemical and Biomolecular Engineering and was awarded a Fulbright to Germany to research combustion physics for aircraft turbine engines. Anna is an adventurer who loves the outdoors, spending time with her dogs, traveling around the globe, building things, and practicing languages.</p>
+										<a href="https://www.linkedin.com/in/anna-thomas-phd" target="_blank" class="fa fa-linkedin modal-social"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 					<!-- Taylor -->
 					<div class="col-team col-lg-3 col-md-3 col-sm-6">
 						<figure class="team-profile team-pml">
@@ -436,6 +403,10 @@
 							</div>
 						</div>
 					</div>
+				</div>
+				<!-- end row -->
+				<!-- 3rd row -->
+				<div class="clearfix">
 					<!-- Gavin -->
 					<div class="col-team col-lg-3 col-md-3 col-sm-6">
 						<figure class="team-profile team-pml">
@@ -496,8 +467,8 @@
 									<div class="modal-bio">
 										<strong class="team-name">Ashley Nowicki Hudson</strong>
 										<span class="team-spec">Talent Partner</span>
-										<p>Ashley is Prime Movers Lab’s Talent Partner where she leads talent and people operations initiatives for the firm, manages our Fellowship program and Advisor ecosystem, handles Board of Director placements and executive search, while also creating human capital strategies aimed at doubling or tripling revenue over a two-to-three year period. Additionally, Ashley helps build engineering, sales and leadership teams, supports our portfolio companies with compensation and equity planning, as well as diversity and inclusion initiatives.</p>
-										<p>Before Prime Movers Lab, Ashley collaborated with venture capital firms like First Round Capital, early stage startups and growth stage startups preparing for exits on their talent, people operations, and community initiatives. Ashley serves as a moderator for “Women in Venture Capital” which is a global community of 10,000+ women supporting each other in the investment space and has spoken internationally on people operations strategy for startups in Santiago, Los Angeles, and more. Ashley received her B.S. from the University of Colorado in Journalism with a minor in Technology, Arts, and Media.</p>
+										<p>Ashley is the Talent Partner at Prime Movers Lab where she leads talent and people operations initiatives for the firm and its portfolio companies, manages the fellowship program and advisor ecosystem, and handles board of director placements and executive search, while also creating human capital strategies aimed at doubling or tripling revenue over a two-to-three year period.</p>
+										<p>Before Prime Movers Lab, Ashley worked with venture capital firms like First Round Capital and Quona Capital, as well as companies and startups like Meta, Google, Bolt Financial ($11bn), GOAT Group ($3.7bn), NTWRK ($1bn), Modern Fertility (acquired by Ro) and Scoot Rides (acquired by Bird). Ashley received her BS from the University of Colorado in Journalism with a minor in Technology, Arts, and Media.</p>
 										<a href="https://www.linkedin.com/in/ashleynowicki" target="_blank" class="fa fa-linkedin modal-social"></a>
 									</div>
 								</div>
@@ -511,7 +482,7 @@
 							<figcaption class="team-caption white">
 								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#savage-modal">
 									<strong class="team-name">Michael Savage</strong>
-									<span class="team-spec">Executive Coach & Partner</span>
+									<span class="team-spec">Executive Coach</span>
 								</div>
 								<ul class="team-social social-list">
 									<li><a href="https://www.linkedin.com/in/michaeljsavage" target="_blank" class="fa fa-linkedin"></a></li>
@@ -529,10 +500,45 @@
 									<img src="/img/team/michael-savage.webp">
 									<div class="modal-bio">
 										<strong class="team-name">Michael Savage</strong>
-										<span class="team-spec">Executive Coach & Partner</span>
+										<span class="team-spec">Executive Coach</span>
 										<p>Michael J Savage is an Executive Coach with Prime Movers Lab. He meets with founders in our portfolio on a monthly basis and supports them as they evolve with their organizations. He coaches individuals to achieve more and helps organizations come together to celebrate milestones like initial sales. He brings two decades and over 100,000 hours of coaching experience across a wide range of businesses, from startups coming out of Y Combinator or 500 Startups, to C-Level executive coaching inside some of the most recognizable companies today. For over 15 years Michael traveled the world supporting individuals and teams as a Business Coach and Trainer with Robbins Research—founded by Life and Business Strategist Tony Robbins where he facilitated Business Results Workshops on a broad range of topics, as well as Tony’s Life & Wealth Mastery Events. He is an ICF and BCC certified Executive Coach.</p>
 										<p>Outside of coaching, Michael has successfully built businesses in financial services as well as retail. He has supported founders and startups, coaching individuals and teams, as well as training and certifying coaches working in startup ecosystems like Tony Hsieh’s Downtown Project in Las Vegas. As a business coach and advisor Michael holds board seats in a number of small and medium-sized organizations and holds a seat on the Board of the Hero Initiative, a not-for-profit charity supporting the creative minds behind the world’s greatest comic book and pop culture icons. He resides in central Florida with his partner and daughter.</p>
 										<a href="https://www.linkedin.com/in/michaeljsavage" target="_blank" class="fa fa-linkedin modal-social"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Sammy -->
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/team/sammy-hafer.webp">
+							<figcaption class="team-caption white">
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#sammy-modal">
+									<strong class="team-name">Sammy Hafer</strong>
+									<span class="team-spec">Chief of Staff</span>
+								</div>
+								<ul class="team-social social-list">
+									<li><a href="https://www.linkedin.com/in/samuelghafer" target="_blank" class="fa fa-linkedin"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+					<div id="sammy-modal" class="modal fade" role="dialog" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<a href="#" data-dismiss="modal">✕</a>
+								</div>
+								<div class="modal-body">
+									<img src="/img/team/sammy-hafer.webp">
+									<div class="modal-bio">
+										<strong class="team-name">Sammy Hafer</strong>
+										<span class="team-spec">Chief of Staff</span>
+										<p>Sammy serves as Chief of Staff at Prime Movers Lab where he supports investor relations, internal operations, and portfolio companies.</p>
+										<p>He brings 11 years of experience partnering with C-suites, celebrities, and founders to build brands, live events, and companies. Most recently, Sammy was part of the founding team of K5 Global, a venture firm and startup incubator, where he collaborated on operations as they deployed $650M across 120 companies. At K5, Sammy helped launch Kendall Jenner’s 818 Tequila, now the third best-selling premium tequila in America. He helped Parrot, an AI-driven digital court reporting startup, land a top-three auto-insurance company as its first customer. In parallel, he advised teams in London and Manila that worked on moonshots in computer vision and people operations. Sammy spent his early career producing live events like The Kids’ Choice Awards at Nickelodeon and shepherding celebrity relationships for Ryan Seacrest.</p>
+										<p>Sammy holds a degree in Classical Civilizations from Yale where he sang bass in the world-famous a capella group, the Whiffenpoofs.</p>
+										<a href="https://www.linkedin.com/in/samuelghafer" target="_blank" class="fa fa-linkedin modal-social"></a>
 									</div>
 								</div>
 							</div>
@@ -542,70 +548,6 @@
 				<!-- end row -->
 				<!-- 4th row -->
 				<div class="clearfix">
-					<!-- Nicolette -->
-					<div class="col-team col-lg-3 col-md-3 col-sm-6">
-						<figure class="team-profile team-pml">
-							<img src="/img/team/nicolette-mciver.webp">
-							<figcaption class="team-caption white">
-								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#nicolette-modal">
-									<strong class="team-name">Nicolette McIver</strong>
-									<span class="team-spec">Investor Relations Manager</span>
-								</div>
-								<ul class="team-social social-list">
-									<li><a href="https://www.linkedin.com/in/nicolettemciver" target="_blank" class="fa fa-linkedin"></a></li>
-								</ul>
-							</figcaption>
-						</figure>
-					</div>
-					<div id="nicolette-modal" class="modal fade" role="dialog" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<a href="#" data-dismiss="modal">✕</a>
-								</div>
-								<div class="modal-body">
-									<img src="/img/team/nicolette-mciver.webp">
-									<div class="modal-bio">
-										<strong class="team-name">Nicolette McIver</strong>
-										<span class="team-spec">Investor Relations Manager</span>
-										<p>Nicolette manages investor relations for Prime Movers Lab, supporting the capital raising process, building relationships with our limited partners, and developing our community of investors.</p>
-										<p>Prior to joining Prime Movers Lab, Nicolette served as Operating Officer with BDO in the Cayman Islands where she managed the firm's operations and business development efforts. Before moving to the Caribbean, she spent two years working with the Boston Consulting Group in Denver, Colorado. Nicolette's passion for community engagement and public service has inspired her to work with diverse local and international nonprofit organizations. Nicolette holds a dual BA in International Studies and Business Administration from the University of Denver.</p>
-										<a href="https://www.linkedin.com/in/nicolettemciver" target="_blank" class="fa fa-linkedin modal-social"></a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<!-- Joslyn -->
-					<div class="col-team col-lg-3 col-md-3 col-sm-6">
-						<figure class="team-profile team-pml">
-							<img src="/img/team/joslyn-williams.webp">
-							<figcaption class="team-caption white">
-								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#joslyn-modal">
-									<strong class="team-name">Joslyn Williams</strong>
-									<span class="team-spec">Executive Assistant</span>
-								</div>
-							</figcaption>
-						</figure>
-					</div>
-					<div id="joslyn-modal" class="modal fade" role="dialog" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<a href="#" data-dismiss="modal">✕</a>
-								</div>
-								<div class="modal-body">
-									<img src="/img/team/joslyn-williams.webp">
-									<div class="modal-bio">
-										<strong class="team-name">Joslyn Williams</strong>
-										<span class="team-spec">Executive Assistant</span>
-										<p>Joslyn is an Executive Assistant with Prime Movers Lab, supporting Partner Gaetano Crupi. She provides support across investing, fundraising, portfolio support, and ecosystem development.</p>
-										<p>Before Prime Movers Lab, Joslyn supported the investment and communications teams at TrueBridge Capital Partners managing various aspects of operations including reporting, design, travel, and event planning. Before joining the venture ecosystem, she served a long tenure in the legal industry at Batten Lee as an office administrator and billing manager. Joslyn received her BS from North Carolina State University in Fashion and Textile Management with a concentration in Brand Management and Marketing.</p>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
 					<!-- Brantley -->
 					<div class="col-team col-lg-3 col-md-3 col-sm-6">
 						<figure class="team-profile team-pml">
@@ -632,9 +574,69 @@
 									<div class="modal-bio">
 										<strong class="team-name">Brantley Sydnor</strong>
 										<span class="team-spec">Operations Manager</span>
-										<p>Brantley is Operations Manager to Prime Movers Lab. She supports General Partners and Prime Movers Lab across a wide variety of functions such as event coordination, research, and investor relations support.</p>
+										<p>Brantley is Operations Manager and supports partners across a wide variety of functions such as operational and administrative processes, HR assistance, calendar management, and event coordination.</p>
 										<p>Prior to working with Prime Movers Lab, Brantley worked as Personal and Executive Assistant to professional athlete Travis Rice and was Coordinating Producer for the snowboarding competition Natural Selection Tour. She has over a decade of office management experience in Jackson, Wyoming, the place she’s called home for 17 years. Brantley is passionate about working with others and brings her skills of organization, enthusiasm, and problem solving to every team she is a part of. She is an avid outdoorswoman, animal therapy advocate, bicycle enthusiast, and yoga instructor. Brantley graduated from James Madison University with a BA in Sociology.</p>
 										<a href="https://www.linkedin.com/in/brantley-sydnor-583a5712" target="_blank" class="fa fa-linkedin modal-social"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Joslyn -->
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/team/joslyn-williams.webp">
+							<figcaption class="team-caption white">
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#joslyn-modal">
+									<strong class="team-name">Joslyn Williams</strong>
+									<span class="team-spec">Platform Manager</span>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div id="joslyn-modal" class="modal fade" role="dialog" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<a href="#" data-dismiss="modal">✕</a>
+								</div>
+								<div class="modal-body">
+									<img src="/img/team/joslyn-williams.webp">
+									<div class="modal-bio">
+										<strong class="team-name">Joslyn Williams</strong>
+										<span class="team-spec">Platform Manager</span>
+										<p>Joslyn is Platform Manager with Prime Movers Lab. She provides support across all portfolio support functions, as well as investor relations, events, and ecosystem development.</p>
+										<p>Before Prime Movers Lab, Joslyn supported the investment and communications teams at TrueBridge Capital Partners managing various aspects of operations including reporting, design, travel, and event planning. Before joining the venture ecosystem, she served a long tenure in the legal industry at Batten Lee as an office administrator and billing manager. Joslyn received her BS from North Carolina State University in Fashion and Textile Management with a concentration in Brand Management and Marketing.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Ryan -->
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/team/ryan-walker.webp">
+							<figcaption class="team-caption white">
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#ryan-modal">
+									<strong class="team-name">Ryan Walker</strong>
+									<span class="team-spec">Executive Assistant</span>
+								</div>
+							</figcaption>
+						</figure>
+					</div>
+					<div id="ryan-modal" class="modal fade" role="dialog" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<a href="#" data-dismiss="modal">✕</a>
+								</div>
+								<div class="modal-body">
+									<img src="/img/team/ryan-walker.webp">
+									<div class="modal-bio">
+										<strong class="team-name">Ryan Walker</strong>
+										<span class="team-spec">Executive Assistant</span>
+										<p>Ryan is an Executive Assistant who supports Prime Movers Lab across a wide variety of functions such as coordinating daily logistics, events, fundraising, scheduling, investor relations, as well as founder relations.</p>
+										<p>Ryan has a diverse background in the hospitality industry and as an executive assistant. He studied legal studies in business, taxation, accounting and administration at Hofstra University. After completing his studies, Ryan joined The Ritz Carlton Destination Club in Aspen as a personal concierge. He then worked for several ultra-high-net-worth individuals in New York, Miami, and London.</p>
 									</div>
 								</div>
 							</div>
@@ -663,7 +665,7 @@
 									<div class="modal-bio">
 										<strong class="team-name">Della Drews</strong>
 										<span class="team-spec">Executive Assistant</span>
-										<p>Della is an Executive Assistant with Prime Movers Lab, supporting our partners. Della has over ten years of experience working in the legal field, family office management, and as an executive assistant. Most recently, she managed a scientific-based consulting company.</p>
+										<p>Della is an Executive Assistant with Prime Movers Lab. Della has over ten years of experience working in the legal field, family office management, and as an executive assistant. Most recently, she managed a scientific-based consulting company.</p>
 										<p>Della is passionate about working with forward-thinking like-minded individuals focused on health and healing. She assists in research, project management, event coordination, scheduling, and whatever it takes to make the team successful. She brings intentional positive energy to every interaction. Della attended Florida International University in Miami and holds a BA in Journalism.</p>
 									</div>
 								</div>
@@ -671,72 +673,219 @@
 						</div>
 					</div>
 				</div>
-				<!-- end row -->
-				<!-- 5th row -->
+				<!-- end row -->														
+			</div>
+		</section>
+
+		<!-- Venture Partners -->
+		<section class="team section pb-0">
+			<div class="container">
+				<div class="row">
+					<header class="text-center col-md-8 col-md-offset-2">
+						<h2 class="section-title">Venture Partners</h2>
+					</header>
+				</div>
+			</div>
+			<div class="section-content">
+				<!-- 1st row -->
 				<div class="clearfix">
-					<!-- Amy -->
+					<!-- Kam -->
 					<div class="col-team col-lg-3 col-md-3 col-sm-6">
 						<figure class="team-profile team-pml">
-							<img src="/img/team/amy-kruse.webp">
+							<img src="/img/team/kam-ghaffarian.webp">
 							<figcaption class="team-caption white">
-								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#amy-modal">
-									<strong class="team-name">Amy Kruse, PhD</strong>
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#kam-modal">
+									<strong class="team-name">Kam Ghaffarian</strong>
 									<span class="team-spec">Venture Partner</span>
 								</div>
 								<ul class="team-social social-list">
-									<li><a href="https://www.linkedin.com/in/amyakruse2020" target="_blank" class="fa fa-linkedin"></a></li>
+									<li><a href="https://www.linkedin.com/in/kamghaffarian" target="_blank" class="fa fa-linkedin"></a></li>
 								</ul>
 							</figcaption>
 						</figure>
 					</div>
-					<div id="amy-modal" class="modal fade" role="dialog" aria-hidden="true">
+					<div id="kam-modal" class="modal fade" role="dialog" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
 									<a href="#" data-dismiss="modal">✕</a>
 								</div>
 								<div class="modal-body">
-									<img src="/img/team/amy-kruse.webp">
+									<img src="/img/team/kam-ghaffarian.webp">
 									<div class="modal-bio">
-										<strong class="team-name">Amy Kruse, PhD</strong>
+										<strong class="team-name">Kam Ghaffarian</strong>
 										<span class="team-spec">Venture Partner</span>
-										<p>Amy Kruse is a Venture Partner of Prime Movers Lab where she leads our life sciences investments. As a neuroscientist and biologist, she discovers emerging new companies and leads in-depth due diligence into potential investments across areas including neuroscience, human augmentation, synthetic biology, longevity/regeneration, and agriculture. She also supports portfolio companies in evaluating and overcoming scientific and implementation challenges, with a specific emphasis on deploying complex technology into real-world environments. She serves on the boards of our portfolio companies, Paradromics, Gilgamesh Pharmaceuticals, Cognixion, and Attune Neurosciences.</p>
-										<p>Amy is formerly the Chief Scientific Officer at Optios, an applied neuroscience company. She built the company’s scientific vision and completed acquisitions that resulted in a robust intellectual property portfolio. Amy also served as the VP and CTO at Cubic Global Defense overseeing innovation and the R&D portfolio across the entire defense enterprise. Early in her career, she served as a government civilian program manager at DARPA where she created and oversaw the Agency’s first performance-oriented neuroscience programs, with a combined budget of over $300M. Amy is a Founding Member of the Loomis Innovation Council and a Guest Lecturer for Singularity University. She earned a BS in Cell and Structural Biology and a PhD in Neuroscience from University of Illinois Champaign-Urbana, where she was awarded an NSF Graduate Fellowship.</p>
-										<a href="https://www.linkedin.com/in/amyakruse2020" target="_blank" class="fa fa-linkedin modal-social"></a>
+										<p>Kam Ghaffarian is the visionary space and energy entrepreneur behind several companies dedicated to furthering human civilization, including Axiom Space and Quantum Space. Driven by his mission to advance the state of humanity and human knowledge, Kam has created organizations transforming the space and energy sectors. In addition to co-founding Axiom Space and Quantum Space, his other companies include Intuitive Machines, a leader in delivering science technology to NASA’s Commercial Lunar Payload Services program; X-energy, which is developing nuclear power solutions for both terrestrial energy and space propulsion use; and IBX, an innovation and investment firm. Kam is also an active philanthropist and founder of a non-profit focused on scientific research and enabling interstellar travel.</p>
+										<a href="https://www.linkedin.com/in/kamghaffarian" target="_blank" class="fa fa-linkedin modal-social"></a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<!-- Brandon -->
+					<!-- Bill -->
 					<div class="col-team col-lg-3 col-md-3 col-sm-6">
 						<figure class="team-profile team-pml">
-							<img src="/img/team/brandon-simmons.webp">
+							<img src="/img/team/bill-gross.webp">
 							<figcaption class="team-caption white">
-								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#brandon-modal">
-									<strong class="team-name">Brandon Simmons</strong>
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#bill-modal">
+									<strong class="team-name">Bill Gross</strong>
 									<span class="team-spec">Venture Partner</span>
 								</div>
 								<ul class="team-social social-list">
-									<li><a href="https://www.linkedin.com/in/brandon-simmons-0960352" target="_blank" class="fa fa-linkedin"></a></li>
+									<li><a href="https://www.linkedin.com/in/billgrossidealab" target="_blank" class="fa fa-linkedin"></a></li>
 								</ul>
 							</figcaption>
 						</figure>
 					</div>
-					<div id="brandon-modal" class="modal fade" role="dialog" aria-hidden="true">
+					<div id="bill-modal" class="modal fade" role="dialog" aria-hidden="true">
 						<div class="modal-dialog">
 							<div class="modal-content">
 								<div class="modal-header">
 									<a href="#" data-dismiss="modal">✕</a>
 								</div>
 								<div class="modal-body">
-									<img src="/img/team/brandon-simmons.webp">
+									<img src="/img/team/bill-gross.webp">
 									<div class="modal-bio">
-										<strong class="team-name">Brandon Simmons</strong>
+										<strong class="team-name">Bill Gross</strong>
 										<span class="team-spec">Venture Partner</span>
-										<p>Brandon is a Venture Partner of Prime Movers Lab. He serves on the board of portfolio company Venus Aerospace and polySpectra and previously served on the boards of Carbon Capture, Elevian, Unlimited Tomorrow, Noble.AI, and Pyka.</p>
-										<p>Brandon has wide-ranging startup experience as an investor, operating executive, board member, and corporate lawyer. Brandon began his career as a law clerk to Chief Judge J.L. Edmondson of the US Court of Appeals for the Eleventh Circuit and then advised startups and investors as a corporate lawyer at Hogan Lovells. At Tachyus, Brandon built the business from Series A through Series B as COO and CEO. Brandon invests in his community through his series Celebrating Black Founders and Investors, his family’s entrepreneurship initiative Oakland Idea Shop, and his mentoring platform LOVE (Let Our Vision Evolve). Brandon earned degrees with honors from Stanford Law School and UC Berkeley.</p>
-										<a href="https://www.linkedin.com/in/brandon-simmons-0960352" target="_blank" class="fa fa-linkedin modal-social"></a>
+										<p>Bill Gross is the founder and chairman of Idealab. Bill started Idealab, the longest-running technology incubator, in 1996. At Idealab, he has created more than 175 companies, with more than 50 successful IPOs and acquisitions, and created more than 10,000 jobs. Companies started by Idealab have raised more than $4 billion. Bill is a pioneer in inventing companies to mitigate climate change, starting numerous companies built on innovative breakthroughs, with multiple companies winning the World Economic Forum Technology Pioneer Award. In addition to founding Energy Vault, Carbon Capture Inc., Heliogen, and other Idealab companies, Bill also is a member of the board of the Art Center College of Design and the California Institute of Technology (Caltech) where he graduated with a degree in Mechanical Engineering.</p>
+										<a href="https://www.linkedin.com/in/billgrossidealab" target="_blank" class="fa fa-linkedin modal-social"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Greg -->
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/team/greg-wyler.webp">
+							<figcaption class="team-caption white">
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#greg-modal">
+									<strong class="team-name">Greg Wyler</strong>
+									<span class="team-spec">Venture Partner</span>
+								</div>
+								<ul class="team-social social-list">
+									<li><a href="https://www.linkedin.com/in/greg-wyler-47837113" target="_blank" class="fa fa-linkedin"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+					<div id="greg-modal" class="modal fade" role="dialog" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<a href="#" data-dismiss="modal">✕</a>
+								</div>
+								<div class="modal-body">
+									<img src="/img/team/greg-wyler.webp">
+									<div class="modal-bio">
+										<strong class="team-name">Greg Wyler</strong>
+										<span class="team-spec">Venture Partner</span>
+										<p>Greg Wyler is the founder, CEO, and Chief Architect at E-Space. In this role, Greg has re-imagined low Earth orbit (LEO) satellite system design, manufacturing, economics, and service delivery to overcome the limitations associated with legacy LEO systems. Greg also serves as Chairman of the E-Space Board of Directors. Greg is a recognized technology entrepreneur, engineer, and visionary, with a proven track record of creating and growing innovative space companies. In 2007, he founded O3b Networks, followed by OneWeb in 2012. Both have proven successful, leveraging satellite technology to fuel global connectivity missions. Greg holds more than 35 patents related to the design, implementation, and use of satellite communications technology.</p>
+										<a href="https://www.linkedin.com/in/greg-wyler-47837113" target="_blank" class="fa fa-linkedin modal-social"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Aaron -->
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/team/aaron-mandell.webp">
+							<figcaption class="team-caption white">
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#aaron-modal">
+									<strong class="team-name">Aaron Mandell</strong>
+									<span class="team-spec">Venture Partner</span>
+								</div>
+								<ul class="team-social social-list">
+									<li><a href="https://www.linkedin.com/in/aaron-mandell-011175133" target="_blank" class="fa fa-linkedin"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+					<div id="aaron-modal" class="modal fade" role="dialog" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<a href="#" data-dismiss="modal">✕</a>
+								</div>
+								<div class="modal-body">
+									<img src="/img/team/aaron-mandell.webp">
+									<div class="modal-bio">
+										<strong class="team-name">Aaron Mandell</strong>
+										<span class="team-spec">Venture Partner</span>
+										<p>Aaron Mandell is the founder and Chief Executive Officer of Wacomet. Aaron co-founded and served as a board member and advisor at Quidnet Energy. Previously, he co-founded and served as Chief Executive Officer & Chairman of WaterFX. He co-founded AltaRock. He also served as Chief Technology Officer at Coatue and co-founded Quaise Energy. He also co-founded and served as Managing Partner at GreatPoint Ventures and co-founded GreatPoint Energy. He served as Chief Executive Officer & President at Oasys Water. He has experience in energy and alternative fuels and founded and sits on the Boards of Coskata and Ethos. He serves as a director of Oasys Water.</p>
+										<a href="https://www.linkedin.com/in/aaron-mandell-011175133" target="_blank" class="fa fa-linkedin modal-social"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end row -->
+				<!-- 2nd row -->
+				<div class="clearfix">
+					<!-- Blake -->
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/team/blake-scholl.webp">
+							<figcaption class="team-caption white">
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#blake-modal">
+									<strong class="team-name">Blake Scholl</strong>
+									<span class="team-spec">Venture Partner</span>
+								</div>
+								<ul class="team-social social-list">
+									<li><a href="https://www.linkedin.com/in/blakescholl" target="_blank" class="fa fa-linkedin"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+					<div id="blake-modal" class="modal fade" role="dialog" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<a href="#" data-dismiss="modal">✕</a>
+								</div>
+								<div class="modal-body">
+									<img src="/img/team/blake-scholl.webp">
+									<div class="modal-bio">
+										<strong class="team-name">Blake Scholl</strong>
+										<span class="team-spec">Venture Partner</span>
+										<p>Blake Scholl is the Chief Executive Officer at Boom Supersonic, which he founded in September 2014, with the goal of making the world more accessible with high-speed travel. Prior to founding Boom, Blake held leadership roles at Amazon and Groupon, and co-founded the mobile technology startup, Kima Labs. He started his career at Amazon.com as a software engineer in 2001, where he later owned a $300M P&L in online marketing. Then, Blake was the first employee and director of product development at mobile startup Pelago. In 2010, he co-founded mobile technology startup Kima Labs, which was acquired by Groupon in 2012.</p>
+										<a href="https://www.linkedin.com/in/blakescholl" target="_blank" class="fa fa-linkedin modal-social"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Andrei -->
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/team/andrei-iancu.webp">
+							<figcaption class="team-caption white">
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#andrei-modal">
+									<strong class="team-name">Andrei Iancu</strong>
+									<span class="team-spec">Venture Partner</span>
+								</div>
+								<ul class="team-social social-list">
+									<li><a href="https://www.linkedin.com/in/andrei-iancu" target="_blank" class="fa fa-linkedin"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+					<div id="andrei-modal" class="modal fade" role="dialog" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<a href="#" data-dismiss="modal">✕</a>
+								</div>
+								<div class="modal-body">
+									<img src="/img/team/andrei-iancu.webp">
+									<div class="modal-bio">
+										<strong class="team-name">Andrei Iancu</strong>
+										<span class="team-spec">Venture Partner</span>
+										<p>Andrei Iancu is the founder and CEO of Halo Industries, Inc. Halo Industries creates novel laser-based systems for advanced materials and device fabrication that drastically reduce waste, improve quality, and enable next-generation technologies. The company is rapidly scaling its production capacity as it is bringing its first high-volume solution to market in the advanced power electronics space for diverse applications such as electric vehicles, associated charging infrastructure, wind/solar, electrified rail, industrial motor drives, and the electrical grid. Andrei earned BS degrees in electrical engineering and aerospace engineering at Iowa State University and then MS and PhD degrees in aeronautics/astronautics, electrical engineering, and mechanical engineering at Stanford University.</p>
+										<a href="https://www.linkedin.com/in/andrei-iancu" target="_blank" class="fa fa-linkedin modal-social"></a>
 									</div>
 								</div>
 							</div>
@@ -776,6 +925,147 @@
 							</div>
 						</div>
 					</div>
+					<!-- Amy -->
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/team/amy-kruse.webp">
+							<figcaption class="team-caption white">
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#amy-modal">
+									<strong class="team-name">Amy Kruse, PhD</strong>
+									<span class="team-spec">Venture Partner</span>
+								</div>
+								<ul class="team-social social-list">
+									<li><a href="https://www.linkedin.com/in/amyakruse2020" target="_blank" class="fa fa-linkedin"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+					<div id="amy-modal" class="modal fade" role="dialog" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<a href="#" data-dismiss="modal">✕</a>
+								</div>
+								<div class="modal-body">
+									<img src="/img/team/amy-kruse.webp">
+									<div class="modal-bio">
+										<strong class="team-name">Amy Kruse, PhD</strong>
+										<span class="team-spec">Venture Partner</span>
+										<p>Amy Kruse is a Venture Partner of Prime Movers Lab. She serves on the boards of our portfolio companies, Paradromics, Gilgamesh Pharmaceuticals, Cognixion, and Attune Neurosciences.</p>
+										<p>Amy is formerly the Chief Scientific Officer at Optios, an applied neuroscience company. She built the company’s scientific vision and completed acquisitions that resulted in a robust intellectual property portfolio. Amy also served as the VP and CTO at Cubic Global Defense overseeing innovation and the R&D portfolio across the entire defense enterprise. Early in her career, she served as a government civilian program manager at DARPA where she created and oversaw the Agency’s first performance-oriented neuroscience programs, with a combined budget of over $300M. Amy is a Founding Member of the Loomis Innovation Council and a Guest Lecturer for Singularity University. She earned a BS in Cell and Structural Biology and a PhD in Neuroscience from University of Illinois Champaign-Urbana, where she was awarded an NSF Graduate Fellowship.</p>
+										<a href="https://www.linkedin.com/in/amyakruse2020" target="_blank" class="fa fa-linkedin modal-social"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end row -->
+				<!-- 3rd row -->
+				<div class="clearfix">
+					<!-- Anton -->
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/team/antonbrevde.webp">
+							<figcaption class="team-caption white">
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#anton-modal">
+									<strong class="team-name">Anton Brevde</strong>
+									<span class="team-spec">Venture Partner</span>
+								</div>
+								<ul class="team-social social-list">
+									<li><a href="https://www.linkedin.com/in/anton-brevde-3b465814" target="_blank" class="fa fa-linkedin"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+					<div id="anton-modal" class="modal fade" role="dialog" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<a href="#" data-dismiss="modal">✕</a>
+								</div>
+								<div class="modal-body">
+									<img src="/img/team/antonbrevde.webp">
+									<div class="modal-bio">
+										<strong class="team-name">Anton Brevde</strong>
+										<span class="team-spec">Venture Partner</span>
+										<p>Anton Brevde is a Venture Partner at Prime Movers Lab. He serves on the boards of portfolio companies Space Perspective, Spartan Radar, Alpha Insights, and Nelumbo.</p>
+										<p>Previously, Anton was co-founder and CEO of Asseta, a B2B marketplace for manufacturing equipment and spare parts. Asseta provides leading semiconductor manufacturers a safe and efficient platform to sell their excess assets. At Asseta, Anton raised money from premier investors such as Y Combinator, Gil Penchina, Jeff Epstein (ex-COO of Oracle), and Red Swan Ventures. He led a global business development effort targeting Fortune 1000 companies across the US, Europe, China, Taiwan, Korea, Singapore, and Japan. Anton earned a BS in Finance from Villanova University cum laude.</p>
+										<a href="https://www.linkedin.com/in/anton-brevde-3b465814" target="_blank" class="fa fa-linkedin modal-social"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Brandon -->
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/team/brandon-simmons.webp">
+							<figcaption class="team-caption white">
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#brandon-modal">
+									<strong class="team-name">Brandon Simmons</strong>
+									<span class="team-spec">Venture Partner</span>
+								</div>
+								<ul class="team-social social-list">
+									<li><a href="https://www.linkedin.com/in/brandon-simmons-0960352" target="_blank" class="fa fa-linkedin"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+					<div id="brandon-modal" class="modal fade" role="dialog" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<a href="#" data-dismiss="modal">✕</a>
+								</div>
+								<div class="modal-body">
+									<img src="/img/team/brandon-simmons.webp">
+									<div class="modal-bio">
+										<strong class="team-name">Brandon Simmons</strong>
+										<span class="team-spec">Venture Partner</span>
+										<p>Brandon is a Venture Partner of Prime Movers Lab. He serves on the boards of portfolio company Venus Aerospace and polySpectra and previously served on the boards of Carbon Capture, Elevian, Unlimited Tomorrow, Noble.AI, and Pyka.</p>
+										<p>Brandon has wide-ranging startup experience as an investor, operating executive, board member, and corporate lawyer. Brandon began his career as a law clerk to Chief Judge J.L. Edmondson of the US Court of Appeals for the Eleventh Circuit and then advised startups and investors as a corporate lawyer at Hogan Lovells. At Tachyus, Brandon built the business from Series A through Series B as COO and CEO. Brandon invests in his community through his series Celebrating Black Founders and Investors, his family’s entrepreneurship initiative Oakland Idea Shop, and his mentoring platform LOVE (Let Our Vision Evolve). Brandon earned degrees with honors from Stanford Law School and UC Berkeley.</p>
+										<a href="https://www.linkedin.com/in/brandon-simmons-0960352" target="_blank" class="fa fa-linkedin modal-social"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Gaetano -->
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/team/gaetano-crupi.webp">
+							<figcaption class="team-caption white">
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#gaetano-modal">
+									<strong class="team-name">Gaetano Crupi</strong>
+									<span class="team-spec">Venture Partner</span>
+								</div>
+								<ul class="team-social social-list">
+									<li><a href="https://www.linkedin.com/in/gaetanocrupi" target="_blank" class="fa fa-linkedin"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+					<div id="gaetano-modal" class="modal fade" role="dialog" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<a href="#" data-dismiss="modal">✕</a>
+								</div>
+								<div class="modal-body">
+									<img src="/img/team/gaetano-crupi.webp">
+									<div class="modal-bio">
+										<strong class="team-name">Gaetano Crupi</strong>
+										<span class="team-spec">Venture Partner</span>
+										<p>Gaetano is a Venture Partner for Prime Movers Lab. He currently serves on the boards of portfolio companies MycoWorks and Oceanix.</p>
+										<p>Gaetano is a three-time entrepreneur and brings his experience building companies to evaluate opportunities and supports portfolio CEOs in scaling world-changing companies. Obsessed with building teams and organizations, he co-founded and served as CEO of Cabin Technologies, the tech-enabled long-distance mobility company solving intercity travel, and was responsible for launching their never-before-seen, actively suspended cabins that makes highway travel smoother than trains.</p>
+										<p>Previously, Gaetano was the COO of Betable, the world’s first fintech/game-engine platform powering real-currency play in apps across any platform or device. In 2006, Gaetano founded Machina, a production company focusing on web series, music videos, and commercials during the transition to digitally-consumed content. Gaetano was nominated for a Grammy in 2013 for his work with Foster the People and also produced Beyonce’s “Move Your Body” video for Michelle Obama’s “Let’s Move!” project. Before becoming a producer, Gaetano was a consumer and retail investment banker at Goldman Sachs in New York. Gaetano is an alumni of Wharton and the Stanford Graduate School of Business. Having grown up in Brazil, Venezuela, Canada, and the United States, Gaetano speaks three languages fluently and lives to explore.</p>
+										<a href="https://www.linkedin.com/in/gaetanocrupi" target="_blank" class="fa fa-linkedin modal-social"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<!-- end row -->
 			</div>
@@ -791,6 +1081,7 @@
 				</div>
 			</div>
 			<div class="section-content">
+				<!-- 1st row -->
 				<div class="clearfix">
 					<!-- Liza -->
 					<div class="col-team col-lg-3 col-md-3 col-sm-6">
@@ -820,6 +1111,8 @@
 										<span class="team-spec">Fellow, Energy</span>
 										<p>Liza is the research manager for electricity transmission at the Niskanen Center. She is an expert in High Voltage Direct Current, electricity transmission, and technology innovation. Before joining the Niskanen Center, she worked on energy funding at the Great Lakes Energy Institute at Case Western Reserve University, wireless communication technology development at inmobly, and business analysis at Capital One Finance.</p>
 										<p>She holds a PhD from Carnegie Mellon University in Engineering and Public Policy and a master’s degree and a bachelor’s degree in Electrical and Computer Engineering from The Ohio State University.</p>
+										<p><b>Thought Paper</b><br>
+										<a href="https://www.primemoverslab.com/ideas/electricity-grid">The Electricity Grid</a></p>
 										<a href="https://www.linkedin.com/in/liza-reed-97b40b4" target="_blank" class="fa fa-linkedin modal-social"></a>
 									</div>
 								</div>
@@ -922,6 +1215,43 @@
 										<span class="team-spec">Fellow, Human Augmentation</span>
 										<p>Ted is pursuing his PhD in Biomedical Informatics at Northwestern University and is interested in the intersection between artificial intelligence and biotechnology. He currently serves as the VP of Venture Capital and Business Development for the Northwestern Biotech Group and has assisted multiple venture capital firms with the evaluation of scientific and clinical data throughout the development stage. He is bilingual in English and Mandarin and also has experience in molecular biology and virology.</p>
 										<a href="https://www.linkedin.com/in/tedlinghu" target="_blank" class="fa fa-linkedin modal-social"></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- end row -->
+				<!-- 2nd row -->
+				<div class="clearfix">
+					<!-- Nicholas -->
+					<div class="col-team col-lg-3 col-md-3 col-sm-6">
+						<figure class="team-profile team-pml">
+							<img src="/img/team/nicholas-may-varas.webp">
+							<figcaption class="team-caption white">
+								<div class="team-meta team-meta-team" data-toggle="modal" data-target="#nicholas-modal">
+									<strong class="team-name">Nicholas May-Varas</strong>
+									<span class="team-spec">Fellow, Ocean Energy</span>
+								</div>
+								<ul class="team-social social-list">
+									<li><a href="https://www.linkedin.com/in/nicholasmay-varas" target="_blank" class="fa fa-linkedin"></a></li>
+								</ul>
+							</figcaption>
+						</figure>
+					</div>
+					<div id="nicholas-modal" class="modal fade" role="dialog" aria-hidden="true">
+						<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+									<a href="#" data-dismiss="modal">✕</a>
+								</div>
+								<div class="modal-body">
+									<img src="/img/team/nicholas-may-varas.webp">
+									<div class="modal-bio">
+										<strong class="team-name">Nicholas May-Varas</strong>
+										<span class="team-spec">Fellow, Ocean Energy</span>
+										<p>Nicholas May-Varas is a mechanical engineering graduate student attending the Massachusetts Institute of Technology. He is interested in developing efficient and accessible renewable energy technologies. Some of his current responsibilities include conducting research as a graduate research assistant at MIT and collaborating with others as a co-panel director for the 2023 MIT Energy Conference. Some of his previous energy-related experiences include conducting wave energy research as an undergraduate research assistant with the Pacific Marine Energy Center and participating in two energy-related competitions.</p>
+										<a href="https://www.linkedin.com/in/nicholasmay-varas" target="_blank" class="fa fa-linkedin modal-social"></a>
 									</div>
 								</div>
 							</div>
