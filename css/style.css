@@ -2960,7 +2960,7 @@ img.mfp-img {
 }
 
 .copyrights {float: left;}
-.copyrights #sep {margin-left: 15px; margin-right: 15px;}
+.copyrights #sep {margin-left: 6px; margin-right: 6px;}
 .copyrights #disclosure, .copyrights #disclosure:visited {color: #525252;}
 .copyrights #disclosure:hover {color: #2e6be8;}
 
