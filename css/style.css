@@ -802,7 +802,7 @@ label.error {
 
 .social-list {
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 10px;
 }
 
 .social-list li {
@@ -2924,17 +2924,9 @@ img.mfp-img {
 	letter-spacing: 0.08em;
 }
 
-.nav-bottom li {
-	margin-bottom: 0.4em;
-}
-.nav-bottom li a {
-	color: #fff;
-}
-
-.nav-bottom li a:hover {
-	color: #2e6be8;
-	text-decoration: none;
-}
+.nav-bottom li {margin-bottom: 0.4em;}
+.nav-bottom li a {color: #fff;}
+.nav-bottom li a:hover {color: #2e6be8; text-decoration: none;}
 
 .col-contacts {
 	color: #fff;
@@ -2949,24 +2941,13 @@ img.mfp-img {
 	
 }
 
-.col-contacts a:hover {
-	color: #2e6be8;
-	text-decoration: none;
-}
+.col-contacts a:hover {color: #2e6be8;text-decoration: none;}
 
-.subscribe-title {
-	font-size: 1.25em;
-	line-height: 1.2;
-	margin-bottom: 1.1em;
-}
+.subscribe-title {font-size: 1.25em; line-height: 1.2; margin-bottom: 1.1em;}
 
-.phone {
-	letter-spacing: 0.08em;
-}
+.phone {letter-spacing: 0.08em;}
 
-.subscribe-form {
-	max-width: 300px;
-}
+.subscribe-form {max-width: 300px;}
 
 .footer-bottom {
 	font-family: 'Karla', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -2978,17 +2959,10 @@ img.mfp-img {
 	font-size: 0.75em;
 }
 
-.copyrights {
-	float: right;
-}
-
-.copyrights #disclosure, .copyrights #disclosure:visited {
-	color: #525252;
-}
-
-.copyrights #disclosure:hover {
-	color: #2e6be8;
-}
+.copyrights {float: left;}
+.copyrights #sep {margin-left: 15px; margin-right: 15px;}
+.copyrights #disclosure, .copyrights #disclosure:visited {color: #525252;}
+.copyrights #disclosure:hover {color: #2e6be8;}
 
 /* ------------------------------------------------------------------------------- */
 /*	17. Modals
