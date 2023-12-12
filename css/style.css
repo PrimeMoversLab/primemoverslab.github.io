@@ -2539,7 +2539,11 @@ img.mfp-img {
 
 .team-pml .team-name {font-size: 1.125em;}
 
-.team-pml .team-spec {font-size: 1em;}
+.team-pml .team-spec {
+	font-size: 1em;
+	padding-left: 10px;
+	padding-right: 10px;
+}
 
 .team-name {
 	letter-spacing: 0.2em;
