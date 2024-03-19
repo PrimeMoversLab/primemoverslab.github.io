@@ -3299,37 +3299,3 @@ footer .email {font-size: 13px;}
 	.nav-desktop {display: none;}
 	.nav-desktop-hidden {display: block;}
 }
-
-/* Thought Paper */
-
-#link-download {display: block; font-size: 1.25em; padding-top: 20px; padding-bottom: 20px;}
-#table-contents a {display: block; font-size: 1.125em; font-weight: bold; text-transform: uppercase; letter-spacing: 0.2em; padding-bottom: 20px;}
-.section-content-2 {padding-bottom: 8em;}
-#intro {font-size: 1.375em; line-height: 1.4; font-style: italic;}
-.chapter-anchor {margin-bottom: 200px;}
-h2 {font-size: 3em;}
-h4 {font-size: 1.75em;}
-.subheading {padding-top: 2.5em; font-weight: bold;}
-.author-notes {font-style: italic;}
-.references-links p {font-size: 1em;}
-p, .takeaways li {font-size: 1.25em; line-height: 1.875;}
-.ol-numbered li {list-style-type: decimal; padding-left: 27px;}
-.images {width: 100%; padding: 50px 0 40px 0;}
-.small-caption {font-size: 1em; padding-bottom: 100px; text-align: center;}
-.small-caption a {font-size: 1em;}
-.uppercase {text-transform: uppercase;}
-.callout {font-style: italic; font-size: 3em; line-height: 1.35; padding-top: 50px; padding-bottom: 50px;}
-#landscape-links a {font-size: 1.25em; line-height: 1.875;}
-#landscape-links .subheading {margin-bottom: 5px;}
-#ol-bold {font-weight: bold;}
-#ol-bold span {font-weight: normal;}
-
-@media (max-width: 812px) {
-	p, .takeaways li {line-height: 1.7;}
-	.ol-numbered {padding-left: 24px;}
-	.ol-numbered li {padding-left: 5px;}
-	.section-content-2 {padding-bottom: 4em;}
-	.chapter-anchor {margin-bottom: 100px;}
-	.images {padding: 25px 0 35px 0;}
-	.small-caption {padding-bottom: 50px;}
-}
