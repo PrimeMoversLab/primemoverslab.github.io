@@ -1353,6 +1353,11 @@ label.error {
 	background-size: cover;
 }
 
+.main-raisingconsciousness {
+	background: url(/img/events/bg-raisingconsciousness.jpeg) 50% 0 no-repeat;
+	background-size: cover;
+}
+
 .main-team {
 	background: url(/img/bg/bg-particles.gif) 50% 0 no-repeat;
 	background-size: cover;
