@@ -7,7 +7,6 @@ h2 {font-size: 3em;}
 h4 {font-size: 1.75em;}
 .subheading {padding-top: 2.5em; font-weight: bold;}
 .author-notes {font-style: italic;}
-.references-links p {font-size: 1em;}
 p, .takeaways li {font-size: 1.25em; line-height: 1.875;}
 .ol-numbered li {list-style-type: decimal; padding-left: 27px;}
 .images {width: 100%; padding: 50px 0 40px 0;}
@@ -19,6 +18,7 @@ p, .takeaways li {font-size: 1.25em; line-height: 1.875;}
 #landscape-links .subheading {margin-bottom: 5px;}
 #ol-bold {font-weight: bold;}
 #ol-bold span {font-weight: normal;}
+.references-links p {font-size: 1em; line-height: 1.5;}
 
 @media (max-width: 812px) {
 	p, .takeaways li {line-height: 1.7;}
