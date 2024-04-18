@@ -6,7 +6,7 @@
 .chapter-anchor {margin-bottom: 200px;}
 h2 {font-size: 3em;}
 h4 {font-size: 1.75em;}
-p, .takeaways li {font-size: 1.25em; line-height: 1.875;}
+p, .takeaways li {font-size: 1.25em; line-height: 1.75;}
 .subheading {padding-top: 2.5em; font-weight: bold;}
 .callout {font-style: italic; font-size: 3em; line-height: 1.35; padding-top: 50px; padding-bottom: 50px;}
 .author-notes {font-style: italic;}
@@ -26,7 +26,6 @@ sup {top: -1.15em;}
 @media (max-width: 812px) {
 	.section-content-2 {padding-bottom: 4em;}
 	.chapter-anchor {margin-bottom: 100px;}
-	p, .takeaways li {line-height: 1.7;}
 	.images {padding: 25px 0 35px 0;}
 	.small-caption {padding-bottom: 50px;}
 	.ol-numbered {padding-left: 24px;}
