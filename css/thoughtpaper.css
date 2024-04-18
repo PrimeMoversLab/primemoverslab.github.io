@@ -18,6 +18,9 @@ p, .takeaways li {font-size: 1.25em; line-height: 1.875;}
 #ol-bold {font-weight: bold;}
 #ol-bold span {font-weight: normal;}
 .ol-numbered li {list-style-type: decimal; padding-left: 27px;}
+sub, sup {font-size: 50%; font-weight: bold;}
+sub {bottom: -0.375em;}
+sup {top: -1.15em;}
 .references-links p {font-size: 1em; line-height: 1.5;}
 
 @media (max-width: 812px) {
