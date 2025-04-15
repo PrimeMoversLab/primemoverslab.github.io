@@ -3289,7 +3289,7 @@ footer .email {font-size: 13px;}
 	.careers .careers-listing-title {font-size: 1.375em; margin-bottom: -12px;}
 	.careers-border-bottom .careers-listing-company {margin-bottom: 0;}
 	.careers-border-bottom .careers-listing-location {margin-top: 0;}
-	.careers .no-listing {margin-bottom: 15px;}
+	.careers .no-listing {font-size: 1.125em; margin-bottom: 15px;}
 }
 
 /* New Nav */
