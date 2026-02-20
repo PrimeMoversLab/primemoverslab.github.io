@@ -2561,6 +2561,10 @@ img.mfp-img {
 	margin-top: 1em;
 }
 
+.team-bio-text p, .job-desc p {
+	line-height: 1.6;
+}
+
 .team-social {
 	position: absolute;
 	left: 0;
