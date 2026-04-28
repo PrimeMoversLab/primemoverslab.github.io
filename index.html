@@ -49,6 +49,14 @@
 </head>
 <body>
 
+	<!-- Soundbranding -->
+	<audio id="sonic-motion" src="/video/sonic-motion.mp4" autoplay preload="auto" type="video/mp4"></audio>
+	<script>
+		window.addEventListener('load', () => {
+			document.getElementById('sonic-motion').play().catch(() => {});
+		});
+	</script>
+
 	<!-- Loader -->
 	<div class="loader">
 		<div class="spinner">
