@@ -50,12 +50,30 @@
 <body>
 
 	<!-- Soundbranding -->
-	<audio id="sonic-motion" src="/video/sonic-motion.mp4" autoplay preload="auto"></audio>
-	<script>
-		window.addEventListener('load', () => {
-			document.getElementById('sonic-motion').play().catch(() => {});
-		});
-	</script>
+	<audio id="site-audio" src="/video/sonic-motion.mp4" preload="auto"></audio>
+
+<script>
+  const audio = document.getElementById('site-audio');
+  let hasPlayed = false;
+
+  function playAudioOnce() {
+    if (hasPlayed) return;
+
+    audio.volume = 1;
+    audio.play()
+      .then(() => {
+        hasPlayed = true;
+        window.removeEventListener('wheel', playAudioOnce);
+        window.removeEventListener('touchmove', playAudioOnce);
+        window.removeEventListener('scroll', playAudioOnce);
+      })
+      .catch(console.log);
+  }
+
+  window.addEventListener('wheel', playAudioOnce, { passive: true });
+  window.addEventListener('touchmove', playAudioOnce, { passive: true });
+  window.addEventListener('scroll', playAudioOnce, { passive: true });
+</script>
 
 	<!-- Loader -->
 	<div class="loader">
