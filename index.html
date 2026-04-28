@@ -50,7 +50,9 @@
 <body>
 
 	<!-- Soundbranding -->
-	<audio id="sonic-motion" src="/video/sonic-motion.mp4" autoplay preload="auto" type="video/mp4"></audio>
+	<video id="site-audio" preload="auto" autoplay playsinline style="display:none">
+		<source src="/video/sonic-motion.mp4" type="video/mp4">
+	</video>
 	<script>
 		window.addEventListener('load', () => {
 			document.getElementById('sonic-motion').play().catch(() => {});
