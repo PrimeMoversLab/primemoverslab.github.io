@@ -87,16 +87,16 @@
 				.pml-news-form{
 					display:flex; justify-content:center;
 					max-width:520px; margin:0 auto;
-					border:1px solid var(--blue);
+					border-bottom:1px solid white;
 					overflow:hidden; background:var(--blue);
 				}
 				.pml-news-input{
 					flex:1 1 auto; min-width:0; border:0; outline:0;
-					background:var(--field); color:var(--ink);
+					background:var(--blue); color:white;
 					font-family:Karla; font-size:18px;
 					padding:16px 20px;
 				}
-				.pml-news-input::placeholder{color:#8a857b}
+				.pml-news-input::placeholder{color:white;}
 				.pml-news-btn{
 					flex:0 0 auto; border:0; cursor:pointer;
 					background:white; color:var(--blue);
@@ -104,6 +104,8 @@
 					padding:16px 28px; text-decoration:none;
 					display:inline-flex; align-items:center;
 					transition:background .2s ease;
+					letter-spacing: 0.3em;
+					text-transform: uppercase;
 				}
 				.pml-news-btn:hover{background:white}
 				.pml-news-fine{
@@ -228,7 +230,7 @@
 					<a class="pml-news-btn" href="https://substack.com/@primemoverslab" target="_blank" rel="noopener">Subscribe</a>
 				</div>
 				<p class="pml-news-fine">Delivered via Substack</p>
-				<a class="pml-news-all" href="https://substack.com/@primemoverslab" target="_blank" rel="noopener">Read on Substack</a>
+				<!-- <a class="pml-news-all" href="https://substack.com/@primemoverslab" target="_blank" rel="noopener">Read on Substack</a> -->
 			</div>
 		</div>
 		<div class="container blog-margin-top">
