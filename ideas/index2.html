@@ -51,7 +51,7 @@
 		.pml-news-banner{
 					--ink:#1d160f; --muted:#5f594e;
 					--wine:#7c2f3f; --wine-dark:#6a2434;
-					--field:#e7e4dc; --green:#356859; --blue:#2e6be8;
+					--field:white; --blue:#2e6be8;
 					padding:48px 24px;
 				}
 				.pml-news-card{
@@ -87,8 +87,8 @@
 				.pml-news-form{
 					display:flex; justify-content:center;
 					max-width:520px; margin:0 auto;
-					border:2px solid #2e6be8; border-radius:10px;
-					overflow:hidden; background:var(--field);
+					border:1px solid var(--blue);
+					overflow:hidden; background:var(--blue);
 				}
 				.pml-news-input{
 					flex:1 1 auto; min-width:0; border:0; outline:0;
@@ -99,13 +99,13 @@
 				.pml-news-input::placeholder{color:#8a857b}
 				.pml-news-btn{
 					flex:0 0 auto; border:0; cursor:pointer;
-					background:#2e6be8; color:#fff;
+					background:white; color:var(--blue);
 					font-family:Karla; font-size:18px;
 					padding:16px 28px; text-decoration:none;
 					display:inline-flex; align-items:center;
 					transition:background .2s ease;
 				}
-				.pml-news-btn:hover{background:var(--blue)}
+				.pml-news-btn:hover{background:white}
 				.pml-news-fine{
 					font-family:Karla;
 					color:white; font-size:14px; line-height:1.5;
@@ -115,7 +115,7 @@
 				.pml-news-all{
 					display:inline-block; margin-top:48px;
 					font-family:KArla;
-					color:var(--green); font-size:16px; letter-spacing:.3px;
+					color:white; font-size:16px; letter-spacing:.3px;
 					text-decoration:none;
 				}
 				.pml-news-all:hover{text-decoration:underline}
@@ -227,7 +227,7 @@
 					<input class="pml-news-input" type="email" placeholder="Type your email..." aria-label="Email address">
 					<a class="pml-news-btn" href="https://substack.com/@primemoverslab" target="_blank" rel="noopener">Subscribe</a>
 				</div>
-				<p class="pml-news-fine">Delivered via Substack. By subscribing you agree to <a href="https://substack.com/tos" target="_blank" rel="noopener">Substack&#39;s Terms of Use</a>.</p>
+				<p class="pml-news-fine">Delivered via Substack</p>
 				<a class="pml-news-all" href="https://substack.com/@primemoverslab" target="_blank" rel="noopener">Read on Substack</a>
 			</div>
 		</div>
